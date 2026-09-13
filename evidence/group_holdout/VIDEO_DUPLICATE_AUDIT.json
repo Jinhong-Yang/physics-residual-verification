@@ -1,0 +1,6 @@
+{
+  "train_unique_videos": 320,
+  "evaluation_unique_videos": 348,
+  "cross_role_video_hash_overlap": 0,
+  "evaluation_trajectory_directory_exists": false
+}

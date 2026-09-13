@@ -1,0 +1,18 @@
+{
+  "repo": "facebook/vjepa2-vitl-fpc64-256",
+  "revision": "b3c1679b7c34d3255ef3547f27c7b226aefab26f",
+  "scope": "post hoc independent frozen-video representation control",
+  "input": "exact original eight RGB observation frames, original order; no extra or future frames",
+  "encoder": "frozen official ViT-L; BF16, native 256-pixel spatial preprocessing; no predictor",
+  "features": "mean of final encoder tokens, PCA fit on training folds only to 48 dimensions; no labels for projection",
+  "regression": "same original numerical head, residual target, penalties 1/10, clipping 2/1, visual scale .25, masks, fallback, covariance .1",
+  "folds": "original six development family folds; no final-model reselection",
+  "arms": [
+    "original_numeric",
+    "original_full",
+    "vjepa2_48"
+  ],
+  "reporting": "all arms, both development and previously evaluated cohort; paired post hoc unadjusted intervals",
+  "limitations": "equal residual dimension and observations do not equalize encoder pretraining, decoder supervision or spatial processing",
+  "independent_confirmation": false
+}

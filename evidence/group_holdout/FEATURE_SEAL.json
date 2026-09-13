@@ -1,0 +1,8 @@
+{
+  "features_sha256": "92e9e2ac7b6b03c3477e77ad77d1d0c60efc28aff16aaa72cf7857d3e7037ff7",
+  "inputs_sha256": "b4993e53d612e125a73c62be63a1b63f64407493dbbda0d84271ca2144ddfe37",
+  "frames": 4912,
+  "targets_read": false,
+  "elapsed_s": 144.95114099999773,
+  "decoder_sha256": "49ab079f196e5af2ce3b609ee632e4ac17ecd229e7d62c32b39afc7792087fcb"
+}

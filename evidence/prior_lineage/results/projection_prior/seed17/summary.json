@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "seed": 17,
+  "epochs": 100,
+  "updates": 26300,
+  "best_epoch": 6,
+  "best_validation_nll_per_coordinate": 1.0244979858398438,
+  "statistical_validation_nll_per_coordinate": 1.0125434398651123,
+  "trainable_parameters": 12294,
+  "elapsed_s": 18.813005600008182,
+  "bit_exact_selected_validation_reload": true,
+  "calibration_test_target_values_parsed": false
+}

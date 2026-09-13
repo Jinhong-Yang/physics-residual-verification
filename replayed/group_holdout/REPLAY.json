@@ -1,0 +1,15 @@
+{
+  "refit_and_predictions_match": true,
+  "material_overlap": 0,
+  "two_way_interval_matches": true,
+  "scientific_pass": true,
+  "macro_cell_mae_mm": {
+    "numeric": 63.41939390961574,
+    "raw": 61.94279431479495,
+    "gated": 60.64142939792262
+  },
+  "two_way_bootstrap_95_mm": [
+    -6.043508611113948,
+    -0.11560842774471779
+  ]
+}

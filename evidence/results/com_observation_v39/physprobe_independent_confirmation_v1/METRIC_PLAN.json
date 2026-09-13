@@ -1,0 +1,22 @@
+{
+  "status": "locked after prediction seal and before first confirmation trajectory read",
+  "role": "secondary public independent-engine confirmation",
+  "primary": "paired episode vector-error difference, gated VLM minus strongest robust numeric readout",
+  "support_gate": "one-sided 95% episode-bootstrap upper bound below zero and candidate radial-90% coverage in [0.85, 0.98]",
+  "bootstrap": {
+    "unit": "episode",
+    "draws": 100000,
+    "seed": 20260939
+  },
+  "calibration": {
+    "coverage_min": 0.85,
+    "coverage_max": 0.98,
+    "interval": "development cross-conformal radial 90% radius"
+  },
+  "claim_scope": "Tests whether the VLM confidence-gated residual has a positive directional increment on public Isaac-Lab action prediction. It does not retroactively pass V38's 10% development gate, prove real-world transfer, or replace the clean V23 primary confirmation.",
+  "prediction_seal_sha256": "1237fd6daae744320074a141a579a40f5ab9f7d7a3a1ef8360606f5ce1e83a29",
+  "prediction_sha256": "3360aabcefca695f9465b317bdc54f43d1714ec64c397852590baeee4eb76680",
+  "scorer_sha256": "66dcce8ef59f5c502d9c94a134c95138704abb4bd54a0efa6d40b5205a56e677",
+  "confirmation_targets_opened": false,
+  "goal_complete": false
+}

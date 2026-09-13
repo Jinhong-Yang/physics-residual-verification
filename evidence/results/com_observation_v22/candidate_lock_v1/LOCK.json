@@ -1,0 +1,128 @@
+{
+  "status": "locked after family-crossfit development and before new confirmation generation",
+  "candidate": {
+    "name": "V22 sequential robust posterior residual",
+    "architecture": "Huber robust posterior anchor; protocol-specific ridge on numeric 8-frame evidence; residualized low-dimensional frozen-Qwen slot mean and motion evidence; bounded identifiable-coordinate corrections; PSD disagreement inflation; generalized-bounce exact fallback",
+    "fitted_coefficients": 1936,
+    "deterministic_fit": true,
+    "seed_replication_policy": "closed-form ridge is deterministic; resampling uncertainty is over held-out geometry families rather than optimizer initializations",
+    "configuration": {
+      "anchor": "huber_1.345_rgb",
+      "numeric_lambda": 1.0,
+      "numeric_limit_std": 2.0,
+      "visual_view": "pooled32 mean plus qwen-motion2x8",
+      "visual_lambda": 10.0,
+      "visual_limit_std": 1.0,
+      "visual_shrinkage": 0.25,
+      "disagreement_scale": 0.1,
+      "identifiability_guard": "generalized_translation bounce exact anchor fallback"
+    },
+    "checkpoint_path": "results/com_observation_v22/final_development_fit_v1/CHECKPOINT.npz",
+    "checkpoint_sha256": "ae7f2a4182762fc26d71f75aee07388744482daf4cc7ca24eba0a5b57ecf4636",
+    "physical_solver_iterations_added": 0,
+    "frozen_qwen_checkpoint_sha256": "49ab079f196e5af2ce3b609ee632e4ac17ecd229e7d62c32b39afc7792087fcb"
+  },
+  "development_evidence": {
+    "families": 132,
+    "crossfit_folds": 6,
+    "strongest_fixed_robust": "huber_1.345_rgb",
+    "strongest_action_mae_m": 0.0019772378658658965,
+    "candidate_action_mae_m": 0.0013522310301768829,
+    "relative_improvement": 0.3161009843473248,
+    "primary_one_sided95_upper_m": -0.0004899902461313425,
+    "vlm_incremental_relative_improvement": 0.014357314887038064,
+    "vlm_incremental_two_sided95_interval_m": [
+      -3.801579514061257e-05,
+      -1.6292053647692634e-06
+    ],
+    "active_nll_per_dimension": -2.1795496711715407,
+    "active_crps": 0.013619179313368512,
+    "active_joint90_coverage": 0.9755050505050507,
+    "all_protocol_guards_passed": true,
+    "scope": "development-only OOF evidence; not final confirmation"
+  },
+  "candidate_decision": {
+    "adopted": "V22",
+    "v17": "safe but ineffective; 0.06% development improvement and no VLM increment",
+    "v18_v19": "development probes that identified direct numeric residual and low-dimensional VLM residualization",
+    "v20_v21": "fixed family crossfit and covariance selection leading to the V22 identifiability guard",
+    "no_architecture_hyperparameter_or_guard_changes_after_lock": true
+  },
+  "new_confirmation_design": {
+    "independent_geometry_families": 72,
+    "geometry_seed_sequence": {
+      "first": 430001,
+      "last": 430072,
+      "count": 72
+    },
+    "physical_seed_sequence": {
+      "first": 530001,
+      "last": 530072,
+      "count": 72
+    },
+    "protocols": [
+      "multiple_forces",
+      "unforced_slide",
+      "bounce"
+    ],
+    "input_frames_per_episode": 8,
+    "translation_regimes": [
+      "generalized_translation",
+      "setup_translation"
+    ],
+    "fixed_baselines": [
+      "unit_rgb",
+      "huber_1.345_rgb",
+      "cauchy_2.385_rgb",
+      "legacy_qwen_warp_joint",
+      "rgb_warp_joint",
+      "v22_numeric"
+    ],
+    "strong_numeric_definition": "lowest mean action MAE among unit/Huber1.345/Cauchy2.385, recomputed within each paired family bootstrap draw",
+    "bootstrap": {
+      "family_clustered_draws": 20000,
+      "seed": 20260919,
+      "confidence": 0.95,
+      "one_sided_gates": true
+    },
+    "truth_firewall": "seal observations, frozen Qwen evidence, and every method prediction before metric plan and target opening",
+    "reuse_for_training_tuning_or_calibration": false
+  },
+  "confirmation_gates": {
+    "primary": "V22 VLM action MAE at least 10% below strongest fixed robust and one-sided 95% family-bootstrap upper bound of V22-minus-drawwise-strongest below zero",
+    "vlm_incremental": "V22 VLM point MAE below matched V22 numeric and one-sided 95% upper bound of V22-VLM minus V22-numeric below zero",
+    "legacy": "V22 point MAE below frozen legacy and one-sided 95% upper bound of V22/legacy ratio below 1.05",
+    "protocol_harm": "each protocol/regime degradation versus better of strongest numeric and legacy no more than both 10% relative and 0.10 mm absolute",
+    "proper_scores": "active NLL no worse by >0.10/dim and CRPS no worse >10% versus better eligible reference; candidate joint90 in [0.85,0.98]",
+    "uncertainty_width": "mean active joint90 axis width at most 10% wider than CRPS-selected reference"
+  },
+  "external_validation_required": {
+    "public_real_or_independent_engine": true,
+    "preferred_public_source": "IDPP real friction and elasticity videos; Physion different-engine data remains an alternative",
+    "claim_requires_external_directional_support": true
+  },
+  "general_function_preservation": {
+    "physics_mode_default": false,
+    "disabled_path": "exact upstream object and no V22 call",
+    "base_qwen_weights_frozen": true
+  },
+  "source_sha256": {
+    "sequential_robust_readout_v22.py": "81602a9ba4ff80c58c0aeeb9ec2f7884bddbf7ec8945d5cafe7033436fc12566",
+    "scripts/fit_sequential_robust_candidate_v22.py": "a436f4510f6db6e6855fbe0de69a061cef493ac8fe301987c5da14d8388bb5d3",
+    "scripts/crossfit_sequential_readout_v20.py": "a5501b5ed6430684e9de86653b39ca27fe9d6923d8630dded0301b6e234cc463",
+    "scripts/select_covariance_inflation_v21.py": "8a92a24bbb2020142c84a361dee64af3434ad691b94efc3411c60b1d6e154d74",
+    "scripts/apply_identifiability_guard_v22.py": "b38c0c41d02c673c4c7e8ef32420c9ce747ed353aa90938c7886098b731282a9",
+    "tests/test_sequential_robust_readout_v22.py": "7319b7b3cda1ef765a01b683d91527662ca2165d4244436a4fae81be004b04d7"
+  },
+  "artifact_sha256": {
+    "development_cache": "4d5381e6268dc51f634c8217bb0b7a24d7d484924b29800498dc07424076bb5b",
+    "crossfit_result": "7b32322f7d3b8fdce36e1b00a95f7b6092dae58abe9db86b2469de0b08ae1971",
+    "crossfit_family_errors": "535da4063fc93d9900f5db2c777840f20e74ba2280ee56711b76dd9b99d33400",
+    "fit_receipt": "6cdaf6cdc32bc82004be384bbcde899a899761f921316b5ae6a726c66198671e",
+    "checkpoint": "ae7f2a4182762fc26d71f75aee07388744482daf4cc7ca24eba0a5b57ecf4636"
+  },
+  "confirmation": false,
+  "external_validation": false,
+  "ieee_access_submission_ready": false,
+  "goal_complete": false
+}

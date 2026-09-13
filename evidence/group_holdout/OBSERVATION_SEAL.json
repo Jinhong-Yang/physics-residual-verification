@@ -1,0 +1,14 @@
+{
+  "plan_sha256": "00840d0b73ca492f55ca25e88723284214113c48405c268c2d99275787afe043",
+  "inputs_sha256": "b4993e53d612e125a73c62be63a1b63f64407493dbbda0d84271ca2144ddfe37",
+  "index_sha256": "1a16363db44825df941e76aa028db9dd0f478c9c678bdbbe3fc8000c91c8da87",
+  "eligible": {
+    "evaluation": 329,
+    "train": 285
+  },
+  "excluded": {
+    "evaluation": 19,
+    "train": 35
+  },
+  "targets_read": false
+}

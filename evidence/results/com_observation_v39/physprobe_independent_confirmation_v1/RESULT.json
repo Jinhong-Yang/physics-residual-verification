@@ -1,0 +1,68 @@
+{
+  "status": "completed untouched public independent-engine confirmation",
+  "dataset": "PhysProbe Push / Isaac Sim 4.5 and Isaac Lab 2.2.1",
+  "episodes": 123,
+  "target": "planar object displacement vector from visual motion onset to +1.8 s",
+  "methods": {
+    "constant_prior": {
+      "vector_mae_m": 0.13213189834694924,
+      "vector_rmse_m": 0.1458605628736817,
+      "median_error_m": 0.11700712858983124,
+      "max_error_m": 0.30945894267786567
+    },
+    "numeric": {
+      "vector_mae_m": 0.07418172809327347,
+      "vector_rmse_m": 0.0895839841988145,
+      "median_error_m": 0.06305399146597468,
+      "max_error_m": 0.21537768226387335
+    },
+    "raw_vlm": {
+      "vector_mae_m": 0.07120999439704889,
+      "vector_rmse_m": 0.08463127653515201,
+      "median_error_m": 0.06125231948414702,
+      "max_error_m": 0.2267609609871546
+    },
+    "gated_vlm": {
+      "vector_mae_m": 0.07101495321847602,
+      "vector_rmse_m": 0.08500586363066794,
+      "median_error_m": 0.05833788576964414,
+      "max_error_m": 0.2238410568013741
+    }
+  },
+  "primary_vlm_increment": {
+    "mean_paired_error_delta_gated_minus_numeric_m": -0.003166774874797464,
+    "one_sided_95pct_bootstrap_upper_m": -0.0016780761585860474,
+    "two_sided_95pct_bootstrap_interval_m": [
+      -0.00495652522426511,
+      -0.001400141725856061
+    ],
+    "relative_mae_improvement_vs_numeric": 0.04268941902803425,
+    "strict_directional_support": true
+  },
+  "candidate_vs_constant_prior": {
+    "relative_mae_improvement": 0.4625449712982522,
+    "bootstrap95_interval": [
+      0.4025458742740658,
+      0.5186026918041776
+    ]
+  },
+  "calibration": {
+    "numeric_radial_q90_m": 0.16546222330558122,
+    "numeric_coverage": 0.959349593495935,
+    "gated_radial_q90_m": 0.16297291429286478,
+    "gated_coverage": 0.967479674796748,
+    "candidate_coverage_in_locked_range": true,
+    "numeric_mean_isotropic_nll": -2.6123662258099296,
+    "gated_mean_isotropic_nll": -2.6912005938679315,
+    "gated_nll_better": true
+  },
+  "mean_confidence_gate": 0.5445722517163959,
+  "independent_engine_support": true,
+  "claim_scope": "Tests whether the VLM confidence-gated residual has a positive directional increment on public Isaac-Lab action prediction. It does not retroactively pass V38's 10% development gate, prove real-world transfer, or replace the clean V23 primary confirmation.",
+  "v38_original_10pct_development_gate_passed": false,
+  "prediction_seal_sha256": "1237fd6daae744320074a141a579a40f5ab9f7d7a3a1ef8360606f5ce1e83a29",
+  "metric_plan_sha256": "e185a0241854e434a138afd47ce84936c8c19d3fc2b703c9315c213192ca241a",
+  "confirmation_source_digest_sha256": "6d44b97c38f1f0d7cc1982d9cbcb584f16c5289ca87cfa58f57ca445858931e8",
+  "confirmation_target_reads": 123,
+  "goal_complete": false
+}

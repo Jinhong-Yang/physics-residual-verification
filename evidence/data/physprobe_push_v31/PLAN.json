@@ -1,0 +1,1224 @@
+{
+  "status": "fixed before selected episode metadata, trajectories, or videos were read",
+  "dataset": "PhysProbe Dynamics Probing Dataset / Push",
+  "repository": "leesangoh/dynamics-probing",
+  "revision": "b679fcf0a800d60f0d5064304e0e8777392f34dd",
+  "license": "MIT",
+  "engine": "Isaac Sim 4.5 / Isaac Lab 2.2.1",
+  "public_dataset_url": "https://huggingface.co/datasets/leesangoh/dynamics-probing",
+  "split_seed": 20260924,
+  "excluded_episode_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "roles": {
+    "development": 64,
+    "confirmation": 128
+  },
+  "observation_protocol": {
+    "camera": "observation.images.image_0 table camera",
+    "fps": 50,
+    "object_detection": "largest HSV red component; H 0-12 or 170-179, S>=80, V>=80",
+    "motion_onset": "first index >=20 with red-centroid displacement >2px from first-25-frame median for five consecutive frames",
+    "frame_offsets_from_onset": [
+      -21,
+      -16,
+      -11,
+      -6,
+      -1,
+      4,
+      9,
+      14
+    ],
+    "frame_times_s": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "future_target_offset_from_onset": 90,
+    "future_horizon_s_from_onset": 1.8,
+    "resize": [
+      280,
+      280
+    ],
+    "label_free_eligibility": "valid red component at all frames, onset supports all offsets, and target row exists"
+  },
+  "primary_target": "ground-truth planar object displacement magnitude from onset to onset+90 frames",
+  "comparisons": [
+    "constant family-mean predictor",
+    "Huber numeric tracker readout",
+    "ridge numeric tracker readout",
+    "numeric readout plus frozen Qwen/V22 internal residual"
+  ],
+  "development_rule": "all tuning and model selection on development episodes only; confirmation labels remain inaccessible until predictions and metric plan are sealed",
+  "records": [
+    {
+      "role": "development",
+      "episode_index": 273,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000273.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000273.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 345,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000345.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000345.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1072,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001072.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001072.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 652,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000652.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000652.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 839,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000839.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000839.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 677,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000677.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000677.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 913,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000913.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000913.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 608,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000608.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000608.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1333,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001333.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001333.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 57,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000057.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000057.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 573,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000573.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000573.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 232,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000232.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000232.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1144,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001144.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001144.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 723,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000723.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000723.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1150,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001150.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001150.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 445,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000445.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000445.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 588,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000588.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000588.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 859,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000859.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000859.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 69,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000069.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000069.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1228,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001228.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001228.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 838,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000838.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000838.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1189,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001189.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001189.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 949,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000949.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000949.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 468,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000468.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000468.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1334,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001334.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001334.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 389,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000389.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000389.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 991,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000991.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000991.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 965,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000965.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000965.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1300,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001300.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001300.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 336,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000336.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000336.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 630,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000630.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000630.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 410,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000410.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000410.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 441,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000441.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000441.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1409,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001409.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001409.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 192,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000192.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000192.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 655,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000655.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000655.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 322,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000322.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000322.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1369,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001369.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001369.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 48,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000048.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000048.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 806,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000806.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000806.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 343,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000343.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000343.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1444,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001444.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001444.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 340,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000340.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000340.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1452,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001452.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001452.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 16,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000016.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000016.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 11,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000011.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000011.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 52,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000052.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000052.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 134,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000134.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000134.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1419,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001419.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001419.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1140,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001140.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001140.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 32,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000032.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000032.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 997,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000997.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000997.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1240,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001240.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001240.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 174,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000174.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000174.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1071,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001071.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001071.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 524,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000524.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000524.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 663,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000663.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000663.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 511,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000511.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000511.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1118,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001118.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001118.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 826,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000826.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000826.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 1485,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001485.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001485.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 339,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000339.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000339.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 180,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000180.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000180.parquet"
+    },
+    {
+      "role": "development",
+      "episode_index": 634,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000634.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000634.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 684,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000684.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000684.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1061,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001061.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001061.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 613,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000613.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000613.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1457,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001457.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001457.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 741,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000741.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000741.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 101,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000101.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000101.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 713,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000713.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000713.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1381,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001381.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001381.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1262,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001262.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001262.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 64,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000064.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000064.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1277,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001277.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001277.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 211,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000211.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000211.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 150,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000150.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000150.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 890,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000890.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000890.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 342,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000342.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000342.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 569,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000569.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000569.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 195,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000195.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000195.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1384,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001384.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001384.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 545,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000545.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000545.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 435,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000435.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000435.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 367,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000367.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000367.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1164,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001164.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001164.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 151,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000151.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000151.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1216,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001216.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001216.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1013,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001013.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001013.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 917,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000917.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000917.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 349,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000349.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000349.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1299,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001299.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001299.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 718,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000718.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000718.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 66,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000066.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000066.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1355,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001355.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001355.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1296,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001296.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001296.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1242,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001242.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001242.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 391,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000391.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000391.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 186,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000186.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000186.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 856,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000856.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000856.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 14,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000014.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000014.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 678,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000678.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000678.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 181,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000181.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000181.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1354,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001354.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001354.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 694,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000694.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000694.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 728,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000728.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000728.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 626,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000626.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000626.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 488,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000488.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000488.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 446,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000446.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000446.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 566,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000566.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000566.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 957,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000957.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000957.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1431,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001431.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001431.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 946,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000946.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000946.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 417,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000417.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000417.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1396,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001396.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001396.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 67,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000067.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000067.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 888,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000888.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000888.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1366,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001366.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001366.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 361,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000361.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000361.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 509,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000509.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000509.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1414,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001414.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001414.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 737,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000737.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000737.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 827,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000827.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000827.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1107,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001107.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001107.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 937,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000937.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000937.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 504,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000504.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000504.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1137,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001137.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001137.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1480,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001480.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001480.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1199,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001199.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001199.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1166,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001166.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001166.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1134,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001134.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001134.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 821,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000821.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000821.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 477,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000477.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000477.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1212,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001212.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001212.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1143,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001143.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001143.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 293,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000293.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000293.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1176,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001176.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001176.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 465,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000465.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000465.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 606,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000606.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000606.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 327,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000327.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000327.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 122,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000122.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000122.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 396,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000396.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000396.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1388,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001388.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001388.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1413,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001413.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001413.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 210,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000210.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000210.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 183,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000183.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000183.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1059,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001059.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001059.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 927,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000927.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000927.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 607,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000607.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000607.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 540,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000540.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000540.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 615,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000615.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000615.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 364,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000364.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000364.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1341,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001341.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001341.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 851,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000851.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000851.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 487,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000487.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000487.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 514,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000514.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000514.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 604,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000604.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000604.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1497,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001497.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001497.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 40,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000040.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000040.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 763,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000763.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000763.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1053,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001053.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001053.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1351,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001351.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001351.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1276,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001276.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001276.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 822,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000822.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000822.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 492,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000492.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000492.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 955,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000955.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000955.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 642,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000642.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000642.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 688,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000688.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000688.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1406,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001406.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001406.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1441,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001441.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001441.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 256,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000256.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000256.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1165,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001165.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001165.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 428,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000428.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000428.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1002,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001002.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001002.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 36,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000036.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000036.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 653,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000653.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000653.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1342,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001342.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001342.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 522,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000522.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000522.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 453,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000453.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000453.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 495,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000495.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000495.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 978,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000978.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000978.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1344,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001344.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001344.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 674,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000674.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000674.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1279,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001279.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001279.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 556,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000556.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000556.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 437,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000437.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000437.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1499,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001499.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001499.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 936,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000936.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000936.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1465,
+      "video_remote": "push/videos/chunk-001/observation.images.image_0/episode_001465.mp4",
+      "parquet_remote": "push/data/chunk-001/episode_001465.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 832,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000832.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000832.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 715,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000715.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000715.parquet"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 330,
+      "video_remote": "push/videos/chunk-000/observation.images.image_0/episode_000330.mp4",
+      "parquet_remote": "push/data/chunk-000/episode_000330.parquet"
+    }
+  ],
+  "selected_labels_or_trajectories_read": false,
+  "source_sha256": "c09f38694375ea774453ca4b7da7fa31a2ca7935a6feb078b66e898caa4bffea",
+  "goal_complete": false
+}

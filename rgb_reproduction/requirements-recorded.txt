@@ -1,0 +1,12 @@
+# Recorded environment, not a claim that a clean installation was tested.
+# Install the CUDA 12.8 PyTorch distribution separately.
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+transformers==5.16.1
+numpy==2.4.6
+scipy==1.17.1
+Pillow==12.3.0
+opencv-python-headless==5.0.0.93
+safetensors==0.8.0
+huggingface-hub==1.30.0
+accelerate==1.14.0

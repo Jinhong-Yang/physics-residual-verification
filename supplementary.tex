@@ -1,0 +1,150 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.85in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,url,hyperref,etoolbox,needspace}
+\BeforeBeginEnvironment{table}{\par}
+\AfterEndEnvironment{table}{\par}
+\hypersetup{hidelinks}
+\title{Supplementary Material\\\large Protocol-Constrained Residual Adaptation with Frozen Vision--Language Features for Rigid-Body Inference}
+\author{Hyojin Park, Nam-Hyun Yoo, and Jinhong Yang}
+\date{}
+\begin{document}\maketitle
+\noindent This supplement provides implementation details, statistical definitions, dataset-selection information, and instructions for reproducing the saved-result calculations associated with the main article.
+
+\section{Claim-to-artifact map}
+\begin{longtable}{p{.16\textwidth}p{.37\textwidth}p{.38\textwidth}}
+\caption{Evidence supporting the main article and its interpretation.}\\
+\toprule Claim & Evidence in the package & Permitted interpretation\\\midrule\endhead
+C1: 29.95\% complete-model improvement & Main result JSON and family action-loss archive; portable paired-statistic replay & Synthetic new-geometry analytic action utility; most gain is numerical.\\
+C2: 1.07\% main visual increment & Matched numerical and complete-model family losses & Small selected-feature increment; the two-sided interval includes zero.\\
+C2b: 4.27\% public increment & Public error archive and original bootstrap draws & Task-specific fitting followed by offline episode evaluation; not zero-shot or validated object-level transfer.\\
+C3: proper scores and coverage & Main and public result JSON; main cached property means/covariances; selected public radius & Main posterior scores reproduced and mean-fixed sensitivity added; no conformal guarantee.\\
+Capacity: 1,936 & Bundled residual checkpoint weight and intercept shapes & Stored residual coefficients only; 1,694 can affect final outputs outside the disabled branch.\\
+Real-video boundary & Saved 33-video, 11-family result JSON & Direct domain inversion and nonsignificant bridge; diagnostic only.\\\bottomrule
+\end{longtable}
+The evidence paths retain their original directory layout under \texttt{evidence/}. The accompanying evidence inventory provides file checksums and the retained temporal audit. SHA-256 identifies bytes, not independently verified creation time.
+
+\section{Training and label-access sequence}
+\begin{enumerate}
+\item Construct observation-only numeric inputs and frozen observation-decoder features. Known force, timing, camera/setup, prior, and linearization inputs are explicit information, not learned visual evidence.
+\item For each outer training family partition, fit feature means/scales and the numerical residual heads to anchor-standardized physical targets. Clip the numerical training prediction to two anchor standard deviations.
+\item Fit the visual heads on the remaining \emph{in-sample} numerical training residual. Clip their prediction to one standard deviation and multiply by 0.25.
+\item Apply both heads to the outer test families, enforce the protocol mask, disable the complete correction for generalized bounce, and calculate accepted-update covariance inflation.
+\item Select the final configuration on development data, fit the stored checkpoint, and retain the later confirmation losses separately.
+\end{enumerate}
+The public extension uses the analogous numerical-then-visual residual, with an additional gate. Four inner folds generate component predictions for gate targets within each of five outer folds. Five candidate gate penalties are scored using those outer predictions. Earlier component selection and gate-penalty selection reuse the 53-episode development cohort. This does not constitute fully nested model-selection validation.
+
+The public radius uses the selected 53 out-of-fold errors at rank 49. Fitting, selection, and residual calibration share the development cohort. The confirmation cohort does not set the radius. We use the term \emph{development-calibrated empirical radial region}, without claiming split-conformal, CV+, or jackknife+ guarantees.
+
+\section{Feature and solver implementation details}
+The main numerical feature dictionary has 24 entries per frame. Nine time-dependent entries are active-axis position, relative position, velocity, velocity difference, log observation noise, time, time increment, time since force switch, and switch indicator. Fifteen repeated setup entries are two forces, one switch time, three active flags, three prior means, three log prior scales, and three prior-normalized linearization coordinates. Flattening eight frames gives 192 inputs. The numerical readout uses no selected visual-residual channel, although it depends on the supplied physical setup and prior specification.
+
+The visual extraction runs the vision component of Qwen3-VL-2B-Instruct, not its text decoder. The model commit is \texttt{89644892e4d85e24eaac8bacfd4f463576704203}; full model weights are not distributed in this package. Separate image processing uses a $512^2$ pixel budget, a $32\times32$ grid, and BF16 vision evaluation. The frozen observation decoder projects encoder features, combines RGB and tracking, transports temporal state, and pools with spatial attention. The 32 pooled values are states before its static/dynamic correction heads. They are not 32 raw language-model channels. Their temporal mean and normalized static/dynamic position corrections form the 48-dimensional main view.
+
+Relevant source excerpts are:
+\begin{itemize}
+\item \path{stream_com_internal_features_v16.py}
+\item \path{com_observation_decoder_v8.py}
+\item \path{train_com_physics_internal_readout_v12.py}
+\item \path{sequential_robust_readout_v22.py}
+\end{itemize}
+The frozen observation decoder was learned before the residual stage; its parameters must not be hidden inside the 1,936-coefficient claim.
+
+The main robust control computes standardized innovations from a unit-weight linearization, fixes Huber or Cauchy weights, and increases observation noise by the inverse square root of those weights. It then runs the established nonlinear solver. This is fixed innovation weighting, not a demonstrated converged robust M-estimation loop. The generalized bounce model fixes gravity and allows initial position, velocity, and floor nuisance variables. The setup bounce model fixes release height 0.65 m and zero initial velocity and profiles a free translation. Its code uses three prior-whitened starts $(0,-1,+1)$, three steps per start and three winning-branch steps, finite differences at $10^{-3}$, and line-search fractions $(1,0.5,0.25)$, totaling 75 forward evaluations per row. Its local curvature covariance omits contact, start-choice, and noise-fit uncertainty. Complete dependency and initialization auditing of the generalized solver is not established by these materials; the excerpts are not a standalone full solver environment.
+
+The public vector numerical head has $(11+1)2=24$ coefficients, the visual head $(144+1)2=290$, and the gate $(12+1)=13$, for 327 additional fitted coefficients. In the main checkpoint, the factor 2 counts the generalized and setup conventions, while $2+1+1$ counts the active scalar outputs for multiple forces, unforced sliding, and bouncing. Each scalar output stores $192+1=193$ numerical and $48+1=49$ visual coefficients, including intercepts. Thus $2(2+1+1)(193+49)=1,936$; 242 in the generalized-bounce branch do not affect the final output, leaving 1,694. They can still be evaluated before the implementation discards their correction, so the active count is not a measured speed reduction.
+
+\subsection{Public features and fitted constants}
+The numerical summary concatenates the final relative centroid (two entries), its last inter-frame difference (two), linear and quadratic coefficients fitted separately to the horizontal and vertical relative coordinates (four), the initial centroid (two), and mean object size (one). Polynomial fits use the eight observation slots at a 0.1 s cadence. The 144-dimensional visual view contains four 32-channel summaries---temporal mean, standard deviation, last-four-minus-first-four mean, and slope against evenly spaced values from $-1$ to $1$---plus 16 decoder motion channels.
+
+The nine base gate features are tracked endpoint displacement magnitude, dynamic-decoder endpoint displacement magnitude, mean and maximum dynamic-decoder/tracker disagreement, mean dynamic/static disagreement, mean static/tracker disagreement, mean channelwise temporal feature standard deviation, minimum-to-initial object-size ratio, and final-to-initial object-size ratio. Numerical prediction norm, clipped visual correction norm, and their cosine alignment supply the remaining three features. Denominators in the norm/alignment expressions are floored at $10^{-12}$; object-size ratios use $10^{-6}$.
+
+All public feature means and standard deviations are fitted on the applicable training partition; feature standard deviations are floored at $10^{-8}$. The numerical fit uses a sum-of-squared-residual objective with ridge penalty 10 and an unpenalized intercept, iteratively reweighted by residual vector norms. At each iteration the scale is $\max(1.4826\operatorname{median}|r_i-\operatorname{median}r|,10^{-6})$, where $r_i$ is a residual norm. Weights are $\min(1,1.345\,\mathrm{scale}/r_i)$. Iteration stops after 50 steps or a maximum weight change below $10^{-8}$. The visual and gate fits use ordinary ridge penalties 1,000 and 0.1. The final visual norm limit is 0.067724100878 m. The gate output is clipped to $[0,1]$; it is not a probability estimate.
+
+The main ridge heads instead use centered targets, a $10^{-6}$ feature-scale floor, penalties 1 and 10, and coordinate clipping at 2 and 1 anchor standard deviations. The numerical and visual outputs are added with visual shrinkage 0.25. The main and public heads therefore share a sequential residual principle but do not share output targets, hyperparameters, or uncertainty constructions.
+
+\section{Statistical replay and cell guards}
+The bundled script reconstructs the saved main family means and public MAE, RMSE, and median and checks them against result JSON at absolute tolerance $10^{-12}$ m. It also replays the original main and public paired intervals using stored draws. It does not rerun image extraction, training, physical inference, or posterior generation.
+\begin{table}[h]\centering\small
+\caption{Paired differences from saved losses, in millimeters. New fixed-reference and decomposed comparisons are post hoc and unadjusted.}
+\begin{tabular}{lrrr}\toprule Comparison & Difference & Two-sided 95\% & One-sided upper\\\midrule
+Main full minus draw-wise strongest & $-0.621147$ & $[-0.829331,-0.429618]$ & $-0.459426$\\
+Main full minus numerical & $-0.015648$ & $[-0.031141,+0.000526]$ & $-0.002189$\\
+Main full minus fixed unit & $-0.666032$ & $[-0.876075,-0.471932]$ & $-0.503133$\\
+Main full minus fixed Huber & $-0.621147$ & $[-0.829331,-0.429618]$ & $-0.459426$\\
+Main full minus fixed Cauchy & $-0.628274$ & $[-0.836708,-0.436415]$ & $-0.466512$\\
+Public raw minus numerical & $-2.971734$ & $[-5.872120,-0.024801]$ & $-0.511046$\\
+Public gated minus raw & $-0.195041$ & $[-1.784935,+1.360323]$ & $+1.116326$\\
+Public gated minus numerical & $-3.166775$ & $[-4.956525,-1.400142]$ & $-1.678076$\\\bottomrule
+\end{tabular}\end{table}
+
+The primary point improvement is computed from full-precision losses, not rounded table entries. A negative one-sided bound supports direction under the specified procedure; it does not prove a population effect of at least 10\%. The public episode intervals assume episode exchangeability; no physical-group clustered interval is presented.
+
+\subsection{Descriptive influence sensitivity}
+For a paired per-unit difference $d_i$, a deletion mean is $(\sum_jd_j-d_i)/(n-1)$. These calculations omit one saved evaluation unit at a time without refitting the estimator. They assess concentration of the observed mean, not the sampling distribution of a newly trained model. The following results are post hoc; main units are geometry families and public units are episodes.
+\begin{table}[h]\centering\small
+\caption{Paired-unit influence checks. Differences are in millimeters; negative favors the first method. Wins/ties/losses count individual units.}
+\begin{tabular}{lrrr}\toprule Comparison & Wins/ties/losses & Median difference & Deletion mean range\\\midrule
+Main full / Huber & 56/0/16 & $-0.43509$ & $[-0.64891,-0.57501]$\\
+Main full / numerical & 46/0/26 & $-0.01117$ & $[-0.01995,-0.01346]$\\
+Public gated / numerical & 72/5/46 & $-1.44034$ & $[-3.39173,-2.92134]$\\
+Public gated / raw & 52/7/64 & $+1.06307$ & $[-0.50698,+0.07357]$\\\bottomrule
+\end{tabular}\end{table}
+The main visual effect retains a negative mean after any one-family deletion, but its two-sided bootstrap interval still includes zero. The gate-only mean can change sign after one-episode deletion. Neither diagnostic supports increasing the strength of the inferential claims or choosing a new method on the confirmation data. The median paired difference is not the difference between the two marginal medians reported in the main public table.
+
+For completeness, the stored paired draws give post hoc two-sided percentile intervals for relative mean improvement of $[22.732,36.459]\%$ (main full versus fixed Huber), $[-0.036,2.063]\%$ (main visual increment), $[1.975,6.459]\%$ (public gated versus numerical), and $[-1.911,2.525]\%$ (gate alone). Fixed-Huber inference is distinguished from the originally specified draw-wise-strongest comparison. These intervals are unadjusted for multiple comparisons and do not supersede the original analysis rules.
+\begin{table}[h]\centering\small
+\caption{All six point-error protection cells. Both conventions use the same 72 geometry families.}
+\begin{tabular}{llrrl}\toprule Convention & Protocol & Candidate (mm) & Reference (mm) & Reference\\\midrule
+General & Multiple forces & 2.989925 & 3.633112 & Huber\\
+General & Unforced slide & 0.960083 & 2.002216 & Legacy\\
+General & Bounce & 0.515000 & 0.515000 & Huber\\
+Setup & Multiple forces & 2.989925 & 3.633112 & Huber\\
+Setup & Unforced slide & 0.960083 & 2.002216 & Legacy\\
+Setup & Bounce & 0.303715 & 0.307627 & Legacy\\\bottomrule
+\end{tabular}\end{table}
+All six meet both the 10\% relative and 0.10 mm absolute harm guards. These values preserve the original cell-specific comparator rule; they are not newly estimated cell confidence intervals. Sliding inference is shared by the two conventions, which explains the identical multiple-force and unforced-slide rows.
+
+\section{Public timing, selection, and uncertainty audit}
+The fixed selection samples a permutation of episode indices 10--1499 with seed 20260924: the first 64 become development candidates and the next 128 confirmation candidates. The local plan and individual selected files are included; a fresh census of the pinned remote population is not included in this analysis.
+
+For every retained episode, the saved video container reports 50 fps. All 176 trajectory parquet files match the stored download hashes. Timestamp differences yield onset-to-target durations from 1.799999833 to 1.800000131 s and last-observation-to-target durations from 1.519999862 to 1.520000100 s. These float32-scale differences support the intended 1.80 s and 1.52 s definitions. A current public-card rate was not substituted for the saved data cadence.
+
+The onset detector uses the first 25 centroids as a baseline, then searches for five consecutive frames displaced by more than two pixels. All frames are tracked before onset selection; later red-component failure can exclude a sequence. Feature extraction remains target-label-free, but selection is not causal with respect to the last observed frame. The result is explicitly scoped to an offline visibility-selected task. A future online result would require a prospectively specified causal selection procedure and new evaluation data.
+
+The nominal 90\% region uses radii 0.165462 m for numerical and 0.162973 m for gated prediction. An isotropic Gaussian scale is obtained by dividing the radius by $\sqrt{\chi^2_{2,0.9}}$. This fitted parametric interpretation is used for NLL; it does not transform the empirical radius into a calibrated Gaussian posterior. Object/parameter/environment overlap across episode splits remains unverified.
+
+\input{support_results}
+
+\input{video_control_results}
+
+\input{group_holdout_results}
+
+\section{Scope of available evidence}
+The archives identify computational artifacts rather than distinct independent replications. The original public development result remains below its 10\% criterion. The controls do not isolate language pretraining, validate a general coordinate mask, or establish universal safety or coverage guarantees. Independent calibration and controlled end-to-end latency comparisons are not available. The new material holdout retains the historical architecture-selection and shared-asset limitations described above.
+
+\begingroup\small
+\section{Portable calculation reproduction}
+The companion source project compiles with pdfLaTeX and BibTeX. The main document is \path{main.tex}. Select \path{supplementary.tex} for this supplement or \path{cover_letter.tex} for the cover letter.
+
+For numerical replay, install NumPy and run these commands outside Overleaf. Outputs are written to \texttt{replayed/}.
+\begin{verbatim}
+python tools/replay_tables.py
+python tools/effect_sensitivity.py
+python tools/run_support_study.py
+python tools/score_access_video_control.py
+python tools/replay_prior_lineage.py
+python tools/replay_group_holdout.py
+\end{verbatim}
+The support and video studies additionally require SciPy. Their feature caches and numerical kernels enable CPU refitting and scoring. Input hashes and the analysis plans are supplied under \path{evidence/support/} and \path{evidence/video_control/}. The prior-lineage command checks the supplied identifier/hash tables and selection receipts; it does not rehash the complete original image collection.
+
+The separate \path{IEEE_Access_RGB_Reproduction.zip} includes a README, recorded environment versions, a pinned base-model download helper, and the eight-case offline runner. Its directory structure is independent of this Overleaf project. After obtaining the base model, run:
+\begin{verbatim}
+python scripts/run_access_rgb_bundle.py --model-dir /path/to/qwen
+\end{verbatim}
+The checks and discrepancies are written under \path{reproduced/}. Foundation weights are separate inputs. This example regenerates the first-image prior and executes the physical solver; it does not train upstream components or validate a fresh environment installation.
+
+\begin{thebibliography}{S1}
+\bibitem[S1]{owen2007pigeonhole} A. B. Owen, ``The pigeonhole bootstrap,'' \emph{The Annals of Applied Statistics}, vol. 1, no. 2, pp. 386--411, 2007, doi: \href{https://doi.org/10.1214/07-AOAS122}{10.1214/07-AOAS122}.
+\end{thebibliography}
+\endgroup
+\end{document}

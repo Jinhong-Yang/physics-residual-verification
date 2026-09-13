@@ -1,0 +1,226 @@
+[
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 1,
+    "eligible": 41,
+    "excluded": 2
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 4,
+    "eligible": 48,
+    "excluded": 1
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 8,
+    "eligible": 34,
+    "excluded": 7
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 10,
+    "eligible": 25,
+    "excluded": 2
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 11,
+    "eligible": 41,
+    "excluded": 5
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 12,
+    "eligible": 29,
+    "excluded": 8
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 13,
+    "eligible": 38,
+    "excluded": 6
+  },
+  {
+    "role": "train",
+    "axis": "object_material",
+    "material": 15,
+    "eligible": 29,
+    "excluded": 4
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 2,
+    "eligible": 31,
+    "excluded": 4
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 3,
+    "eligible": 42,
+    "excluded": 3
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 5,
+    "eligible": 40,
+    "excluded": 4
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 6,
+    "eligible": 28,
+    "excluded": 4
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 9,
+    "eligible": 31,
+    "excluded": 6
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 12,
+    "eligible": 40,
+    "excluded": 5
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 14,
+    "eligible": 46,
+    "excluded": 2
+  },
+  {
+    "role": "train",
+    "axis": "surface_material",
+    "material": 15,
+    "eligible": 27,
+    "excluded": 7
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 0,
+    "eligible": 36,
+    "excluded": 0
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 2,
+    "eligible": 44,
+    "excluded": 3
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 3,
+    "eligible": 61,
+    "excluded": 3
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 5,
+    "eligible": 54,
+    "excluded": 2
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 6,
+    "eligible": 36,
+    "excluded": 4
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 7,
+    "eligible": 32,
+    "excluded": 2
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 9,
+    "eligible": 26,
+    "excluded": 5
+  },
+  {
+    "role": "evaluation",
+    "axis": "object_material",
+    "material": 14,
+    "eligible": 40,
+    "excluded": 0
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 0,
+    "eligible": 33,
+    "excluded": 1
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 1,
+    "eligible": 40,
+    "excluded": 3
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 4,
+    "eligible": 40,
+    "excluded": 3
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 7,
+    "eligible": 39,
+    "excluded": 5
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 8,
+    "eligible": 34,
+    "excluded": 2
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 10,
+    "eligible": 39,
+    "excluded": 3
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 11,
+    "eligible": 52,
+    "excluded": 2
+  },
+  {
+    "role": "evaluation",
+    "axis": "surface_material",
+    "material": 13,
+    "eligible": 52,
+    "excluded": 0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "split_counts": {
+    "train": 8400,
+    "test": 1200,
+    "calibration": 1200,
+    "validation": 1200
+  },
+  "fitting_and_selection_rows": 9600,
+  "fitting_and_selection_unique_images": 2036,
+  "confirmation_episodes": 1080,
+  "confirmation_unique_frame_hashes": 5703,
+  "episode_id_overlap": 0,
+  "family_identifier_overlap": 0,
+  "exact_image_hash_overlap": 0,
+  "actual_image_files_hash_verified": true,
+  "receipt_history_minimum_matches": true,
+  "seed17_summary": {
+    "status": "passed",
+    "seed": 17,
+    "epochs": 100,
+    "updates": 26300,
+    "best_epoch": 6,
+    "best_validation_nll_per_coordinate": 1.0244979858398438,
+    "statistical_validation_nll_per_coordinate": 1.0125434398651123,
+    "trainable_parameters": 12294,
+    "elapsed_s": 18.813005600008182,
+    "bit_exact_selected_validation_reload": true,
+    "calibration_test_target_values_parsed": false
+  },
+  "checkpoint_sha256": "00c5831619be53094d3f71ab9f3626554447d5ab9dee06a52141144b560e7d1b",
+  "limits": "Identifier and byte-exact image audit; not proof of perceptual/asset independence or foundation-pretraining exclusion. Training not rerun."
+}

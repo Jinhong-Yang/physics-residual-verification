@@ -1,0 +1,243 @@
+{
+  "status": "completed",
+  "analysis_plan": {
+    "scope": "post hoc cached-feature method investigation; no independent confirmation or final-model reselection",
+    "variants": [
+      "numeric",
+      "full",
+      "pooled_only",
+      "motion_only",
+      "direct_visual_target",
+      "no_clipping",
+      "no_bounce_fallback"
+    ],
+    "development": "132 families; original SHA256-sorted modulo-six family folds; every variant reported",
+    "confirmation": "72 already opened families, fit on all development only; descriptive evaluation",
+    "covariance_scales": [
+      0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "final_scale_retained": 0.1,
+    "coverage_levels": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "jacobian": "saved initial, observation-noise and prior-scale standardized derivatives; nuisance projection; not final-anchor Jacobian or null-space proof",
+    "preserve_author_and_primary_results": true,
+    "new_external_encoder_or_new_cohort": false,
+    "authorization": "user explicitly authorized necessary additional experiments in current request"
+  },
+  "variants": [
+    {
+      "cohort": "development",
+      "variant": "numeric",
+      "action_mm": 1.371928235861565,
+      "nll": -2.1751733466698115,
+      "crps": 0.013603724820296354,
+      "coverage90": 0.975,
+      "projected_diameter": 0.16042413383711313
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "numeric",
+      "action_mm": 1.4687698458198468,
+      "nll": -2.542391078458084,
+      "crps": 0.013136130507340488,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15954252748346437
+    },
+    {
+      "cohort": "development",
+      "variant": "full",
+      "action_mm": 1.3522310301768836,
+      "nll": -2.1795496711715403,
+      "crps": 0.013619179313368517,
+      "coverage90": 0.9755050505050507,
+      "projected_diameter": 0.1604243634223364
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "full",
+      "action_mm": 1.4531219233223358,
+      "nll": -2.5459381981639906,
+      "crps": 0.01311323587001741,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15954352343932776
+    },
+    {
+      "cohort": "development",
+      "variant": "pooled_only",
+      "action_mm": 1.3677869728787972,
+      "nll": -2.176935953430398,
+      "crps": 0.013630340498157562,
+      "coverage90": 0.975,
+      "projected_diameter": 0.16042298796315996
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "pooled_only",
+      "action_mm": 1.4685460834262676,
+      "nll": -2.543766555274642,
+      "crps": 0.013130219598559029,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.1595408522139623
+    },
+    {
+      "cohort": "development",
+      "variant": "motion_only",
+      "action_mm": 1.3518502686820217,
+      "nll": -2.179145605183817,
+      "crps": 0.013603878014591172,
+      "coverage90": 0.9755050505050507,
+      "projected_diameter": 0.1604254060864958
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "motion_only",
+      "action_mm": 1.4517621722966045,
+      "nll": -2.54502716913728,
+      "crps": 0.01311199357407681,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15954514395863786
+    },
+    {
+      "cohort": "development",
+      "variant": "direct_visual_target",
+      "action_mm": 1.3654555921972302,
+      "nll": -2.177671538464642,
+      "crps": 0.013768593563241024,
+      "coverage90": 0.9755050505050507,
+      "projected_diameter": 0.16045599450853446
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "direct_visual_target",
+      "action_mm": 1.475367938256344,
+      "nll": -2.5438787629508837,
+      "crps": 0.013196810998751064,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15956782377553091
+    },
+    {
+      "cohort": "development",
+      "variant": "no_clipping",
+      "action_mm": 1.3647259984285034,
+      "nll": -2.1792166026517914,
+      "crps": 0.013628768578543572,
+      "coverage90": 0.9744949494949496,
+      "projected_diameter": 0.16042846203861433
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "no_clipping",
+      "action_mm": 1.4840639057018739,
+      "nll": -2.5443812856585715,
+      "crps": 0.01316536779242922,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15955186664911047
+    },
+    {
+      "cohort": "development",
+      "variant": "no_bounce_fallback",
+      "action_mm": 1.4012749290844448,
+      "nll": -2.15744585053439,
+      "crps": 0.013918805747537158,
+      "coverage90": 0.9643939393939396,
+      "projected_diameter": 0.16044024826171321
+    },
+    {
+      "cohort": "confirmation",
+      "variant": "no_bounce_fallback",
+      "action_mm": 1.4947710673066346,
+      "nll": -2.561787239876187,
+      "crps": 0.01332381133283632,
+      "coverage90": 0.9625000000000001,
+      "projected_diameter": 0.15955558708079104
+    }
+  ],
+  "covariance_sensitivity": [
+    {
+      "scale": 0,
+      "action_mm": 1.4531219233223327,
+      "nll": -2.5324725897894322,
+      "crps": 0.013102719659594175,
+      "coverage90": 0.9680555555555557,
+      "projected_diameter": 0.1591876197647813,
+      "width_ratio_to_huber": 1.0
+    },
+    {
+      "scale": 0.05,
+      "action_mm": 1.4531219233223327,
+      "nll": -2.5386921914380465,
+      "crps": 0.013105342677241054,
+      "coverage90": 0.9717592592592594,
+      "projected_diameter": 0.15927681738832405,
+      "width_ratio_to_huber": 1.0005603301542831
+    },
+    {
+      "scale": 0.1,
+      "action_mm": 1.4531219233223327,
+      "nll": -2.5459381981639915,
+      "crps": 0.013113235870017396,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15954352343932776,
+      "width_ratio_to_huber": 1.0022357497088803
+    },
+    {
+      "scale": 0.2,
+      "action_mm": 1.4531219233223327,
+      "nll": -2.5433252188229343,
+      "crps": 0.013145130819067326,
+      "coverage90": 0.977314814814815,
+      "projected_diameter": 0.16059757757867044,
+      "width_ratio_to_huber": 1.0088572077148494
+    }
+  ],
+  "initial_jacobian": [
+    {
+      "protocol": "multiple_forces",
+      "episodes": 360,
+      "active_dimensions": 2,
+      "full_rank_episodes": 360,
+      "minimum_singular_value_median": 0.6557174971843777,
+      "minimum_singular_value_p10": 0.5532007342006962,
+      "finite_condition_median": 11.310983409985052
+    },
+    {
+      "protocol": "unforced_slide",
+      "episodes": 360,
+      "active_dimensions": 1,
+      "full_rank_episodes": 360,
+      "minimum_singular_value_median": 3.697425711979704,
+      "minimum_singular_value_p10": 3.416969036921009,
+      "finite_condition_median": 1.0
+    },
+    {
+      "protocol": "bounce",
+      "episodes": 360,
+      "active_dimensions": 1,
+      "full_rank_episodes": 360,
+      "minimum_singular_value_median": 21.001846113102978,
+      "minimum_singular_value_p10": 18.96545151128757,
+      "finite_condition_median": 1.0
+    }
+  ],
+  "max_projection_reconstruction_error": 0.0,
+  "draw_winner_counts": {
+    "unit_rgb": 0,
+    "huber_1.345_rgb": 20000,
+    "cauchy_2.385_rgb": 0
+  },
+  "locked_checkpoint_refit_matches": true,
+  "original_full_numeric_predictions_and_scores_match_atol": 1e-12,
+  "new_independent_confirmation": false,
+  "final_model_changed": false,
+  "elapsed_seconds": 10.620652899990091
+}

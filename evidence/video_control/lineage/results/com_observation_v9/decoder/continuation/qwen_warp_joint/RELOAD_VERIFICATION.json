@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "condition": "qwen_warp_joint",
+  "phase": "continuation",
+  "plan_sha256": "7dd975560e0e5a384233551fcc8159a04a6775727af14b87aa66aad50abe5376",
+  "checks": [
+    {
+      "epoch": 0,
+      "checkpoint_sha256": "00746bf52a07fbb2dd4f190c6e912cdc5dfd241c42ef8ac24fa9ee9c676286af",
+      "ids": [
+        "007b8f031eed4e2ce3948c15",
+        "00851aade59c89bffc130494",
+        "00a47aeb3231f358dbc6f72c",
+        "00a5c8677ff20a020e913aa3",
+        "0118b25425735f08e0b9e1c0",
+        "02c28be1c8c0238443bd065a",
+        "03073fc0deea68432c0bd497",
+        "03559a2ccfa4c81d267ceb03"
+      ],
+      "state_dict_bitexact": true,
+      "prediction_bitexact": true,
+      "max_absolute_difference_px": 0.0,
+      "targets_opened": false
+    },
+    {
+      "epoch": 10,
+      "checkpoint_sha256": "49ab079f196e5af2ce3b609ee632e4ac17ecd229e7d62c32b39afc7792087fcb",
+      "ids": [
+        "007b8f031eed4e2ce3948c15",
+        "00851aade59c89bffc130494",
+        "00a47aeb3231f358dbc6f72c",
+        "00a5c8677ff20a020e913aa3",
+        "0118b25425735f08e0b9e1c0",
+        "02c28be1c8c0238443bd065a",
+        "03073fc0deea68432c0bd497",
+        "03559a2ccfa4c81d267ceb03"
+      ],
+      "state_dict_bitexact": true,
+      "prediction_bitexact": true,
+      "max_absolute_difference_px": 0.0,
+      "targets_opened": false
+    }
+  ],
+  "all_state_and_prediction_bitexact": true,
+  "no_labels_in_reload_check": true,
+  "dev_labels_opened": false
+}

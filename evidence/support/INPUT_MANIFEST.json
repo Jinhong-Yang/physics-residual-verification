@@ -1,0 +1,71 @@
+[
+  {
+    "source": "cache/com_observation_v17/development_v1/development.npz",
+    "package": "evidence/support/development.npz",
+    "sha256": "4d5381e6268dc51f634c8217bb0b7a24d7d484924b29800498dc07424076bb5b"
+  },
+  {
+    "source": "results/com_observation_v22/final_development_fit_v1/CHECKPOINT.npz",
+    "package": "evidence/support/locked_checkpoint.npz",
+    "sha256": "ae7f2a4182762fc26d71f75aee07388744482daf4cc7ca24eba0a5b57ecf4636"
+  },
+  {
+    "source": "canonical_physics_metrics_v7.py",
+    "package": "tools/support_lib/canonical_physics_metrics_v7.py",
+    "sha256": "3c0feaef8796e33ba3c4b6dbba03d75bf8ed2667d6a473251c933ffccb941656"
+  },
+  {
+    "source": "canonical_bounce_reference_v7.py",
+    "package": "tools/support_lib/canonical_bounce_reference_v7.py",
+    "sha256": "7e5dba3a330eead32782576f808f26df2476441c1deaeb163941e63c9f7f7a38"
+  },
+  {
+    "source": "sequential_robust_readout_v22.py",
+    "package": "tools/support_lib/sequential_robust_readout_v22.py",
+    "sha256": "81602a9ba4ff80c58c0aeeb9ec2f7884bddbf7ec8945d5cafe7033436fc12566"
+  },
+  {
+    "source": "main3d_numeric.py",
+    "source_sha256": "a15f3dd569aecc50207a344e8ba9357d675bb4f99e9e35a2e2e68cf5fc37138c",
+    "package": "tools/support_lib/main3d_numeric.py",
+    "sha256": "e0de0a998db07747a73086242b3a9f095b47054ba0e018a5833e69d7816e3718",
+    "scope": "slide function only"
+  },
+  {
+    "source": "results/com_observation_v23/frozen_predictions_v1/methods/unit_rgb.npz",
+    "sha256": "748e2c5c45811413b03d2ca78583b154f42a1cd98c72ed1260fbbce06ccffdb4"
+  },
+  {
+    "source": "results/com_observation_v23/frozen_predictions_v1/methods/huber_1.345_rgb.npz",
+    "sha256": "8ec1adf9165274ad27214bf6de50183d0a033176c1c6e5db1258b372b572c27d"
+  },
+  {
+    "source": "results/com_observation_v23/frozen_predictions_v1/methods/cauchy_2.385_rgb.npz",
+    "sha256": "5c40b4cd785a4345d3a9bf3f7db561accd658b053a922bd9180089974c38c525"
+  },
+  {
+    "source": "results/com_observation_v23/frozen_predictions_v1/methods/v22_numeric.npz",
+    "sha256": "6ade2c3e3b72780b7115d9a7c5e9881d51e223a917b17601719e896c80d42c9b"
+  },
+  {
+    "source": "results/com_observation_v23/frozen_predictions_v1/methods/v22_vlm.npz",
+    "sha256": "a0f2046812249b0d38c483c43c8d53d3e9a24651f50cd33c79b569c9cfc084f5"
+  },
+  {
+    "source": "scripts/train_com_physics_internal_readout_v12.py",
+    "sha256": "b5d330dfca7de2fccc6b4995dec16d02c4a0631b524fbd3e24bbf719a981fa96"
+  },
+  {
+    "source": "data/canonical_confirmation_v23/evaluator_only/physical_targets.jsonl",
+    "sha256": "22e9add7d7f06462bf5a8c1d1015d034c615b1bb7bd65a962dcbf4927fc17650"
+  },
+  {
+    "source": "cache/canonical_confirmation_v23/input/inputs.npz",
+    "sha256": "341cc47e8c07afd4e042226a7a6137077105e24c20c00dbb37d3c0567bf9ed2e"
+  },
+  {
+    "package": "evidence/support/confirmation.npz",
+    "sha256": "16fe82d724816dec4a0dd28cbd29c3152680abf7a16aa8f44786989d2d5720fb",
+    "scope": "derived aligned features, previously opened targets, saved predictions and initialization Jacobians"
+  }
+]

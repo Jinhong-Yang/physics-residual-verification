@@ -1,0 +1,107 @@
+[
+  {
+    "path": "CHECKPOINT.npz",
+    "sha256": "fd610fbcf3102252bf2ef3cd1c2a34762eaf309f2b4e1c204f16cefc5cebe94e",
+    "bytes": 8954
+  },
+  {
+    "path": "code/access_group_holdout.py",
+    "sha256": "80608a52a9db9d065708bd694e99c405c86975699cc0f6cf977370a887d3f98a",
+    "bytes": 19979
+  },
+  {
+    "path": "code/develop_physprobe_confidence_gate_v38.py",
+    "sha256": "6fd1edce1d134df45d4cbed26362d89bb4f440d5aaf2aba4a7b77f98afcafc97",
+    "bytes": 11426
+  },
+  {
+    "path": "code/develop_physprobe_vector_readout_v35.py",
+    "sha256": "30eb903f1d0fd5fde3af6129e907b98769d974eec9d112287d4b89ca8c691973",
+    "bytes": 12280
+  },
+  {
+    "path": "code/extract_physprobe_observations_v31.py",
+    "sha256": "998a9a72b8fd5e9556133d68aa4db9ca73bdd69d743a402d23e8ab43d14bd309",
+    "bytes": 8272
+  },
+  {
+    "path": "DOWNLOAD.json",
+    "sha256": "f3d12438c7b18f6dc5149e3b842da9be54b41d3a1dad4eb4054aacd163860d89",
+    "bytes": 151744
+  },
+  {
+    "path": "ELIGIBILITY_BY_GROUP.json",
+    "sha256": "5efaa9f81c75f94ae7a42817e746a21c2b5f3996b5656a3b0a6f0314cf7ef742",
+    "bytes": 4111
+  },
+  {
+    "path": "ERRORS.npz",
+    "sha256": "380d138f081df9bd154213186400d35d0cf06c72c2b4242fde96d643616e745f",
+    "bytes": 165038
+  },
+  {
+    "path": "EVALUATION_TARGETS.npz",
+    "sha256": "2d7a0a59b72277f5ec8b16fb6899421aa08267c766d374e86265832857eb704f",
+    "bytes": 4081
+  },
+  {
+    "path": "FEATURE_SEAL.json",
+    "sha256": "f8f8ebfd4d2ec66693641dc0c397f12089ebc326c1fe0430b2e6ed4396200d8b",
+    "bytes": 351
+  },
+  {
+    "path": "INPUT_INDEX.json",
+    "sha256": "1a16363db44825df941e76aa028db9dd0f478c9c678bdbbe3fc8000c91c8da87",
+    "bytes": 1209447
+  },
+  {
+    "path": "OBSERVATION_SEAL.json",
+    "sha256": "74938392e8d4010a19fae52ecc606b8330031a706f90cbb0ddc1e09b5ff0e974",
+    "bytes": 418
+  },
+  {
+    "path": "PLAN.json",
+    "sha256": "00840d0b73ca492f55ca25e88723284214113c48405c268c2d99275787afe043",
+    "bytes": 222274
+  },
+  {
+    "path": "PREDICTION_SEAL.json",
+    "sha256": "9c295b5806a676d347d01603e20d6d67f1a282727cde4a2260552adfd9ce7a11",
+    "bytes": 44382
+  },
+  {
+    "path": "PREDICTIONS.npz",
+    "sha256": "33f05a20ab272ed33907b379649a1e7945c473c01b0be1a1e496932018bc4071",
+    "bytes": 20717
+  },
+  {
+    "path": "RESULT.json",
+    "sha256": "23f6517b6460fec5a0118d7c9feb1324e52cf1b50f37991861250764b4c89e84",
+    "bytes": 44470
+  },
+  {
+    "path": "SOURCE_LOCK.json",
+    "sha256": "1ec9ae27dfb9d0c50e633481f373f6602395b6279fc71917d311888499fdadf7",
+    "bytes": 937
+  },
+  {
+    "path": "TRAIN_OOF.npz",
+    "sha256": "e1404447af2ba58cf1c5214c717d9e31859dc7918b01c20a3c51b18aaa243b29",
+    "bytes": 10368
+  },
+  {
+    "path": "TRAIN_TARGETS.npz",
+    "sha256": "5565df35aa1c368f058f5fe97f0f5d1dd997e0d4400ad3b24579c83f9f618f95",
+    "bytes": 3637
+  },
+  {
+    "path": "VIDEO_DUPLICATE_AUDIT.json",
+    "sha256": "d01aee642a8eb6235afa60aaa10dd84b0a712c6ed97e6e78222cf62a5f9b8b54",
+    "bytes": 161
+  },
+  {
+    "path": "VIEWS.npz",
+    "sha256": "beb5d6eba7b12d9c1684e64acc68105ff9a90cba20e463560fb99bc47b5d0466",
+    "bytes": 598050
+  }
+]

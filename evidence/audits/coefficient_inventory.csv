@@ -1,0 +1,25 @@
+﻿key,shape,count,used_in_inference
+numeric__generalized_translation__multiple_forces__mean_y,"(2,)",2,True
+numeric__generalized_translation__multiple_forces__weight,"(192, 2)",384,True
+numeric__generalized_translation__unforced_slide__mean_y,"(1,)",1,True
+numeric__generalized_translation__unforced_slide__weight,"(192, 1)",192,True
+numeric__generalized_translation__bounce__mean_y,"(1,)",1,False
+numeric__generalized_translation__bounce__weight,"(192, 1)",192,False
+visual__generalized_translation__multiple_forces__mean_y,"(2,)",2,True
+visual__generalized_translation__multiple_forces__weight,"(48, 2)",96,True
+visual__generalized_translation__unforced_slide__mean_y,"(1,)",1,True
+visual__generalized_translation__unforced_slide__weight,"(48, 1)",48,True
+visual__generalized_translation__bounce__mean_y,"(1,)",1,False
+visual__generalized_translation__bounce__weight,"(48, 1)",48,False
+numeric__setup_translation__multiple_forces__mean_y,"(2,)",2,True
+numeric__setup_translation__multiple_forces__weight,"(192, 2)",384,True
+numeric__setup_translation__unforced_slide__mean_y,"(1,)",1,True
+numeric__setup_translation__unforced_slide__weight,"(192, 1)",192,True
+numeric__setup_translation__bounce__mean_y,"(1,)",1,True
+numeric__setup_translation__bounce__weight,"(192, 1)",192,True
+visual__setup_translation__multiple_forces__mean_y,"(2,)",2,True
+visual__setup_translation__multiple_forces__weight,"(48, 2)",96,True
+visual__setup_translation__unforced_slide__mean_y,"(1,)",1,True
+visual__setup_translation__unforced_slide__weight,"(48, 1)",48,True
+visual__setup_translation__bounce__mean_y,"(1,)",1,True
+visual__setup_translation__bounce__weight,"(48, 1)",48,True

@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "plan_sha256": "21e45a1dcee18f12be08d9e9dfde2859b8ec6e21989d3d59b976739883487816",
+  "revision": "b3c1679b7c34d3255ef3547f27c7b226aefab26f",
+  "episodes": 3060,
+  "frames": 24480,
+  "feature_dimensions": 1024,
+  "original_frame_hashes_verified": true,
+  "model_training": false,
+  "targets_loaded": false,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.16.1",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "peak_allocated_bytes": 776882688,
+  "elapsed_seconds_this_run": 150.42655950000335,
+  "model_sha256": "25466aef85727d16546c6cf8c99f12fcfad9cbca8225d45f23685e2e025b786b",
+  "index_hashes": {
+    "old900": "556580e1f866e7ff0ca9a7f86bdf481f5b3769e5341173f58f3a5afac5576ece",
+    "v11": "f8e6bb1cd7d1bd07da8b9f1935df6ba2e276ac72fced92c1d522a335ba5df156",
+    "confirmation": "12e79fdfc56314ecd826c0b6d0ff3a9e3b4266b8150bb77ab6b673ff0571dbbd"
+  },
+  "features": {
+    "development": "3a45b806c687e4f66feab6d80e3444d7986b2c808511a31d9f5234b340881273",
+    "confirmation": "ecb7406a877392a48dc9444dddba65ac99dde88ed215bc3188a7cb5e12548365"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "train_episodes": 720,
+  "train_families": 48,
+  "decoder_parameters": 328356,
+  "confirmation_id_overlap": 0,
+  "confirmation_family_id_overlap": 0,
+  "confirmation_disjointness_scope": "declared identifiers, not proof of perceptual or asset independence",
+  "residual_development_contains_decoder_training_episodes": 720,
+  "development_crossfit_scope": "residual-stage only; upstream decoder is fixed and not refit by outer fold",
+  "receipt_scope": "saved plans, source and training receipts inspected; training not rerun",
+  "source_sha256": {
+    "results/com_observation_v9/decoder/continuation/PLAN.json": "7dd975560e0e5a384233551fcc8159a04a6775727af14b87aa66aad50abe5376",
+    "results/com_observation_v9/decoder/continuation/qwen_warp_joint/TRAIN_RECEIPT.json": "c2b8f509a150927f78c94a1ec92ea7224b2921495347419cef1d2ff1c521a10f",
+    "results/com_observation_v9/decoder/continuation/qwen_warp_joint/RELOAD_VERIFICATION.json": "d3b934e355dc5f1f47634713fdac1da669abf9893aaf7ebdbbf43c54f49fb092",
+    "results/com_observation_v8/decoder/FULL_TRAINING_CONTRACT.json": "2dd8d9300c886f1f16e9756544db893553632f9a4a597d7b1c61bdb9df474e6a",
+    "cache/com_physics_loss_v9_information/MANIFEST.json": "baadd418b7e05f23577dee263376dcaafd7f74f0a922b4380c0ec72252930d3a",
+    "results/com_observation_v7/labels/MANIFEST.json": "3ff28308dbfff2d53a80e3b54668de26aff0c040d1e89642ab8adde104cb6a4e"
+  }
+}

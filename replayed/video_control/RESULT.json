@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "scores": [
+    {
+      "cohort": "development",
+      "arm": "vjepa2_48",
+      "action_mm": 1.3824270732187287,
+      "nll": -2.1740769570639467,
+      "crps": 0.013642662994966996,
+      "coverage90": 0.9734848484848485,
+      "projected_diameter": 0.1604277433471495
+    },
+    {
+      "cohort": "confirmation",
+      "arm": "vjepa2_48",
+      "action_mm": 1.4706152687002292,
+      "nll": -2.5433887990689814,
+      "crps": 0.013189206568254725,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15954713071329898
+    }
+  ],
+  "contrasts": [
+    {
+      "cohort": "development",
+      "comparison": "vjepa2_48 minus numeric",
+      "difference_mm": 0.010498837357163934,
+      "low95_mm": -0.004577771612975309,
+      "high95_mm": 0.025596597830520998
+    },
+    {
+      "cohort": "development",
+      "comparison": "vjepa2_48 minus full",
+      "difference_mm": 0.030196043041845214,
+      "low95_mm": 0.010194982560208125,
+      "high95_mm": 0.050583074429881046
+    },
+    {
+      "cohort": "confirmation",
+      "comparison": "vjepa2_48 minus numeric",
+      "difference_mm": 0.0018454228803822077,
+      "low95_mm": -0.009140665791464036,
+      "high95_mm": 0.012875801375547526
+    },
+    {
+      "cohort": "confirmation",
+      "comparison": "vjepa2_48 minus full",
+      "difference_mm": 0.017493345377893377,
+      "low95_mm": -0.0011763526515078697,
+      "high95_mm": 0.03560351127103096
+    }
+  ],
+  "PCA_fit_on_training_families_only": true,
+  "all_planned_arms_reported": true,
+  "original_control_scores": "overleaf/replayed/support/readout_ablation.csv",
+  "primary_model_changed": false,
+  "new_independent_confirmation": false,
+  "interpretation": "post hoc frozen representation comparison; unequal upstream supervision/preprocessing, no causal attribution to language"
+}

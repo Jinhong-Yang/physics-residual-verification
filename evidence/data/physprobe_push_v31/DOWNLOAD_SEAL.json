@@ -1,0 +1,3087 @@
+{
+  "status": "sealed pinned PhysProbe bytes",
+  "plan_sha256": "2b876a7bed07da744c3ede7031b74366c9e60292ec4de7a596145dcff1b3436b",
+  "files": [
+    {
+      "role": "confirmation",
+      "episode_index": 14,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000014.parquet",
+      "bytes": 91866,
+      "sha256": "199c5551e77d064a7b1bb52800e73eafe9816a0e25f9a59da119139347407019"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 14,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000014.mp4",
+      "bytes": 533905,
+      "sha256": "6cb942fac3a6be218953825a09388983b2f14057e2a87eb7f7f9e91d6a9081c2"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 36,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000036.parquet",
+      "bytes": 86765,
+      "sha256": "3ad8f3d107c889babccbdc0a9e5a176696913bec0203b440ef67f2707e44a1a2"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 36,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000036.mp4",
+      "bytes": 511406,
+      "sha256": "e251b37221d55aa991d4494e815bc43d5e1afe58156c9e0fe8cfa8ee015dcf32"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 40,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000040.parquet",
+      "bytes": 93684,
+      "sha256": "d8dedc0fb6043c440ff3f84a0c0bd30ecc793123e8228075ce68ee0fab239b0d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 40,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000040.mp4",
+      "bytes": 568029,
+      "sha256": "93f70efc1a8df0ed5c5d97018cca17f6fcedc8c43d927daf660fa590d28240b8"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 64,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000064.parquet",
+      "bytes": 87145,
+      "sha256": "fc35ca987740b2dee4452469fe75b258cd21ec0ad6800a4e569e9646e0a80b1c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 64,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000064.mp4",
+      "bytes": 505194,
+      "sha256": "56735f0968d863e3dfa90351a7aca73b580c2bd2d191b63eeda735a655c8c743"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 66,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000066.parquet",
+      "bytes": 88896,
+      "sha256": "9dcbea60fa9f8fd05743bd2dc7adf729265b637ae81c7e905f5735d96ddf2486"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 66,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000066.mp4",
+      "bytes": 532708,
+      "sha256": "0082d22ef82e6a45c9a11b6cceb63cd674800f0c932ac596569c98d52368405b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 67,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000067.parquet",
+      "bytes": 87111,
+      "sha256": "8c800bcf67091d4f1a6cbe18c3c5c1bb10ae749338531d2f46c396eeb760a54e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 67,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000067.mp4",
+      "bytes": 491869,
+      "sha256": "813d578cc93c04bfa21d151d49ee3fe7bcc94436171ef66ac0c6c2e0894b3e03"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 101,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000101.parquet",
+      "bytes": 94833,
+      "sha256": "838ade7360ea611d3cec9453543214d04aa7b1c51b352cef80a43d0bccb8d6da"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 101,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000101.mp4",
+      "bytes": 543469,
+      "sha256": "ddea01dbaf61571f5eaedc0f051e4241a7c27cf07cfc809e3f700fb015ab42ea"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 122,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000122.parquet",
+      "bytes": 90298,
+      "sha256": "6ac795f0fdeb0e9aac00d279dbb5e70635b2f9136a93347c12310dbaa91aa179"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 122,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000122.mp4",
+      "bytes": 524134,
+      "sha256": "1614ac511fc47c4a6df4d8bd5d099789bea92b2d9b68f94fb98797c6ba95e0d6"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 150,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000150.parquet",
+      "bytes": 111940,
+      "sha256": "18bebfb88c24e3c6c1f1a7f1bc8dcac7ae47c5b3452e5891e42565cff0c7ac54"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 150,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000150.mp4",
+      "bytes": 601612,
+      "sha256": "e7a28a990615ad302a47e3d8d7e5d21626cb97a8c6ae5be85f321cdc3f31d086"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 151,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000151.parquet",
+      "bytes": 106259,
+      "sha256": "a7585757fa66a8217d0222f7e81801e4f3cd58907f75d505bc133be34d8952fd"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 151,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000151.mp4",
+      "bytes": 628566,
+      "sha256": "297aa0a099a7fbac5c34a909abc2cfc5688445a67a0978828d29b76e156e56e9"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 181,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000181.parquet",
+      "bytes": 109716,
+      "sha256": "ab61eef7b932d7cd102cd3f792a4cc9c41234e3fd13cb221c67f2f4b7a84aacb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 181,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000181.mp4",
+      "bytes": 533164,
+      "sha256": "2869d3a840afd00aaba2d426e9ede7eb00d2017cfd9e1f57ad091eed7ef58402"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 183,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000183.parquet",
+      "bytes": 115880,
+      "sha256": "724f97b2f8026f49a635d37e9aefd4603ca749f0b5820cd28a70ecb2a03f8403"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 183,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000183.mp4",
+      "bytes": 549013,
+      "sha256": "241a392761d62b250bac64c292ada70f55807910ded4d473c1b36d79527175a8"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 186,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000186.parquet",
+      "bytes": 103051,
+      "sha256": "828969bef284e26af3880e0010d7a9f65b7c3c11282e523e34edc3dc04428829"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 186,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000186.mp4",
+      "bytes": 616709,
+      "sha256": "ffe1ee28fc7d6539ced0327679fdf5eb65625a35dff7757ca7e6d7b4a6d79328"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 195,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000195.parquet",
+      "bytes": 93810,
+      "sha256": "348fba5ccfe5ecefb667c3d59e8de116a5a7c8a29e2860d7a46d2fb4ca1e92d2"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 195,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000195.mp4",
+      "bytes": 530929,
+      "sha256": "1b0b987790d0c5d9cc72bf9b89aa0aed1178ddeee94d9d58aad121edc408573e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 210,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000210.parquet",
+      "bytes": 90814,
+      "sha256": "318453c32140686ac48246ce1cea1a7b3f35dd429f02b7279f5cb00794d7f98e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 210,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000210.mp4",
+      "bytes": 534040,
+      "sha256": "1c108a0974f195971a856cea602be2a566892bb8a99bdc9dc10dd845faa0b75e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 211,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000211.parquet",
+      "bytes": 93197,
+      "sha256": "cf35723d373fcff8783835b4e44a70a7438c1b1e4a83054f3fcb95b3c9f3fe81"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 211,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000211.mp4",
+      "bytes": 530635,
+      "sha256": "53a8d768d4e9bcf5ab5ec310e34131bdb12989d0a472fc3e281edab95f8d9dc5"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 256,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000256.parquet",
+      "bytes": 88098,
+      "sha256": "bb729a6687bb276d8bec4049f9ac0aa866db211ee01f19620a1c49b1eed60362"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 256,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000256.mp4",
+      "bytes": 515159,
+      "sha256": "4fed529832e3c573481f7e290f1da55176930221d68aa5cf318c0e6d2bd16b3d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 293,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000293.parquet",
+      "bytes": 86867,
+      "sha256": "2ffcfef960c39484e7acce7132a35e394485e2d7410a178ba5e29f654cf10f06"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 293,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000293.mp4",
+      "bytes": 497517,
+      "sha256": "fe8052b397955a820b2e24c8c466f4c58f6d5f80668f98a857e63e29c1f074dd"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 327,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000327.parquet",
+      "bytes": 88587,
+      "sha256": "0bfca2aad6f4ecb31a17b6c0d9c36b971413db9bd07306e3157b2cda4130d629"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 327,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000327.mp4",
+      "bytes": 516446,
+      "sha256": "fdbd9fc79e6dfd51f4434042af60f69e1b604ea0e425eb7f0d3a36d3ce8fb56f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 330,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000330.parquet",
+      "bytes": 94593,
+      "sha256": "5ddb25fb782bbfabedb5bfcd06cf5b6df4927d2af92efb3fc78f6490b19fcd44"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 330,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000330.mp4",
+      "bytes": 557041,
+      "sha256": "bf2c21d756c766330f048dec05ce5ce76b0aafa1639ea7589f6d6da9a9f84bf5"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 342,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000342.parquet",
+      "bytes": 88529,
+      "sha256": "de2e9c8b3e4379ec13d29be529e87d70212af12ce32fc600194cac68fefdcf59"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 342,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000342.mp4",
+      "bytes": 493197,
+      "sha256": "6e91550d327e10c2f18ef0038ea4112bed63b0880f66c8fc939a4975d8f31ad9"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 349,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000349.parquet",
+      "bytes": 92419,
+      "sha256": "0974181d47920ff7bd8a4f6e3aa7175001694c651947b22288a3c4a17d207215"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 349,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000349.mp4",
+      "bytes": 553560,
+      "sha256": "628eb885465d7d1db78581136d052fbd7bd8d139feafb488cc52b77972d0bf85"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 361,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000361.parquet",
+      "bytes": 88310,
+      "sha256": "75f63004c6e6c3540e9a767869c2c61e21e2c5d06e173c2376362a8aa07aa648"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 361,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000361.mp4",
+      "bytes": 509330,
+      "sha256": "6391b7efc91d9c7a32f8486c36c8d35363aa5b8eb530236b0b9877296334cad5"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 364,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000364.parquet",
+      "bytes": 88686,
+      "sha256": "4da26ff15ee49a8a4c04f9eee02bbf696d5e0b3f3d4c3229b67d1e23d1ec975c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 364,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000364.mp4",
+      "bytes": 518262,
+      "sha256": "2fa3123ae70d37b37e7169aec61ad194b20721b64d338858bf9a9d076e3835ce"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 367,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000367.parquet",
+      "bytes": 91466,
+      "sha256": "c5dd60ea671a95cc103892eb374f0713e9d6d1f4fafb9d1f4e83b1f8ff2301a8"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 367,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000367.mp4",
+      "bytes": 506616,
+      "sha256": "25f17ac4b3fb24e02eeb487d7b3688c7e1a8ee3e697d9250a274c53c9c6ea072"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 391,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000391.parquet",
+      "bytes": 86510,
+      "sha256": "95618673a4220f06301688bf964aa3c2b850b50c45168fcf3062e6852523df99"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 391,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000391.mp4",
+      "bytes": 497959,
+      "sha256": "3cd1eac4f1a28e4fb6b475eefd871cb1df1d1ace7ddba9289e5955fde8e1032c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 396,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000396.parquet",
+      "bytes": 90416,
+      "sha256": "7fb1078e7fd1f264dbeca9433c7ea0fe677f5392fe5a4bed6328ad2233f0e571"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 396,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000396.mp4",
+      "bytes": 529876,
+      "sha256": "a3860f6467f4e41499d3762d553fb8bd1b5a35c5ae076cc452f5e61f6546baaa"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 417,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000417.parquet",
+      "bytes": 89383,
+      "sha256": "119a7b2ef5f71ffa47b2d0cd5ebcc342fc205620f3d3b65f068bb3038d640d45"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 417,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000417.mp4",
+      "bytes": 537594,
+      "sha256": "32b81af58827947aa8a38b93fcea5106ab66e803eeddd72eb269f1d3a7391a4b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 428,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000428.parquet",
+      "bytes": 89590,
+      "sha256": "7de5697329d9737d43f166ef5e9344842f01fa7b0eddd7d36b6af902135b4ad4"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 428,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000428.mp4",
+      "bytes": 502870,
+      "sha256": "5de49488b68cc439986c61596dda670e29ad110b498bfefb3e7b5d4e181b665d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 435,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000435.parquet",
+      "bytes": 112314,
+      "sha256": "be3858a8b2f1b208f2f855f813ccd0588555d8d287364600ba6a445e827be2eb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 435,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000435.mp4",
+      "bytes": 601283,
+      "sha256": "5883e1ccfcf1c87a49cd788c5347d6d624d0dabf47b9b38fadb2c572251b06be"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 437,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000437.parquet",
+      "bytes": 114950,
+      "sha256": "104eb22502dd7299f02edfeb939b15b529959926da599b04bf6b582f82603acf"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 437,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000437.mp4",
+      "bytes": 658808,
+      "sha256": "9d4031ae764d0c46b3aeb6d3344895c64cdd002f803cd7c3bbdfa04436a22694"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 446,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000446.parquet",
+      "bytes": 94210,
+      "sha256": "a98552c5b3fe8c4756d527b710ede4131762aa58335b6086ebc720f0de30cd3a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 446,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000446.mp4",
+      "bytes": 570279,
+      "sha256": "17a61db52469db857902fd397402965087972966f7f183f0e385e83cee9a6088"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 453,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000453.parquet",
+      "bytes": 92829,
+      "sha256": "39b5b9c2dbc4b94f4befaf2d9e9fdbe1fe59b1b9ccc1d1b217d6e78818cabe38"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 453,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000453.mp4",
+      "bytes": 548832,
+      "sha256": "d39cd5248a7be7d504486c56ed92588ef4a3edead4e0e9586f2440b2a0a11be0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 465,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000465.parquet",
+      "bytes": 109537,
+      "sha256": "8ecf0eb12cedf4d76dc5b9a5e8df642e8cc1896e7f962b7d1e5f752e69734c8e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 465,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000465.mp4",
+      "bytes": 613267,
+      "sha256": "dab452f25723c374bd4011445dcbb6eed05f5fe927d8732a43073dcd3b6bf11b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 477,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000477.parquet",
+      "bytes": 90472,
+      "sha256": "15674ca3409f3405b3aeba4f952195d31d531bc15e274c949b93bd7af837309b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 477,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000477.mp4",
+      "bytes": 510309,
+      "sha256": "6fd6f85bc124ff8d84317d0be0c53157639dc1dccd95f36753b94833540b67e9"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 487,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000487.parquet",
+      "bytes": 101508,
+      "sha256": "7ab5f58715bf652cebf2b1c46f0f7463aefddcdbef84413956deed5331f3b541"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 487,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000487.mp4",
+      "bytes": 587157,
+      "sha256": "5c97990b6b21523e5833e4766a209f7d17b4d98d71b7904a74ae15d76fed2f4f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 488,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000488.parquet",
+      "bytes": 90800,
+      "sha256": "26d9b511b74012243350b59a2b75d000e1fc703f7af178a5ed6b551f7d614e18"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 488,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000488.mp4",
+      "bytes": 527226,
+      "sha256": "e07254e945290d17fe1107ed859620f436c3c03c78646f137ba5b528da59363a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 492,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000492.parquet",
+      "bytes": 89168,
+      "sha256": "03e1efdb0065c37953c02b9404c4bc86fbf4e7d804bd995c449e8e7361d64cba"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 492,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000492.mp4",
+      "bytes": 508309,
+      "sha256": "6bfa39be0e195c42e1d8d483fbfc44cee9a233e65c5f72fa98d14c5f788fd21f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 495,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000495.parquet",
+      "bytes": 89273,
+      "sha256": "09831eb5da5667f56bc08c99468c57e1da1e9600a55c7d3d03da2c6844154df3"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 495,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000495.mp4",
+      "bytes": 541455,
+      "sha256": "a8fd42372d50dcb878afb7049239ad7cd7f5c6a2b945b6fd88984e8bf3d43b21"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 504,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000504.parquet",
+      "bytes": 92421,
+      "sha256": "06263430f09fa9d7996e1e04ca57f7b6491aaadca2ce0385008dbb86ec5084ad"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 504,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000504.mp4",
+      "bytes": 547504,
+      "sha256": "fb9d7874dfe22cd8579e445a9438cf669361a4f558a5dd9c158e50fbecebcd45"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 509,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000509.parquet",
+      "bytes": 99727,
+      "sha256": "dfba377fbe1735679378958428ca762a23745ed0192f2e459cd0f666991e424f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 509,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000509.mp4",
+      "bytes": 631853,
+      "sha256": "672bf615837736a31631609ac7d7863017fbf23c22aa4e6fd166774d1e7d5576"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 514,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000514.parquet",
+      "bytes": 89929,
+      "sha256": "dfc0f9a6fafa46b703fb8fde6276a5a97d7cebc458c6819a73d4872a7a85768e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 514,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000514.mp4",
+      "bytes": 511381,
+      "sha256": "44ad3d4c5769c55e267c10c104e0857eddc002a05079e0b2d60009e4b4356aed"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 522,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000522.parquet",
+      "bytes": 118955,
+      "sha256": "d48dfeb39d92881eff0b99b788fc70018aa25bd21fdab69248e9b9331c2a7951"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 522,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000522.mp4",
+      "bytes": 624612,
+      "sha256": "b5cb1a4b936d83b3bbc1b745460511a57c1d2feb4d8c8a5cc446622426003cbe"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 540,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000540.parquet",
+      "bytes": 113238,
+      "sha256": "4514db44950d0e6e5c6c95e473366fc54a816a1d4bbfb5f0fc70da327e1cc72e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 540,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000540.mp4",
+      "bytes": 618493,
+      "sha256": "bfdfeb5d130f73312e9795f4792969068853b496ff4f7ea38cc9c85427c217ff"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 545,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000545.parquet",
+      "bytes": 87006,
+      "sha256": "0a102ac36192b86da1bb8abf7b065c6e2019ba7ac12e16ab6926394199273282"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 545,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000545.mp4",
+      "bytes": 472991,
+      "sha256": "7fcab0556ead646fbe8178e7639d3f7c19d18178e3d11b35f56a1af03cb3f457"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 556,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000556.parquet",
+      "bytes": 86562,
+      "sha256": "5212bf540b3455c80c7f61dd4384167069376e6a988bc75d0c5bad1ccb949a96"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 556,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000556.mp4",
+      "bytes": 486566,
+      "sha256": "4a3e2fc19a1f105af68257546b6aa0d06f96714df0db3c150af4bca86946f5de"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 566,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000566.parquet",
+      "bytes": 104765,
+      "sha256": "661cb82add76099081742fd9f185fb566c5f6fad9f138b14ccfd2689cf76e365"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 566,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000566.mp4",
+      "bytes": 614797,
+      "sha256": "40d464416f19607908d441c2ceb2e7339edc2864902347e5b4d954824e7ba586"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 569,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000569.parquet",
+      "bytes": 91159,
+      "sha256": "dae5a5d9b8bfb5156ce3373458777081c7bfd35c28ec540760229349f79324ab"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 569,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000569.mp4",
+      "bytes": 531830,
+      "sha256": "58d43632c6971090b9042411d3b7497621787411e88a9e3e2fae876575f1387e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 604,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000604.parquet",
+      "bytes": 90872,
+      "sha256": "8fa61ddf4a3ab46beb13e63c6519167669405490813438f1a47fb01d6321ee2d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 604,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000604.mp4",
+      "bytes": 548722,
+      "sha256": "5bcd771a9314b0749f4dab81fae6257adb3646599a0b9665489227bf4a3ab956"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 606,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000606.parquet",
+      "bytes": 93246,
+      "sha256": "7dad031cebfe1752adb7cf42b1d399d3325ec147b124bdc678b19b9be070ddb1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 606,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000606.mp4",
+      "bytes": 549687,
+      "sha256": "767ec19aee2ab8641dafc15d16c086242ecf0a080120d02cf3f68bd3821e81e0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 607,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000607.parquet",
+      "bytes": 92886,
+      "sha256": "d3cc1936d30a0589823d195b44197fd6f5f3ade72b7f870ce2d8dc41b1198fba"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 607,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000607.mp4",
+      "bytes": 528343,
+      "sha256": "c60ed7e84299f83cd79afb8f498d433569956f57da073a2e1d181706e66225ed"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 613,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000613.parquet",
+      "bytes": 97829,
+      "sha256": "bbc62020c9cf0708e8ffbcc034eced94c1207cc913e09e37e4f1a6e3f8338911"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 613,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000613.mp4",
+      "bytes": 547302,
+      "sha256": "b28132d8f36411d4ed2a81862f22fce6ea2ceb67aede91a549e5153f36d0fab0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 615,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000615.parquet",
+      "bytes": 87295,
+      "sha256": "6d8a73b405d1736e28ce5dead029a39486741d438cf95e304d98aea1a7a0a22c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 615,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000615.mp4",
+      "bytes": 511925,
+      "sha256": "a6f22073a57f4d079ddd295de71d05cf655fa5b752ddb692ee63b12d9cbe8687"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 626,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000626.parquet",
+      "bytes": 109693,
+      "sha256": "2365ce5fcca64daac606d1302d5227cae7b8db91c98630a7a73e832507124847"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 626,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000626.mp4",
+      "bytes": 635047,
+      "sha256": "f1f7d6ae7a8f6a73ce0037e4fcea44bc30dd50ca82df532f4a793e53085aa244"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 642,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000642.parquet",
+      "bytes": 90372,
+      "sha256": "0c0a2eae17517835224cde1f5bb14a8d203354f2ac9e4c7421cd77895189cafb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 642,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000642.mp4",
+      "bytes": 541369,
+      "sha256": "d689522b3dd200047c2ac2b329ecbbaa54950cc6de3b96cbc11ec2b26cad961f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 653,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000653.parquet",
+      "bytes": 90481,
+      "sha256": "9061dc19f1613772d0d84c943c427b2d001f3ebdc53a978809d5a9059d947160"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 653,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000653.mp4",
+      "bytes": 510992,
+      "sha256": "92a9804fb73010f5de60ce7e849dbd24c8514d42860ec3749bf13ba49a4896d0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 674,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000674.parquet",
+      "bytes": 93539,
+      "sha256": "3fe03b9e7a5fb70109d10e502f51b503637abc1442105c06ca0acc7ba39e6222"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 674,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000674.mp4",
+      "bytes": 534454,
+      "sha256": "6e0ae9cc174e6b76ee8d79850bfdc7879daaa6a1aa3ea5cc9a13cefcfc540a9a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 678,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000678.parquet",
+      "bytes": 88129,
+      "sha256": "b9b1b6748c751b096d043d0131f5ff5e83490cf47d0c36b527d9d3fff0aadd1d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 678,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000678.mp4",
+      "bytes": 489878,
+      "sha256": "6963cbd60c23359383f2ac6b80c7e5fc34e130610574fb53fc247554be30cc4c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 684,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000684.parquet",
+      "bytes": 87010,
+      "sha256": "2cb8385e9ffd6d2a181d2f9ad44aa2adc57cce14acc6e4106286e64e143916cd"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 684,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000684.mp4",
+      "bytes": 520448,
+      "sha256": "d64af674f1edb9b411b263a1edb9e7579214d7a7bc30da221129f05d7f275ee0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 688,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000688.parquet",
+      "bytes": 90424,
+      "sha256": "61429bf9feec5332e7b5bae48ffec77ae7a35ab12cfb15b28219f0a642b808e1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 688,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000688.mp4",
+      "bytes": 518945,
+      "sha256": "bb2dffd8a6cd88785e49029cbaa82edf8f8cf3eafa301366847eb127a8d06467"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 694,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000694.parquet",
+      "bytes": 114100,
+      "sha256": "7166323e2a691297b1ed5533e2a17e9585e139c135a5725f7e2c863dc332ec11"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 694,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000694.mp4",
+      "bytes": 589187,
+      "sha256": "b20538267ef6ef6cbd6e06411bff468f52a569e242cf61d811e38f4a34d12865"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 713,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000713.parquet",
+      "bytes": 89100,
+      "sha256": "91d17e95aea1af0c5faa001ff92ff11ede339291e575520090e951df09b05be6"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 713,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000713.mp4",
+      "bytes": 515053,
+      "sha256": "81c32b57ba3b32c731488e370c45ffd36fc2a04c53115bb445450ef258f1a007"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 715,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000715.parquet",
+      "bytes": 90888,
+      "sha256": "615042f77d06de5a155d89e997c30a2903eff61f20d240b89070d60de93d8ad0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 715,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000715.mp4",
+      "bytes": 503907,
+      "sha256": "b4f828a88489fb645dc78c1fe2d7866ec89c4083ecfbbc1835dce1517b136fd1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 718,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000718.parquet",
+      "bytes": 85504,
+      "sha256": "09d11f9d6d10d1382ddc9e184c6ac2e176c63a66664160599212a3b63cb5563b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 718,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000718.mp4",
+      "bytes": 475728,
+      "sha256": "bd4b7007cea07e08a22cf78c132c47a8c9b0d87f05546908ac9803a110d8a1bb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 728,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000728.parquet",
+      "bytes": 95713,
+      "sha256": "6b5e79533d88140546bdd51c41a1c73e8ea1a85fe127052b822b927fcf184b46"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 728,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000728.mp4",
+      "bytes": 575642,
+      "sha256": "bbb3fc2813e1f8eb5ac3a5175e354dbabcb72c9ca35e7d86af8941be012b189d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 737,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000737.parquet",
+      "bytes": 88373,
+      "sha256": "f27aca91878546a6ebb13c242bb451802e6ccf449786f12e32b387488673b58c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 737,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000737.mp4",
+      "bytes": 509852,
+      "sha256": "3f370641ffbfb34af2ea43ee1cd274b9861c47e24da6dd94b7c85fda4a561e6b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 741,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000741.parquet",
+      "bytes": 88019,
+      "sha256": "16d67c0d0cd150fb4fa8fa16b9f2bc3fd496045c25b1ea93ccfde42e805b9d2e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 741,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000741.mp4",
+      "bytes": 481591,
+      "sha256": "51925406c20ea5d8c910753e90ead16b60d265107f35317651c7b0d577385a63"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 763,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000763.parquet",
+      "bytes": 90088,
+      "sha256": "175d5aa6f2bf7d97de025c87d28596be2f5b66eb4cfcd97f34d9065b1c2ab1dd"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 763,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000763.mp4",
+      "bytes": 534413,
+      "sha256": "e320be4289c2a43c1a4cd84cde3ec9de3760a82af734cf708d1891f7702f9b78"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 821,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000821.parquet",
+      "bytes": 104434,
+      "sha256": "f00690c8371fa03d32b1043f22771d532fcd9f82597270c64011eacb76bec4f2"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 821,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000821.mp4",
+      "bytes": 627320,
+      "sha256": "2d33469a9d113c783dcd3fe78fb9cac5b6c064ae71370ddfc44099ed6517674a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 822,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000822.parquet",
+      "bytes": 109035,
+      "sha256": "0696d326c365e3b6e74065909a7553062db006b180de65ca57f2f291f6ba838d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 822,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000822.mp4",
+      "bytes": 557040,
+      "sha256": "fedbd7b3ebe430fa4b9078b9865a806e59bcfc9ac34e19fd8583d2e54fae6acb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 827,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000827.parquet",
+      "bytes": 97180,
+      "sha256": "1ccd724ed429aa52c760c593be19723000cea58ae1c7577b921fdd97bfec5308"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 827,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000827.mp4",
+      "bytes": 574667,
+      "sha256": "2e718dd543469b0b3bca4e2d927ff377aad94a5e479d38e9acfa82ee3aa5b76f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 832,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000832.parquet",
+      "bytes": 75402,
+      "sha256": "8eb46212ff8d8b874e1ab24d6e9b9e3ea059dbf94e810ac452bbaca9f84c65b4"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 832,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000832.mp4",
+      "bytes": 431614,
+      "sha256": "6aaf00f9a57944ab8d603b5f648f84f08636d3c129f60203dc94d30db958f4e0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 851,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000851.parquet",
+      "bytes": 90359,
+      "sha256": "e79cfdb91385f6b81a6495c041872d8879cfc5e540fb569b02eb8eb9b03b09da"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 851,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000851.mp4",
+      "bytes": 528082,
+      "sha256": "642900b1dc61f8ec9632ff1d3731f1262363cf0dc66c109a7c1f8f83ddfb01f0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 856,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000856.parquet",
+      "bytes": 93671,
+      "sha256": "bd7b982a470df3392379cd5d036cdbc6661fd2e14b8db2b280994e6868845ff6"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 856,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000856.mp4",
+      "bytes": 550201,
+      "sha256": "950675e834731365bc06286f078aeab0ddae63238099912a792d38276f3bd96a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 888,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000888.parquet",
+      "bytes": 98172,
+      "sha256": "0c1111cc16b453ff2f428ee97ec02e87a8df50a11533578f33e7650decdfcd6b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 888,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000888.mp4",
+      "bytes": 602637,
+      "sha256": "074e11b7c0d0d1063e6aca23659aafab7f2c5a2fcab390e5b8ac794d2e34aacc"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 890,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000890.parquet",
+      "bytes": 91241,
+      "sha256": "df8a5e99f4587946fe9b796f038a34ef389081d582e4fb23ee8a4d192d62aadf"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 890,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000890.mp4",
+      "bytes": 520555,
+      "sha256": "4d1b94d1d2764ceb96f4fdb18e6e811b66f2f6cfa291801785af79f6219d8567"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 917,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000917.parquet",
+      "bytes": 106473,
+      "sha256": "bfdf25df519f24da5b57b6462902d9c406871444733520130280ba3ba21395e9"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 917,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000917.mp4",
+      "bytes": 597801,
+      "sha256": "b17c4333f5b70b381851cc1af17789bc599ad03567a9714dbc2461c9917ba0c2"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 927,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000927.parquet",
+      "bytes": 90139,
+      "sha256": "957231294f0325393097616f9da6e181a691b57e9503b24c4c239f7d63898fa7"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 927,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000927.mp4",
+      "bytes": 515158,
+      "sha256": "d350156ff82c307ee25fd481a38fa2bc6c84ba81bbd737853fd091d487884415"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 936,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000936.parquet",
+      "bytes": 88581,
+      "sha256": "034a30896a599540b8b2169aaff54bf5db3ce829215135edc3ceccdd2e3a3d87"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 936,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000936.mp4",
+      "bytes": 527184,
+      "sha256": "e9f826f198b437e5daf7add77e0653b7688fa44bd4dc4cbd90e270ef8a5ccb7b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 937,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000937.parquet",
+      "bytes": 91261,
+      "sha256": "80c6ded7fc46cbe3559bc2a5c062bbd36ddfc16195fdb55d8d6f3ee1e959a8af"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 937,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000937.mp4",
+      "bytes": 507214,
+      "sha256": "c2b430d52ac8c1f99f3042ec330e2b245ecff7a44bd5801aafd7307538fdc664"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 946,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000946.parquet",
+      "bytes": 87986,
+      "sha256": "1b2f4f74b0b8579b2f7283f0b896522910a81e1911864ff498e4f8ce030bd370"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 946,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000946.mp4",
+      "bytes": 502159,
+      "sha256": "2e791e41821ff7d06deaf2653cfb7c70c356f5877dd1446898e95f9b4638abf7"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 955,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000955.parquet",
+      "bytes": 91329,
+      "sha256": "4af6f7388310421153a3a2830a67faec5a848178ed1397cbfc4b8e2af0abebfd"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 955,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000955.mp4",
+      "bytes": 556541,
+      "sha256": "54a947770488ba8d27a04379168a2506b5fc7ef9685a90fc351b3c47cfdf6536"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 957,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000957.parquet",
+      "bytes": 116348,
+      "sha256": "b11b4fa270eba684d3729af8fced960cfe9b49a7350a4b8644c01cb8b63258ee"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 957,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000957.mp4",
+      "bytes": 637984,
+      "sha256": "7bb51c7675d27e964b33e57a1789d4d596a69e9bfdb16ba272f0eacd6e8c6b5a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 978,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_000978.parquet",
+      "bytes": 89633,
+      "sha256": "512d94f1dfaeddc8003ba7829b4ef9c6cb169daafccfcce1587c98d039d2a18b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 978,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_000978.mp4",
+      "bytes": 540352,
+      "sha256": "188d2fafdf8b0cbccb6a525da590bc2852c1ac13bd20b658b6d30d33c90c4d31"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1002,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001002.parquet",
+      "bytes": 90914,
+      "sha256": "29045468d4fc342581c024cbf7ec647b9d9caef19eae8874b1ce52f2b436a3c3"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1002,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001002.mp4",
+      "bytes": 532331,
+      "sha256": "c493a1bfdf4636d72fe8b5b3ec30e81e70039e57502300bd37816b41ac4a63f1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1013,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001013.parquet",
+      "bytes": 89167,
+      "sha256": "2afda6986752a2869d01542e45557ae893a9a493765fc5e63d6c8d1d233ef7ab"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1013,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001013.mp4",
+      "bytes": 510010,
+      "sha256": "27eb64419d8c79776d43ad5ee29d5d94ea2dd201c022b466fc3f278784f572d0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1053,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001053.parquet",
+      "bytes": 94221,
+      "sha256": "be84e8e92cfbaee3e81e59fbf6e07dfa63decd1c1224978051de342ee30d8d12"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1053,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001053.mp4",
+      "bytes": 563170,
+      "sha256": "def49b3e0e1f4f4717270737b1f4306f57a9c6be5d7c2c30c79be52874bcd4d2"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1059,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001059.parquet",
+      "bytes": 88072,
+      "sha256": "af3e9f19895d09841c581828fbf37a51bb1d1452a8d77da4de09d4402b4bd24f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1059,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001059.mp4",
+      "bytes": 532230,
+      "sha256": "d6f7bd7b85e2b84eb8b108522056f965df65789bba918eb68cbe610e8bc93440"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1061,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001061.parquet",
+      "bytes": 92526,
+      "sha256": "221abcfaee21316491edf16b005d9990df5ddf493945922829816d5e0d610a27"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1061,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001061.mp4",
+      "bytes": 555682,
+      "sha256": "f3e3255a542712b488b4465f7c6e9e337b1fe131c205163ec2e8d24709a948d8"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1107,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001107.parquet",
+      "bytes": 114603,
+      "sha256": "d2132beffe69bda88fc1a86495067b62b5bd0ff1003199fd30880203a6cb74bb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1107,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001107.mp4",
+      "bytes": 651613,
+      "sha256": "d27911d676388bf6a7612cf19ca32c242a6a57356518cf4f6e3b1a3be8deca30"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1134,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001134.parquet",
+      "bytes": 87709,
+      "sha256": "be128dff4db5f8c84f379df403326b465fbd45f0264343548e84c1a4762b8adb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1134,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001134.mp4",
+      "bytes": 493211,
+      "sha256": "ca3a7fb5cb55df63c893a8c72bd105da4d3ed98f47e31cafc1849d2ee8c6a496"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1137,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001137.parquet",
+      "bytes": 98194,
+      "sha256": "935db2c5e6c10e08cca2889d15f84193faf4235d28892256fcc447bd58d8392b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1137,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001137.mp4",
+      "bytes": 571150,
+      "sha256": "cf76d43ec060062d0ddd689318846fa14a5245318fe88d2b12470b925ff5dacc"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1143,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001143.parquet",
+      "bytes": 86826,
+      "sha256": "1933b9a3b4bef5549f20f0e4a87511707be2b08fd59580f03a3a7df93a619ef4"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1143,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001143.mp4",
+      "bytes": 498962,
+      "sha256": "dc06d4c4656648c30df869738a6b40c947f0cfa1e4d761ed46c8a049b8071366"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1164,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001164.parquet",
+      "bytes": 88531,
+      "sha256": "e14968f5bb3a77f03bdf775d101d21dd9cbb1d1660d5917afc348a85f6c71059"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1164,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001164.mp4",
+      "bytes": 526860,
+      "sha256": "29b3b7a47427cd42379f349cf8de2e9a84cf66e1f99ed195ae0eb0e959dd3fb1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1165,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001165.parquet",
+      "bytes": 90371,
+      "sha256": "c79791e6d34ea156586a656372983deff68b36ac73b6688c89505bba619f0280"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1165,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001165.mp4",
+      "bytes": 539404,
+      "sha256": "6e8db6f9ba8c1a18ca621f24eccba1a89cba89cd7fe634e019b6d93f278af7cf"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1166,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001166.parquet",
+      "bytes": 87237,
+      "sha256": "5faf08c6f791ad726382607198ddb989ed9467b22cce126e251dcb2b59c15149"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1166,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001166.mp4",
+      "bytes": 514402,
+      "sha256": "aeff2c77bae8b48cd1761152de65847cfa4619fb9701abba388b50f77cf28a1d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1176,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001176.parquet",
+      "bytes": 90311,
+      "sha256": "3badc52c587d34ca2e92da05a13afb90baa9d96a6861bb9dbbc30b9128be182e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1176,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001176.mp4",
+      "bytes": 513017,
+      "sha256": "fd080c8237bb1b12d4b0458f96e2b7cb45793fb1c1abc4d5f2eeec754f5a3bb0"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1199,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001199.parquet",
+      "bytes": 86946,
+      "sha256": "73a81f6b636a5a4144953bc4f48dd92d1f8876e39a49d1134820f0455367f7e9"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1199,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001199.mp4",
+      "bytes": 493392,
+      "sha256": "af0022e820d7808737d416d0f6ff735239484b7ecd3e2d467cc09fc9b323d5ac"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1212,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001212.parquet",
+      "bytes": 88383,
+      "sha256": "1a12ecc9efdc4266b9374909c84c725f0922162982d2c0cc4dcce78a900aebec"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1212,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001212.mp4",
+      "bytes": 514583,
+      "sha256": "ee615f981cc5ce8da5e7bd905fc3e352c0b8546434f523cfc1f73e9e032ef12e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1216,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001216.parquet",
+      "bytes": 112685,
+      "sha256": "0ceba13e592e2f4bffd02ad2786a0006e4f769fd813f0eb799655a7dbea6e31a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1216,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001216.mp4",
+      "bytes": 489000,
+      "sha256": "a964722e991ad2b8cdfa153fa562dab3ba920eaf92923067015fcaba1eaefa03"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1242,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001242.parquet",
+      "bytes": 109951,
+      "sha256": "4edf1e61d4ec38b96eaf116134adfce5ddb432c60d42aa3d39c32be502714411"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1242,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001242.mp4",
+      "bytes": 605636,
+      "sha256": "e71bfeca4beda38de38ca4709a752b0d65ce367fda75327e6a195ba9e4ba1e12"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1262,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001262.parquet",
+      "bytes": 90403,
+      "sha256": "78fdae2dd44e2b4b5fe9e6c59b95046f67ee0ad9b230b44877c465b64d7d7819"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1262,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001262.mp4",
+      "bytes": 514827,
+      "sha256": "44b00fc5bebec5778e0072736a843b3be1d226168d7a49d78b5bb7c4c3aedf39"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1276,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001276.parquet",
+      "bytes": 88957,
+      "sha256": "fafb7ad413a1c2a8be0897a53fb2068a670a811b2634d10e4ef4c761c4a37aca"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1276,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001276.mp4",
+      "bytes": 502366,
+      "sha256": "7fa5402a0543dc09f64c11d4fa870e93078fca9db249443128f0baa497b64ea3"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1277,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001277.parquet",
+      "bytes": 94354,
+      "sha256": "277b23e89463234a8f1528c938a42c826cd42cec55b246ae884908e894ba3339"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1277,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001277.mp4",
+      "bytes": 585069,
+      "sha256": "855a918edb335818ff1710c3a8801f1970af7b07eb8be7c4e78f3f7ca0d2e5a1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1279,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001279.parquet",
+      "bytes": 104747,
+      "sha256": "bb64e8b0781ad5831f558aa32b81c5c7b3bbfb538ed2c5929b32fc09a0b29851"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1279,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001279.mp4",
+      "bytes": 631679,
+      "sha256": "8539cdcf3a10fe897acd3df980026c09ca3481e4054fa7674c14e9fe63a9194a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1296,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001296.parquet",
+      "bytes": 89913,
+      "sha256": "d1ac4c3b58d6fe5d09147d2629bb1abe15cd13204c555c3e3af6b3f02c957fde"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1296,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001296.mp4",
+      "bytes": 528971,
+      "sha256": "e8c3cbf02997220753250e5efa4340ce025203269472aa3bb564f3d360626ceb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1299,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001299.parquet",
+      "bytes": 92459,
+      "sha256": "0910383fe02ff511d64f288eebae558fe78a4dae615f9df1610a8143a10e3d55"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1299,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001299.mp4",
+      "bytes": 520203,
+      "sha256": "d0117a5a95cb2e4b300ca43e7c75a0258793b0d270151ffac7159c7b60e78d2a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1341,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001341.parquet",
+      "bytes": 91181,
+      "sha256": "95532a2dd66c0770d6f1577f00223353c9f74960e1c0364af2572ca6a48590b3"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1341,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001341.mp4",
+      "bytes": 514424,
+      "sha256": "9605de69744149960ee5959a3f48d57a32a171574a4a5ae9159ef45ec79c324a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1342,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001342.parquet",
+      "bytes": 92245,
+      "sha256": "87b170ae730d976a047b8a456de1e5e953e41837e3fd3219c558ca2f4eee911d"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1342,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001342.mp4",
+      "bytes": 582631,
+      "sha256": "22ddc2f498f9f6becacfeed8c375cfb4141bd4fc762fea93d2189a058e105c31"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1344,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001344.parquet",
+      "bytes": 115719,
+      "sha256": "0d8e496a451845f3e87b9f90dd6aca13399f0ecfe1b68f4aa18bdcb21a61e63b"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1344,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001344.mp4",
+      "bytes": 612376,
+      "sha256": "3ce8b49bde9fa105ca1c4a8a118773fcbf54d48475595e9cdba7b68114596b6f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1351,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001351.parquet",
+      "bytes": 88431,
+      "sha256": "cf025f79dd426a40ac31d4bcbf75596792a6126b2286110815b0e002bf59b4e5"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1351,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001351.mp4",
+      "bytes": 514974,
+      "sha256": "3de09ae6315d84783c96a89ffc0a0900665769c43dde4cdb464d1e49cc3bb30f"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1354,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001354.parquet",
+      "bytes": 89361,
+      "sha256": "598f0663af6dd7d966fbba7cb59cff4dc61f4606ff65b007bce50e5502a426ba"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1354,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001354.mp4",
+      "bytes": 511532,
+      "sha256": "a0a3ecfcfd1337a1cd8c5592ea7bbb5abc5632df16acf8d92fd7287080e2a216"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1355,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001355.parquet",
+      "bytes": 111471,
+      "sha256": "cbacef902bbfdf10f2e1402ba1d1f506ad3e40db1a4b4c70847cfd7e5d985638"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1355,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001355.mp4",
+      "bytes": 573905,
+      "sha256": "e5323b0f3b7cf0c71f22a4e305c548b7e4a0a80708cc0aa6e0369dbfe10f33b1"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1366,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001366.parquet",
+      "bytes": 101909,
+      "sha256": "7af9b8b180a2e697c263d0fa624ab5b2558b514d973dcf7365526c67185964a5"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1366,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001366.mp4",
+      "bytes": 616908,
+      "sha256": "ed5cc19c26470ea04a52c068bc56de48169c91c9ad86a77627a31c77bb2e38ca"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1381,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001381.parquet",
+      "bytes": 114788,
+      "sha256": "d7936e272e6a37c5a4a3d13df87f02383a497bf65eef20a498c9c780936bb6fa"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1381,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001381.mp4",
+      "bytes": 637185,
+      "sha256": "c9f2ddb724941e7b1f64ff9b286eef09d610c274f90a66e7327568eba5f11310"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1384,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001384.parquet",
+      "bytes": 87029,
+      "sha256": "aabc119685e6792f588f54b4010c70224923e024d91ecc011835f2db89be3bee"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1384,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001384.mp4",
+      "bytes": 502086,
+      "sha256": "4a00fcab73a35ea8f683b78810fbe32f1fd2d93f6981b7da05fb36b1f6901f62"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1388,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001388.parquet",
+      "bytes": 89288,
+      "sha256": "5253b2f101fc6ae010def947341ae467bb8a77472acb0b4729cfa3c2f30a1464"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1388,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001388.mp4",
+      "bytes": 520028,
+      "sha256": "71faaf3f8c6299789df9ba6186fa452ffc180cda45f3e307481143d78efe8758"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1396,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001396.parquet",
+      "bytes": 103664,
+      "sha256": "6feb23fd2bf2bffd0ea97fa6245e5042e7e7cf076ad0a6e8ca4034e5682f32d8"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1396,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001396.mp4",
+      "bytes": 651639,
+      "sha256": "1d1785992c53ce76278944991d456e6953a43dbf9ea0709023de90d2cc34e5aa"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1406,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001406.parquet",
+      "bytes": 92696,
+      "sha256": "7a8e3c6d0d1ee9e24a8bfe09f37fd2e3c72d547d80d89069989e89401d6287b3"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1406,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001406.mp4",
+      "bytes": 520489,
+      "sha256": "9683a0ac4ef141337dc11ccc2ebb4df33aad491ef5510c0c68f2f8e48b1eca99"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1413,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001413.parquet",
+      "bytes": 109768,
+      "sha256": "80b73a67cc2b54f9eccfb29df54cd55a3b63086e2b07099e3367889f1938e119"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1413,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001413.mp4",
+      "bytes": 531498,
+      "sha256": "acafd5281e305a63b113db56bcfbe2c3f3a234fcd1a63245ea1a8bbdca8c5b00"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1414,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001414.parquet",
+      "bytes": 91116,
+      "sha256": "ccf052220dc3ee2539163fbeba6b3a12f3a0d68a3b310a2d4acce5ec4f5bfd84"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1414,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001414.mp4",
+      "bytes": 561636,
+      "sha256": "3248f30c4f72c4cfc206ba2d7aa9b4d0f221d4bd1d14ae6c9d66b731671047e9"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1431,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001431.parquet",
+      "bytes": 89942,
+      "sha256": "7bd17cea93b81e84d6dd2975ea668c4e14deed09a11024c868037960ea1f7cbc"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1431,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001431.mp4",
+      "bytes": 528298,
+      "sha256": "5be094dfd630762c1cf6b40f527d78461772b2fb7bef9953ff3956f2d95879f5"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1441,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001441.parquet",
+      "bytes": 91135,
+      "sha256": "b000ea5c3d605009860d0f5aff416146fccbb24f0f29305352afb1f53bbd702a"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1441,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001441.mp4",
+      "bytes": 508623,
+      "sha256": "0604d90f2558aab4b8635a6a78528e344b3d330a379d2046d083df84c03db88c"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1457,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001457.parquet",
+      "bytes": 88440,
+      "sha256": "8e782c4c9fcd88b8b81ed765c7e449786f8a5c101b2c8f4c1dea17895bacf995"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1457,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001457.mp4",
+      "bytes": 509066,
+      "sha256": "27c07eeb451d2d7a33ec1e7a37b6e1cf59af0789aabc5735b5150454b0be7c21"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1465,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001465.parquet",
+      "bytes": 115354,
+      "sha256": "bf43d1bc4ad638368006aabb4abfa2c86c9d9ea00c25d624d94077f33a02558e"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1465,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001465.mp4",
+      "bytes": 625320,
+      "sha256": "8d5435dc03a9631c39665fee0f12ba7d9bf8ffb6ce14a1ddf8d4d709e3308614"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1480,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001480.parquet",
+      "bytes": 86148,
+      "sha256": "faceab289be3850c95364aa04a7e39286fc60280cdf51ae96ea2806159f70d77"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1480,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001480.mp4",
+      "bytes": 488603,
+      "sha256": "68fa9dc54367aec9cc9bffe673263a9750a21d089eef54b291f33793ae094a19"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1497,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001497.parquet",
+      "bytes": 111438,
+      "sha256": "f6b59315ae66e2e41123f678ee3e63c298f89f9bd4c29f19de55d17c47050deb"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1497,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001497.mp4",
+      "bytes": 586365,
+      "sha256": "bf525371550213ac0276c456039bfad97653b3b76da47dc1b8e72e4cfe472c71"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1499,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/confirmation/parquet/episode_001499.parquet",
+      "bytes": 91774,
+      "sha256": "73cdd10de4449ddfbacb3a68e08ecc991262d4948266658a79fceca8eb1826a4"
+    },
+    {
+      "role": "confirmation",
+      "episode_index": 1499,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/confirmation/video/episode_001499.mp4",
+      "bytes": 559496,
+      "sha256": "2d5bd5ed90339dd72160dc67250ae7406ac82614522e704a1c7c7f6bceef0023"
+    },
+    {
+      "role": "development",
+      "episode_index": 11,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000011.parquet",
+      "bytes": 87637,
+      "sha256": "ce8ad2b7913544d1eef0a9e6de55fe6fa37f1a30f8ff5efffc51dff49b356092"
+    },
+    {
+      "role": "development",
+      "episode_index": 11,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000011.mp4",
+      "bytes": 515338,
+      "sha256": "4810b9e0c97092bebc4dd187b4c680f5966611e36169096471548466c53c0181"
+    },
+    {
+      "role": "development",
+      "episode_index": 16,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000016.parquet",
+      "bytes": 52995,
+      "sha256": "6ab6e12cf5f37488f5d5b80fae9c5c6034d7209ee1d2f3187f0b28f4abe42799"
+    },
+    {
+      "role": "development",
+      "episode_index": 16,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000016.mp4",
+      "bytes": 247919,
+      "sha256": "116c8dd88cbbb409003cb835194a98ad61bc51a1d58fbad13b4c7cdd19e708cb"
+    },
+    {
+      "role": "development",
+      "episode_index": 32,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000032.parquet",
+      "bytes": 89582,
+      "sha256": "92aed23c61162898076b6a7dcfcc1b674dc470c3d18013b43e3b1f9a84e21566"
+    },
+    {
+      "role": "development",
+      "episode_index": 32,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000032.mp4",
+      "bytes": 528614,
+      "sha256": "c5a0e9387f0a017ed546854f62eab3cb98da263584236b174ffdd46a9951ffb0"
+    },
+    {
+      "role": "development",
+      "episode_index": 48,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000048.parquet",
+      "bytes": 109506,
+      "sha256": "1c96de05314cc236116f35580938e31913546fc7acd2015459b9bfdb659fcf26"
+    },
+    {
+      "role": "development",
+      "episode_index": 48,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000048.mp4",
+      "bytes": 631416,
+      "sha256": "2b91c1e3152699691f443ae0cb8e65009e2d27ade82d376c038effc1e0b8bd4a"
+    },
+    {
+      "role": "development",
+      "episode_index": 52,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000052.parquet",
+      "bytes": 88689,
+      "sha256": "5ce0157c188b1f1e651544ee7a498744c6e6a1e59fa0160100c0b267a1333f67"
+    },
+    {
+      "role": "development",
+      "episode_index": 52,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000052.mp4",
+      "bytes": 508407,
+      "sha256": "ea7f6c6a9911bbf08bfa00f2de016194f35990f582004e740249c3faf2d68d2a"
+    },
+    {
+      "role": "development",
+      "episode_index": 57,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000057.parquet",
+      "bytes": 110480,
+      "sha256": "f9ccca0b7330a7d8fa64b7474a1a3b7f0d0bc735fa6c1e4b972552649e56ba4a"
+    },
+    {
+      "role": "development",
+      "episode_index": 57,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000057.mp4",
+      "bytes": 598535,
+      "sha256": "ef52729c7aa4203cd567368db323a1969f2ea50b0bb7ccb4b31337ec75f2382d"
+    },
+    {
+      "role": "development",
+      "episode_index": 69,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000069.parquet",
+      "bytes": 90727,
+      "sha256": "e51477ac35c61d6ea29a941cb46d17f6ccd4c72a4ca290bea2b4a596dc23ed1b"
+    },
+    {
+      "role": "development",
+      "episode_index": 69,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000069.mp4",
+      "bytes": 545369,
+      "sha256": "2a88fd3f1de3938859f2ee71ef7ac6ce7d77965eb54f3df66b5286abe1961324"
+    },
+    {
+      "role": "development",
+      "episode_index": 134,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000134.parquet",
+      "bytes": 89303,
+      "sha256": "606ae7bb83143a28ce5e769357797d7d9345206df096d45642b3bf5e897b563f"
+    },
+    {
+      "role": "development",
+      "episode_index": 134,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000134.mp4",
+      "bytes": 517425,
+      "sha256": "949708bac56028b8a89996752bac1730afdac5002eba61aaf556adafbe9ab537"
+    },
+    {
+      "role": "development",
+      "episode_index": 174,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000174.parquet",
+      "bytes": 89640,
+      "sha256": "295d89f9c1e8777ed7e5863d6425913971b905a10fd8f8d0d5292bd07dc0df5a"
+    },
+    {
+      "role": "development",
+      "episode_index": 174,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000174.mp4",
+      "bytes": 513760,
+      "sha256": "1d4bcd00e4fb68864fb5447f1d213fb55dd34a1ca3e47e8fcacc9deb90d86fb4"
+    },
+    {
+      "role": "development",
+      "episode_index": 180,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000180.parquet",
+      "bytes": 111929,
+      "sha256": "ae93299707e78bae7ea7ce68930c34ceafa93dae50678b450093ab8b9eb4dd99"
+    },
+    {
+      "role": "development",
+      "episode_index": 180,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000180.mp4",
+      "bytes": 477870,
+      "sha256": "b4dd4f1769ffb597a3bf0a7b72e53bfbb38362bc5c48516d905846886a5991c7"
+    },
+    {
+      "role": "development",
+      "episode_index": 192,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000192.parquet",
+      "bytes": 90674,
+      "sha256": "7cd6c22ab9fb54c0c2109642c2e1057b2b915417041992349768f2f77c2d1d65"
+    },
+    {
+      "role": "development",
+      "episode_index": 192,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000192.mp4",
+      "bytes": 526145,
+      "sha256": "5c00c3c1851d1067e63ccd2b4e29928df40583b8059bc7fd695c072b6320e83d"
+    },
+    {
+      "role": "development",
+      "episode_index": 232,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000232.parquet",
+      "bytes": 90832,
+      "sha256": "c698cea1997ba7c8112ee80585abf44dda3954658ca401f4f33dce478bab0da8"
+    },
+    {
+      "role": "development",
+      "episode_index": 232,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000232.mp4",
+      "bytes": 546455,
+      "sha256": "3268c97fe87bd079479e5479c2678ba82f065619f8afe642c889964a039f408c"
+    },
+    {
+      "role": "development",
+      "episode_index": 273,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000273.parquet",
+      "bytes": 76301,
+      "sha256": "f7250563384c1924389d4627b23c28c36dda5258a1e5e73b023219a5769f42d0"
+    },
+    {
+      "role": "development",
+      "episode_index": 273,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000273.mp4",
+      "bytes": 439117,
+      "sha256": "11ef06b2ecfcb54fdb7ebfe433349c119d3897ddfcf1ba1d4a3002e3e207d774"
+    },
+    {
+      "role": "development",
+      "episode_index": 322,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000322.parquet",
+      "bytes": 113578,
+      "sha256": "faf4ae62e496855ab415bae5573347382da7053064f6d03f59286d55278c27eb"
+    },
+    {
+      "role": "development",
+      "episode_index": 322,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000322.mp4",
+      "bytes": 481263,
+      "sha256": "e63cf07b6c58117ee0c8995091539b25e94155eea1a75c228b413f68c14afad1"
+    },
+    {
+      "role": "development",
+      "episode_index": 336,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000336.parquet",
+      "bytes": 92668,
+      "sha256": "8a0d99af07e2bcabd9a0079cf7f986efe0411ed9f19541a2c3181acf87ce9c54"
+    },
+    {
+      "role": "development",
+      "episode_index": 336,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000336.mp4",
+      "bytes": 584441,
+      "sha256": "192091e54cd403550f0333c82d66f3e94d7e2413a5cf76179771dbb7a2e6ea4a"
+    },
+    {
+      "role": "development",
+      "episode_index": 339,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000339.parquet",
+      "bytes": 79075,
+      "sha256": "d4ca39c9eb2ccf6f481a96d332a0967c6e5f127ee0a6b8d30b167ae9ee13e257"
+    },
+    {
+      "role": "development",
+      "episode_index": 339,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000339.mp4",
+      "bytes": 431148,
+      "sha256": "22a6cc885dd59194f88e9f72a4f95caa139d591bcd0c32cc00d9a0cb30c2f786"
+    },
+    {
+      "role": "development",
+      "episode_index": 340,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000340.parquet",
+      "bytes": 93297,
+      "sha256": "7b9d38617005d03990b7c091c48a5de8fbbdb27fa4f9370e5e4d7e5f6d05a3c4"
+    },
+    {
+      "role": "development",
+      "episode_index": 340,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000340.mp4",
+      "bytes": 586708,
+      "sha256": "c7e0e493997732f09a728b3a1a2489ad68acbe87c5cfd7f56cd015f097008062"
+    },
+    {
+      "role": "development",
+      "episode_index": 343,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000343.parquet",
+      "bytes": 112484,
+      "sha256": "efe9a55d281a3fca945000f5423a7601bddb9c65e433dc8d91c3a0527b1d73ae"
+    },
+    {
+      "role": "development",
+      "episode_index": 343,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000343.mp4",
+      "bytes": 581305,
+      "sha256": "afb74f2af211e0c2b9097f24abe8fc8692db803cfccb3c8b551920632f64efd4"
+    },
+    {
+      "role": "development",
+      "episode_index": 345,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000345.parquet",
+      "bytes": 114779,
+      "sha256": "81a659b0324096eca7ebba195010c871134949a4f79f61fe59821db1b929e58b"
+    },
+    {
+      "role": "development",
+      "episode_index": 345,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000345.mp4",
+      "bytes": 635182,
+      "sha256": "a849bb8ea3f6a8ea71d2347ae33f00bc583a956130d42796e8976edbea37fb1a"
+    },
+    {
+      "role": "development",
+      "episode_index": 389,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000389.parquet",
+      "bytes": 91242,
+      "sha256": "f9b607ec9da0d0f6a31a4576a1470a54d7acc29cbb8293468c7a0f31d92449d1"
+    },
+    {
+      "role": "development",
+      "episode_index": 389,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000389.mp4",
+      "bytes": 543530,
+      "sha256": "29bb566151b266cdbae2870e4c3cfe0d377c9b6977ffe9e9a57ee376d2f29076"
+    },
+    {
+      "role": "development",
+      "episode_index": 410,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000410.parquet",
+      "bytes": 96656,
+      "sha256": "e3cebb8e027de06379134018b9e8f0b3972f69572c16b7f2c0b49ebeb1b84e01"
+    },
+    {
+      "role": "development",
+      "episode_index": 410,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000410.mp4",
+      "bytes": 572387,
+      "sha256": "ca1467659c9b510aa1946fc8e66085ad40978d5501ef45b05b98151494a72dbd"
+    },
+    {
+      "role": "development",
+      "episode_index": 441,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000441.parquet",
+      "bytes": 92005,
+      "sha256": "0a08c809bbda7fda89e225d57fdb5c02f0b3118ee4fe2c4dab40617ca7ee1b0c"
+    },
+    {
+      "role": "development",
+      "episode_index": 441,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000441.mp4",
+      "bytes": 546972,
+      "sha256": "c7c566accedbf4bee5b5083aeddaff0d95c6e5329f156c908d787a509cafef1e"
+    },
+    {
+      "role": "development",
+      "episode_index": 445,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000445.parquet",
+      "bytes": 89799,
+      "sha256": "0f65b84e1e3a943e74c241817df6ef309acdb83cfe1c927f647dce82d2ba62ef"
+    },
+    {
+      "role": "development",
+      "episode_index": 445,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000445.mp4",
+      "bytes": 527947,
+      "sha256": "81f13571d84def9355fc3be821b8996d831cae74da594cc366fb67fd7484dbdb"
+    },
+    {
+      "role": "development",
+      "episode_index": 468,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000468.parquet",
+      "bytes": 92561,
+      "sha256": "f45e0e1d004dc0032e1489c39d74bcc1737a496860491feb676fa6a845d92b36"
+    },
+    {
+      "role": "development",
+      "episode_index": 468,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000468.mp4",
+      "bytes": 544824,
+      "sha256": "26d12eba6f8c4f8d2f2596ab11db74daef4a4f82b8ab9c4f8e01a0d9b2f2af66"
+    },
+    {
+      "role": "development",
+      "episode_index": 511,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000511.parquet",
+      "bytes": 111646,
+      "sha256": "54af6e17b436e9543a4d75dd813de1d73b6f6665d2d0e5208df6998770016b8d"
+    },
+    {
+      "role": "development",
+      "episode_index": 511,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000511.mp4",
+      "bytes": 608820,
+      "sha256": "9d0cde9717c9daed6db86d0823fa387396db2e46fa1882f20f1d65f389f40e3b"
+    },
+    {
+      "role": "development",
+      "episode_index": 524,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000524.parquet",
+      "bytes": 87323,
+      "sha256": "94ee2fa187914623d2eb789995130715c91abc66f8c65ef5736f8c319f5c33b8"
+    },
+    {
+      "role": "development",
+      "episode_index": 524,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000524.mp4",
+      "bytes": 491737,
+      "sha256": "9f33b389bed2b2bcb1fb84576858bf26c9195fc098bac031ded8e894c4afc9ec"
+    },
+    {
+      "role": "development",
+      "episode_index": 573,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000573.parquet",
+      "bytes": 99586,
+      "sha256": "8fe18e73f5154550be604b8d2696ee6bd5d81cf8f87fe2d99bff02d8d4a42e95"
+    },
+    {
+      "role": "development",
+      "episode_index": 573,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000573.mp4",
+      "bytes": 639202,
+      "sha256": "edd2122159a7cef2386f54506cfe5269b6a61d1343a6832eccd97df16ee8b1a5"
+    },
+    {
+      "role": "development",
+      "episode_index": 588,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000588.parquet",
+      "bytes": 89965,
+      "sha256": "52857c8698fc2dbff91e75b0e91f89a4f79114a8fa93724210f9b24c5dd0c126"
+    },
+    {
+      "role": "development",
+      "episode_index": 588,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000588.mp4",
+      "bytes": 526164,
+      "sha256": "6a80583ad3028fbc17a00beb972164afd3884b9f9643d4ffc76163fca0d64b22"
+    },
+    {
+      "role": "development",
+      "episode_index": 608,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000608.parquet",
+      "bytes": 112885,
+      "sha256": "0d66cd9dd5d4bf5e7a1059c23655594d8db6d8a59ce1e9c5f63e4de01e017d5a"
+    },
+    {
+      "role": "development",
+      "episode_index": 608,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000608.mp4",
+      "bytes": 552232,
+      "sha256": "1a27bba264170a5b7359a11859b02c005fdf3db6c407b0c4d164a2271615f0a0"
+    },
+    {
+      "role": "development",
+      "episode_index": 630,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000630.parquet",
+      "bytes": 58950,
+      "sha256": "d414cb03081361e5eef18b5aa24f3a348af9212d8157322ababeb5234639f730"
+    },
+    {
+      "role": "development",
+      "episode_index": 630,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000630.mp4",
+      "bytes": 290884,
+      "sha256": "4be510b22c83136c9195c29614586ce940a169773784f4235be087259dd261d5"
+    },
+    {
+      "role": "development",
+      "episode_index": 634,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000634.parquet",
+      "bytes": 92303,
+      "sha256": "a85559b34901ed9c1b72a28a547d5f2d1a69bba83bc1061d5bca80db47f19809"
+    },
+    {
+      "role": "development",
+      "episode_index": 634,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000634.mp4",
+      "bytes": 542131,
+      "sha256": "d11e1fc837f9e3226a88a0b7180b395b6135752efb020f4294e09749c7401864"
+    },
+    {
+      "role": "development",
+      "episode_index": 652,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000652.parquet",
+      "bytes": 87591,
+      "sha256": "c5c61838831e824edc36403e0088923e658355cc7731f477d3a0d5d6551fb8dd"
+    },
+    {
+      "role": "development",
+      "episode_index": 652,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000652.mp4",
+      "bytes": 525251,
+      "sha256": "df78a700bce51e0aed2d76c4e598f00ca834aca4a8e45ee69dccfed2c7c47fd7"
+    },
+    {
+      "role": "development",
+      "episode_index": 655,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000655.parquet",
+      "bytes": 93007,
+      "sha256": "33a43c4c5c94177f56947185398a3fe024999f1b08782836d5ec175c5b2a59f5"
+    },
+    {
+      "role": "development",
+      "episode_index": 655,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000655.mp4",
+      "bytes": 557966,
+      "sha256": "b20b96a855587b5580b5b5d5583eaeb76bbd6109a7d6fca6c6b59a320f345caf"
+    },
+    {
+      "role": "development",
+      "episode_index": 663,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000663.parquet",
+      "bytes": 94649,
+      "sha256": "dd1bdf53552a40bbd303dd74e5ea8079573197fca5085996c6ed9d529fb69cb3"
+    },
+    {
+      "role": "development",
+      "episode_index": 663,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000663.mp4",
+      "bytes": 547092,
+      "sha256": "09a1ff711c29691c95730691e0ff39693da6f089c41cdf2da608431032d2017b"
+    },
+    {
+      "role": "development",
+      "episode_index": 677,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000677.parquet",
+      "bytes": 98397,
+      "sha256": "19a8fc579da5f582ff54d936abf9136a502a87c0a575bf1a3bf357731037fd74"
+    },
+    {
+      "role": "development",
+      "episode_index": 677,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000677.mp4",
+      "bytes": 539605,
+      "sha256": "91ee86f45ccb2de1577924212459308b5ba748cf42e3ccd8eb394d0e7c10131b"
+    },
+    {
+      "role": "development",
+      "episode_index": 723,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000723.parquet",
+      "bytes": 110749,
+      "sha256": "8761cf57337c251d0a49f5231da49997d96146c9fb2748bd39441ea1bd1cdf8a"
+    },
+    {
+      "role": "development",
+      "episode_index": 723,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000723.mp4",
+      "bytes": 581411,
+      "sha256": "1767d8f5289107e80656c9bcc9c5ed16eb5c8afa72fb11acf4c006c02fd5ed64"
+    },
+    {
+      "role": "development",
+      "episode_index": 806,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000806.parquet",
+      "bytes": 86853,
+      "sha256": "8f84bd74c02b389cae8bc2587f8f1b94511d105e86cd1f521521cfd47dc67c27"
+    },
+    {
+      "role": "development",
+      "episode_index": 806,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000806.mp4",
+      "bytes": 535730,
+      "sha256": "61789d431da631e157a39d82e2431952a68fcf1640055b839a67fca53860cfe9"
+    },
+    {
+      "role": "development",
+      "episode_index": 826,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000826.parquet",
+      "bytes": 88405,
+      "sha256": "416137b3fb9e9ebb38e743bca49a48554659e7d61b1973222141b53c712356ea"
+    },
+    {
+      "role": "development",
+      "episode_index": 826,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000826.mp4",
+      "bytes": 517321,
+      "sha256": "e33e465a42551555a1c65adea5dc741a46d33e5d5f26c6a9279d2b1abd4ea799"
+    },
+    {
+      "role": "development",
+      "episode_index": 838,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000838.parquet",
+      "bytes": 85693,
+      "sha256": "602cf8215fed8c4f5042368cc411174f5ece06822c006207dd94061ed6f3026c"
+    },
+    {
+      "role": "development",
+      "episode_index": 838,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000838.mp4",
+      "bytes": 485117,
+      "sha256": "2add90ef3bf78831173df20324d17ce287f20f41894d6b52d2419461d96f40fe"
+    },
+    {
+      "role": "development",
+      "episode_index": 839,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000839.parquet",
+      "bytes": 87630,
+      "sha256": "2a4d2890b11195f1745bc1a8312c4ec75bde226446ed87b287ddbe1673cd003e"
+    },
+    {
+      "role": "development",
+      "episode_index": 839,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000839.mp4",
+      "bytes": 511695,
+      "sha256": "d3d97f923d5fd947b1a02e440265d6023afac5d8de40ff247d4167fd70d3184d"
+    },
+    {
+      "role": "development",
+      "episode_index": 859,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000859.parquet",
+      "bytes": 95755,
+      "sha256": "f2e1a6366e319cb2e4daf88a04df1d26dde7537876f2d0b2383f935d80394b19"
+    },
+    {
+      "role": "development",
+      "episode_index": 859,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000859.mp4",
+      "bytes": 566594,
+      "sha256": "2baa4174db99c2f05506f4669ca840f4d4ae980b9ab36f74ee7925117fe65256"
+    },
+    {
+      "role": "development",
+      "episode_index": 913,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000913.parquet",
+      "bytes": 95452,
+      "sha256": "19ac860edbafa2ae7e4f4c237c86978a068f11571b4b017d2588a36fc26e3875"
+    },
+    {
+      "role": "development",
+      "episode_index": 913,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000913.mp4",
+      "bytes": 603637,
+      "sha256": "701a37aae6a85dc8ea6ab619f9088839922080270f9a89aa5c15addd590d5dc4"
+    },
+    {
+      "role": "development",
+      "episode_index": 949,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000949.parquet",
+      "bytes": 90202,
+      "sha256": "3282fb73fa14662f6a598cb7957291ae1409ba9ac0d0f76d554086e3cb825b2c"
+    },
+    {
+      "role": "development",
+      "episode_index": 949,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000949.mp4",
+      "bytes": 559852,
+      "sha256": "52d41c0c5b493f86b892b77013bb705f21d06c9cd9d4f6c09a716c481a8f71d9"
+    },
+    {
+      "role": "development",
+      "episode_index": 965,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000965.parquet",
+      "bytes": 108576,
+      "sha256": "2aa655d2e63c52033943fc71c0018512b508a54393d8934fc349812f8c6411c3"
+    },
+    {
+      "role": "development",
+      "episode_index": 965,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000965.mp4",
+      "bytes": 681075,
+      "sha256": "22202bf6913c7dee90c710f67a61d7b4286cb5b5c740d41dac89052c6f52bbae"
+    },
+    {
+      "role": "development",
+      "episode_index": 991,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000991.parquet",
+      "bytes": 84822,
+      "sha256": "bbff1e77dad9534d81e101a0ed13f33d2fef7938b7cb244efe7c5c100c1523d9"
+    },
+    {
+      "role": "development",
+      "episode_index": 991,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000991.mp4",
+      "bytes": 482904,
+      "sha256": "cb4a01bf57e0c31ba05b3da57cdee60363c6bd71e3f4f3d8a800c37bcefaccd5"
+    },
+    {
+      "role": "development",
+      "episode_index": 997,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_000997.parquet",
+      "bytes": 114689,
+      "sha256": "d0438dc668cff318cf951a27c9947d2e38762dd3ac6a6c1b67d9742c3d43b013"
+    },
+    {
+      "role": "development",
+      "episode_index": 997,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_000997.mp4",
+      "bytes": 604860,
+      "sha256": "9befcb6e2f45995b7d7da92c216025eb4ecf0f19c6da3d7289b43f7fc1450c8e"
+    },
+    {
+      "role": "development",
+      "episode_index": 1071,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001071.parquet",
+      "bytes": 118317,
+      "sha256": "d361ff4305a57b7a9e866480e10d5ab24b6a596d70ce9bdd23d6e5055ced32e2"
+    },
+    {
+      "role": "development",
+      "episode_index": 1071,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001071.mp4",
+      "bytes": 509983,
+      "sha256": "450bc3bf7cba19d58db150cee8ec39e533c641169feebe0dcd29a73c0678b5ec"
+    },
+    {
+      "role": "development",
+      "episode_index": 1072,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001072.parquet",
+      "bytes": 97674,
+      "sha256": "3a55005e3f09dd24915e4626f327e383343c3fca4a2a73d99037a7c80076de00"
+    },
+    {
+      "role": "development",
+      "episode_index": 1072,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001072.mp4",
+      "bytes": 572701,
+      "sha256": "0fe047ccf2c8d4550936b9f0a5d8d02323acf63515ff9f7e25047ad1091642fd"
+    },
+    {
+      "role": "development",
+      "episode_index": 1118,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001118.parquet",
+      "bytes": 117577,
+      "sha256": "7f29eb2dedcea298919105b7ece6cc89d08187cfbba27cb56464bd4fb96e2233"
+    },
+    {
+      "role": "development",
+      "episode_index": 1118,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001118.mp4",
+      "bytes": 652736,
+      "sha256": "fe260bc586ccf4f135a26d6627485295bbff3f2724b7c2b409837cfd7c5c1ea4"
+    },
+    {
+      "role": "development",
+      "episode_index": 1140,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001140.parquet",
+      "bytes": 103643,
+      "sha256": "66c9e93b97efdc11e76d2defb8e2539b12007d7822becb401d02603ff071838b"
+    },
+    {
+      "role": "development",
+      "episode_index": 1140,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001140.mp4",
+      "bytes": 641742,
+      "sha256": "fba2f07364239e263e6f26da333b24d326667673d7ac1a5ef9f24f24e9a7d141"
+    },
+    {
+      "role": "development",
+      "episode_index": 1144,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001144.parquet",
+      "bytes": 95091,
+      "sha256": "4bed1df439f3c8fad0dbd479cee54d813143b27b57b4f7f4288e8c05baa2b81a"
+    },
+    {
+      "role": "development",
+      "episode_index": 1144,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001144.mp4",
+      "bytes": 580274,
+      "sha256": "1cde7dd92bda9cd97ce86ba2c6e0a1f92f8778acb1c0f9628f9b89ba086091f7"
+    },
+    {
+      "role": "development",
+      "episode_index": 1150,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001150.parquet",
+      "bytes": 91351,
+      "sha256": "6f77e554c84f498f3e6d086d5519f622ec820ca420a22fed1957798a027986a1"
+    },
+    {
+      "role": "development",
+      "episode_index": 1150,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001150.mp4",
+      "bytes": 541050,
+      "sha256": "12cc1d7c6787d4835b0c401912a34d331090f3e60e798d0e2d3b87968a600e05"
+    },
+    {
+      "role": "development",
+      "episode_index": 1189,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001189.parquet",
+      "bytes": 89432,
+      "sha256": "ff69e120d719c52800ec40c10dea18c2a235f18e69a11be8739a82cfa5b29fc6"
+    },
+    {
+      "role": "development",
+      "episode_index": 1189,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001189.mp4",
+      "bytes": 527122,
+      "sha256": "d824e9dd692d26814ed4fc4681170d1cd348ab94c9250f713d755eb419676d52"
+    },
+    {
+      "role": "development",
+      "episode_index": 1228,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001228.parquet",
+      "bytes": 59507,
+      "sha256": "3e0559ccb8872553d10b64607d5adc38ddbaa5809728782edd65bbd2c39ef060"
+    },
+    {
+      "role": "development",
+      "episode_index": 1228,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001228.mp4",
+      "bytes": 300911,
+      "sha256": "d50247a252fee9e04bcd0b8bddba03efb761e5b59852187173f42563b7939e35"
+    },
+    {
+      "role": "development",
+      "episode_index": 1240,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001240.parquet",
+      "bytes": 98491,
+      "sha256": "513986be31c6058681975a2362dc1762fd909ac2011e7e06fa196d93d54459aa"
+    },
+    {
+      "role": "development",
+      "episode_index": 1240,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001240.mp4",
+      "bytes": 581162,
+      "sha256": "9de7f98c2ae9b385d2daa3e637bf7ba46c609e0023a4fe41822719ec95cc5a5e"
+    },
+    {
+      "role": "development",
+      "episode_index": 1300,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001300.parquet",
+      "bytes": 115174,
+      "sha256": "fdf6ff97c8959c8cd754e5e161a025faf2dd6ca0704f7b0812daec30f8cd1417"
+    },
+    {
+      "role": "development",
+      "episode_index": 1300,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001300.mp4",
+      "bytes": 629426,
+      "sha256": "a3b8cd5149b3521c73425a243f6940530efd81e63eb5e2ad5ed2ccb317f1af0f"
+    },
+    {
+      "role": "development",
+      "episode_index": 1333,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001333.parquet",
+      "bytes": 97047,
+      "sha256": "77bd81d6abc5ecffeb87485957f2ffd23f24831c4d65dcde0260b7a31d15b2f4"
+    },
+    {
+      "role": "development",
+      "episode_index": 1333,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001333.mp4",
+      "bytes": 573019,
+      "sha256": "97690f466eef617339c8e7fb20504121e45645e955d52cd3d55a8647cdf5f245"
+    },
+    {
+      "role": "development",
+      "episode_index": 1334,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001334.parquet",
+      "bytes": 90289,
+      "sha256": "1682f31d8341a5539b5a05eaef51c64387a17376df637422fc6e21e842c549b9"
+    },
+    {
+      "role": "development",
+      "episode_index": 1334,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001334.mp4",
+      "bytes": 517615,
+      "sha256": "890cacae222946ca8ee0faddf91d751ebdb6defe3164acf8baf804b55a9df15a"
+    },
+    {
+      "role": "development",
+      "episode_index": 1369,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001369.parquet",
+      "bytes": 102712,
+      "sha256": "b2fb0547d982c8352b33cecd79ef8817c060cde5f87c40c0ae17d07294393d50"
+    },
+    {
+      "role": "development",
+      "episode_index": 1369,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001369.mp4",
+      "bytes": 613513,
+      "sha256": "1bf1dbaa237df5835a4833a4271ac19d02c63f4132df93dbf76e739f3d14dbbf"
+    },
+    {
+      "role": "development",
+      "episode_index": 1409,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001409.parquet",
+      "bytes": 118198,
+      "sha256": "a8708fbd796300c5d528665fc205941855dfba6b7bc420090109caac9e803bee"
+    },
+    {
+      "role": "development",
+      "episode_index": 1409,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001409.mp4",
+      "bytes": 651372,
+      "sha256": "775ca3569ca8ed2320d28423809b1ec06e81e1357420c11eeb9d73442848d48e"
+    },
+    {
+      "role": "development",
+      "episode_index": 1419,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001419.parquet",
+      "bytes": 110841,
+      "sha256": "7cab3296fdd7ebdc550270e3580583f540b65050be990e3579fad31add3fdb42"
+    },
+    {
+      "role": "development",
+      "episode_index": 1419,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001419.mp4",
+      "bytes": 523750,
+      "sha256": "68fb60844bd76b8fb2dabfd24baa2fcf64128c96f5904054585571549b590117"
+    },
+    {
+      "role": "development",
+      "episode_index": 1444,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001444.parquet",
+      "bytes": 89630,
+      "sha256": "a4bc449b85d1549df92d38d5eb306998d5f5b0d121211630d50983f1176f8a65"
+    },
+    {
+      "role": "development",
+      "episode_index": 1444,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001444.mp4",
+      "bytes": 508041,
+      "sha256": "eb3dd999d51c02337405757f46d3a4949e9d824f8df869516efce20edbce49d0"
+    },
+    {
+      "role": "development",
+      "episode_index": 1452,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001452.parquet",
+      "bytes": 89742,
+      "sha256": "376b2b75615ac7a334c6b82e5baa92cc81769d7f9d610b55d2b36bb1bb021cfc"
+    },
+    {
+      "role": "development",
+      "episode_index": 1452,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001452.mp4",
+      "bytes": 513901,
+      "sha256": "b378d8348bb097b484bd6acd48a9f2bb4f7c29093eb56c7fbf62aaa68f32b31a"
+    },
+    {
+      "role": "development",
+      "episode_index": 1485,
+      "kind": "parquet",
+      "path": "data/physprobe_push_v31/raw/development/parquet/episode_001485.parquet",
+      "bytes": 110158,
+      "sha256": "924cf889d57c0462c9d74390298650936ea95a63fe6355ca7b3ca65413ff9fd9"
+    },
+    {
+      "role": "development",
+      "episode_index": 1485,
+      "kind": "video",
+      "path": "data/physprobe_push_v31/raw/development/video/episode_001485.mp4",
+      "bytes": 568096,
+      "sha256": "e50a2bf27e3ee344eb65a1e8fe51fe28707ffefa94106e16c4a026b94815bd69"
+    }
+  ],
+  "episode_files": 384,
+  "episodes": 192,
+  "total_episode_bytes": 122490541,
+  "target_path": "data/physprobe_push_v31/evaluator_only/episodes.jsonl",
+  "target_bytes": 483734,
+  "target_sha256": "5f4b7d3fc5ecf23305387dcf988704ab8d4c80130cb916f9b21c90186da10a34",
+  "target_metadata_parsed": false,
+  "source_sha256": "ac6192acf715bbd806266d7444bd9c8cdec6bf6fb90a377789cec7533ead36a7",
+  "elapsed_s": 74.30768759999773
+}

@@ -1,0 +1,155 @@
+{
+  "status": "completed train-only bridge application to prior-opened IDPP external test",
+  "dataset": "IDPP/PhysVid real friction absolute test-3",
+  "videos": 33,
+  "object_surface_families": 11,
+  "methods": {
+    "selected_bridge": {
+      "family_spearman_rho": 0.3545454545454546,
+      "family_pearson_r": 0.6824711544291466,
+      "family_bootstrap95_interval": [
+        -0.411214953271028,
+        0.8604651162790699
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 1.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.8
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 1.0
+          }
+        ],
+        "pairs": 21,
+        "macro_accuracy": 0.6933333333333334
+      },
+      "family_mae_absolute_friction": 0.12121363693985167
+    },
+    "scalar_physics_proxy": {
+      "family_spearman_rho": 0.4272727272727273,
+      "family_pearson_r": 0.7325102528572409,
+      "family_bootstrap95_interval": [
+        -0.3073264540337711,
+        0.9033932552954281
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 1.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.8
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 1.0
+          }
+        ],
+        "pairs": 21,
+        "macro_accuracy": 0.6933333333333334
+      }
+    },
+    "frozen_v22_visual": {
+      "family_spearman_rho": -0.7000000000000001,
+      "family_pearson_r": -0.7952677413767479,
+      "family_bootstrap95_interval": [
+        -0.981132075471698,
+        -0.11219398222019615
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 0.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.2
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 0.0
+          }
+        ],
+        "pairs": 21,
+        "macro_accuracy": 0.17333333333333334
+      }
+    }
+  },
+  "secondary_external_gate": {
+    "family_spearman_positive": true,
+    "one_sided_permutation_p": 0.14228857711422885,
+    "permutation_p_below_0_05": false,
+    "controlled_pair_accuracy_above_chance": true,
+    "passed": false
+  },
+  "secondary_external_support": false,
+  "development_and_test_disclosure": "V29 candidates were developed after inspecting adaptation labels. V25 had already opened the test labels. V29 fitting and selection used no test labels, and V30 predictions were sealed before this scorer read the test target, but the result is secondary rather than pristine confirmation.",
+  "test_target_used_for_fit_selection_sign_or_threshold": false,
+  "prediction_seal_sha256": "d848425d5c9fc1da144e389df88a18b575dade14d58c1f182a2c979b80136a6d",
+  "metric_plan_sha256": "92bb779ea3150e9726debb8757f18b995eaa00a73dde338494255891edf6abe4",
+  "target_sha256": "3e253443a39ef79a23cdd07920363695be8b9cd180b92b56b6df1f3942910e67",
+  "goal_complete": false
+}

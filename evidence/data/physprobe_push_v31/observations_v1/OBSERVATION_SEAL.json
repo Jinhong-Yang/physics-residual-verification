@@ -1,0 +1,15 @@
+{
+  "status": "sealed label-free PhysProbe observations",
+  "plan_sha256": "2b876a7bed07da744c3ede7031b74366c9e60292ec4de7a596145dcff1b3436b",
+  "download_seal_sha256": "50fe5f43540387e9db251577d925b352d7ab9529f085e54d434035a07ef1e25f",
+  "input_index_sha256": "5645ef0ffd3071711e9f3711c8dcdbe35e3d7620599c830a336c03dcce2cce77",
+  "inputs_sha256": "de639163d1cac20cbd46a443174ff1d611a427145f889575842793e5e48737ad",
+  "role_counts": {
+    "development": 53,
+    "confirmation": 123
+  },
+  "eligible": 176,
+  "excluded": 16,
+  "labels_or_trajectories_read": false,
+  "source_sha256": "998a9a72b8fd5e9556133d68aa4db9ca73bdd69d743a402d23e8ab43d14bd309"
+}

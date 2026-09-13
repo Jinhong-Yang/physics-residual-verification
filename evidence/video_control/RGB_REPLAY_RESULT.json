@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "plan": {
+    "cases": "first eight episodes in original V23 index; same decoder batch size",
+    "input_tolerance": 1e-10,
+    "feature_pixel_tolerance": 0.0001,
+    "posterior_tolerance": 1e-07,
+    "selection_uses_outcomes": false,
+    "prior_source": "recorded first-image prior means/scales, not regenerated",
+    "upstream_training_reproduced": false
+  },
+  "episodes": 8,
+  "protocols": [
+    "bounce",
+    "multiple_forces",
+    "unforced_slide"
+  ],
+  "tracking_and_initialization_errors": {
+    "prior_mean": 0.0,
+    "prior_scale": 0.0,
+    "linearization_mean": 0.0,
+    "J": 0.0,
+    "Jn": 0.0,
+    "residual": 0.0,
+    "times": 0.0,
+    "xz": 0.0,
+    "sigma_xz": 0.0,
+    "force": 0.0,
+    "force_switch": 0.0,
+    "nuisance": 0.0,
+    "nuisance_dim": 0.0,
+    "source_projected_J": 0.0,
+    "source_rank": 0.0,
+    "forward_calls": 0.0,
+    "extra_physical_calls": 0.0,
+    "pixels": 0.0
+  },
+  "feature_errors": {
+    "pooled": 0.0,
+    "pixels": 0.0,
+    "static_pixels": 0.0
+  },
+  "posterior_errors": {
+    "generalized_translation__mean": 0.0,
+    "generalized_translation__covariance": 1.0842021724855044e-19,
+    "setup_translation__mean": 5.285253901199383e-10,
+    "setup_translation__covariance": 6.058929670916396e-14
+  },
+  "elapsed_seconds": 6.744793700010632,
+  "targets_opened": false,
+  "full_training_or_prior_network_reproduced": false
+}

@@ -1,0 +1,36 @@
+\section{New-episode evaluation with disjoint friction conditions}
+The follow-up plan was fixed after the original experiments but before downloading new videos or reading new displacement outcomes. It retains the pinned PhysProbe commit. The supplied metadata contain 16 distinct $(\mu_s,\mu_d)$ pairs for the object and 16 for the surface. These are physical material conditions, not identifiers for distinct cube assets or scenes. An audit finds that the original development/confirmation cohorts share 15 object-material and all 16 surface-material conditions.
+
+All 192 formerly selected episodes and feasibility episodes 0--9 are excluded. Each material list is sorted, then ordered by SHA-256 of the fixed seed, axis name, and material tuple. Seed 2026091307 assigns the first eight materials per axis to training and the remaining eight to evaluation. Episodes must belong to the same role on both axes; the 630 mixed assignments are omitted. This produces 320 training and 348 evaluation candidates. The unchanged full-video visibility procedure retains 285 and 329, excluding 35 and 19 respectively. The package records exclusions by group. The evaluation contains 63 of 64 possible held-out material combinations. Video hashes have zero overlap across roles. Material values are used for grouping only and are not readout inputs.
+
+The numeric-summary, temporal-visual, and quality-gate views are unchanged. Penalties remain 10, 1,000, and 0.1, respectively; there is no new hyperparameter search. Readout coefficients are newly fitted on the 285 training cases. For every observed training material pair, component models used to form gate targets exclude all rows with either of that pair's material conditions. The 58 such internal fits cover all training rows. The final numeric and visual components use all training rows, and the gate is fitted from these internally held-out predictions. Original checkpoints and paper results are retained. Architecture and penalty selection historically used other episodes from the same material bank; the separation applies to this refitting experiment, not to every preceding design decision.
+
+Predictions for all 329 evaluation episodes were saved and hashed before any evaluation trajectory was downloaded. Only then were the planar displacement targets read. RGB processing uses the original eight frame offsets and 50 fps horizon; it retains offline full-video eligibility and is not a new causal-online protocol.
+
+\subsection{Metric, crossed-material uncertainty, and result}
+Let $\bar e^M_{ab}$ be method $M$'s mean vector error in millimeters among eligible episodes with object material $a$ and surface material $b$. For the 63 observed pairs $\mathcal C$, the primary difference is
+\[
+\Delta=|\mathcal C|^{-1}\sum_{(a,b)\in\mathcal C}
+ (\bar e^{G}_{ab}-\bar e^{N}_{ab}).
+\]
+This gives each observed material pair equal weight. The secondary episode mean instead weights pairs in proportion to their episode counts. They estimate different averages and must not be interchanged when reporting the relative improvement.
+
+For each of 20,000 bootstrap draws, eight object-material labels and eight surface-material labels are independently sampled with replacement. If their multiplicities are $w_a$ and $v_b$, a draw uses
+\[
+\Delta^*=\frac{\sum_{(a,b)\in\mathcal C}w_av_b
+ (\bar e^{G}_{ab}-\bar e^{N}_{ab})}
+ {\sum_{(a,b)\in\mathcal C}w_av_b}.
+\]
+The 2.5th and 97.5th percentiles form the reported interval. This applies the pigeonhole resampling principle to the observed material-pair means \cite{owen2007pigeonhole}. Missing cells are omitted; groups, not individual episodes, determine the crossed resampling weights. This is an approximate interval with only eight levels per axis, not an exact finite-sample guarantee, and it conditions on the fitted models and the visibility-selected data.
+
+\begin{table}[htbp]\centering\small
+\caption{Additional double-material holdout. The protocol was fixed before these new outcomes; it followed the earlier study. All errors are in millimeters.}
+\begin{tabular}{lrr}\toprule Method & Equal material-pair MAE & Episode MAE\\\midrule
+Numerical & 63.419394 & 65.091048\\
+Raw visual residual & 61.942794 & 64.641735\\
+Gated visual residual & 60.641429 & 62.753128\\\bottomrule
+\end{tabular}\end{table}
+
+The gated-minus-numerical difference is $-2.777965$ mm, or a 4.38\% material-pair reduction, with interval $[-6.043509,-0.115608]$ mm. Marginal mean differences, averaging observed pair means within each material, are negative in seven of eight object-material groups and five of eight surface-material groups. The fixed rule required a negative primary mean, a negative two-sided upper endpoint, and at least five improving groups on each axis; all three conditions pass. The upper endpoint is near zero. The result supports retention of the visual-plus-gate increment under held-out friction conditions in this refit, with the same cube/scene and previously selected architecture. It does not retroactively pass the original 10\% development rule, prove a separate gate-only effect, or establish new object/scene-asset generalization.
+
+Run \path{tools/replay_group_holdout.py} to refit the models from supplied numeric/visual views, compare the sealed predictions, and replay the crossed-material interval. This uses NumPy and the included original readout routines. It does not re-extract all videos. The full observation plan, video hashes, eligibility records, feature provenance, training/evaluation targets, checkpoints, and predictions are under \path{evidence/group_holdout/}.

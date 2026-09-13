@@ -1,0 +1,4 @@
+protocol,episodes,active_dimensions,full_rank_episodes,minimum_singular_value_median,minimum_singular_value_p10,finite_condition_median
+multiple_forces,360,2,360,0.6557174971843777,0.5532007342006962,11.310983409985052
+unforced_slide,360,1,360,3.697425711979704,3.416969036921009,1.0
+bounce,360,1,360,21.001846113102978,18.96545151128757,1.0

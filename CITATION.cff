@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and the specific verification package version used."
+type: software
+title: "Verification materials for protocol-constrained residual adaptation with frozen vision-language features"
+version: 0.2.0
+url: "https://github.com/Jinhong-Yang/physics-residual-verification"
+repository-code: "https://github.com/Jinhong-Yang/physics-residual-verification"
+authors:
+  - family-names: Park
+    given-names: Hyojin
+    orcid: "https://orcid.org/0009-0002-2387-8994"
+  - family-names: Yoo
+    given-names: Nam-Hyun
+  - family-names: Yang
+    given-names: Jinhong
+    orcid: "https://orcid.org/0000-0002-7756-0263"

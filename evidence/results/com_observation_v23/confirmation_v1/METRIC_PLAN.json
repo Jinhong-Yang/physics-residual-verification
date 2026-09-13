@@ -1,0 +1,72 @@
+{
+  "status": "locked after prediction sealing and before truth opening",
+  "candidate": "single deterministic V22 VLM prediction",
+  "matched_ablation": "single deterministic V22 numeric prediction with identical anchor and numeric branch",
+  "regime_aggregation": "equal arithmetic mean of generalized_translation and setup_translation family-macro metrics",
+  "primary_action": "family macro mean: rows within family/protocol, then equal three protocols, equal two regimes, equal 72 families",
+  "strong_numeric_point": "lowest point mean among fixed unit RGB, Huber 1.345 RGB, and Cauchy 2.385 RGB",
+  "strong_numeric_bootstrap": "within each paired family resample, take the lowest sampled mean among the same three fixed numeric methods",
+  "primary_gate": {
+    "relative_improvement_at_least": 0.1,
+    "one_sided95_upper_candidate_minus_drawwise_strongest_numeric_below_m": 0.0
+  },
+  "vlm_incremental_gate": {
+    "candidate_point_below_matched_numeric": true,
+    "one_sided95_upper_candidate_minus_matched_numeric_below_m": 0.0
+  },
+  "legacy_gate": {
+    "candidate_point_below_legacy": true,
+    "one_sided95_upper_candidate_over_legacy_ratio_below": 1.05
+  },
+  "protocol_harm_gate": {
+    "cells": "each of 2 regimes x 3 protocols",
+    "reference": "lower cell action MAE of the globally strongest fixed numeric method and frozen legacy adapter",
+    "maximum_relative_degradation": 0.1,
+    "maximum_absolute_degradation_m": 0.0001,
+    "both_limits_must_hold": true
+  },
+  "proper_score_gate": {
+    "scope": "equal mean of two regime family-macro scores",
+    "eligible_references": "globally strongest fixed numeric method and frozen legacy adapter",
+    "maximum_nll_worsening_per_active_dimension": 0.1,
+    "maximum_crps_ratio": 1.1,
+    "candidate_joint90_coverage_interval": [
+      0.85,
+      0.98
+    ]
+  },
+  "uncertainty_width_gate": {
+    "definition": "family-macro mean active-coordinate axis diameter of the joint 90% Gaussian ellipsoid",
+    "reference": "same method selected by the active CRPS gate",
+    "maximum_width_ratio": 1.1
+  },
+  "bootstrap": {
+    "unit": "geometry family",
+    "draws": 20000,
+    "seed": 20260919,
+    "one_sided_quantile": 0.95
+  },
+  "exclusions": "none; all 1080 sealed episodes are scored",
+  "post_truth_fitting_tuning_selection": false,
+  "prediction_seal_sha256": "df76308555ecb881ca536308d9d5b6ea1f4b789b912fb4b5c516792281fbb1b8",
+  "target_seal_sha256": "231e2780d9cfebfd9f7a32abd5ce0f5ae2c855266c177541bf478904aac4f4b7",
+  "target_sha256": "22e9add7d7f06462bf5a8c1d1015d034c615b1bb7bd65a962dcbf4927fc17650",
+  "candidate_lock_sha256": "c4bee62e4a48515db2ca579810a209abdd51bf9ae831c9b556b653469b5303d4",
+  "method_sha256": {
+    "unit_rgb": "748e2c5c45811413b03d2ca78583b154f42a1cd98c72ed1260fbbce06ccffdb4",
+    "huber_1.345_rgb": "8ec1adf9165274ad27214bf6de50183d0a033176c1c6e5db1258b372b572c27d",
+    "cauchy_2.385_rgb": "5c40b4cd785a4345d3a9bf3f7db561accd658b053a922bd9180089974c38c525",
+    "legacy_qwen_warp_joint": "890ae518b02d064227bc436ec4424a5639a362591e4ff6cc10f547ee1ebd5505",
+    "rgb_warp_joint": "13938223eadd47cf3268c0262c815df242a957e2c469742927d6538f9cee4773",
+    "v22_numeric": "6ade2c3e3b72780b7115d9a7c5e9881d51e223a917b17601719e896c80d42c9b",
+    "v22_vlm": "a0f2046812249b0d38c483c43c8d53d3e9a24651f50cd33c79b569c9cfc084f5"
+  },
+  "source_sha256": {
+    "scripts/score_canonical_confirmation_v23.py": "5abea04368ba43083286eff4f1779595eea135a0e2fa981a5b4d86e812ca2ebb",
+    "scripts/score_canonical_confirmation_v16.py": "91ebc60575360b3dfe147499204084cc4954eb865e3f21cd5eab29ac137b0460",
+    "canonical_physics_metrics_v7.py": "3c0feaef8796e33ba3c4b6dbba03d75bf8ed2667d6a473251c933ffccb941656"
+  },
+  "truth_opened": false,
+  "confirmation": false,
+  "goal_complete": false
+}

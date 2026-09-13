@@ -1,0 +1,34 @@
+{
+  "scope": "post hoc cached-feature method investigation; no independent confirmation or final-model reselection",
+  "variants": [
+    "numeric",
+    "full",
+    "pooled_only",
+    "motion_only",
+    "direct_visual_target",
+    "no_clipping",
+    "no_bounce_fallback"
+  ],
+  "development": "132 families; original SHA256-sorted modulo-six family folds; every variant reported",
+  "confirmation": "72 already opened families, fit on all development only; descriptive evaluation",
+  "covariance_scales": [
+    0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "final_scale_retained": 0.1,
+  "coverage_levels": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "jacobian": "saved initial, observation-noise and prior-scale standardized derivatives; nuisance projection; not final-anchor Jacobian or null-space proof",
+  "preserve_author_and_primary_results": true,
+  "new_external_encoder_or_new_cohort": false,
+  "authorization": "user explicitly authorized necessary additional experiments in current request"
+}

@@ -1,0 +1,25 @@
+﻿index,name,repeat,source,role
+0,active_axis_position,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+1,relative_position,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+2,velocity,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+3,velocity_difference,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+4,log_observation_sigma,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+5,time,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+6,delta_time,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+7,time_minus_switch,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+8,switch_indicator,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+9,force_1,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+10,force_2,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+11,switch_time,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+12,active_logmass,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+13,active_logfriction,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+14,active_logit_restitution,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+15,prior_logmass,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+16,prior_logfriction,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+17,prior_logit_restitution,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+18,log_prior_scale_mass,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+19,log_prior_scale_friction,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+20,log_prior_scale_restitution,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+21,normalized_linearization_mass,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+22,normalized_linearization_friction,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel
+23,normalized_linearization_restitution,each of 8 frames,evidence/scripts/train_com_physics_internal_readout_v12.py:raw_features,numeric; no selected Qwen residual channel

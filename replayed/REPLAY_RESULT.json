@@ -1,0 +1,90 @@
+{
+  "saved_main_losses_replay": true,
+  "saved_public_mae_rmse_median_replay": true,
+  "original_primary_intervals_replay": true,
+  "absolute_tolerance_m": 1e-12,
+  "full_training_reproduced": false,
+  "posterior_proper_scores_recomputed": false,
+  "contrasts": [
+    {
+      "task": "main",
+      "comparison": "full minus unit_rgb",
+      "n": 72,
+      "delta_mm": -0.6660321082445362,
+      "low95_mm": -0.8760753701735126,
+      "high95_mm": -0.47193240265024433,
+      "upper95_mm": -0.5031326941253838,
+      "analysis": "post hoc fixed-reference diagnostic"
+    },
+    {
+      "task": "main",
+      "comparison": "full minus huber_1.345_rgb",
+      "n": 72,
+      "delta_mm": -0.621147212717342,
+      "low95_mm": -0.8293306017801122,
+      "high95_mm": -0.4296182956702133,
+      "upper95_mm": -0.4594261429137236,
+      "analysis": "post hoc fixed-reference diagnostic"
+    },
+    {
+      "task": "main",
+      "comparison": "full minus cauchy_2.385_rgb",
+      "n": 72,
+      "delta_mm": -0.6282738027969258,
+      "low95_mm": -0.8367080797890492,
+      "high95_mm": -0.4364153439217349,
+      "upper95_mm": -0.4665117897419303,
+      "analysis": "post hoc fixed-reference diagnostic"
+    },
+    {
+      "task": "main",
+      "comparison": "full minus v22_numeric",
+      "n": 72,
+      "delta_mm": -0.015647922497509584,
+      "low95_mm": -0.031141201984456746,
+      "high95_mm": 0.0005255895930760383,
+      "upper95_mm": -0.0021891308533190782,
+      "analysis": "original replay"
+    },
+    {
+      "task": "main",
+      "comparison": "full minus draw_wise_strongest",
+      "n": 72,
+      "delta_mm": -0.6211472127173419,
+      "low95_mm": -0.8293306017801118,
+      "high95_mm": -0.4296182956702133,
+      "upper95_mm": -0.4594261429137236,
+      "analysis": "original replay"
+    },
+    {
+      "task": "public",
+      "comparison": "raw_vlm minus numeric",
+      "n": 123,
+      "delta_mm": -2.9717336962245837,
+      "low95_mm": -5.872120076595813,
+      "high95_mm": -0.024801138494892187,
+      "upper95_mm": -0.511046111734997,
+      "analysis": "post hoc unadjusted diagnostic"
+    },
+    {
+      "task": "public",
+      "comparison": "gated_vlm minus raw_vlm",
+      "n": 123,
+      "delta_mm": -0.19504117857288003,
+      "low95_mm": -1.7849348824308706,
+      "high95_mm": 1.360323180491935,
+      "upper95_mm": 1.1163262521437978,
+      "analysis": "post hoc unadjusted diagnostic"
+    },
+    {
+      "task": "public",
+      "comparison": "gated_vlm minus numeric",
+      "n": 123,
+      "delta_mm": -3.166774874797464,
+      "low95_mm": -4.95652522426511,
+      "high95_mm": -1.400141725856061,
+      "upper95_mm": -1.6780761585860475,
+      "analysis": "original replay"
+    }
+  ]
+}

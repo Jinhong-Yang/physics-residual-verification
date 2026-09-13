@@ -1,0 +1,13 @@
+{
+  "plan_sha256": "00840d0b73ca492f55ca25e88723284214113c48405c268c2d99275787afe043",
+  "files": {
+    "scripts/develop_physprobe_vector_readout_v35.py": "30eb903f1d0fd5fde3af6129e907b98769d974eec9d112287d4b89ca8c691973",
+    "scripts/develop_physprobe_confidence_gate_v38.py": "6fd1edce1d134df45d4cbed26362d89bb4f440d5aaf2aba4a7b77f98afcafc97",
+    "scripts/extract_physprobe_observations_v31.py": "998a9a72b8fd5e9556133d68aa4db9ca73bdd69d743a402d23e8ab43d14bd309",
+    "scripts/stream_com_internal_features_v16.py": "36d892fd6d6e286e61ad1441f1461c8eb0c275a36fdfe2c2f2f491cd33ad68a1",
+    "results/com_observation_v9/decoder/continuation/qwen_warp_joint/epoch10.pt": "49ab079f196e5af2ce3b609ee632e4ac17ecd229e7d62c32b39afc7792087fcb",
+    "models/qwen3-vl-2b/config.json": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b"
+  },
+  "evaluation_predictions_exist": false,
+  "evaluation_targets_exist": false
+}

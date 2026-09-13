@@ -1,0 +1,13 @@
+cohort,variant,difference_vs_full_mm,low95_mm,high95_mm,analysis
+development,numeric,0.01969720568468128,0.0013071693084842318,0.03772742034303245,"post hoc, unadjusted; fixed variant, no model reselection"
+development,pooled_only,0.015555942701913678,0.006460951928132787,0.025586326566551916,"post hoc, unadjusted; fixed variant, no model reselection"
+development,motion_only,-0.0003807614948618672,-0.01618002597338362,0.012143950177946634,"post hoc, unadjusted; fixed variant, no model reselection"
+development,direct_visual_target,0.01322456202034668,-0.007624213380825812,0.034179700478976636,"post hoc, unadjusted; fixed variant, no model reselection"
+development,no_clipping,0.01249496825161977,-0.0026361294300824905,0.03125170560421449,"post hoc, unadjusted; fixed variant, no model reselection"
+development,no_bounce_fallback,0.04904389890756135,0.039112466268992827,0.059298135983774924,"post hoc, unadjusted; fixed variant, no model reselection"
+confirmation,numeric,0.015647922497511166,-0.0005255895930749286,0.03114120198445666,"post hoc, unadjusted; fixed variant, no model reselection"
+confirmation,pooled_only,0.015424160103931522,0.006840723974399323,0.0239565236250902,"post hoc, unadjusted; fixed variant, no model reselection"
+confirmation,motion_only,-0.0013597510257312936,-0.013593023465588265,0.009755194484984495,"post hoc, unadjusted; fixed variant, no model reselection"
+confirmation,direct_visual_target,0.0222460149340082,-0.0021707219206972416,0.04681838388626652,"post hoc, unadjusted; fixed variant, no model reselection"
+confirmation,no_clipping,0.030941982379537995,-0.00025987233304247453,0.07911976167706354,"post hoc, unadjusted; fixed variant, no model reselection"
+confirmation,no_bounce_fallback,0.04164914398429857,0.03077740276309918,0.052531951378427165,"post hoc, unadjusted; fixed variant, no model reselection"

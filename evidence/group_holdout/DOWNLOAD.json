@@ -1,0 +1,4013 @@
+{
+  "plan_sha256": "00840d0b73ca492f55ca25e88723284214113c48405c268c2d99275787afe043",
+  "files": [
+    {
+      "id": "episode_000013",
+      "path": "data/access_group_holdout_v1/videos/episode_000013.mp4",
+      "bytes": 533468,
+      "sha256": "ba230b9b5aab776165ab8bbe8d74f75bde55fa45353663e407381cb3ebf28d8a"
+    },
+    {
+      "id": "episode_000017",
+      "path": "data/access_group_holdout_v1/videos/episode_000017.mp4",
+      "bytes": 316446,
+      "sha256": "4e88d97882fb90fd87c544f4002a32a41a7c7c43410b05b5ab63a9772d487cab"
+    },
+    {
+      "id": "episode_000020",
+      "path": "data/access_group_holdout_v1/videos/episode_000020.mp4",
+      "bytes": 636455,
+      "sha256": "a90dd1c70c078507d9b0229aecfc17748100d567efe7dfd8690cc092d7501fa1"
+    },
+    {
+      "id": "episode_000021",
+      "path": "data/access_group_holdout_v1/videos/episode_000021.mp4",
+      "bytes": 542089,
+      "sha256": "9ae0271175741442cb497c7554eae1e3ae639b0f2910e89e318203c942514275"
+    },
+    {
+      "id": "episode_000022",
+      "path": "data/access_group_holdout_v1/videos/episode_000022.mp4",
+      "bytes": 604354,
+      "sha256": "f8dc111b57d82db50469dbec9b07d90a758ce566445c7836d33cb9f5acd56c88"
+    },
+    {
+      "id": "episode_000023",
+      "path": "data/access_group_holdout_v1/videos/episode_000023.mp4",
+      "bytes": 530462,
+      "sha256": "2c67a142c7af0c1d16b08a2ae11c711916dcc63efb195c9f87830c40a3b27ef6"
+    },
+    {
+      "id": "episode_000028",
+      "path": "data/access_group_holdout_v1/videos/episode_000028.mp4",
+      "bytes": 581388,
+      "sha256": "4f43d385b549d510e4f97ba5c15cdee668170d70320f42ce296af3ed6a31a354"
+    },
+    {
+      "id": "episode_000029",
+      "path": "data/access_group_holdout_v1/videos/episode_000029.mp4",
+      "bytes": 611758,
+      "sha256": "9b7783e3baf800d8d3256b4ec7a6c6a074436c676d26c66c092f1771a3f8ca0d"
+    },
+    {
+      "id": "episode_000034",
+      "path": "data/access_group_holdout_v1/videos/episode_000034.mp4",
+      "bytes": 511633,
+      "sha256": "5ea69b5f1bd4f581e7b1ce3cea81aec79b3be9f4f09663b7a8d1b2e3de3ad0c6"
+    },
+    {
+      "id": "episode_000037",
+      "path": "data/access_group_holdout_v1/videos/episode_000037.mp4",
+      "bytes": 532655,
+      "sha256": "902cb2e0b39362343aece5a2a780a8583f1312a6d5f96add567ac14c1b9911c1"
+    },
+    {
+      "id": "episode_000038",
+      "path": "data/access_group_holdout_v1/videos/episode_000038.mp4",
+      "bytes": 502363,
+      "sha256": "6654a07f781b8af7701cbf62716f1a6836d528d1c0c37c3b76971756b4c7b193"
+    },
+    {
+      "id": "episode_000041",
+      "path": "data/access_group_holdout_v1/videos/episode_000041.mp4",
+      "bytes": 508828,
+      "sha256": "5af4fcbea3a2480e26e9fc1d369e33aa61b8245f072968db6d4e72b003420374"
+    },
+    {
+      "id": "episode_000042",
+      "path": "data/access_group_holdout_v1/videos/episode_000042.mp4",
+      "bytes": 512509,
+      "sha256": "73b6c44a133a04f3e29ae73fa40f8ed9e4b11193bbe786b87155473b4054b375"
+    },
+    {
+      "id": "episode_000043",
+      "path": "data/access_group_holdout_v1/videos/episode_000043.mp4",
+      "bytes": 521771,
+      "sha256": "08f5ea420e666db1e7f205397819b3c646d0832ee8b800dd0aff1f3b752a13fe"
+    },
+    {
+      "id": "episode_000045",
+      "path": "data/access_group_holdout_v1/videos/episode_000045.mp4",
+      "bytes": 512793,
+      "sha256": "abffd78bda0f7c4e800d6c0e5072ee8d3e1eca52b21c43c05ff206129ad66aab"
+    },
+    {
+      "id": "episode_000047",
+      "path": "data/access_group_holdout_v1/videos/episode_000047.mp4",
+      "bytes": 496544,
+      "sha256": "0a85d10f733397fbb34e9bd1c4c02176f0f18a3efe0a8def084fa9d256666119"
+    },
+    {
+      "id": "episode_000049",
+      "path": "data/access_group_holdout_v1/videos/episode_000049.mp4",
+      "bytes": 279718,
+      "sha256": "784ec392235882539b277cc327f2370f7fbe32b2a6bd68d89f699de89c36d03e"
+    },
+    {
+      "id": "episode_000053",
+      "path": "data/access_group_holdout_v1/videos/episode_000053.mp4",
+      "bytes": 630606,
+      "sha256": "b33d9b8450b5a8b80a97d10a24826d12b0b13dc9f1194b943f67d85e657beb4e"
+    },
+    {
+      "id": "episode_000054",
+      "path": "data/access_group_holdout_v1/videos/episode_000054.mp4",
+      "bytes": 552135,
+      "sha256": "28c65f5159c6b42d99f3b02890f6184e4251454869de54dbff0446b03c7a69cf"
+    },
+    {
+      "id": "episode_000056",
+      "path": "data/access_group_holdout_v1/videos/episode_000056.mp4",
+      "bytes": 629784,
+      "sha256": "f6ea4a61e1b9cdf3546fcc65af03cd0d4e273d51299fe064a7a6b9b37a34fcf5"
+    },
+    {
+      "id": "episode_000058",
+      "path": "data/access_group_holdout_v1/videos/episode_000058.mp4",
+      "bytes": 646713,
+      "sha256": "a8252d3ef47f886d88785cd2110d8744c295732787b96effae766007e2aa43e2"
+    },
+    {
+      "id": "episode_000059",
+      "path": "data/access_group_holdout_v1/videos/episode_000059.mp4",
+      "bytes": 595192,
+      "sha256": "119d0bcbc5dbfe839410147f5deef8fd2629ec63122aa5adff29167f3ee3ffcf"
+    },
+    {
+      "id": "episode_000061",
+      "path": "data/access_group_holdout_v1/videos/episode_000061.mp4",
+      "bytes": 587427,
+      "sha256": "970607501651a0c333cea7cf613147b0b3d6372d874eb75ecd4542796241f679"
+    },
+    {
+      "id": "episode_000063",
+      "path": "data/access_group_holdout_v1/videos/episode_000063.mp4",
+      "bytes": 532794,
+      "sha256": "5dddfae01cd1b937d9ba979c4cee41f8e7b429e4da5998e371246c8d50fef887"
+    },
+    {
+      "id": "episode_000071",
+      "path": "data/access_group_holdout_v1/videos/episode_000071.mp4",
+      "bytes": 526701,
+      "sha256": "c1fa8685d6e75c3bffbe4c5cd595526f1e70b47d0d33355ee99a5cef44cdf1b2"
+    },
+    {
+      "id": "episode_000072",
+      "path": "data/access_group_holdout_v1/videos/episode_000072.mp4",
+      "bytes": 497365,
+      "sha256": "873ac8f1bc4ceeb518465325bbacde4699c55595309f98ddc2f07faa9abf3c8c"
+    },
+    {
+      "id": "episode_000074",
+      "path": "data/access_group_holdout_v1/videos/episode_000074.mp4",
+      "bytes": 528259,
+      "sha256": "650ef1dac2ee8f5118191e7c803d648cf7897c71819438a885894ca0b85633a3"
+    },
+    {
+      "id": "episode_000078",
+      "path": "data/access_group_holdout_v1/videos/episode_000078.mp4",
+      "bytes": 550309,
+      "sha256": "932add0e55e79056873107f9b457ca71300e798c215c0ad9e8046b4cc8dfdb15"
+    },
+    {
+      "id": "episode_000079",
+      "path": "data/access_group_holdout_v1/videos/episode_000079.mp4",
+      "bytes": 535559,
+      "sha256": "71a7bac65e234d149e7003162be45d5652f88a10760604d912239697d9cc279c"
+    },
+    {
+      "id": "episode_000082",
+      "path": "data/access_group_holdout_v1/videos/episode_000082.mp4",
+      "bytes": 606793,
+      "sha256": "d2861280481790e5fb215353d2427a4c04fa6c1057cb78b0ca88b1e734949d5b"
+    },
+    {
+      "id": "episode_000083",
+      "path": "data/access_group_holdout_v1/videos/episode_000083.mp4",
+      "bytes": 600609,
+      "sha256": "b6cf998045fb5db096b10fd3d3af63b505d8354e9a5ddbeda0aa8b18f56fca80"
+    },
+    {
+      "id": "episode_000087",
+      "path": "data/access_group_holdout_v1/videos/episode_000087.mp4",
+      "bytes": 632278,
+      "sha256": "ab492e64e887b365fd99740f1745d9ccedaac43af42f9b95d984582021a465d2"
+    },
+    {
+      "id": "episode_000088",
+      "path": "data/access_group_holdout_v1/videos/episode_000088.mp4",
+      "bytes": 556824,
+      "sha256": "80d8027a7985659f97c9f8cfcea1aafb635f57e0d18428c84031ac0afcc61c83"
+    },
+    {
+      "id": "episode_000090",
+      "path": "data/access_group_holdout_v1/videos/episode_000090.mp4",
+      "bytes": 623389,
+      "sha256": "2f419e6b72c496d0e567468ddefac8d32bee62ec4a39ef3a552c292922780d7c"
+    },
+    {
+      "id": "episode_000094",
+      "path": "data/access_group_holdout_v1/videos/episode_000094.mp4",
+      "bytes": 650376,
+      "sha256": "fe43f537b0d9bb9233cd829e1ba212765977196cd039068833a0ef3de99b37b5"
+    },
+    {
+      "id": "episode_000095",
+      "path": "data/access_group_holdout_v1/videos/episode_000095.mp4",
+      "bytes": 526802,
+      "sha256": "8d9bb654096c3d542f76f1ef4582f70460b1d1fe0647f1324fc078fd78b95f85"
+    },
+    {
+      "id": "episode_000096",
+      "path": "data/access_group_holdout_v1/videos/episode_000096.mp4",
+      "bytes": 511465,
+      "sha256": "2fb5f7fcf910cfc18565af80f4602d66a423f70481bf3e7cecfe944be9d61348"
+    },
+    {
+      "id": "episode_000097",
+      "path": "data/access_group_holdout_v1/videos/episode_000097.mp4",
+      "bytes": 525403,
+      "sha256": "3b65bfb69d225cddd27e851e45d9c148d6bfa057da001684d0a5bd7e6cb64b43"
+    },
+    {
+      "id": "episode_000100",
+      "path": "data/access_group_holdout_v1/videos/episode_000100.mp4",
+      "bytes": 506948,
+      "sha256": "45884f1e2df5782ea772da2fa30a9783e58fb513a08c140b3d04bf3e374e95fa"
+    },
+    {
+      "id": "episode_000103",
+      "path": "data/access_group_holdout_v1/videos/episode_000103.mp4",
+      "bytes": 524146,
+      "sha256": "caabcc3f7ea17a054f975b2ed834aa0c01b5750c6c45d65f80f825b399e8dc05"
+    },
+    {
+      "id": "episode_000104",
+      "path": "data/access_group_holdout_v1/videos/episode_000104.mp4",
+      "bytes": 497756,
+      "sha256": "03d486d9876b9f6083af43ff2be80e4522096b6fcb2e847f4e2d1deaba1dbdbb"
+    },
+    {
+      "id": "episode_000105",
+      "path": "data/access_group_holdout_v1/videos/episode_000105.mp4",
+      "bytes": 500752,
+      "sha256": "abef7e097aa860f41d0e310f6a8a5722208950f3af45709d7dcca2a9d82a97bc"
+    },
+    {
+      "id": "episode_000109",
+      "path": "data/access_group_holdout_v1/videos/episode_000109.mp4",
+      "bytes": 575703,
+      "sha256": "d940f3cfad1df6c9d85d431a37b704f6d36b505f100ceabdea77d20bff4c6555"
+    },
+    {
+      "id": "episode_000110",
+      "path": "data/access_group_holdout_v1/videos/episode_000110.mp4",
+      "bytes": 521553,
+      "sha256": "2448c9142a05c9be7c52d54dfdeb14c94ba23a1d8969f65cd76edd0d01352d81"
+    },
+    {
+      "id": "episode_000111",
+      "path": "data/access_group_holdout_v1/videos/episode_000111.mp4",
+      "bytes": 582862,
+      "sha256": "a0ac113bc272706f3f6cc2d3c2e3c2df43422a52e75892c8f47eb2365496a503"
+    },
+    {
+      "id": "episode_000112",
+      "path": "data/access_group_holdout_v1/videos/episode_000112.mp4",
+      "bytes": 616122,
+      "sha256": "e2f0c11e2da6c39bf6509c50db5097665944c2543a6df599abd00be43be76510"
+    },
+    {
+      "id": "episode_000113",
+      "path": "data/access_group_holdout_v1/videos/episode_000113.mp4",
+      "bytes": 687306,
+      "sha256": "5f40c1a3545677f55f126e3dc64d4becde91bb5062b3331f500aab41a081ebb3"
+    },
+    {
+      "id": "episode_000116",
+      "path": "data/access_group_holdout_v1/videos/episode_000116.mp4",
+      "bytes": 592509,
+      "sha256": "26ef1d37685f22a49663ebc4291f986a31b524f97b8c9a3f1020332d45c7b783"
+    },
+    {
+      "id": "episode_000117",
+      "path": "data/access_group_holdout_v1/videos/episode_000117.mp4",
+      "bytes": 614221,
+      "sha256": "aa00b8f29e074c54f2e359f840dea6fea2287a8630d43f4eb1b128beda2cd4d5"
+    },
+    {
+      "id": "episode_000119",
+      "path": "data/access_group_holdout_v1/videos/episode_000119.mp4",
+      "bytes": 568118,
+      "sha256": "3a974bfeac6562a6220d31346b9ab886df4f0215ae62779c0f4f9a29cf269a32"
+    },
+    {
+      "id": "episode_000120",
+      "path": "data/access_group_holdout_v1/videos/episode_000120.mp4",
+      "bytes": 547601,
+      "sha256": "13116e35ff5074a7d0f5a1c8542e220f3bea019b0425400577476ddce6dfc5d3"
+    },
+    {
+      "id": "episode_000121",
+      "path": "data/access_group_holdout_v1/videos/episode_000121.mp4",
+      "bytes": 540598,
+      "sha256": "b77ef7dcd8f8eb0d86f9364bb41fc1938a0268733dd16aa90f86ad0e08da2abf"
+    },
+    {
+      "id": "episode_000125",
+      "path": "data/access_group_holdout_v1/videos/episode_000125.mp4",
+      "bytes": 673504,
+      "sha256": "ceca448c7720d432797072e9cb2161c553b10d4fa549e208ab5f389743c35164"
+    },
+    {
+      "id": "episode_000126",
+      "path": "data/access_group_holdout_v1/videos/episode_000126.mp4",
+      "bytes": 610618,
+      "sha256": "f3a71d619bae74d121db0eddcc06c83eb5770c3a4bb6d9d2e6fc63646e887e56"
+    },
+    {
+      "id": "episode_000127",
+      "path": "data/access_group_holdout_v1/videos/episode_000127.mp4",
+      "bytes": 628803,
+      "sha256": "03725d1ec4e2c85f5a490d50114614a269d46a7e1ea5642248d1087b15e01525"
+    },
+    {
+      "id": "episode_000128",
+      "path": "data/access_group_holdout_v1/videos/episode_000128.mp4",
+      "bytes": 508464,
+      "sha256": "3b0fc864a2a4f3427072469ce603886e7fbcf80f55ee7667c0594dc9b0a20fc1"
+    },
+    {
+      "id": "episode_000129",
+      "path": "data/access_group_holdout_v1/videos/episode_000129.mp4",
+      "bytes": 519247,
+      "sha256": "d3e6a6053d4105fd4828a2c23f8b0ae844ab4c02fba09562054ec2b8bd621d23"
+    },
+    {
+      "id": "episode_000130",
+      "path": "data/access_group_holdout_v1/videos/episode_000130.mp4",
+      "bytes": 517591,
+      "sha256": "4ebfb87737a17c92a37a479f1f40299ccc36777c4f1ab32bb5fdec2694d8a250"
+    },
+    {
+      "id": "episode_000131",
+      "path": "data/access_group_holdout_v1/videos/episode_000131.mp4",
+      "bytes": 499583,
+      "sha256": "ee4d790c228ef75f745ced801858142c9feb16fd6502f736ae26660ebf56de90"
+    },
+    {
+      "id": "episode_000133",
+      "path": "data/access_group_holdout_v1/videos/episode_000133.mp4",
+      "bytes": 563073,
+      "sha256": "5325f16171b6787aedc20453528a94c84109af64be1c3b119b61fc40a446a146"
+    },
+    {
+      "id": "episode_000137",
+      "path": "data/access_group_holdout_v1/videos/episode_000137.mp4",
+      "bytes": 518559,
+      "sha256": "0eb34f91f09625bc8246a751e9a6a7186ced785122498e40f65294506ec15749"
+    },
+    {
+      "id": "episode_000140",
+      "path": "data/access_group_holdout_v1/videos/episode_000140.mp4",
+      "bytes": 503217,
+      "sha256": "56bdd90510b419d6a6936026944dbaca7047cd9ce6a271357e8a3fb37df89db8"
+    },
+    {
+      "id": "episode_000141",
+      "path": "data/access_group_holdout_v1/videos/episode_000141.mp4",
+      "bytes": 526138,
+      "sha256": "089f26be7c32bd1077c34f983006a8e00dc4565debd2e52a7db2546fdf5cc277"
+    },
+    {
+      "id": "episode_000142",
+      "path": "data/access_group_holdout_v1/videos/episode_000142.mp4",
+      "bytes": 565325,
+      "sha256": "59b4a4d4493074456f37612de75f439d31a0d71a074789d41996e441211535e1"
+    },
+    {
+      "id": "episode_000144",
+      "path": "data/access_group_holdout_v1/videos/episode_000144.mp4",
+      "bytes": 554714,
+      "sha256": "d75863aa561fc9cccc576dbb9f0d409f9dc1434a888b7755010a4ec0f072ac1b"
+    },
+    {
+      "id": "episode_000145",
+      "path": "data/access_group_holdout_v1/videos/episode_000145.mp4",
+      "bytes": 268344,
+      "sha256": "4e1a92ea4ca630fd049e8e30aefa8dc4a09244d1717a4504b96bb4c323389950"
+    },
+    {
+      "id": "episode_000146",
+      "path": "data/access_group_holdout_v1/videos/episode_000146.mp4",
+      "bytes": 526896,
+      "sha256": "25d8155b25860eb66989ac29464fe4bee1013ea05e35f004c8f5fd978ef7e7e1"
+    },
+    {
+      "id": "episode_000147",
+      "path": "data/access_group_holdout_v1/videos/episode_000147.mp4",
+      "bytes": 589927,
+      "sha256": "8b6eed0ad1d5dce82e133fd8db725b1bc4728164c6d237117f5951a806aa7472"
+    },
+    {
+      "id": "episode_000149",
+      "path": "data/access_group_holdout_v1/videos/episode_000149.mp4",
+      "bytes": 668850,
+      "sha256": "edd8fa4f2dcd180d9168f677234cc12d6ee5005e4c548840655bac2e349052ff"
+    },
+    {
+      "id": "episode_000153",
+      "path": "data/access_group_holdout_v1/videos/episode_000153.mp4",
+      "bytes": 645342,
+      "sha256": "bbb539cc96a8ee8188b849a6ca9a78b51a60b20f5ec2903aa5e6e43e76ee7a69"
+    },
+    {
+      "id": "episode_000156",
+      "path": "data/access_group_holdout_v1/videos/episode_000156.mp4",
+      "bytes": 536431,
+      "sha256": "2c423b32d34ce75f076ace7d061c9d8d0d1828449e6edc30d67863df67d029e1"
+    },
+    {
+      "id": "episode_000157",
+      "path": "data/access_group_holdout_v1/videos/episode_000157.mp4",
+      "bytes": 579481,
+      "sha256": "e0ec123acdf039bd056ca93ef4532ee0bc7266a765e14178ce1b10ab5cc5a176"
+    },
+    {
+      "id": "episode_000158",
+      "path": "data/access_group_holdout_v1/videos/episode_000158.mp4",
+      "bytes": 637931,
+      "sha256": "df9317f186c61a49581ef2fa0acac8d150a97ec719a224c3dc505a893013472a"
+    },
+    {
+      "id": "episode_000161",
+      "path": "data/access_group_holdout_v1/videos/episode_000161.mp4",
+      "bytes": 532909,
+      "sha256": "af6010dab4f90dd077461a6b6eae6e7718268638a94198b73f9b2975cdb4abae"
+    },
+    {
+      "id": "episode_000165",
+      "path": "data/access_group_holdout_v1/videos/episode_000165.mp4",
+      "bytes": 545918,
+      "sha256": "1ca619297e820d58b6bba6f887d5f66a3131daa17d5331441104526aa3715de9"
+    },
+    {
+      "id": "episode_000166",
+      "path": "data/access_group_holdout_v1/videos/episode_000166.mp4",
+      "bytes": 550349,
+      "sha256": "adc30da2b21e1670536a88d9999b41a8f7f8112c8e83ee7888766fd90a1480de"
+    },
+    {
+      "id": "episode_000167",
+      "path": "data/access_group_holdout_v1/videos/episode_000167.mp4",
+      "bytes": 537642,
+      "sha256": "70c6c338871f70a7c86d7968e9c5bc76d6ab995ddc18ce6ab7b6bf3dd5c85978"
+    },
+    {
+      "id": "episode_000170",
+      "path": "data/access_group_holdout_v1/videos/episode_000170.mp4",
+      "bytes": 534025,
+      "sha256": "57f436b7e718338e5758fcecb60577b55ebc1d76c277d23fad48e0e83788e530"
+    },
+    {
+      "id": "episode_000171",
+      "path": "data/access_group_holdout_v1/videos/episode_000171.mp4",
+      "bytes": 529801,
+      "sha256": "694a7379ca8cb91d4d3d577106346651c12ed120646fc7bba11182739908b004"
+    },
+    {
+      "id": "episode_000175",
+      "path": "data/access_group_holdout_v1/videos/episode_000175.mp4",
+      "bytes": 504009,
+      "sha256": "48999cf6e8765c4219da51632c213a8dc75d7e7eb8169dfd97f0eb2e3e7c0602"
+    },
+    {
+      "id": "episode_000177",
+      "path": "data/access_group_holdout_v1/videos/episode_000177.mp4",
+      "bytes": 615705,
+      "sha256": "88feed433195522677179acd2ec9cdf246b232e0412f0e865278a42bc0b049e9"
+    },
+    {
+      "id": "episode_000182",
+      "path": "data/access_group_holdout_v1/videos/episode_000182.mp4",
+      "bytes": 617454,
+      "sha256": "61a695822c1bbe50312b0f72e0e8dbc75bbfb972d9e249899fa04399c7d6ec25"
+    },
+    {
+      "id": "episode_000187",
+      "path": "data/access_group_holdout_v1/videos/episode_000187.mp4",
+      "bytes": 559352,
+      "sha256": "6757af8cf713b2c39dab47d45727e06c3e98850249f4ed605cc11d4314fc734d"
+    },
+    {
+      "id": "episode_000190",
+      "path": "data/access_group_holdout_v1/videos/episode_000190.mp4",
+      "bytes": 538243,
+      "sha256": "4aa1762b51e3bb3d1c1401cc89abbd56be813f0a4db2218bd364258a36193ab7"
+    },
+    {
+      "id": "episode_000191",
+      "path": "data/access_group_holdout_v1/videos/episode_000191.mp4",
+      "bytes": 636170,
+      "sha256": "fe1756f71ba3834bb634a980029c5905f56948f7389bebeb1a10e6e9c71d1a1a"
+    },
+    {
+      "id": "episode_000196",
+      "path": "data/access_group_holdout_v1/videos/episode_000196.mp4",
+      "bytes": 519073,
+      "sha256": "e8f82ddee75870e8fbc413bfcf230af229cc4fcadbf10e1d580ef09d0af281d8"
+    },
+    {
+      "id": "episode_000199",
+      "path": "data/access_group_holdout_v1/videos/episode_000199.mp4",
+      "bytes": 518340,
+      "sha256": "17a967622a7b20bcc3f86211cc383f3edd912c4bcadab6e46e9607bacd3f8bae"
+    },
+    {
+      "id": "episode_000200",
+      "path": "data/access_group_holdout_v1/videos/episode_000200.mp4",
+      "bytes": 531127,
+      "sha256": "f0e96b6f736f14604cc4d565642ad9a9ebfdbd864942eb128126e95ef135a2f9"
+    },
+    {
+      "id": "episode_000201",
+      "path": "data/access_group_holdout_v1/videos/episode_000201.mp4",
+      "bytes": 520683,
+      "sha256": "87f9d03aaefebbe06f777ee7ed4cf19458c657d095e6426137574b57fb54b0cd"
+    },
+    {
+      "id": "episode_000202",
+      "path": "data/access_group_holdout_v1/videos/episode_000202.mp4",
+      "bytes": 572265,
+      "sha256": "358c7e602578cbd70260ab447c3150211ec3f14573c2f6e4a74e0c11f6647406"
+    },
+    {
+      "id": "episode_000207",
+      "path": "data/access_group_holdout_v1/videos/episode_000207.mp4",
+      "bytes": 514820,
+      "sha256": "46cb7e2f5baccbd68799baa788151c7ea89079d3667524ce33791ad0b083fab3"
+    },
+    {
+      "id": "episode_000212",
+      "path": "data/access_group_holdout_v1/videos/episode_000212.mp4",
+      "bytes": 524776,
+      "sha256": "309404facacd2230fd9f9978f57f74f907b30732b82396621f17e515b4b1af20"
+    },
+    {
+      "id": "episode_000215",
+      "path": "data/access_group_holdout_v1/videos/episode_000215.mp4",
+      "bytes": 686921,
+      "sha256": "bed83139c53ed7833f38415dbf4dec27c3526b1097f75eb521cf19f80be74b04"
+    },
+    {
+      "id": "episode_000216",
+      "path": "data/access_group_holdout_v1/videos/episode_000216.mp4",
+      "bytes": 545616,
+      "sha256": "8a89a23e4d3150d59dbb794e6889ca36bacebfada111356c3ec2548347b42e40"
+    },
+    {
+      "id": "episode_000217",
+      "path": "data/access_group_holdout_v1/videos/episode_000217.mp4",
+      "bytes": 548377,
+      "sha256": "cd86a62369b53a39b2d8898bf01b09017ecc074dcd3e4814757a88467c07b387"
+    },
+    {
+      "id": "episode_000218",
+      "path": "data/access_group_holdout_v1/videos/episode_000218.mp4",
+      "bytes": 656107,
+      "sha256": "b76b8a2934ce103ec8fb2901682aa0635fb556a8c394ad9be1a4d1ce62f493bd"
+    },
+    {
+      "id": "episode_000223",
+      "path": "data/access_group_holdout_v1/videos/episode_000223.mp4",
+      "bytes": 575723,
+      "sha256": "6f40a8f3f11192e9661b7f85af5ca0142947be29590bd853899c0f9d6fe79641"
+    },
+    {
+      "id": "episode_000225",
+      "path": "data/access_group_holdout_v1/videos/episode_000225.mp4",
+      "bytes": 504165,
+      "sha256": "38990de987b57038f3c3d18e67c5e881f92ace54972d312dd0ee578c7cf383a8"
+    },
+    {
+      "id": "episode_000226",
+      "path": "data/access_group_holdout_v1/videos/episode_000226.mp4",
+      "bytes": 560036,
+      "sha256": "9cc8b09ffe782d71ef98973821d3ffce072d76026b5e92249c91b3456328fc22"
+    },
+    {
+      "id": "episode_000229",
+      "path": "data/access_group_holdout_v1/videos/episode_000229.mp4",
+      "bytes": 510978,
+      "sha256": "6162dfbf4658b013c624039d276e1185404cb3226962db369679d6fff0f2bfee"
+    },
+    {
+      "id": "episode_000230",
+      "path": "data/access_group_holdout_v1/videos/episode_000230.mp4",
+      "bytes": 518353,
+      "sha256": "38cf83ddbb23a30d6813503a93f9b39b4cb523ae7b8d8e0e27e12096e05cd3e0"
+    },
+    {
+      "id": "episode_000231",
+      "path": "data/access_group_holdout_v1/videos/episode_000231.mp4",
+      "bytes": 552196,
+      "sha256": "4b2bd275a1eea8b3d74f40f073fab8af28250d28506e75aee93784a1fda81372"
+    },
+    {
+      "id": "episode_000234",
+      "path": "data/access_group_holdout_v1/videos/episode_000234.mp4",
+      "bytes": 572979,
+      "sha256": "72d7fbc0ab1f78dbb120843f07cbe67da671edd3ab6cb1c6698429c40f862f10"
+    },
+    {
+      "id": "episode_000237",
+      "path": "data/access_group_holdout_v1/videos/episode_000237.mp4",
+      "bytes": 489761,
+      "sha256": "0025885ca069c737a6cf97ee98a809f99e9332a49b9367835bccfd8d9222de16"
+    },
+    {
+      "id": "episode_000238",
+      "path": "data/access_group_holdout_v1/videos/episode_000238.mp4",
+      "bytes": 531216,
+      "sha256": "4db0d462b274704bef7494b17b2f127d2fbd0a5a41078c2a10f8a9d21c48b631"
+    },
+    {
+      "id": "episode_000239",
+      "path": "data/access_group_holdout_v1/videos/episode_000239.mp4",
+      "bytes": 528867,
+      "sha256": "f57562bd5e21d95d737882bb83655467ea8652db18ab8c7ed34cc98e11b2e464"
+    },
+    {
+      "id": "episode_000240",
+      "path": "data/access_group_holdout_v1/videos/episode_000240.mp4",
+      "bytes": 626726,
+      "sha256": "dcc6abb39bc0a002114bd79902c2536ec0dfc9c0413c8195acbf4eb454cb574a"
+    },
+    {
+      "id": "episode_000242",
+      "path": "data/access_group_holdout_v1/videos/episode_000242.mp4",
+      "bytes": 583049,
+      "sha256": "403be95402832a2caf4f5a0e05ac8b217e7a6bd29c073ce96eedfb00b3565e29"
+    },
+    {
+      "id": "episode_000245",
+      "path": "data/access_group_holdout_v1/videos/episode_000245.mp4",
+      "bytes": 638770,
+      "sha256": "cb06026fce36d73fe7b0024b671a6ac313afaec4a6aad70486ed76983ff5ebc4"
+    },
+    {
+      "id": "episode_000246",
+      "path": "data/access_group_holdout_v1/videos/episode_000246.mp4",
+      "bytes": 679466,
+      "sha256": "a011dde2f74aa6411afe2c507103076b6da4f98d856299ae8395eda8eca071db"
+    },
+    {
+      "id": "episode_000247",
+      "path": "data/access_group_holdout_v1/videos/episode_000247.mp4",
+      "bytes": 602867,
+      "sha256": "166b9b7c8250fee972f3709f33073a2a36e83d35fffc32faccf37ba9bbfed7d3"
+    },
+    {
+      "id": "episode_000248",
+      "path": "data/access_group_holdout_v1/videos/episode_000248.mp4",
+      "bytes": 625610,
+      "sha256": "ba44566e4aae6c7eaced1ee03ba440a3a6da241c4933da7ad9edb7d045e8ccd8"
+    },
+    {
+      "id": "episode_000250",
+      "path": "data/access_group_holdout_v1/videos/episode_000250.mp4",
+      "bytes": 651135,
+      "sha256": "83aa3fdd4b756270ecaa23715a787053d42899c324197c753c4db5fa65b90253"
+    },
+    {
+      "id": "episode_000253",
+      "path": "data/access_group_holdout_v1/videos/episode_000253.mp4",
+      "bytes": 474370,
+      "sha256": "aae5be6d7a8e5d3acfe4b0713659c3c3fcec64e00ac9330e85d389e9b23249bd"
+    },
+    {
+      "id": "episode_000254",
+      "path": "data/access_group_holdout_v1/videos/episode_000254.mp4",
+      "bytes": 600327,
+      "sha256": "2a0c25ceaf11c48f8ed58eee1612ea0399b6af5f0eb66bfcfdb100b411dbe428"
+    },
+    {
+      "id": "episode_000255",
+      "path": "data/access_group_holdout_v1/videos/episode_000255.mp4",
+      "bytes": 544650,
+      "sha256": "4ea27cc632f7161bddf2acc552257d038009be805764a26f38481dbaab0796bf"
+    },
+    {
+      "id": "episode_000257",
+      "path": "data/access_group_holdout_v1/videos/episode_000257.mp4",
+      "bytes": 502322,
+      "sha256": "c03bf6eb9d16fa5f491c949e5278c4ecc37eedea6114af52e434f241a1b2a497"
+    },
+    {
+      "id": "episode_000259",
+      "path": "data/access_group_holdout_v1/videos/episode_000259.mp4",
+      "bytes": 476193,
+      "sha256": "e71562d125f762e0edf471bee77b6419a36c704631b6e48484544ac1c06e2cf0"
+    },
+    {
+      "id": "episode_000261",
+      "path": "data/access_group_holdout_v1/videos/episode_000261.mp4",
+      "bytes": 538443,
+      "sha256": "64f8f71f7ee70f916bdc6e4af0bf62821c97b0e412e28edba732ab688e2d2e96"
+    },
+    {
+      "id": "episode_000262",
+      "path": "data/access_group_holdout_v1/videos/episode_000262.mp4",
+      "bytes": 527297,
+      "sha256": "b07260541b893997040017cc8414af7d66f80b9e13f4e8dea505aed1dc3b8916"
+    },
+    {
+      "id": "episode_000265",
+      "path": "data/access_group_holdout_v1/videos/episode_000265.mp4",
+      "bytes": 518676,
+      "sha256": "66955166f16a2146126c76b41d8ba77033077600f5e1f35456e222e81dbd82fe"
+    },
+    {
+      "id": "episode_000269",
+      "path": "data/access_group_holdout_v1/videos/episode_000269.mp4",
+      "bytes": 547003,
+      "sha256": "73e41967392c32cdff6e031ae596f44bed408088bb4f8ece7eac869dc9704ff0"
+    },
+    {
+      "id": "episode_000272",
+      "path": "data/access_group_holdout_v1/videos/episode_000272.mp4",
+      "bytes": 533736,
+      "sha256": "39116b4dca66bf3967b0327d023a2825dea701bc5374054112b55757e1bc38ce"
+    },
+    {
+      "id": "episode_000275",
+      "path": "data/access_group_holdout_v1/videos/episode_000275.mp4",
+      "bytes": 549754,
+      "sha256": "e6a96f8b35404f67015a0dcce3c79173dbc58661798d55f4887c65cd7187d5e0"
+    },
+    {
+      "id": "episode_000277",
+      "path": "data/access_group_holdout_v1/videos/episode_000277.mp4",
+      "bytes": 538045,
+      "sha256": "d23be01f6dc9b623f4def45ab66a39d778b6b9d2180d5e7d3ff2cfe84fa6daba"
+    },
+    {
+      "id": "episode_000278",
+      "path": "data/access_group_holdout_v1/videos/episode_000278.mp4",
+      "bytes": 578113,
+      "sha256": "73c31d6c16b41751c1cda9e978cab3061c1dbbd2870815495888e305286fa982"
+    },
+    {
+      "id": "episode_000281",
+      "path": "data/access_group_holdout_v1/videos/episode_000281.mp4",
+      "bytes": 561386,
+      "sha256": "0deb03da51f8e8a8de0aa957133126224f53163020e500b1177d61ef1f36994e"
+    },
+    {
+      "id": "episode_000285",
+      "path": "data/access_group_holdout_v1/videos/episode_000285.mp4",
+      "bytes": 649835,
+      "sha256": "a050c200382cc0049fbbd0d203f73ba95857ba0c91f2ff58288f6407329f1a92"
+    },
+    {
+      "id": "episode_000288",
+      "path": "data/access_group_holdout_v1/videos/episode_000288.mp4",
+      "bytes": 535220,
+      "sha256": "6fab0b055b66c42b4fecd668d7044102875fe43af0f6b197601aca93351735f4"
+    },
+    {
+      "id": "episode_000290",
+      "path": "data/access_group_holdout_v1/videos/episode_000290.mp4",
+      "bytes": 503514,
+      "sha256": "896f73c6c5e8787fded781aeb9fec7af47f3a39b9114b5a08cc0986f3e4204b6"
+    },
+    {
+      "id": "episode_000291",
+      "path": "data/access_group_holdout_v1/videos/episode_000291.mp4",
+      "bytes": 491510,
+      "sha256": "ae591a1954fdb0e70097c1afd8efe7ac29f74ba7fbb266fc91417ac1f74d9e0c"
+    },
+    {
+      "id": "episode_000292",
+      "path": "data/access_group_holdout_v1/videos/episode_000292.mp4",
+      "bytes": 538468,
+      "sha256": "758983661bcb656c4e0bc0d6ac9fb8dfd18a34f48464923d60e085555560a1db"
+    },
+    {
+      "id": "episode_000294",
+      "path": "data/access_group_holdout_v1/videos/episode_000294.mp4",
+      "bytes": 516362,
+      "sha256": "5ddbf305ac17b85012554761d1ea378458bd587de233479706d5a6a1e841363d"
+    },
+    {
+      "id": "episode_000295",
+      "path": "data/access_group_holdout_v1/videos/episode_000295.mp4",
+      "bytes": 505764,
+      "sha256": "1aed3c6542a3c43f1c52926b0fe7a44df8161b4a7fd1880888a25a72892a64b0"
+    },
+    {
+      "id": "episode_000296",
+      "path": "data/access_group_holdout_v1/videos/episode_000296.mp4",
+      "bytes": 529891,
+      "sha256": "20f2a4f01fefa99d7673c565940367b9d18660224cc7947f1cab6cbf25a4d32d"
+    },
+    {
+      "id": "episode_000297",
+      "path": "data/access_group_holdout_v1/videos/episode_000297.mp4",
+      "bytes": 527418,
+      "sha256": "b0c55ca66adf456786839dfe6b1aa96d231b66e32c46e85ddf2161f58a927740"
+    },
+    {
+      "id": "episode_000298",
+      "path": "data/access_group_holdout_v1/videos/episode_000298.mp4",
+      "bytes": 542175,
+      "sha256": "c39d45992ad9273d966181414232e372f3fcfbd13caa039544a992d63f3c6097"
+    },
+    {
+      "id": "episode_000299",
+      "path": "data/access_group_holdout_v1/videos/episode_000299.mp4",
+      "bytes": 536694,
+      "sha256": "92700099270e1ad0ef347ff94ce8dbfcaf39e2a31b1b0f3da99814e358eb7a1f"
+    },
+    {
+      "id": "episode_000300",
+      "path": "data/access_group_holdout_v1/videos/episode_000300.mp4",
+      "bytes": 505118,
+      "sha256": "31366ad150d8190563060a24130216088a1b504c5de41c3c01c4a1e621adba3d"
+    },
+    {
+      "id": "episode_000304",
+      "path": "data/access_group_holdout_v1/videos/episode_000304.mp4",
+      "bytes": 618367,
+      "sha256": "5e52ba07a3a9cc1d59ee03da20ef894e906a7a3951129bcf84527ed138cf195d"
+    },
+    {
+      "id": "episode_000306",
+      "path": "data/access_group_holdout_v1/videos/episode_000306.mp4",
+      "bytes": 543754,
+      "sha256": "b17df12775a194c4182490ec25f3742de3ff73881a00f7070ee6b3a4e2cc79cc"
+    },
+    {
+      "id": "episode_000307",
+      "path": "data/access_group_holdout_v1/videos/episode_000307.mp4",
+      "bytes": 541416,
+      "sha256": "feb2153080a386de2b69ecc10d1bc42cc41313579c2b4f875dd5d4981904f944"
+    },
+    {
+      "id": "episode_000308",
+      "path": "data/access_group_holdout_v1/videos/episode_000308.mp4",
+      "bytes": 534544,
+      "sha256": "21543778679ace3e52c732ba269efcf73c5db27647697d1c7ea09ef28aa5dcd9"
+    },
+    {
+      "id": "episode_000310",
+      "path": "data/access_group_holdout_v1/videos/episode_000310.mp4",
+      "bytes": 591443,
+      "sha256": "f52406ae852fb759504af640fe64d53194eda117dcf6a1e6e7639cbac405f51f"
+    },
+    {
+      "id": "episode_000311",
+      "path": "data/access_group_holdout_v1/videos/episode_000311.mp4",
+      "bytes": 535805,
+      "sha256": "557565670dc00e7918b8fb889624b25899376ff37bfff68d00d8ddb00710da4c"
+    },
+    {
+      "id": "episode_000312",
+      "path": "data/access_group_holdout_v1/videos/episode_000312.mp4",
+      "bytes": 546881,
+      "sha256": "ee98804501c8900b251ecaa0114ace663115fcc2043f828aea64d6968f9f6fc3"
+    },
+    {
+      "id": "episode_000313",
+      "path": "data/access_group_holdout_v1/videos/episode_000313.mp4",
+      "bytes": 602643,
+      "sha256": "9dee3f12197d959caee5b9b5fe4d02efc13f9fb1e7eb9e30385731affb435ff9"
+    },
+    {
+      "id": "episode_000314",
+      "path": "data/access_group_holdout_v1/videos/episode_000314.mp4",
+      "bytes": 608090,
+      "sha256": "0fd053f690380784958647b9c288d7af5bd0ab228c848b945cedbf2f7a07c02f"
+    },
+    {
+      "id": "episode_000315",
+      "path": "data/access_group_holdout_v1/videos/episode_000315.mp4",
+      "bytes": 595599,
+      "sha256": "c81690ac038597f1b84bef030d097438683cca63e2c6d5aa630eb29d04040326"
+    },
+    {
+      "id": "episode_000316",
+      "path": "data/access_group_holdout_v1/videos/episode_000316.mp4",
+      "bytes": 551643,
+      "sha256": "f4260c89067617dd74cae6ad2973bce723c5902a3e6b677b386330a8bd9aa011"
+    },
+    {
+      "id": "episode_000323",
+      "path": "data/access_group_holdout_v1/videos/episode_000323.mp4",
+      "bytes": 505934,
+      "sha256": "30357021d0367c2080d1c99ae246b537215ab5e9a256d702972b4b8295160fd5"
+    },
+    {
+      "id": "episode_000325",
+      "path": "data/access_group_holdout_v1/videos/episode_000325.mp4",
+      "bytes": 545702,
+      "sha256": "f2cde0fe23a5baa1f8ba8163bb1b69516d610faed6c293043f1ad86c87ff4aca"
+    },
+    {
+      "id": "episode_000329",
+      "path": "data/access_group_holdout_v1/videos/episode_000329.mp4",
+      "bytes": 503466,
+      "sha256": "32863040802c451b9e7349dac6767b3a3b00d2aedf9cdaa2f3a4e9355cbe3225"
+    },
+    {
+      "id": "episode_000331",
+      "path": "data/access_group_holdout_v1/videos/episode_000331.mp4",
+      "bytes": 500148,
+      "sha256": "4df70b8eb9eb780a87017cfa923e3e7bb9fd591e3f23929bb61649c32d8b5ad9"
+    },
+    {
+      "id": "episode_000333",
+      "path": "data/access_group_holdout_v1/videos/episode_000333.mp4",
+      "bytes": 518604,
+      "sha256": "861788e4cf73ce84b949a7be894b4d0079ee658620b6c43b51715547caddaa72"
+    },
+    {
+      "id": "episode_000335",
+      "path": "data/access_group_holdout_v1/videos/episode_000335.mp4",
+      "bytes": 484925,
+      "sha256": "6a7aaa95e4ca5709ac7975f844616c739bc6e203303db6b57de94b3654c57692"
+    },
+    {
+      "id": "episode_000338",
+      "path": "data/access_group_holdout_v1/videos/episode_000338.mp4",
+      "bytes": 270596,
+      "sha256": "34d4b067c7b8bc74011393595b9360887ad70c9e57d49bbfc802958552694622"
+    },
+    {
+      "id": "episode_000341",
+      "path": "data/access_group_holdout_v1/videos/episode_000341.mp4",
+      "bytes": 318482,
+      "sha256": "3f239348bc651819b1146c0ae18aa1aae7c0775ee5ad8712e9048b58d063f7d4"
+    },
+    {
+      "id": "episode_000346",
+      "path": "data/access_group_holdout_v1/videos/episode_000346.mp4",
+      "bytes": 569187,
+      "sha256": "e257be8027d679681f62a2b6bd0db6f65c91326d38b73f7e4680cb3e373c6258"
+    },
+    {
+      "id": "episode_000347",
+      "path": "data/access_group_holdout_v1/videos/episode_000347.mp4",
+      "bytes": 597925,
+      "sha256": "c3cc7c3f3f671cd830eff9049b80e5d2e8c1f793121d3f860551ce370ccd9157"
+    },
+    {
+      "id": "episode_000351",
+      "path": "data/access_group_holdout_v1/videos/episode_000351.mp4",
+      "bytes": 564601,
+      "sha256": "4da2c4955fca0a5032693c7b867a0ffce10f25892475446073a3cab27e499029"
+    },
+    {
+      "id": "episode_000353",
+      "path": "data/access_group_holdout_v1/videos/episode_000353.mp4",
+      "bytes": 500761,
+      "sha256": "030d484123df0ffac14da981170f439d909c5e790806d9ba260411d6663de467"
+    },
+    {
+      "id": "episode_000354",
+      "path": "data/access_group_holdout_v1/videos/episode_000354.mp4",
+      "bytes": 631510,
+      "sha256": "f200500f9332f7663c93d1c0a9f1235f92a7ec6bf922530334996e0bcd30de10"
+    },
+    {
+      "id": "episode_000363",
+      "path": "data/access_group_holdout_v1/videos/episode_000363.mp4",
+      "bytes": 525486,
+      "sha256": "0267e0eaa09909832b8602cb4d6204d0edaee49d8c22e0b1b8cf9c1b28f481fa"
+    },
+    {
+      "id": "episode_000369",
+      "path": "data/access_group_holdout_v1/videos/episode_000369.mp4",
+      "bytes": 513283,
+      "sha256": "ba212b89ac07377e8d49e040528b149a2c2e5d6eee92071c12d0c487a271be33"
+    },
+    {
+      "id": "episode_000370",
+      "path": "data/access_group_holdout_v1/videos/episode_000370.mp4",
+      "bytes": 484415,
+      "sha256": "0474111d9137693608ee6179fd9a5d4a6a8a58b30a679aa4d876823e645c8ccb"
+    },
+    {
+      "id": "episode_000379",
+      "path": "data/access_group_holdout_v1/videos/episode_000379.mp4",
+      "bytes": 655294,
+      "sha256": "646a0495d62784597177ada7c023f4ba664873fe00306e2f2f6791d81b2b4a84"
+    },
+    {
+      "id": "episode_000380",
+      "path": "data/access_group_holdout_v1/videos/episode_000380.mp4",
+      "bytes": 617293,
+      "sha256": "e13aee6d6d8960f704aa70efe3e77b45b5b2df242c26068c8b971ea1c16667f4"
+    },
+    {
+      "id": "episode_000385",
+      "path": "data/access_group_holdout_v1/videos/episode_000385.mp4",
+      "bytes": 498640,
+      "sha256": "10e6ab791608a4838268f905c20890f260692e9c0e52f365deb255a233ce16b9"
+    },
+    {
+      "id": "episode_000386",
+      "path": "data/access_group_holdout_v1/videos/episode_000386.mp4",
+      "bytes": 567143,
+      "sha256": "c374b6ee581713096708b993ed19210a38186b6ac3327275080238ef1f718284"
+    },
+    {
+      "id": "episode_000390",
+      "path": "data/access_group_holdout_v1/videos/episode_000390.mp4",
+      "bytes": 507321,
+      "sha256": "fbe3f5917596b12af9a34a8fdd7442c135238b0b1c6956d77cc1f32a5691f5d5"
+    },
+    {
+      "id": "episode_000392",
+      "path": "data/access_group_holdout_v1/videos/episode_000392.mp4",
+      "bytes": 526300,
+      "sha256": "cd1fa69c75ddd2a358067ddf69a889b5af0ab9bfc7c79c21153ee074b9942de2"
+    },
+    {
+      "id": "episode_000397",
+      "path": "data/access_group_holdout_v1/videos/episode_000397.mp4",
+      "bytes": 516727,
+      "sha256": "98065cce6246e7ba92b514367cb301376748c244c56c6bf2742e4c38ca41c174"
+    },
+    {
+      "id": "episode_000398",
+      "path": "data/access_group_holdout_v1/videos/episode_000398.mp4",
+      "bytes": 534645,
+      "sha256": "c9c68795838a611a9543b0c27755dc06b151d95a067a71f1fbfe73fbc6ae6d1d"
+    },
+    {
+      "id": "episode_000401",
+      "path": "data/access_group_holdout_v1/videos/episode_000401.mp4",
+      "bytes": 608235,
+      "sha256": "473da98bc4cae69baddbe6e16259a1a8b31dec67067ed69c67a27be9edfe58fd"
+    },
+    {
+      "id": "episode_000402",
+      "path": "data/access_group_holdout_v1/videos/episode_000402.mp4",
+      "bytes": 619843,
+      "sha256": "39a1696e839568e97913720a6f1410d13e5098b45eae4aa956db84625dcc4bfa"
+    },
+    {
+      "id": "episode_000406",
+      "path": "data/access_group_holdout_v1/videos/episode_000406.mp4",
+      "bytes": 530213,
+      "sha256": "2119656d53c44a109fa3dd3009374ae78a2853f843cd85b1d36b3a34c41c486d"
+    },
+    {
+      "id": "episode_000407",
+      "path": "data/access_group_holdout_v1/videos/episode_000407.mp4",
+      "bytes": 536399,
+      "sha256": "20706ce2536c81aa50a4fc85531513be0f890575b7ac6a88e9c9b78926328831"
+    },
+    {
+      "id": "episode_000408",
+      "path": "data/access_group_holdout_v1/videos/episode_000408.mp4",
+      "bytes": 603302,
+      "sha256": "f63f34dc2f9232772f09c339a7a8e55dae923ee1ccaa33c8cdd15c14c9a9b9ea"
+    },
+    {
+      "id": "episode_000412",
+      "path": "data/access_group_holdout_v1/videos/episode_000412.mp4",
+      "bytes": 593925,
+      "sha256": "c0c58552d49a2b010ba3605ee3ae10a806d2ef0ea99c34cc9f6ae9e23bd3a3e2"
+    },
+    {
+      "id": "episode_000413",
+      "path": "data/access_group_holdout_v1/videos/episode_000413.mp4",
+      "bytes": 561841,
+      "sha256": "8efd04d58031dea66e0fbc737a79261d1c6e3212db7a1a7bfc45fbb10bd2a9c5"
+    },
+    {
+      "id": "episode_000414",
+      "path": "data/access_group_holdout_v1/videos/episode_000414.mp4",
+      "bytes": 542275,
+      "sha256": "ef6e4ab3d7a488b1e7ce7e26da1871ae6918cf69580e5f9a912c29b623eee110"
+    },
+    {
+      "id": "episode_000416",
+      "path": "data/access_group_holdout_v1/videos/episode_000416.mp4",
+      "bytes": 520969,
+      "sha256": "ead8733062ea277dd2f42fe52a85ffcfcfbc4bcb455577f6bf267c40d65454b8"
+    },
+    {
+      "id": "episode_000418",
+      "path": "data/access_group_holdout_v1/videos/episode_000418.mp4",
+      "bytes": 535724,
+      "sha256": "5ff941464eaabaf2589da923bdb1ece5e05fb5af791d3357621974545a234a6b"
+    },
+    {
+      "id": "episode_000419",
+      "path": "data/access_group_holdout_v1/videos/episode_000419.mp4",
+      "bytes": 525459,
+      "sha256": "03b30e18845984724a5759602927dc548b2bc5cce2e253151897fe0a7ce0127b"
+    },
+    {
+      "id": "episode_000420",
+      "path": "data/access_group_holdout_v1/videos/episode_000420.mp4",
+      "bytes": 520336,
+      "sha256": "71ef3075157f36bbd13184d950597796daed72c1e9ae2df647c956701295e822"
+    },
+    {
+      "id": "episode_000424",
+      "path": "data/access_group_holdout_v1/videos/episode_000424.mp4",
+      "bytes": 511701,
+      "sha256": "b57f5327a536079e1ce7363b97780ce9700fb2193748dffa1b7d42ec8b92be36"
+    },
+    {
+      "id": "episode_000427",
+      "path": "data/access_group_holdout_v1/videos/episode_000427.mp4",
+      "bytes": 488894,
+      "sha256": "df687ea38bc997e356a04bb1eb514eb54dd283a9288ce5cab13b8a09e52d63a5"
+    },
+    {
+      "id": "episode_000431",
+      "path": "data/access_group_holdout_v1/videos/episode_000431.mp4",
+      "bytes": 540988,
+      "sha256": "f0a04bf14592b9cceefb2e0ce7088dc1c39162d1d655e0aa9737c2c2381f86a9"
+    },
+    {
+      "id": "episode_000433",
+      "path": "data/access_group_holdout_v1/videos/episode_000433.mp4",
+      "bytes": 676540,
+      "sha256": "a545c1e9a33ddb8912bfcac5e437aa365c6940cb94a10dc484e75f5653360286"
+    },
+    {
+      "id": "episode_000434",
+      "path": "data/access_group_holdout_v1/videos/episode_000434.mp4",
+      "bytes": 541219,
+      "sha256": "1e3529003fc8510a5d175dfabfd76da4a7c3d08e2b77a1534061f1e8373d8799"
+    },
+    {
+      "id": "episode_000436",
+      "path": "data/access_group_holdout_v1/videos/episode_000436.mp4",
+      "bytes": 295625,
+      "sha256": "e42b70e0e757ab1a48f68fa62f371798a88a4a21e65e3d36eb4e2637b2b8f6d7"
+    },
+    {
+      "id": "episode_000439",
+      "path": "data/access_group_holdout_v1/videos/episode_000439.mp4",
+      "bytes": 552645,
+      "sha256": "b7d906150a74cd191ea108ff2b9147bae884fbaa4102e09c04f5e62ac4782cc8"
+    },
+    {
+      "id": "episode_000444",
+      "path": "data/access_group_holdout_v1/videos/episode_000444.mp4",
+      "bytes": 543640,
+      "sha256": "0c88c91e070818554ac7e802018d830a4bacfcb849e9d0bcd580e64a91094225"
+    },
+    {
+      "id": "episode_000450",
+      "path": "data/access_group_holdout_v1/videos/episode_000450.mp4",
+      "bytes": 518630,
+      "sha256": "59e0ec6b9d790fdfd4df91df0d1aad5dd633abc03a0c982c4076ce2555296442"
+    },
+    {
+      "id": "episode_000451",
+      "path": "data/access_group_holdout_v1/videos/episode_000451.mp4",
+      "bytes": 505393,
+      "sha256": "8d8930b6301c0e278fe556254884cb53b3fed50cef499644e3b913b71b6a87af"
+    },
+    {
+      "id": "episode_000452",
+      "path": "data/access_group_holdout_v1/videos/episode_000452.mp4",
+      "bytes": 515714,
+      "sha256": "7e5041a77672d572b98d60eb9125add5905ffce0ec1e95ad5c6969eb46a19206"
+    },
+    {
+      "id": "episode_000455",
+      "path": "data/access_group_holdout_v1/videos/episode_000455.mp4",
+      "bytes": 618865,
+      "sha256": "20422aa03a948d3af278da49e973a2da879ff0aa91d84162e8d19ee08f6f57f7"
+    },
+    {
+      "id": "episode_000456",
+      "path": "data/access_group_holdout_v1/videos/episode_000456.mp4",
+      "bytes": 505079,
+      "sha256": "0511d4530cadc27bf0368f8a70dfdd4a6fa57157e826dd1343678b9a9c7dfb0a"
+    },
+    {
+      "id": "episode_000457",
+      "path": "data/access_group_holdout_v1/videos/episode_000457.mp4",
+      "bytes": 506763,
+      "sha256": "9866c016e4ffd61790662f6e26fbdd20a0ff78a7209aa1f52abd7310b44bb1b5"
+    },
+    {
+      "id": "episode_000458",
+      "path": "data/access_group_holdout_v1/videos/episode_000458.mp4",
+      "bytes": 505607,
+      "sha256": "e235fde98963ae4a55fa3684cc4dc79012566fb862829de74d9d65e28d9448d6"
+    },
+    {
+      "id": "episode_000459",
+      "path": "data/access_group_holdout_v1/videos/episode_000459.mp4",
+      "bytes": 508912,
+      "sha256": "e8e3b42c6e65e5b1825b8344a96abfdd8f85efa61f90a3126cfd95be65c52020"
+    },
+    {
+      "id": "episode_000461",
+      "path": "data/access_group_holdout_v1/videos/episode_000461.mp4",
+      "bytes": 512465,
+      "sha256": "9fb4d8c675bf3e80b0719e30aceca05b8600f486b10e1c0ce683a864b381a40e"
+    },
+    {
+      "id": "episode_000463",
+      "path": "data/access_group_holdout_v1/videos/episode_000463.mp4",
+      "bytes": 509312,
+      "sha256": "b165ac8b997907fc86907df83183ea0b866025669dee3c7c730923a7b2f116cc"
+    },
+    {
+      "id": "episode_000464",
+      "path": "data/access_group_holdout_v1/videos/episode_000464.mp4",
+      "bytes": 564062,
+      "sha256": "bf5f47423e290ffa3a033e677b6cdfba3fec39c2baf7370d20728e82bbc49616"
+    },
+    {
+      "id": "episode_000466",
+      "path": "data/access_group_holdout_v1/videos/episode_000466.mp4",
+      "bytes": 564752,
+      "sha256": "b22d61faa74d3895ca5b3a588bf8d45a1cf8e02c1a0c10f5d36e959329f5d463"
+    },
+    {
+      "id": "episode_000467",
+      "path": "data/access_group_holdout_v1/videos/episode_000467.mp4",
+      "bytes": 561196,
+      "sha256": "27373b6f41b6226fe028478e426cde8149e920055d868f4fd43ead690cad0d5a"
+    },
+    {
+      "id": "episode_000471",
+      "path": "data/access_group_holdout_v1/videos/episode_000471.mp4",
+      "bytes": 523741,
+      "sha256": "73d1138639d5e1dda02a319bccd7fa624e89dc29cfa16b81e44c34ce39eaddfc"
+    },
+    {
+      "id": "episode_000472",
+      "path": "data/access_group_holdout_v1/videos/episode_000472.mp4",
+      "bytes": 561321,
+      "sha256": "a7b17ba3a0e0596f57ef30d727ea668edb1bdb59a16607fc0401204100d58253"
+    },
+    {
+      "id": "episode_000473",
+      "path": "data/access_group_holdout_v1/videos/episode_000473.mp4",
+      "bytes": 452897,
+      "sha256": "bd0583a26ab92aa6fdea0288f02c24ca4d62ddbd6acf640f25d6d0799300cd7e"
+    },
+    {
+      "id": "episode_000474",
+      "path": "data/access_group_holdout_v1/videos/episode_000474.mp4",
+      "bytes": 569837,
+      "sha256": "01d03a1af62fe0817b1cc663c286267a0e6b2df089295eea8bf6690ccb95bab8"
+    },
+    {
+      "id": "episode_000475",
+      "path": "data/access_group_holdout_v1/videos/episode_000475.mp4",
+      "bytes": 523366,
+      "sha256": "8a503c979bd60443edc0bda2dc20f277cb903e00d7f7d5201cb9536a43bd2d22"
+    },
+    {
+      "id": "episode_000479",
+      "path": "data/access_group_holdout_v1/videos/episode_000479.mp4",
+      "bytes": 617470,
+      "sha256": "9c63f15975e342a4f899ec72588ab7bb19f73eb8510052b439ebbca47c88a37a"
+    },
+    {
+      "id": "episode_000480",
+      "path": "data/access_group_holdout_v1/videos/episode_000480.mp4",
+      "bytes": 658707,
+      "sha256": "46e701556dfa243d79355f4397950c1a9032ae51794080a6b5f3cb03c6480454"
+    },
+    {
+      "id": "episode_000482",
+      "path": "data/access_group_holdout_v1/videos/episode_000482.mp4",
+      "bytes": 520318,
+      "sha256": "6f61ff2b4e9f6efb4ba8122c6572b91ea0cd9a84d7679d10fbfeb29b43f93e8d"
+    },
+    {
+      "id": "episode_000484",
+      "path": "data/access_group_holdout_v1/videos/episode_000484.mp4",
+      "bytes": 535719,
+      "sha256": "6e4e92edb8861d6eef3c703c965bb45b020a7a6959e325efed99627d98f397c9"
+    },
+    {
+      "id": "episode_000486",
+      "path": "data/access_group_holdout_v1/videos/episode_000486.mp4",
+      "bytes": 494794,
+      "sha256": "4455de55f16f446d2b09d9d25334773286fb0ce879e8885eb7bf9c89e5432dd2"
+    },
+    {
+      "id": "episode_000489",
+      "path": "data/access_group_holdout_v1/videos/episode_000489.mp4",
+      "bytes": 527798,
+      "sha256": "ab3af44cfc136e477a2f9b119c3342dd274fb37e293aafdc15bf65e45bff50d8"
+    },
+    {
+      "id": "episode_000490",
+      "path": "data/access_group_holdout_v1/videos/episode_000490.mp4",
+      "bytes": 503864,
+      "sha256": "8bf9aa10b75c1844c1dc01bd42f3ce3961741b2baab51c0b712ba0d1fb57e398"
+    },
+    {
+      "id": "episode_000494",
+      "path": "data/access_group_holdout_v1/videos/episode_000494.mp4",
+      "bytes": 497244,
+      "sha256": "211b2a91457201abfa82da4f122dc96430cf2e05c6bccc8ba5f475abd7246183"
+    },
+    {
+      "id": "episode_000496",
+      "path": "data/access_group_holdout_v1/videos/episode_000496.mp4",
+      "bytes": 496045,
+      "sha256": "7126e920c0f7111e06cb01d10dfa4ecf886861e53ffe7899e06e9ac280398a5c"
+    },
+    {
+      "id": "episode_000499",
+      "path": "data/access_group_holdout_v1/videos/episode_000499.mp4",
+      "bytes": 557459,
+      "sha256": "4cfb3a856d9c4e57380a355e6e17adcb324372a028f14d3e252ef36f0d067691"
+    },
+    {
+      "id": "episode_000501",
+      "path": "data/access_group_holdout_v1/videos/episode_000501.mp4",
+      "bytes": 559047,
+      "sha256": "032e5c0cc44268f730e80d69a0fd30185ab2b34795ca6b2fa531cce1dc51942c"
+    },
+    {
+      "id": "episode_000503",
+      "path": "data/access_group_holdout_v1/videos/episode_000503.mp4",
+      "bytes": 540803,
+      "sha256": "8daf36172c566c55030d41b290cfd96f347ef3dadd4716c5003d6df23ec38847"
+    },
+    {
+      "id": "episode_000506",
+      "path": "data/access_group_holdout_v1/videos/episode_000506.mp4",
+      "bytes": 608011,
+      "sha256": "e661a2e7673fc4b339c03bcfa271d2ae6a70f62ef1caf6d4d56d0f4cb890aaa1"
+    },
+    {
+      "id": "episode_000507",
+      "path": "data/access_group_holdout_v1/videos/episode_000507.mp4",
+      "bytes": 591564,
+      "sha256": "281e79b2f625d21ad3ee0bcdb57cf53c34aaeb5de91cbf6513c79eef2cdc739f"
+    },
+    {
+      "id": "episode_000512",
+      "path": "data/access_group_holdout_v1/videos/episode_000512.mp4",
+      "bytes": 568840,
+      "sha256": "cb75af892659a3833384e67442dca34e37432195c3050518b23ea0cdaa433ed5"
+    },
+    {
+      "id": "episode_000513",
+      "path": "data/access_group_holdout_v1/videos/episode_000513.mp4",
+      "bytes": 518850,
+      "sha256": "88cd4b3e4f268a24ef93e5e6fe2b44917f8fab60449077e55148a31a91b3240a"
+    },
+    {
+      "id": "episode_000517",
+      "path": "data/access_group_holdout_v1/videos/episode_000517.mp4",
+      "bytes": 516717,
+      "sha256": "498d711c93569a7b654938b3cc8dc0e3653ec51f4c51f15c8cd01bbb39f7b3c8"
+    },
+    {
+      "id": "episode_000521",
+      "path": "data/access_group_holdout_v1/videos/episode_000521.mp4",
+      "bytes": 498130,
+      "sha256": "1fae9b62f91f0b38e8a3345c5a1e63a2a7cff6524c0436a4a51bf59e4e8b2d84"
+    },
+    {
+      "id": "episode_000525",
+      "path": "data/access_group_holdout_v1/videos/episode_000525.mp4",
+      "bytes": 522264,
+      "sha256": "f857379df1e8fb7232e61c671c7d4bfa037f745ef89b0df9b55033d9f8ce0af7"
+    },
+    {
+      "id": "episode_000529",
+      "path": "data/access_group_holdout_v1/videos/episode_000529.mp4",
+      "bytes": 563469,
+      "sha256": "e25955a4d622ce7c1a9c10888ac326d6b87315e41e70fafaf81b851f4e66d2c5"
+    },
+    {
+      "id": "episode_000533",
+      "path": "data/access_group_holdout_v1/videos/episode_000533.mp4",
+      "bytes": 273860,
+      "sha256": "936fa06b3f43ef1eef651e8129dfbacfa2cef1c43855f098fb122395f3ef3b20"
+    },
+    {
+      "id": "episode_000534",
+      "path": "data/access_group_holdout_v1/videos/episode_000534.mp4",
+      "bytes": 638840,
+      "sha256": "bd955e9ea02d14fafb125fceff758e43c4810353e9764abe65e1ac4d16e5b83c"
+    },
+    {
+      "id": "episode_000538",
+      "path": "data/access_group_holdout_v1/videos/episode_000538.mp4",
+      "bytes": 624362,
+      "sha256": "82845a9cbcc67343f5d15138590508f3cbb0558ebe9ce514c08b45f97ec4eb33"
+    },
+    {
+      "id": "episode_000546",
+      "path": "data/access_group_holdout_v1/videos/episode_000546.mp4",
+      "bytes": 492078,
+      "sha256": "04f6d0cb2733d80cf9ef30ed8c8d40232860ec3c63d44ca83051aa8f9b8abeed"
+    },
+    {
+      "id": "episode_000547",
+      "path": "data/access_group_holdout_v1/videos/episode_000547.mp4",
+      "bytes": 513140,
+      "sha256": "e5ac43ca800cd01aad04cd5a3d20c459bf26f77967c72382f6fc582051aac854"
+    },
+    {
+      "id": "episode_000550",
+      "path": "data/access_group_holdout_v1/videos/episode_000550.mp4",
+      "bytes": 540628,
+      "sha256": "68194fbbc9470d3780e9d83f1e5c1b73be492ff8b53a97f07e3045e2060285bf"
+    },
+    {
+      "id": "episode_000551",
+      "path": "data/access_group_holdout_v1/videos/episode_000551.mp4",
+      "bytes": 585720,
+      "sha256": "e09b1165ee8bae6e2c251557c6198c39527621cbc365952f0e344e372ec0ea24"
+    },
+    {
+      "id": "episode_000558",
+      "path": "data/access_group_holdout_v1/videos/episode_000558.mp4",
+      "bytes": 504481,
+      "sha256": "960dcdb4846812f6daaac11a40d7cc44081ec331db51da94c1869600266ceab9"
+    },
+    {
+      "id": "episode_000559",
+      "path": "data/access_group_holdout_v1/videos/episode_000559.mp4",
+      "bytes": 527841,
+      "sha256": "47c25bdea4ef65f511181606d0e10f66113025da52e7a66a2cd25f3c91f33c89"
+    },
+    {
+      "id": "episode_000562",
+      "path": "data/access_group_holdout_v1/videos/episode_000562.mp4",
+      "bytes": 545097,
+      "sha256": "22c0897362844892fbae567391a587b4dde9196a3dae5e4ed6499bf20839cf18"
+    },
+    {
+      "id": "episode_000563",
+      "path": "data/access_group_holdout_v1/videos/episode_000563.mp4",
+      "bytes": 612403,
+      "sha256": "7df75fd0ccf55f760babdd89bcfa5a7c3785e52804dc05b0d2b1b2a502eb617a"
+    },
+    {
+      "id": "episode_000567",
+      "path": "data/access_group_holdout_v1/videos/episode_000567.mp4",
+      "bytes": 587654,
+      "sha256": "ba17aac55f0b705d70264bf2dd0ac16d5ae975bee921a8d1fec26ce13aeec413"
+    },
+    {
+      "id": "episode_000572",
+      "path": "data/access_group_holdout_v1/videos/episode_000572.mp4",
+      "bytes": 549918,
+      "sha256": "ffd5f7b7abc5d670bfc05107ac3335e2009651ca782e190fad54f79be482a1d8"
+    },
+    {
+      "id": "episode_000574",
+      "path": "data/access_group_holdout_v1/videos/episode_000574.mp4",
+      "bytes": 619412,
+      "sha256": "e316ef9ed7f3fa01905fbe3376dab2860ec9481f8ecc749abc9cced1e7f21a4a"
+    },
+    {
+      "id": "episode_000575",
+      "path": "data/access_group_holdout_v1/videos/episode_000575.mp4",
+      "bytes": 642503,
+      "sha256": "7add13ebbea3d964804149e784baf1872e5861c4717063f8931c0a3fe026e271"
+    },
+    {
+      "id": "episode_000577",
+      "path": "data/access_group_holdout_v1/videos/episode_000577.mp4",
+      "bytes": 524542,
+      "sha256": "749dbd8a2ff5b2da3fc4ce772ff23161af4aa955ba2a797fab055d9ad225afd8"
+    },
+    {
+      "id": "episode_000579",
+      "path": "data/access_group_holdout_v1/videos/episode_000579.mp4",
+      "bytes": 529216,
+      "sha256": "bae32c7a083f61d586d4edea4a5b0afbadd7652b766a7bf981c0ed11c1ee4fac"
+    },
+    {
+      "id": "episode_000580",
+      "path": "data/access_group_holdout_v1/videos/episode_000580.mp4",
+      "bytes": 514335,
+      "sha256": "fc141b2e57f872e04bb447e8ed10639f3611dbd1c44a72a309910dd38ca16541"
+    },
+    {
+      "id": "episode_000581",
+      "path": "data/access_group_holdout_v1/videos/episode_000581.mp4",
+      "bytes": 482429,
+      "sha256": "f5fc82e3e9a0ec2d06896b715d44280f88cb12673cb76146410ee10d36fe2e2e"
+    },
+    {
+      "id": "episode_000584",
+      "path": "data/access_group_holdout_v1/videos/episode_000584.mp4",
+      "bytes": 505097,
+      "sha256": "7544176523985cb61715c0b875064bae259f2a15d7ed49266250a5bacfc69e7b"
+    },
+    {
+      "id": "episode_000585",
+      "path": "data/access_group_holdout_v1/videos/episode_000585.mp4",
+      "bytes": 609678,
+      "sha256": "86c7ee43fef3680f1f3f3cd013bf4c1beac68e5c1ceb80b33c1b5ee8b6667615"
+    },
+    {
+      "id": "episode_000586",
+      "path": "data/access_group_holdout_v1/videos/episode_000586.mp4",
+      "bytes": 542145,
+      "sha256": "d2e8aa16f702bc3a29e777786d630aafa30db880b49fe6a2dd772c8b51264839"
+    },
+    {
+      "id": "episode_000589",
+      "path": "data/access_group_holdout_v1/videos/episode_000589.mp4",
+      "bytes": 512269,
+      "sha256": "3a27b9024af7b9b3d6d55cff5c3ded205cdec1cfae320bd758279c66c73b0414"
+    },
+    {
+      "id": "episode_000591",
+      "path": "data/access_group_holdout_v1/videos/episode_000591.mp4",
+      "bytes": 553115,
+      "sha256": "e935db689446de3390ea98541e45de06b67fa121677d8b00ae46287c373a0de5"
+    },
+    {
+      "id": "episode_000592",
+      "path": "data/access_group_holdout_v1/videos/episode_000592.mp4",
+      "bytes": 561897,
+      "sha256": "4023069ae665c6691cc1c4e0fee3f370886b1cf0451063d90747384ac6485b37"
+    },
+    {
+      "id": "episode_000593",
+      "path": "data/access_group_holdout_v1/videos/episode_000593.mp4",
+      "bytes": 596503,
+      "sha256": "5334989288d4d8664c51f05357a7291244550bc5901bf7cdd5478bb64b2b2482"
+    },
+    {
+      "id": "episode_000595",
+      "path": "data/access_group_holdout_v1/videos/episode_000595.mp4",
+      "bytes": 519925,
+      "sha256": "d6af80448bc6aec5a788845f72c09f3310270fb29a123fb1feb5b6844bb013f3"
+    },
+    {
+      "id": "episode_000596",
+      "path": "data/access_group_holdout_v1/videos/episode_000596.mp4",
+      "bytes": 510517,
+      "sha256": "9a4e5ecdcbb45cad7ed08bc178204c011940478c585783b3a0227a24da6b7fce"
+    },
+    {
+      "id": "episode_000597",
+      "path": "data/access_group_holdout_v1/videos/episode_000597.mp4",
+      "bytes": 528580,
+      "sha256": "f0138ce10399c392291929524a7d727839ae4015613c561d3a7468e34d00bb16"
+    },
+    {
+      "id": "episode_000599",
+      "path": "data/access_group_holdout_v1/videos/episode_000599.mp4",
+      "bytes": 322252,
+      "sha256": "ede1e510bad21b20114ba44571633903a8b586759fd89f89e9cad57ba3331621"
+    },
+    {
+      "id": "episode_000601",
+      "path": "data/access_group_holdout_v1/videos/episode_000601.mp4",
+      "bytes": 551197,
+      "sha256": "924f901bd7d81a8087370fb5d181b7c1c4efb499578a1dd674d74e63840b7e1a"
+    },
+    {
+      "id": "episode_000602",
+      "path": "data/access_group_holdout_v1/videos/episode_000602.mp4",
+      "bytes": 534603,
+      "sha256": "964d5570569485fe8a1e4637373f187ebf7f5dc415759d7629b6fd2cfc49562c"
+    },
+    {
+      "id": "episode_000603",
+      "path": "data/access_group_holdout_v1/videos/episode_000603.mp4",
+      "bytes": 650291,
+      "sha256": "9e27cbacddd724aaff44ba5e9606d8b101f53a19f1a2d3a9a78b589a1f8e4354"
+    },
+    {
+      "id": "episode_000610",
+      "path": "data/access_group_holdout_v1/videos/episode_000610.mp4",
+      "bytes": 535880,
+      "sha256": "b486cc38f3e8ca3ee42e71cd17a7979ee31d768d525ccab66e30971c03dcc4d1"
+    },
+    {
+      "id": "episode_000616",
+      "path": "data/access_group_holdout_v1/videos/episode_000616.mp4",
+      "bytes": 494678,
+      "sha256": "5d8dba95eec41246928900abfee1a2a7daea6ceaedb94d557d7a8b4fd7193b4b"
+    },
+    {
+      "id": "episode_000618",
+      "path": "data/access_group_holdout_v1/videos/episode_000618.mp4",
+      "bytes": 619854,
+      "sha256": "f684d4d45e6b6a175bb7d837ce02529d5e1d3e244672c307074374e5962bfdd9"
+    },
+    {
+      "id": "episode_000619",
+      "path": "data/access_group_holdout_v1/videos/episode_000619.mp4",
+      "bytes": 531968,
+      "sha256": "71eaa06d47a9e0e6ebc78ab65f9c362b1a0ca77888d723426ee88369807a26b6"
+    },
+    {
+      "id": "episode_000621",
+      "path": "data/access_group_holdout_v1/videos/episode_000621.mp4",
+      "bytes": 526469,
+      "sha256": "d533f09af7e3a1189690383a42f98cb973f6c3e2922b980dbd168bd99443ca16"
+    },
+    {
+      "id": "episode_000623",
+      "path": "data/access_group_holdout_v1/videos/episode_000623.mp4",
+      "bytes": 518435,
+      "sha256": "584578010a2c3207a536a20fa8347c13ff492d6973325f9d9eddc94f3d5ed913"
+    },
+    {
+      "id": "episode_000624",
+      "path": "data/access_group_holdout_v1/videos/episode_000624.mp4",
+      "bytes": 549618,
+      "sha256": "7cec200acb2c9090ac09523d891231fc7c4c90cf8b60cd9351b28edca816a639"
+    },
+    {
+      "id": "episode_000629",
+      "path": "data/access_group_holdout_v1/videos/episode_000629.mp4",
+      "bytes": 611639,
+      "sha256": "15c7c07c295b16b89849e30654b7934570f08e78b14a27aaa4e1b531b9c2eff6"
+    },
+    {
+      "id": "episode_000633",
+      "path": "data/access_group_holdout_v1/videos/episode_000633.mp4",
+      "bytes": 597559,
+      "sha256": "8ffff464a1a034db8aa66ee239cf35771594db232e7c2ecc7d65f7fae34cc5a8"
+    },
+    {
+      "id": "episode_000635",
+      "path": "data/access_group_holdout_v1/videos/episode_000635.mp4",
+      "bytes": 477131,
+      "sha256": "51e71444e6ed8b006c4c5b96cecbc169c9d5633747a7f8c15c01781d450e3bab"
+    },
+    {
+      "id": "episode_000636",
+      "path": "data/access_group_holdout_v1/videos/episode_000636.mp4",
+      "bytes": 608183,
+      "sha256": "e644f36be70fde75fbae6eb9380ca3abb4d2f0cf6f88028e1f8229dd50235118"
+    },
+    {
+      "id": "episode_000637",
+      "path": "data/access_group_holdout_v1/videos/episode_000637.mp4",
+      "bytes": 517772,
+      "sha256": "c526f448eafb7806eaa3375f546bf974d6cbb9d47d3faafa97726110a83117e1"
+    },
+    {
+      "id": "episode_000639",
+      "path": "data/access_group_holdout_v1/videos/episode_000639.mp4",
+      "bytes": 609474,
+      "sha256": "1273cbf10acb10ad55575eda247cd8d7fef39e3ff8286f8740b8618ed6a8b0f2"
+    },
+    {
+      "id": "episode_000640",
+      "path": "data/access_group_holdout_v1/videos/episode_000640.mp4",
+      "bytes": 626850,
+      "sha256": "221de1751767e21f59a27471ff37f99de8db62f430fbd126dc14507a66120375"
+    },
+    {
+      "id": "episode_000644",
+      "path": "data/access_group_holdout_v1/videos/episode_000644.mp4",
+      "bytes": 515629,
+      "sha256": "fc002ca0c159bf75257e58c04e5cf7c2178941a9ff02bf35e7b66cfce1daa49b"
+    },
+    {
+      "id": "episode_000645",
+      "path": "data/access_group_holdout_v1/videos/episode_000645.mp4",
+      "bytes": 503615,
+      "sha256": "79341f1f418a0744b337575cca2fe2267078d8e5dee13139207ec87a77619c46"
+    },
+    {
+      "id": "episode_000646",
+      "path": "data/access_group_holdout_v1/videos/episode_000646.mp4",
+      "bytes": 538932,
+      "sha256": "089cdf3e1d8336f261f7e0d71cdb11a11913ffdddd638b637dfd6edd8624502f"
+    },
+    {
+      "id": "episode_000648",
+      "path": "data/access_group_holdout_v1/videos/episode_000648.mp4",
+      "bytes": 497791,
+      "sha256": "8a7e3d0d7e9acc5078b902483d8fe5d0e3df2085986dd4ff62c881ba1792e414"
+    },
+    {
+      "id": "episode_000649",
+      "path": "data/access_group_holdout_v1/videos/episode_000649.mp4",
+      "bytes": 522742,
+      "sha256": "f8147b547aee7eb71b27018242c81e428fa77dacd58da25d43c53ac9010873b1"
+    },
+    {
+      "id": "episode_000650",
+      "path": "data/access_group_holdout_v1/videos/episode_000650.mp4",
+      "bytes": 504220,
+      "sha256": "d6fe1b6ccb1b50b0776dfde3745d96a0d4ca9436204f7510b9d42dae153bb742"
+    },
+    {
+      "id": "episode_000651",
+      "path": "data/access_group_holdout_v1/videos/episode_000651.mp4",
+      "bytes": 535357,
+      "sha256": "f182f30e545ab9f666ea1661b9ec1755aac1f1ef2e5fa15ccc5f291decd42baf"
+    },
+    {
+      "id": "episode_000660",
+      "path": "data/access_group_holdout_v1/videos/episode_000660.mp4",
+      "bytes": 634566,
+      "sha256": "96b19b00fa6ad8f5fd0274d6ff260430a64a0a8fd2de94318f112f8ef7a3a9ea"
+    },
+    {
+      "id": "episode_000661",
+      "path": "data/access_group_holdout_v1/videos/episode_000661.mp4",
+      "bytes": 557434,
+      "sha256": "e3a8e3084e6dff6fcd6d6d4ede62363a79907f5bd6aa45c39316444742e5d5c1"
+    },
+    {
+      "id": "episode_000662",
+      "path": "data/access_group_holdout_v1/videos/episode_000662.mp4",
+      "bytes": 620693,
+      "sha256": "3105d2c94fc088e607a89ffbb1d3934c2dec91ecf1b43b8c9a6c76ea77770039"
+    },
+    {
+      "id": "episode_000664",
+      "path": "data/access_group_holdout_v1/videos/episode_000664.mp4",
+      "bytes": 583359,
+      "sha256": "46a419c7391c6a65936165efd0da677cabf020c2d78066e43ddcbd04a1c2a3e4"
+    },
+    {
+      "id": "episode_000665",
+      "path": "data/access_group_holdout_v1/videos/episode_000665.mp4",
+      "bytes": 668799,
+      "sha256": "5f894c27195cc006d694ba853d41f34e9269e1bcf940856f9d0a1bc90daa9900"
+    },
+    {
+      "id": "episode_000666",
+      "path": "data/access_group_holdout_v1/videos/episode_000666.mp4",
+      "bytes": 507035,
+      "sha256": "f2d6346f5f3b9f997c0e26e6d06d83dc5023766e773ae596766947a21eda5754"
+    },
+    {
+      "id": "episode_000669",
+      "path": "data/access_group_holdout_v1/videos/episode_000669.mp4",
+      "bytes": 512834,
+      "sha256": "46c7a16d289d814b1e4592db8819f332773641ef1a5e1c19bfdf2f5c31b66d50"
+    },
+    {
+      "id": "episode_000675",
+      "path": "data/access_group_holdout_v1/videos/episode_000675.mp4",
+      "bytes": 542573,
+      "sha256": "6e9b011ed438a17f67c393d135ed2f6844402498ad1c152c85ed280e6e64b84d"
+    },
+    {
+      "id": "episode_000685",
+      "path": "data/access_group_holdout_v1/videos/episode_000685.mp4",
+      "bytes": 502082,
+      "sha256": "5ef2cfbe22d500f7890f37b53532a4504f3c97ef2efc1b692892b2a3507d88bb"
+    },
+    {
+      "id": "episode_000686",
+      "path": "data/access_group_holdout_v1/videos/episode_000686.mp4",
+      "bytes": 502217,
+      "sha256": "f5771da927d1c7f8f6a7975fb5b73e69f7a5c18fe731f2f72d5940594f90a26d"
+    },
+    {
+      "id": "episode_000687",
+      "path": "data/access_group_holdout_v1/videos/episode_000687.mp4",
+      "bytes": 537784,
+      "sha256": "c670eccd8a3cf89f3d5a3aebf5f2475517ac79ace9c9d265c762fbf8e28cf4c8"
+    },
+    {
+      "id": "episode_000692",
+      "path": "data/access_group_holdout_v1/videos/episode_000692.mp4",
+      "bytes": 575087,
+      "sha256": "bd3ce28df8ccf5fd19534eeeca4016619c1c7d362b8d5c81fcc165a9de42776b"
+    },
+    {
+      "id": "episode_000695",
+      "path": "data/access_group_holdout_v1/videos/episode_000695.mp4",
+      "bytes": 274243,
+      "sha256": "3d965f615fc3ca070060daea3e2756753a534af3a6ffb77640603988f3eceb91"
+    },
+    {
+      "id": "episode_000702",
+      "path": "data/access_group_holdout_v1/videos/episode_000702.mp4",
+      "bytes": 552900,
+      "sha256": "932eacc948cb337235fc21da1e0208f499c8b2d61114a350ce71af51529e3353"
+    },
+    {
+      "id": "episode_000703",
+      "path": "data/access_group_holdout_v1/videos/episode_000703.mp4",
+      "bytes": 607337,
+      "sha256": "9faf51889620264234e4d434974c6e7235eb47ee5bafb3dd1ce3c0ead09c1ada"
+    },
+    {
+      "id": "episode_000705",
+      "path": "data/access_group_holdout_v1/videos/episode_000705.mp4",
+      "bytes": 541952,
+      "sha256": "5c7a77aad7e46a93c16d0b690870a0d9203d6c1e5671804473d151ae5343ee5b"
+    },
+    {
+      "id": "episode_000709",
+      "path": "data/access_group_holdout_v1/videos/episode_000709.mp4",
+      "bytes": 505597,
+      "sha256": "7d95890237f02591b261a604e8b4c27f38200691982f312657baa1ef742b2b8d"
+    },
+    {
+      "id": "episode_000711",
+      "path": "data/access_group_holdout_v1/videos/episode_000711.mp4",
+      "bytes": 525339,
+      "sha256": "de73ca9bece431d46c091daa3287e1a72a4f2fd360dbfad932b95cf7b2842b0b"
+    },
+    {
+      "id": "episode_000712",
+      "path": "data/access_group_holdout_v1/videos/episode_000712.mp4",
+      "bytes": 517699,
+      "sha256": "4095bb68971c8e7f5185e173da30647f111e2f2d542a0aef1be1a9c145c1e3dd"
+    },
+    {
+      "id": "episode_000714",
+      "path": "data/access_group_holdout_v1/videos/episode_000714.mp4",
+      "bytes": 487235,
+      "sha256": "a1a4d3c89ab750111d9f976cc365aad17255f5e3b8ce18c47f069c965b8121bc"
+    },
+    {
+      "id": "episode_000716",
+      "path": "data/access_group_holdout_v1/videos/episode_000716.mp4",
+      "bytes": 533498,
+      "sha256": "7318441183a92a8a6d728b92043e8ddfcdb9717418f1e0dc341eb661bae6dfa2"
+    },
+    {
+      "id": "episode_000717",
+      "path": "data/access_group_holdout_v1/videos/episode_000717.mp4",
+      "bytes": 525784,
+      "sha256": "9fcc072bd3575c9869fb5707c2e10b4eb7c00a7a853a47c8256f2c482c7acd3a"
+    },
+    {
+      "id": "episode_000719",
+      "path": "data/access_group_holdout_v1/videos/episode_000719.mp4",
+      "bytes": 491729,
+      "sha256": "b450012a5bc2e8634deaec6882b898327b5709f81d44db2d707e63bde448c7f8"
+    },
+    {
+      "id": "episode_000721",
+      "path": "data/access_group_holdout_v1/videos/episode_000721.mp4",
+      "bytes": 633156,
+      "sha256": "b2887fd25736d9c2ce1ad3fbea0c2fb67e1c44cbc0d2e598f062789a982f2e76"
+    },
+    {
+      "id": "episode_000722",
+      "path": "data/access_group_holdout_v1/videos/episode_000722.mp4",
+      "bytes": 496682,
+      "sha256": "a58bccb325af014cf70cdcb1d3130af3687a587ca4283d4a06b4f8dab971a267"
+    },
+    {
+      "id": "episode_000725",
+      "path": "data/access_group_holdout_v1/videos/episode_000725.mp4",
+      "bytes": 407962,
+      "sha256": "4723266f398d97aa940db71eac7e58c2f2c257722c42acb923e779fdbd002ad0"
+    },
+    {
+      "id": "episode_000727",
+      "path": "data/access_group_holdout_v1/videos/episode_000727.mp4",
+      "bytes": 521827,
+      "sha256": "d51642fdd2e942dbe213098b468361ab9a3392bf662b4f404e16a532cb006407"
+    },
+    {
+      "id": "episode_000729",
+      "path": "data/access_group_holdout_v1/videos/episode_000729.mp4",
+      "bytes": 620596,
+      "sha256": "c9a70c1875ca3ea7144a3ed27d2ac72c7a3a749c611e105af038bc2fc16e3452"
+    },
+    {
+      "id": "episode_000730",
+      "path": "data/access_group_holdout_v1/videos/episode_000730.mp4",
+      "bytes": 594779,
+      "sha256": "2fad913a7a31ff3bcced5ba58440a87d54e721588010800e0ef12ae312ea8c1c"
+    },
+    {
+      "id": "episode_000732",
+      "path": "data/access_group_holdout_v1/videos/episode_000732.mp4",
+      "bytes": 603606,
+      "sha256": "cea309b02704f886e24fd61c9c824301a3c1eb2b5d896dcb2a2797a4dedf86d7"
+    },
+    {
+      "id": "episode_000733",
+      "path": "data/access_group_holdout_v1/videos/episode_000733.mp4",
+      "bytes": 583807,
+      "sha256": "49ea1b18d34efa7fbbd965f7c42224cca3750f37c17ddc00628a6b08b2fcb8a4"
+    },
+    {
+      "id": "episode_000735",
+      "path": "data/access_group_holdout_v1/videos/episode_000735.mp4",
+      "bytes": 538627,
+      "sha256": "16f217dee9fe5e09bbb31dbc2383de153164a611eaa3c267a3a4c30291b7f93e"
+    },
+    {
+      "id": "episode_000738",
+      "path": "data/access_group_holdout_v1/videos/episode_000738.mp4",
+      "bytes": 546069,
+      "sha256": "7f589fa1c33e0c4c16dcca7b9f8b7038a2f0870eb1b34a311dc1f51794872ffd"
+    },
+    {
+      "id": "episode_000740",
+      "path": "data/access_group_holdout_v1/videos/episode_000740.mp4",
+      "bytes": 521684,
+      "sha256": "a0cbd15db1c96e30f6cb119b859a76d6b39c965a757263674da34c9abc55105e"
+    },
+    {
+      "id": "episode_000742",
+      "path": "data/access_group_holdout_v1/videos/episode_000742.mp4",
+      "bytes": 533869,
+      "sha256": "75dccc1e7389e559fd7de6a4c57f1b8c7a7a6d54e0377a524cbd9963ee42169a"
+    },
+    {
+      "id": "episode_000743",
+      "path": "data/access_group_holdout_v1/videos/episode_000743.mp4",
+      "bytes": 536901,
+      "sha256": "4acbd3f12081d8c48649a30992a3c3513fa0d00bd69987f5c1e8802ffb6cdb88"
+    },
+    {
+      "id": "episode_000744",
+      "path": "data/access_group_holdout_v1/videos/episode_000744.mp4",
+      "bytes": 478973,
+      "sha256": "e5aec7eeed49e95433a39e154c6eaccd87719132d3bd3cd14660fa8fba8dc0b0"
+    },
+    {
+      "id": "episode_000745",
+      "path": "data/access_group_holdout_v1/videos/episode_000745.mp4",
+      "bytes": 558911,
+      "sha256": "c5670dfa27c08e3e415ca432cf6097bc9970a6a225813865af46d41254d52d30"
+    },
+    {
+      "id": "episode_000749",
+      "path": "data/access_group_holdout_v1/videos/episode_000749.mp4",
+      "bytes": 296885,
+      "sha256": "63c77c6786aa04ee21b6d256b10b51ce4d305597361f562e8b219799bf95c121"
+    },
+    {
+      "id": "episode_000751",
+      "path": "data/access_group_holdout_v1/videos/episode_000751.mp4",
+      "bytes": 519910,
+      "sha256": "dd1091a9ba556fd0731c3bf7727083bf269f56697795506358323aa8b56f2d2e"
+    },
+    {
+      "id": "episode_000753",
+      "path": "data/access_group_holdout_v1/videos/episode_000753.mp4",
+      "bytes": 520991,
+      "sha256": "56d50f0033ffe9bd85a7191b53f0accdc741ef73bd6c3c744a2d9c84a4c0e1f8"
+    },
+    {
+      "id": "episode_000754",
+      "path": "data/access_group_holdout_v1/videos/episode_000754.mp4",
+      "bytes": 559605,
+      "sha256": "e68333aa0969bf6b51f22916c7a1651285e3ce6ceda3f21aef71540a2cc17310"
+    },
+    {
+      "id": "episode_000755",
+      "path": "data/access_group_holdout_v1/videos/episode_000755.mp4",
+      "bytes": 506838,
+      "sha256": "95de95fe6e46622ee03c8ede2a9d9e201031ed919ed97dcd99d36b42b238ee4e"
+    },
+    {
+      "id": "episode_000757",
+      "path": "data/access_group_holdout_v1/videos/episode_000757.mp4",
+      "bytes": 611352,
+      "sha256": "dc43e5f5ef4097e4ae2f006e61626c378dc870ba4b86a4e55ca72b4395b42285"
+    },
+    {
+      "id": "episode_000759",
+      "path": "data/access_group_holdout_v1/videos/episode_000759.mp4",
+      "bytes": 577819,
+      "sha256": "67b358f09495824540543374637b64448ef385ca1b75fa02029b3cc83038040d"
+    },
+    {
+      "id": "episode_000760",
+      "path": "data/access_group_holdout_v1/videos/episode_000760.mp4",
+      "bytes": 698595,
+      "sha256": "63acf11b6bbcab0cd855890111f934068776dc5535ea23243ade9499bee63522"
+    },
+    {
+      "id": "episode_000761",
+      "path": "data/access_group_holdout_v1/videos/episode_000761.mp4",
+      "bytes": 631014,
+      "sha256": "76fbdfcd618578e0237c62b349fe5d327e21808948eb9e124c39f74bec5396b5"
+    },
+    {
+      "id": "episode_000767",
+      "path": "data/access_group_holdout_v1/videos/episode_000767.mp4",
+      "bytes": 575991,
+      "sha256": "33c299a91e3e34c2737b685fc9e05d93afea0333578832f6feba72fdb3b4a609"
+    },
+    {
+      "id": "episode_000769",
+      "path": "data/access_group_holdout_v1/videos/episode_000769.mp4",
+      "bytes": 621456,
+      "sha256": "5f693ca7bfb6ef5b65aacffe966fd80dfa761ec369e9a432f3481ffc75357407"
+    },
+    {
+      "id": "episode_000771",
+      "path": "data/access_group_holdout_v1/videos/episode_000771.mp4",
+      "bytes": 566798,
+      "sha256": "6ba7c0d2b53cbdbb7eae258251bd29da27854ee294adfdcd4fb32f42745647b9"
+    },
+    {
+      "id": "episode_000774",
+      "path": "data/access_group_holdout_v1/videos/episode_000774.mp4",
+      "bytes": 501989,
+      "sha256": "ef9b99df87bdc120a006769d430f00f77f551275bf4362532edc4af76739b616"
+    },
+    {
+      "id": "episode_000778",
+      "path": "data/access_group_holdout_v1/videos/episode_000778.mp4",
+      "bytes": 513391,
+      "sha256": "5a7e6cf63ccf6b9af67ca7414c6a3172ff7e30ce59dde0aeb2c2b0634860f9f4"
+    },
+    {
+      "id": "episode_000779",
+      "path": "data/access_group_holdout_v1/videos/episode_000779.mp4",
+      "bytes": 493114,
+      "sha256": "5eba68edbebc0bc17d436753ed02bcc13e517b0069061419b9755da1053c7e73"
+    },
+    {
+      "id": "episode_000782",
+      "path": "data/access_group_holdout_v1/videos/episode_000782.mp4",
+      "bytes": 509808,
+      "sha256": "d497cfc51ae7d2c59f62060e90029b0e71ab61982023d34cb4c6fa05f85ab9fd"
+    },
+    {
+      "id": "episode_000783",
+      "path": "data/access_group_holdout_v1/videos/episode_000783.mp4",
+      "bytes": 514289,
+      "sha256": "571c53eedb6fcd168ce7194ee4b10c3dd5f8dac7ecfc7a7df12f297cf18247f0"
+    },
+    {
+      "id": "episode_000785",
+      "path": "data/access_group_holdout_v1/videos/episode_000785.mp4",
+      "bytes": 546716,
+      "sha256": "67ed0ce3c173b8a81a9f23cf37c851259f5fead707811bd9e79ca0b2e0e1e932"
+    },
+    {
+      "id": "episode_000787",
+      "path": "data/access_group_holdout_v1/videos/episode_000787.mp4",
+      "bytes": 525996,
+      "sha256": "884a08549d45da7c62ecda124cde56aa8c6b06205cafd72e760b51251111fa17"
+    },
+    {
+      "id": "episode_000789",
+      "path": "data/access_group_holdout_v1/videos/episode_000789.mp4",
+      "bytes": 256718,
+      "sha256": "51e5d5e1ed770b4fab87df12a8659fc21c89526c125b001f6485477836087a21"
+    },
+    {
+      "id": "episode_000791",
+      "path": "data/access_group_holdout_v1/videos/episode_000791.mp4",
+      "bytes": 597717,
+      "sha256": "fddd4538ca81906463a9d262c775cd893f9d84cb046e763eb58b3eec41b1f6b7"
+    },
+    {
+      "id": "episode_000795",
+      "path": "data/access_group_holdout_v1/videos/episode_000795.mp4",
+      "bytes": 590538,
+      "sha256": "ac3ca68a1d8e215ff8cf86aceecd51dd287be186f49f6741a61e463a2ec9ea92"
+    },
+    {
+      "id": "episode_000796",
+      "path": "data/access_group_holdout_v1/videos/episode_000796.mp4",
+      "bytes": 596520,
+      "sha256": "e273cd7b26708cbce41a264ba4bef06e5ac7fa710defebb6ea45c7b970f4a9e3"
+    },
+    {
+      "id": "episode_000799",
+      "path": "data/access_group_holdout_v1/videos/episode_000799.mp4",
+      "bytes": 637736,
+      "sha256": "cdd88ef00855d7b87cb0cc3eb1c9276317f4a8d45951658f1949d9d6745a3cd7"
+    },
+    {
+      "id": "episode_000801",
+      "path": "data/access_group_holdout_v1/videos/episode_000801.mp4",
+      "bytes": 625736,
+      "sha256": "e1b78cc210291007518e48d6f06f9a171321fe2fa6a5e02fe9c60a1a03c5a7ca"
+    },
+    {
+      "id": "episode_000803",
+      "path": "data/access_group_holdout_v1/videos/episode_000803.mp4",
+      "bytes": 577705,
+      "sha256": "04d26ed3160ed41cdc746af68faeb8e6addbc94a0440a2f9dedc1e537381524d"
+    },
+    {
+      "id": "episode_000809",
+      "path": "data/access_group_holdout_v1/videos/episode_000809.mp4",
+      "bytes": 476329,
+      "sha256": "29045dc14992dec524180cee2128b1dc49b66675dc74c194683a70ceb0b523db"
+    },
+    {
+      "id": "episode_000811",
+      "path": "data/access_group_holdout_v1/videos/episode_000811.mp4",
+      "bytes": 517818,
+      "sha256": "9d3b561e3868a5f502cd82e42dbaf19c309b291d8631b4340156033dbe10a26b"
+    },
+    {
+      "id": "episode_000812",
+      "path": "data/access_group_holdout_v1/videos/episode_000812.mp4",
+      "bytes": 546483,
+      "sha256": "23023666fb0ac3a7aae5ef1cbfa5b89e408a0665550e9fdb8b8f3454d6549c9a"
+    },
+    {
+      "id": "episode_000813",
+      "path": "data/access_group_holdout_v1/videos/episode_000813.mp4",
+      "bytes": 506220,
+      "sha256": "9186558833929470f9b2ec97bf17e6280f00c8439fa9104bb24bf58740999efd"
+    },
+    {
+      "id": "episode_000816",
+      "path": "data/access_group_holdout_v1/videos/episode_000816.mp4",
+      "bytes": 490540,
+      "sha256": "c1c25649ea7eab82b7f49068649a250ca69bc0d4e2401f7c1423a2dc48d46b30"
+    },
+    {
+      "id": "episode_000817",
+      "path": "data/access_group_holdout_v1/videos/episode_000817.mp4",
+      "bytes": 531752,
+      "sha256": "4b198ec0aab69f9c15720c5076ee0d9ffc984c3815779de42a4bb554c47ced95"
+    },
+    {
+      "id": "episode_000825",
+      "path": "data/access_group_holdout_v1/videos/episode_000825.mp4",
+      "bytes": 539512,
+      "sha256": "a31ed7705ed39cf3934a9764ba699b22b707f9860612183ce408055b5a5ed4a1"
+    },
+    {
+      "id": "episode_000828",
+      "path": "data/access_group_holdout_v1/videos/episode_000828.mp4",
+      "bytes": 577814,
+      "sha256": "cd35a2b223156fe12879b4accdd678c954ee155157f2336031435027c52c101d"
+    },
+    {
+      "id": "episode_000829",
+      "path": "data/access_group_holdout_v1/videos/episode_000829.mp4",
+      "bytes": 573780,
+      "sha256": "a2bf4e70c2e15012549051a4706d04566e726001dc2803253d6aea7bfceeff00"
+    },
+    {
+      "id": "episode_000833",
+      "path": "data/access_group_holdout_v1/videos/episode_000833.mp4",
+      "bytes": 566979,
+      "sha256": "19f5945723706f4fd9de50f939c75f69204cab3f5befbc22bef68c590787649e"
+    },
+    {
+      "id": "episode_000835",
+      "path": "data/access_group_holdout_v1/videos/episode_000835.mp4",
+      "bytes": 507799,
+      "sha256": "c4a68ebdaffdedf30808e6df70103a0925c2f7e49b6960af798db9d92a2f3a06"
+    },
+    {
+      "id": "episode_000837",
+      "path": "data/access_group_holdout_v1/videos/episode_000837.mp4",
+      "bytes": 527520,
+      "sha256": "d99bfb7393b0804ea96ef2ff561621090516520ad456d2dd018481b1b17284ad"
+    },
+    {
+      "id": "episode_000841",
+      "path": "data/access_group_holdout_v1/videos/episode_000841.mp4",
+      "bytes": 545235,
+      "sha256": "c5a68919ef6dac83530e4872082bbd95a1eb1a629c7af06506ddf1b04325b6de"
+    },
+    {
+      "id": "episode_000842",
+      "path": "data/access_group_holdout_v1/videos/episode_000842.mp4",
+      "bytes": 537903,
+      "sha256": "3dfd764668a6c41ed72ac63cb5399e959f3d6a803ad0f05352a24ef20de93fd5"
+    },
+    {
+      "id": "episode_000845",
+      "path": "data/access_group_holdout_v1/videos/episode_000845.mp4",
+      "bytes": 507763,
+      "sha256": "7890399a28d15bfba9ad97d6c7f65de100bbb248682c0c1c9a562eb7972caee7"
+    },
+    {
+      "id": "episode_000848",
+      "path": "data/access_group_holdout_v1/videos/episode_000848.mp4",
+      "bytes": 286962,
+      "sha256": "ba5a44fc2c2a3935a0e22fd689ac3f361958a0c5540a765475aa64035ffc067b"
+    },
+    {
+      "id": "episode_000849",
+      "path": "data/access_group_holdout_v1/videos/episode_000849.mp4",
+      "bytes": 552422,
+      "sha256": "eff67a5f712660fcec2cff2b9f33cc527c87a8eac2ca0175b3150dd60d05062f"
+    },
+    {
+      "id": "episode_000850",
+      "path": "data/access_group_holdout_v1/videos/episode_000850.mp4",
+      "bytes": 513056,
+      "sha256": "ac5dd9afb874a7c2c926a55a30630bfd6b3fbe72eb733ccfd211bca81e9ef000"
+    },
+    {
+      "id": "episode_000852",
+      "path": "data/access_group_holdout_v1/videos/episode_000852.mp4",
+      "bytes": 510877,
+      "sha256": "05d77b8ad50aa44efc2f86aaec823994bf29a68894e60aef193003d2c496dbb3"
+    },
+    {
+      "id": "episode_000854",
+      "path": "data/access_group_holdout_v1/videos/episode_000854.mp4",
+      "bytes": 643733,
+      "sha256": "c5019def149f22c90af4bbdcbb0f458714ee2e97f29e331fcba67c3e021900c6"
+    },
+    {
+      "id": "episode_000855",
+      "path": "data/access_group_holdout_v1/videos/episode_000855.mp4",
+      "bytes": 554442,
+      "sha256": "7ecc3ffbafce1df096a6e392205bfe1a3beab46aaa259f8e43f45a4a9e769738"
+    },
+    {
+      "id": "episode_000858",
+      "path": "data/access_group_holdout_v1/videos/episode_000858.mp4",
+      "bytes": 539223,
+      "sha256": "c953437722c8fafdd22a8d9c5a3ea5924d74d077917cd35534f134ffdea09f6e"
+    },
+    {
+      "id": "episode_000861",
+      "path": "data/access_group_holdout_v1/videos/episode_000861.mp4",
+      "bytes": 283662,
+      "sha256": "d6ca93c4f9d9326eec9fc346cc9046d365ca92af1910faa240880dec7e0b936a"
+    },
+    {
+      "id": "episode_000863",
+      "path": "data/access_group_holdout_v1/videos/episode_000863.mp4",
+      "bytes": 569426,
+      "sha256": "8bfaabca5e1dc277258df0678aa9ecc7d6116232fa7078407beb0e87ddb60ee3"
+    },
+    {
+      "id": "episode_000864",
+      "path": "data/access_group_holdout_v1/videos/episode_000864.mp4",
+      "bytes": 514630,
+      "sha256": "0eeff7b3b7a6b7c11b5ebab58b1872378d1b926eb823932a443f54bf2eb6e7a3"
+    },
+    {
+      "id": "episode_000866",
+      "path": "data/access_group_holdout_v1/videos/episode_000866.mp4",
+      "bytes": 630244,
+      "sha256": "181527d3f0e0dc1d93d8ac247062971f720dec8fe4a9a9693fc3245139bc436f"
+    },
+    {
+      "id": "episode_000867",
+      "path": "data/access_group_holdout_v1/videos/episode_000867.mp4",
+      "bytes": 627867,
+      "sha256": "30f53dc750315d750f235baeace78f5ec76ecdd75ee7c17fcaa06a7c3727900f"
+    },
+    {
+      "id": "episode_000870",
+      "path": "data/access_group_holdout_v1/videos/episode_000870.mp4",
+      "bytes": 514574,
+      "sha256": "2b2625c1922a93fdeb058b481c5d98e3e5804206de21a4d42011ce253b0847a7"
+    },
+    {
+      "id": "episode_000871",
+      "path": "data/access_group_holdout_v1/videos/episode_000871.mp4",
+      "bytes": 507139,
+      "sha256": "17070f4a3576c962381b5455a4ce8b6d56c9fae26dd5b070ac088bcaae98ac02"
+    },
+    {
+      "id": "episode_000873",
+      "path": "data/access_group_holdout_v1/videos/episode_000873.mp4",
+      "bytes": 506469,
+      "sha256": "bdcea009eebbbc2bf7e4e254ecea8585b4f46e9176c1ed4ccee4ee9162576bbf"
+    },
+    {
+      "id": "episode_000874",
+      "path": "data/access_group_holdout_v1/videos/episode_000874.mp4",
+      "bytes": 526293,
+      "sha256": "3baf83e6eb61695c92079cbacc4467f214dd5041ebdd210144b5e81e977348b0"
+    },
+    {
+      "id": "episode_000875",
+      "path": "data/access_group_holdout_v1/videos/episode_000875.mp4",
+      "bytes": 528270,
+      "sha256": "4ef143fda91159f1ec1a16adc0ffc8fb2c621867059b7a9ece77603d5ba94695"
+    },
+    {
+      "id": "episode_000876",
+      "path": "data/access_group_holdout_v1/videos/episode_000876.mp4",
+      "bytes": 559432,
+      "sha256": "5245c718db2606a83ddb3dc45ef4c9e06664b0375fab057abb1e6ad072503a42"
+    },
+    {
+      "id": "episode_000879",
+      "path": "data/access_group_holdout_v1/videos/episode_000879.mp4",
+      "bytes": 641510,
+      "sha256": "5f7a682b1d6ed340756640b1057c26947698bb19533489cce205233eb7cae985"
+    },
+    {
+      "id": "episode_000880",
+      "path": "data/access_group_holdout_v1/videos/episode_000880.mp4",
+      "bytes": 511773,
+      "sha256": "637cb28f97040b2167cfa771df2019e4242cfa0dda31ff95370c2d81e3a3f677"
+    },
+    {
+      "id": "episode_000886",
+      "path": "data/access_group_holdout_v1/videos/episode_000886.mp4",
+      "bytes": 553772,
+      "sha256": "e14747f80147df0ac6f5863d1d95b854942ac62c6a0d76b25ff00f20d73bb454"
+    },
+    {
+      "id": "episode_000887",
+      "path": "data/access_group_holdout_v1/videos/episode_000887.mp4",
+      "bytes": 519146,
+      "sha256": "b425f116bea376d713e8fa1b4180cc6db4f9d6dac949b019283961785463bb0a"
+    },
+    {
+      "id": "episode_000889",
+      "path": "data/access_group_holdout_v1/videos/episode_000889.mp4",
+      "bytes": 506251,
+      "sha256": "4c1a0bea49302cc0198f9ffc41791797734d33478c8c682358a12b8c496206df"
+    },
+    {
+      "id": "episode_000891",
+      "path": "data/access_group_holdout_v1/videos/episode_000891.mp4",
+      "bytes": 620641,
+      "sha256": "677dff08946710453aa62cffce14e90cc9f36a85decba6e245d31bb65f177157"
+    },
+    {
+      "id": "episode_000892",
+      "path": "data/access_group_holdout_v1/videos/episode_000892.mp4",
+      "bytes": 557169,
+      "sha256": "388b4cc69bbe0d21ca078a5dad791e69f9467318683d96335019d15b97da6cd5"
+    },
+    {
+      "id": "episode_000896",
+      "path": "data/access_group_holdout_v1/videos/episode_000896.mp4",
+      "bytes": 520168,
+      "sha256": "dc14b2cfbaf34620508c2e4753204531ca1116991d5d7771a5571aa19726e893"
+    },
+    {
+      "id": "episode_000900",
+      "path": "data/access_group_holdout_v1/videos/episode_000900.mp4",
+      "bytes": 515529,
+      "sha256": "2c7ab6697df4d416bf99a2b80b55aec0568381c8fe6ec898b67d4b7067f126c0"
+    },
+    {
+      "id": "episode_000902",
+      "path": "data/access_group_holdout_v1/videos/episode_000902.mp4",
+      "bytes": 510840,
+      "sha256": "7b981d66f4ef6d3f83c15b80063124efd79875b8dfe16e1685161bb257ee6f89"
+    },
+    {
+      "id": "episode_000903",
+      "path": "data/access_group_holdout_v1/videos/episode_000903.mp4",
+      "bytes": 524756,
+      "sha256": "0324cdd8a284ce558e2229d4d530edba36772e17006a8af9f2227478e00cf7b2"
+    },
+    {
+      "id": "episode_000906",
+      "path": "data/access_group_holdout_v1/videos/episode_000906.mp4",
+      "bytes": 484220,
+      "sha256": "815473105c6eb2289cc8c7ee060ee729914d8ba4f79171adef184e8d4f43b6bc"
+    },
+    {
+      "id": "episode_000907",
+      "path": "data/access_group_holdout_v1/videos/episode_000907.mp4",
+      "bytes": 511665,
+      "sha256": "a990e02e169d0fce6d76d483ebfa9db2f763e6e9eb7008f69b9ca451b39241d3"
+    },
+    {
+      "id": "episode_000910",
+      "path": "data/access_group_holdout_v1/videos/episode_000910.mp4",
+      "bytes": 507451,
+      "sha256": "0a466a98300176d8d27975dc0e195713a0e167f02739eaddd52781ce94b204b2"
+    },
+    {
+      "id": "episode_000912",
+      "path": "data/access_group_holdout_v1/videos/episode_000912.mp4",
+      "bytes": 579401,
+      "sha256": "9ea335453081a1ed02516d4895ecb9ab39fd6656e720641b463ab931a63531cc"
+    },
+    {
+      "id": "episode_000914",
+      "path": "data/access_group_holdout_v1/videos/episode_000914.mp4",
+      "bytes": 538728,
+      "sha256": "b7c2237c810b142f15f25a7c2e99f471ffe7e4328c5ae30ffd8da2ba9f98774b"
+    },
+    {
+      "id": "episode_000916",
+      "path": "data/access_group_holdout_v1/videos/episode_000916.mp4",
+      "bytes": 508920,
+      "sha256": "f9900718362c857cc5b9f5311c6bf228275e3d7fdcfd095472a04c7057eee6cd"
+    },
+    {
+      "id": "episode_000918",
+      "path": "data/access_group_holdout_v1/videos/episode_000918.mp4",
+      "bytes": 541904,
+      "sha256": "b48fb4c08af0f818838afbdd895d0c92083b1b03d0528b3d3b98ae40f8b6d4f3"
+    },
+    {
+      "id": "episode_000919",
+      "path": "data/access_group_holdout_v1/videos/episode_000919.mp4",
+      "bytes": 561746,
+      "sha256": "d1d91e955f881fcdf2302e4dd03828668f95ab59ce2ae2dbe50f3ff74cdec785"
+    },
+    {
+      "id": "episode_000922",
+      "path": "data/access_group_holdout_v1/videos/episode_000922.mp4",
+      "bytes": 547341,
+      "sha256": "e19a1e523d318a71439137d2abb183678b969ee64fe2a9b1e244c8b31f9c8168"
+    },
+    {
+      "id": "episode_000923",
+      "path": "data/access_group_holdout_v1/videos/episode_000923.mp4",
+      "bytes": 541036,
+      "sha256": "e2d564dbd2c4d0431dcb5cb7087d48a76ebe2e7e77cce9f503cf9ffc15e59e0b"
+    },
+    {
+      "id": "episode_000926",
+      "path": "data/access_group_holdout_v1/videos/episode_000926.mp4",
+      "bytes": 545181,
+      "sha256": "064288179270ffdd1035f924033e7217269a43a4a3e6e9927f019bdee7c0ecdc"
+    },
+    {
+      "id": "episode_000928",
+      "path": "data/access_group_holdout_v1/videos/episode_000928.mp4",
+      "bytes": 541441,
+      "sha256": "b3af1d26c7c95b23db959ae0abdb64879d9e0ef3b294633e3228cac0ae10c736"
+    },
+    {
+      "id": "episode_000929",
+      "path": "data/access_group_holdout_v1/videos/episode_000929.mp4",
+      "bytes": 526020,
+      "sha256": "26685b8bb614bbb7eea8c7ecdd4b465b371fc5a6327f9df3074ebe8053cc66fa"
+    },
+    {
+      "id": "episode_000930",
+      "path": "data/access_group_holdout_v1/videos/episode_000930.mp4",
+      "bytes": 630001,
+      "sha256": "61c3ce7c11d58e747e26944bfbf24cbe0fd08397691fbf6e3e69bea603ce37e3"
+    },
+    {
+      "id": "episode_000932",
+      "path": "data/access_group_holdout_v1/videos/episode_000932.mp4",
+      "bytes": 525554,
+      "sha256": "8298c078883cb50a845e910895e015dee68eb9ce77202d6dc766ad3309174e3a"
+    },
+    {
+      "id": "episode_000933",
+      "path": "data/access_group_holdout_v1/videos/episode_000933.mp4",
+      "bytes": 553691,
+      "sha256": "7b11aedf6c077d6c1333183945dee862b7ef3eaef6d5cec9c2a9bc9c52cc408f"
+    },
+    {
+      "id": "episode_000934",
+      "path": "data/access_group_holdout_v1/videos/episode_000934.mp4",
+      "bytes": 520865,
+      "sha256": "be4d880825832b6549011fa49469c2d32522fa9197ef6b877c6feb94bea8c5b6"
+    },
+    {
+      "id": "episode_000938",
+      "path": "data/access_group_holdout_v1/videos/episode_000938.mp4",
+      "bytes": 510558,
+      "sha256": "1a25839c11ad552e4d8c52241a9083e76a709802918cc35939e871a21ea8b55c"
+    },
+    {
+      "id": "episode_000940",
+      "path": "data/access_group_holdout_v1/videos/episode_000940.mp4",
+      "bytes": 538769,
+      "sha256": "575f780c6fa4a4c3ebe245f1ff27ba2c40f084cb1d3422805420b41f2d19e989"
+    },
+    {
+      "id": "episode_000941",
+      "path": "data/access_group_holdout_v1/videos/episode_000941.mp4",
+      "bytes": 532134,
+      "sha256": "a238534ea6c1d38da2c43321d8ff132adb9676fe25014cacd7e545a4fa3e75cb"
+    },
+    {
+      "id": "episode_000942",
+      "path": "data/access_group_holdout_v1/videos/episode_000942.mp4",
+      "bytes": 545339,
+      "sha256": "5f517e245011802e1e3de3fa88eaa7b669104b8113aff584d29ebd755b187335"
+    },
+    {
+      "id": "episode_000943",
+      "path": "data/access_group_holdout_v1/videos/episode_000943.mp4",
+      "bytes": 636361,
+      "sha256": "5335e382598b80944ed3d0b3869e5c66734ca2ad62b6d02eb879bb7253008340"
+    },
+    {
+      "id": "episode_000944",
+      "path": "data/access_group_holdout_v1/videos/episode_000944.mp4",
+      "bytes": 641818,
+      "sha256": "086977f4b01f66fba67a20b2d9c00e564096f6ffc9982819468753183d78a859"
+    },
+    {
+      "id": "episode_000945",
+      "path": "data/access_group_holdout_v1/videos/episode_000945.mp4",
+      "bytes": 548867,
+      "sha256": "380afa8d4dd33384580152912095b633d45681f06944f575628bca7bd739c9ff"
+    },
+    {
+      "id": "episode_000948",
+      "path": "data/access_group_holdout_v1/videos/episode_000948.mp4",
+      "bytes": 596700,
+      "sha256": "bf37762a144d3c6c38c7bc88120989be969c3db20e2b174ed2c16c9545743b4d"
+    },
+    {
+      "id": "episode_000950",
+      "path": "data/access_group_holdout_v1/videos/episode_000950.mp4",
+      "bytes": 580188,
+      "sha256": "9e59dbdb1c5e9b98eb16fa5b4f18c6fec7d54f6c7a61e73ac41bc7c325ed3ee8"
+    },
+    {
+      "id": "episode_000953",
+      "path": "data/access_group_holdout_v1/videos/episode_000953.mp4",
+      "bytes": 537731,
+      "sha256": "164ec93d43464eef963b5c16a81707fd7433b1c8cd3120b96ef7fbf6425bfa1c"
+    },
+    {
+      "id": "episode_000954",
+      "path": "data/access_group_holdout_v1/videos/episode_000954.mp4",
+      "bytes": 682831,
+      "sha256": "1a73ced740b7e6f0c8adc1b9d762cf387d80470d8d6b0b74efcf842194dc45d8"
+    },
+    {
+      "id": "episode_000956",
+      "path": "data/access_group_holdout_v1/videos/episode_000956.mp4",
+      "bytes": 600397,
+      "sha256": "e81c24c2c70267ee56ffa37bde1007f132b1d0ee8573b31e2e921623a13eedc3"
+    },
+    {
+      "id": "episode_000958",
+      "path": "data/access_group_holdout_v1/videos/episode_000958.mp4",
+      "bytes": 596741,
+      "sha256": "6104c2315556344d329d0c112a2cb566ec6dd0ff915b38cebee746710b226605"
+    },
+    {
+      "id": "episode_000959",
+      "path": "data/access_group_holdout_v1/videos/episode_000959.mp4",
+      "bytes": 509438,
+      "sha256": "d986d532545f3c17efbe8eb2e15aa96bd562381ecce403a50097d36d9099d634"
+    },
+    {
+      "id": "episode_000961",
+      "path": "data/access_group_holdout_v1/videos/episode_000961.mp4",
+      "bytes": 497369,
+      "sha256": "3e1b990d20b4c73b5a20326262ccee7a36bb00657add7e8c9a198ca6fd34c98b"
+    },
+    {
+      "id": "episode_000966",
+      "path": "data/access_group_holdout_v1/videos/episode_000966.mp4",
+      "bytes": 494801,
+      "sha256": "4dcea68fcf50a565b0ece7e0b5805274ccd09830f6a1e6ccbcca9735a9c54aa6"
+    },
+    {
+      "id": "episode_000968",
+      "path": "data/access_group_holdout_v1/videos/episode_000968.mp4",
+      "bytes": 557145,
+      "sha256": "f8c99f20d1690b15e03e11ff97c956e8681041909f1e46cef79f7f4ad3558b63"
+    },
+    {
+      "id": "episode_000970",
+      "path": "data/access_group_holdout_v1/videos/episode_000970.mp4",
+      "bytes": 503648,
+      "sha256": "948a54066cfcb90e1da020b17dadb62e77189c7e5a37ad6024ddbc68ebe08ae7"
+    },
+    {
+      "id": "episode_000971",
+      "path": "data/access_group_holdout_v1/videos/episode_000971.mp4",
+      "bytes": 511943,
+      "sha256": "7619449ba88f48e0d080947bc9caeace379d26a22024f0554440b59fadcf4e14"
+    },
+    {
+      "id": "episode_000974",
+      "path": "data/access_group_holdout_v1/videos/episode_000974.mp4",
+      "bytes": 510311,
+      "sha256": "709a3ae3ed6e9b9f389eff2d57be44a5821e56c55cc7af8ef9abafb362755c0a"
+    },
+    {
+      "id": "episode_000975",
+      "path": "data/access_group_holdout_v1/videos/episode_000975.mp4",
+      "bytes": 495577,
+      "sha256": "ca35ee0caa96291f6b4ab37e91fa471e6c15070a6d0c9fdbe1162c01ab3ae7ed"
+    },
+    {
+      "id": "episode_000977",
+      "path": "data/access_group_holdout_v1/videos/episode_000977.mp4",
+      "bytes": 544988,
+      "sha256": "f07dd77a11fa794e7d10633bd9c57324d190ecf2dd48e3a40b12d9421499c11d"
+    },
+    {
+      "id": "episode_000979",
+      "path": "data/access_group_holdout_v1/videos/episode_000979.mp4",
+      "bytes": 520542,
+      "sha256": "134362608d620c823452b83fcdc1724bc12caf515e33e3bd083e1883a161cfae"
+    },
+    {
+      "id": "episode_000981",
+      "path": "data/access_group_holdout_v1/videos/episode_000981.mp4",
+      "bytes": 518100,
+      "sha256": "0a2e40c7a2659897aaeb49b1e23c4944ccd98159da70a8ac354f056ee89b0170"
+    },
+    {
+      "id": "episode_000982",
+      "path": "data/access_group_holdout_v1/videos/episode_000982.mp4",
+      "bytes": 535977,
+      "sha256": "5d280be882c9ca6edcfc03a831522d0c87a5d36c997dfb64fac48a894279ff2d"
+    },
+    {
+      "id": "episode_000984",
+      "path": "data/access_group_holdout_v1/videos/episode_000984.mp4",
+      "bytes": 606557,
+      "sha256": "bc6763d0a438fcfb2266b5291041a82986ee2ffcd57d5560f2d85f226f0ddbe4"
+    },
+    {
+      "id": "episode_000986",
+      "path": "data/access_group_holdout_v1/videos/episode_000986.mp4",
+      "bytes": 573445,
+      "sha256": "2ccd51690462321413ba45a3e4366b9873afae737ddc8464fa4ccfedc254052b"
+    },
+    {
+      "id": "episode_000987",
+      "path": "data/access_group_holdout_v1/videos/episode_000987.mp4",
+      "bytes": 581685,
+      "sha256": "e9552e587d465a3495decb6af58a507813715a76386d843539093d25eddcedb5"
+    },
+    {
+      "id": "episode_000990",
+      "path": "data/access_group_holdout_v1/videos/episode_000990.mp4",
+      "bytes": 592809,
+      "sha256": "796faa9a894de72115bea87e5dd63c49198e0d4f72c8d8cd7e171ff792dfb7e7"
+    },
+    {
+      "id": "episode_000993",
+      "path": "data/access_group_holdout_v1/videos/episode_000993.mp4",
+      "bytes": 515223,
+      "sha256": "c68467ad957f897c656d27696bb4d620d416959eb2ddbd54e68b68ebd73ddf3b"
+    },
+    {
+      "id": "episode_000994",
+      "path": "data/access_group_holdout_v1/videos/episode_000994.mp4",
+      "bytes": 504286,
+      "sha256": "b54ed9446d04c973a2f0f1697866a8a558d5ae34515b21ff29ff2b84af6f532e"
+    },
+    {
+      "id": "episode_000995",
+      "path": "data/access_group_holdout_v1/videos/episode_000995.mp4",
+      "bytes": 591983,
+      "sha256": "fcb1f6492f551553a465e2d78e34583aa37baa030b06c21d54140d13773a9d71"
+    },
+    {
+      "id": "episode_000996",
+      "path": "data/access_group_holdout_v1/videos/episode_000996.mp4",
+      "bytes": 542732,
+      "sha256": "8fd7b6bf41b15c3f95bc6c1dd072801c8497b19fb9f857a2b226a1f54f43c9f2"
+    },
+    {
+      "id": "episode_001001",
+      "path": "data/access_group_holdout_v1/videos/episode_001001.mp4",
+      "bytes": 504237,
+      "sha256": "4e4f6ffb45e12cea2263d55dee942609a4bb273c05c70beb092bf654c389e43e"
+    },
+    {
+      "id": "episode_001003",
+      "path": "data/access_group_holdout_v1/videos/episode_001003.mp4",
+      "bytes": 523983,
+      "sha256": "1e7fd648480c13ce33e05af4e2a0eef6cab5d63e6a1426a3c3b563b3ec6b59f7"
+    },
+    {
+      "id": "episode_001004",
+      "path": "data/access_group_holdout_v1/videos/episode_001004.mp4",
+      "bytes": 511551,
+      "sha256": "508eca4b22ddcf2e326a266eebf86d428aa1f7546adb1ecde41896637353c7c0"
+    },
+    {
+      "id": "episode_001007",
+      "path": "data/access_group_holdout_v1/videos/episode_001007.mp4",
+      "bytes": 514990,
+      "sha256": "2cab6859298aefc2df29315ca22641048d400ca8d0704dc38cc942bc2f8014d0"
+    },
+    {
+      "id": "episode_001010",
+      "path": "data/access_group_holdout_v1/videos/episode_001010.mp4",
+      "bytes": 518114,
+      "sha256": "ee8cb17cdfc2b94c8caa4af567285c33958e7593d47b34990c5b32ba39e18bd0"
+    },
+    {
+      "id": "episode_001011",
+      "path": "data/access_group_holdout_v1/videos/episode_001011.mp4",
+      "bytes": 544366,
+      "sha256": "e8758a936dc0f3beb9139eb4d17f9ed4ea154d7e7303576a5be272fd5bd86894"
+    },
+    {
+      "id": "episode_001012",
+      "path": "data/access_group_holdout_v1/videos/episode_001012.mp4",
+      "bytes": 359565,
+      "sha256": "014c68a2d2c2fa6adc66f8da7994b42279cb93b6776358073609b66bd74252ae"
+    },
+    {
+      "id": "episode_001014",
+      "path": "data/access_group_holdout_v1/videos/episode_001014.mp4",
+      "bytes": 582620,
+      "sha256": "88f50a5e43df5309da8b433a4e39ec21de7be9e2f48d00ead223f2646239d2f0"
+    },
+    {
+      "id": "episode_001019",
+      "path": "data/access_group_holdout_v1/videos/episode_001019.mp4",
+      "bytes": 558477,
+      "sha256": "d1e4e3920418370634ea4a73080879ad1324c9ea7eec89f4ce809af017d12c6d"
+    },
+    {
+      "id": "episode_001020",
+      "path": "data/access_group_holdout_v1/videos/episode_001020.mp4",
+      "bytes": 537113,
+      "sha256": "fc57146fb91d8eef35d2f6f9441594393703b43ec38f04cbe453127586e87b06"
+    },
+    {
+      "id": "episode_001023",
+      "path": "data/access_group_holdout_v1/videos/episode_001023.mp4",
+      "bytes": 552642,
+      "sha256": "9cd097971e0e9a8f9476b998303df727db0fc002fef0e44044210558e7dadb93"
+    },
+    {
+      "id": "episode_001024",
+      "path": "data/access_group_holdout_v1/videos/episode_001024.mp4",
+      "bytes": 541463,
+      "sha256": "6ff7a80225ed76862e96ad66ac696d665244803c868bb27422a695881a4d57b7"
+    },
+    {
+      "id": "episode_001026",
+      "path": "data/access_group_holdout_v1/videos/episode_001026.mp4",
+      "bytes": 527801,
+      "sha256": "83baf46a21b27335706eeb640f7aa0092f124bf2587ec6ae2dd3fbba11a15b3d"
+    },
+    {
+      "id": "episode_001033",
+      "path": "data/access_group_holdout_v1/videos/episode_001033.mp4",
+      "bytes": 518247,
+      "sha256": "a792d1a188f73b07a476124b318eab1d5cb8d8fce02d6e0c237ce92135f4526c"
+    },
+    {
+      "id": "episode_001034",
+      "path": "data/access_group_holdout_v1/videos/episode_001034.mp4",
+      "bytes": 512514,
+      "sha256": "341844ac23d080179f271af3aa1306fd321b886d004cb78c36c3e5be03330221"
+    },
+    {
+      "id": "episode_001036",
+      "path": "data/access_group_holdout_v1/videos/episode_001036.mp4",
+      "bytes": 511018,
+      "sha256": "78b70da49f4790a5ab4dd4f61c1add9c73026b8f6500a7102734b3360fd86fc7"
+    },
+    {
+      "id": "episode_001040",
+      "path": "data/access_group_holdout_v1/videos/episode_001040.mp4",
+      "bytes": 566667,
+      "sha256": "e707b740279b49640745edb7c6abb1fe52974db3492b3977132d0d69112d6872"
+    },
+    {
+      "id": "episode_001042",
+      "path": "data/access_group_holdout_v1/videos/episode_001042.mp4",
+      "bytes": 592980,
+      "sha256": "12e0717b34ac0b6fc950ce85e5fb9531119976588f93944e923c5dca4163b113"
+    },
+    {
+      "id": "episode_001049",
+      "path": "data/access_group_holdout_v1/videos/episode_001049.mp4",
+      "bytes": 529929,
+      "sha256": "08938b5fd54dd5a649732d77bc0246579a26dc95262757ee76384b16a4dd900c"
+    },
+    {
+      "id": "episode_001050",
+      "path": "data/access_group_holdout_v1/videos/episode_001050.mp4",
+      "bytes": 543902,
+      "sha256": "f827cd3406e96aca9fd70c22d4d134d96e2d41c1c0df50ed0fc4f7476a00d1fc"
+    },
+    {
+      "id": "episode_001052",
+      "path": "data/access_group_holdout_v1/videos/episode_001052.mp4",
+      "bytes": 648211,
+      "sha256": "7eeca3516cefcb0635d14c9a6d72bf411bc49354363627df59eb4f41fa0985a8"
+    },
+    {
+      "id": "episode_001056",
+      "path": "data/access_group_holdout_v1/videos/episode_001056.mp4",
+      "bytes": 566525,
+      "sha256": "6559df8bb69b868f4725031525dc5e1cb44c8cc9d042b577985ca506f58ea909"
+    },
+    {
+      "id": "episode_001058",
+      "path": "data/access_group_holdout_v1/videos/episode_001058.mp4",
+      "bytes": 531900,
+      "sha256": "852de8270eb2169f8a3f39e7a96cb6c8e9dc1c8ed94077477592e6c8463b4c02"
+    },
+    {
+      "id": "episode_001060",
+      "path": "data/access_group_holdout_v1/videos/episode_001060.mp4",
+      "bytes": 539319,
+      "sha256": "280348e66e52f8f1ddff517255ed0569c4eafa0c1ef70da3cf45e2936b93ccc6"
+    },
+    {
+      "id": "episode_001064",
+      "path": "data/access_group_holdout_v1/videos/episode_001064.mp4",
+      "bytes": 483606,
+      "sha256": "ed0ea4ae6a24262e2d4e00bf2a07d2858c5ad3170fe951786c33f69d9bfe9866"
+    },
+    {
+      "id": "episode_001067",
+      "path": "data/access_group_holdout_v1/videos/episode_001067.mp4",
+      "bytes": 535648,
+      "sha256": "e4251b07a730922095b652ce073fdac763e3534e81403294ea30c6f713021af2"
+    },
+    {
+      "id": "episode_001068",
+      "path": "data/access_group_holdout_v1/videos/episode_001068.mp4",
+      "bytes": 507461,
+      "sha256": "49c3513a69390efc1daa91dc1790a9f2e3fd2075ac0c84d4dea54d9f915223f4"
+    },
+    {
+      "id": "episode_001074",
+      "path": "data/access_group_holdout_v1/videos/episode_001074.mp4",
+      "bytes": 612011,
+      "sha256": "3255640abf8ed286ea4c6e7e8679cefea489b8b6d37b96209e4287d74e2cd97f"
+    },
+    {
+      "id": "episode_001076",
+      "path": "data/access_group_holdout_v1/videos/episode_001076.mp4",
+      "bytes": 598703,
+      "sha256": "84a8698a90e9c3350c089dd149fc8b49b79ee188d617ae2fd70349234e88b940"
+    },
+    {
+      "id": "episode_001077",
+      "path": "data/access_group_holdout_v1/videos/episode_001077.mp4",
+      "bytes": 558180,
+      "sha256": "9e068274905addaea107629d2be56552343b7abf69283a474e2b8937633a0598"
+    },
+    {
+      "id": "episode_001081",
+      "path": "data/access_group_holdout_v1/videos/episode_001081.mp4",
+      "bytes": 620937,
+      "sha256": "9a53963a9324a2f33c007d0112ca3e56e6261bedd5f51014605eab607ac8f354"
+    },
+    {
+      "id": "episode_001083",
+      "path": "data/access_group_holdout_v1/videos/episode_001083.mp4",
+      "bytes": 614351,
+      "sha256": "7dc548b09fe2b7db3f581dc82c1f6e0796d1a30e77b5aca9f20698574d7af087"
+    },
+    {
+      "id": "episode_001084",
+      "path": "data/access_group_holdout_v1/videos/episode_001084.mp4",
+      "bytes": 624355,
+      "sha256": "fe8d50864b3d314c3e73b7835659ccbccea4b81acefeab02543fe13fb97ae878"
+    },
+    {
+      "id": "episode_001087",
+      "path": "data/access_group_holdout_v1/videos/episode_001087.mp4",
+      "bytes": 407287,
+      "sha256": "2dd168139fc2cab65b4027032faebc4aa800ec48b9a6a28ae0972a9c2636a06d"
+    },
+    {
+      "id": "episode_001088",
+      "path": "data/access_group_holdout_v1/videos/episode_001088.mp4",
+      "bytes": 501452,
+      "sha256": "f86424abd487176077e0bfdfc1eff39dd27cb8b8240f33e01cb7ddbfa5628171"
+    },
+    {
+      "id": "episode_001089",
+      "path": "data/access_group_holdout_v1/videos/episode_001089.mp4",
+      "bytes": 522285,
+      "sha256": "618c7cb8e720746cbfba0c0c10734a886e34bb6345a6dab6b2611cefa317293a"
+    },
+    {
+      "id": "episode_001090",
+      "path": "data/access_group_holdout_v1/videos/episode_001090.mp4",
+      "bytes": 524683,
+      "sha256": "411b91bb8ffdd19bd0b2a0fee9eb6744288e6dbade1ebec232189c7c770a6e12"
+    },
+    {
+      "id": "episode_001093",
+      "path": "data/access_group_holdout_v1/videos/episode_001093.mp4",
+      "bytes": 529082,
+      "sha256": "a48d94652ace2e432683d6bcf6e001f83f9b7fff68589e8afd90b08e2b8f4c27"
+    },
+    {
+      "id": "episode_001095",
+      "path": "data/access_group_holdout_v1/videos/episode_001095.mp4",
+      "bytes": 512829,
+      "sha256": "81e0130860cb0cf1d23a4777da028306be1b3ecbdb9ac0d31c73541fd4df41b8"
+    },
+    {
+      "id": "episode_001098",
+      "path": "data/access_group_holdout_v1/videos/episode_001098.mp4",
+      "bytes": 507142,
+      "sha256": "b29e03b1f0a9694a5ecb637f06bf4bdddb0fecad5ad4f68429db7ec77837ef84"
+    },
+    {
+      "id": "episode_001099",
+      "path": "data/access_group_holdout_v1/videos/episode_001099.mp4",
+      "bytes": 511973,
+      "sha256": "d85018d4fb97a3d6b9d8c00c70437549a1ca58855d413fefae8ba7c62118a0a8"
+    },
+    {
+      "id": "episode_001100",
+      "path": "data/access_group_holdout_v1/videos/episode_001100.mp4",
+      "bytes": 528411,
+      "sha256": "7902d44ba6b4157fd8afecb5e1baf3ea5ef831d2539307486da20907d97aa5d3"
+    },
+    {
+      "id": "episode_001103",
+      "path": "data/access_group_holdout_v1/videos/episode_001103.mp4",
+      "bytes": 499691,
+      "sha256": "e3e0c920060520ca39458de7c09ea90896c9bacfad7e052a40b8c52f8dcd5e05"
+    },
+    {
+      "id": "episode_001104",
+      "path": "data/access_group_holdout_v1/videos/episode_001104.mp4",
+      "bytes": 254226,
+      "sha256": "753f8191217d41d2f9bad2f48d3dfb94fd367a7af67cabbacd78c7d92243f2fd"
+    },
+    {
+      "id": "episode_001105",
+      "path": "data/access_group_holdout_v1/videos/episode_001105.mp4",
+      "bytes": 537069,
+      "sha256": "19d91f6e8d836d6cdedd151c7f5a21f78880693a00d2060332028b0c1e53e134"
+    },
+    {
+      "id": "episode_001106",
+      "path": "data/access_group_holdout_v1/videos/episode_001106.mp4",
+      "bytes": 528221,
+      "sha256": "56c3b693023201da038c92373f76d522177df333c3b923946da8ece4d71946e1"
+    },
+    {
+      "id": "episode_001110",
+      "path": "data/access_group_holdout_v1/videos/episode_001110.mp4",
+      "bytes": 616320,
+      "sha256": "17772b7ae8946bd4e40d62bf41d3f2efc70026551dc9830d0e096dac7912154a"
+    },
+    {
+      "id": "episode_001112",
+      "path": "data/access_group_holdout_v1/videos/episode_001112.mp4",
+      "bytes": 540155,
+      "sha256": "6f51e247f35c51b0ce0c89eef08eb63413a69173a872ac8075a4710420e9b067"
+    },
+    {
+      "id": "episode_001115",
+      "path": "data/access_group_holdout_v1/videos/episode_001115.mp4",
+      "bytes": 523350,
+      "sha256": "def5b60078247fdbb6379396dcb282348a764304400ca5c9f98051dfa9c7da54"
+    },
+    {
+      "id": "episode_001116",
+      "path": "data/access_group_holdout_v1/videos/episode_001116.mp4",
+      "bytes": 540851,
+      "sha256": "e64692d473c9f29bebe0eb7bef99cdfb01209cd1737fc00f475268e5e48b0422"
+    },
+    {
+      "id": "episode_001119",
+      "path": "data/access_group_holdout_v1/videos/episode_001119.mp4",
+      "bytes": 555925,
+      "sha256": "a7d7326ad2a4f17abff70cd235b872f05576e802230865d3bb9be1b3a2b20f74"
+    },
+    {
+      "id": "episode_001120",
+      "path": "data/access_group_holdout_v1/videos/episode_001120.mp4",
+      "bytes": 522718,
+      "sha256": "376700492b76764c45de8071b0e082fe018b3ce04fdc5896b2d7b6b3afef166d"
+    },
+    {
+      "id": "episode_001128",
+      "path": "data/access_group_holdout_v1/videos/episode_001128.mp4",
+      "bytes": 512912,
+      "sha256": "05c6302e2765d944de7a7eefb4a3aeb9ce4653bd62b94e2aa7b9798950a9a36a"
+    },
+    {
+      "id": "episode_001130",
+      "path": "data/access_group_holdout_v1/videos/episode_001130.mp4",
+      "bytes": 596923,
+      "sha256": "7abcbb0f77f0a6fb3b27666775abc5799af8b16a911d07ee1097d5da2d96eeb3"
+    },
+    {
+      "id": "episode_001131",
+      "path": "data/access_group_holdout_v1/videos/episode_001131.mp4",
+      "bytes": 515788,
+      "sha256": "e264a4de60766901b987fb97c977ea1b1de9c8d93d1ee5f35d9acd69b3051552"
+    },
+    {
+      "id": "episode_001135",
+      "path": "data/access_group_holdout_v1/videos/episode_001135.mp4",
+      "bytes": 506544,
+      "sha256": "df59ae0703c85bd7ee2c7db48af2676ff46a8a837f88ac0ea9ba548653f9eb83"
+    },
+    {
+      "id": "episode_001136",
+      "path": "data/access_group_holdout_v1/videos/episode_001136.mp4",
+      "bytes": 604955,
+      "sha256": "ea790c97d9c869b924eafdd5ecc81b98c0f7c8d0cd4434c548bc908151355bae"
+    },
+    {
+      "id": "episode_001145",
+      "path": "data/access_group_holdout_v1/videos/episode_001145.mp4",
+      "bytes": 540174,
+      "sha256": "faad33811d30fb8910a82d3151684025b9063f9318ee8b92835ff2c9cea645b9"
+    },
+    {
+      "id": "episode_001146",
+      "path": "data/access_group_holdout_v1/videos/episode_001146.mp4",
+      "bytes": 532383,
+      "sha256": "816e4dc1d5f4868e5dbe02190bb36fa424b064ae78e2c844560427fdd62d5861"
+    },
+    {
+      "id": "episode_001147",
+      "path": "data/access_group_holdout_v1/videos/episode_001147.mp4",
+      "bytes": 578392,
+      "sha256": "b4387464cf7704582fc53b56c1cb93e84fc8ff4cd948782da9e18860970955ea"
+    },
+    {
+      "id": "episode_001151",
+      "path": "data/access_group_holdout_v1/videos/episode_001151.mp4",
+      "bytes": 620406,
+      "sha256": "089d433a5675b162f93793411c30ce7dca8dd1a4c17f48bcfccd35129d888ad9"
+    },
+    {
+      "id": "episode_001152",
+      "path": "data/access_group_holdout_v1/videos/episode_001152.mp4",
+      "bytes": 502010,
+      "sha256": "0baa041e5be00e67d2446889fc31c5fb2ad4aef97012781bce10624f36574286"
+    },
+    {
+      "id": "episode_001154",
+      "path": "data/access_group_holdout_v1/videos/episode_001154.mp4",
+      "bytes": 558224,
+      "sha256": "e7d8249184c2089bdd4be3f70ed9c7af5586928fec0e5381f3616c376f6bf81b"
+    },
+    {
+      "id": "episode_001155",
+      "path": "data/access_group_holdout_v1/videos/episode_001155.mp4",
+      "bytes": 504085,
+      "sha256": "2c0904960bf9192b6e746902e2f19e61209d0b9bfd719c670de9c15b548c1d62"
+    },
+    {
+      "id": "episode_001158",
+      "path": "data/access_group_holdout_v1/videos/episode_001158.mp4",
+      "bytes": 521462,
+      "sha256": "91224f4a39ed09a895b4ab922f9cefeda9a136aaf73a31931d2fa2c2f3c7bfc8"
+    },
+    {
+      "id": "episode_001159",
+      "path": "data/access_group_holdout_v1/videos/episode_001159.mp4",
+      "bytes": 535954,
+      "sha256": "41c13a5564069254313b04504a41526a9f37bcd9d36096bc944ffa11d69e4adb"
+    },
+    {
+      "id": "episode_001161",
+      "path": "data/access_group_holdout_v1/videos/episode_001161.mp4",
+      "bytes": 628011,
+      "sha256": "64aa5c04e6937db9f331d2a21e61b6d26d3b8135d3b1665d0394be38873dcf2e"
+    },
+    {
+      "id": "episode_001162",
+      "path": "data/access_group_holdout_v1/videos/episode_001162.mp4",
+      "bytes": 507236,
+      "sha256": "3aa83f80a28bc716e653f0600f10afb68f5c6dae8c7f2a49160a0eb32b9622b3"
+    },
+    {
+      "id": "episode_001167",
+      "path": "data/access_group_holdout_v1/videos/episode_001167.mp4",
+      "bytes": 547051,
+      "sha256": "4df587c2d6fc3f2888a1242a27febc704f4882b77521155d77530b5c227b7956"
+    },
+    {
+      "id": "episode_001168",
+      "path": "data/access_group_holdout_v1/videos/episode_001168.mp4",
+      "bytes": 521090,
+      "sha256": "3a3e17e8ceaa204b7d46be7f4851f340020f17ae3cc377622e3b149c7c37df25"
+    },
+    {
+      "id": "episode_001170",
+      "path": "data/access_group_holdout_v1/videos/episode_001170.mp4",
+      "bytes": 649034,
+      "sha256": "2d4e3c843b6a80ae57e0f73f7a3faa193db114cbab46e994a11d0b457d44c70d"
+    },
+    {
+      "id": "episode_001171",
+      "path": "data/access_group_holdout_v1/videos/episode_001171.mp4",
+      "bytes": 537511,
+      "sha256": "48e196ec975b42f9557b3c676e6e563eb1980ca53286d749314ac482a8ac6c6d"
+    },
+    {
+      "id": "episode_001175",
+      "path": "data/access_group_holdout_v1/videos/episode_001175.mp4",
+      "bytes": 615262,
+      "sha256": "4c7d79532aa71b6491880c7aaa36daae89341a97ee9e1eec015c749c4b9db458"
+    },
+    {
+      "id": "episode_001179",
+      "path": "data/access_group_holdout_v1/videos/episode_001179.mp4",
+      "bytes": 526296,
+      "sha256": "f3e38cf1c05685b19b97316dec881121b40803071918ebc46e9944a0af26e7df"
+    },
+    {
+      "id": "episode_001181",
+      "path": "data/access_group_holdout_v1/videos/episode_001181.mp4",
+      "bytes": 633167,
+      "sha256": "f34a6a5c23a0975e071d65cb50185e2fb4f51919a00bff7fc456bcda75c0c7ab"
+    },
+    {
+      "id": "episode_001183",
+      "path": "data/access_group_holdout_v1/videos/episode_001183.mp4",
+      "bytes": 529350,
+      "sha256": "dd70f912096c88d68b2cbc587e8019f38107590a34632963c496abfe8f8557ff"
+    },
+    {
+      "id": "episode_001184",
+      "path": "data/access_group_holdout_v1/videos/episode_001184.mp4",
+      "bytes": 214037,
+      "sha256": "ebd678076e1951beeb9a8c1a98858b2efeb2442cc79b2ae1b9873fc6f5875e91"
+    },
+    {
+      "id": "episode_001185",
+      "path": "data/access_group_holdout_v1/videos/episode_001185.mp4",
+      "bytes": 524050,
+      "sha256": "8d00c0ff28f9ab817f7a7ad38c1bd07e2e6d001bfe127e225fc60df1b23bc55c"
+    },
+    {
+      "id": "episode_001186",
+      "path": "data/access_group_holdout_v1/videos/episode_001186.mp4",
+      "bytes": 515624,
+      "sha256": "d4c23a1cf2c942c3091e4cfe643e90e5f15a6b9575c25c3cf5c23c6654f9cf95"
+    },
+    {
+      "id": "episode_001190",
+      "path": "data/access_group_holdout_v1/videos/episode_001190.mp4",
+      "bytes": 526480,
+      "sha256": "ae0fc0726cfec3f5e01ff6fd53b4d68254541cc52560a6990e103de6a84789e7"
+    },
+    {
+      "id": "episode_001191",
+      "path": "data/access_group_holdout_v1/videos/episode_001191.mp4",
+      "bytes": 591563,
+      "sha256": "696a1b1abfca93ee2bfb24d3b54282ef28f1080e029b198cba985e139a21de27"
+    },
+    {
+      "id": "episode_001192",
+      "path": "data/access_group_holdout_v1/videos/episode_001192.mp4",
+      "bytes": 587859,
+      "sha256": "7b12a22652a92cbe6c4b31eea6b64257ba1a25ef6f8f968d00f1badc46412e45"
+    },
+    {
+      "id": "episode_001193",
+      "path": "data/access_group_holdout_v1/videos/episode_001193.mp4",
+      "bytes": 528573,
+      "sha256": "0132c12758e150c61f246b9af92ef0525bfbb044290fee2a12f0dd7c0974bc44"
+    },
+    {
+      "id": "episode_001194",
+      "path": "data/access_group_holdout_v1/videos/episode_001194.mp4",
+      "bytes": 255731,
+      "sha256": "5dfed38ad460469b98c4cafbd9105235afd32e5e535cc60743b57a3a7963bb71"
+    },
+    {
+      "id": "episode_001195",
+      "path": "data/access_group_holdout_v1/videos/episode_001195.mp4",
+      "bytes": 542168,
+      "sha256": "c893b2631bbc99ef26f1a17c2e65b9aac9ab9c8a81c7c578a98556a64602a63a"
+    },
+    {
+      "id": "episode_001200",
+      "path": "data/access_group_holdout_v1/videos/episode_001200.mp4",
+      "bytes": 254418,
+      "sha256": "634f2b84f5e1de930ef93c9d1ea8954b52eafe8f1f37ede053fe70efd0231d6f"
+    },
+    {
+      "id": "episode_001202",
+      "path": "data/access_group_holdout_v1/videos/episode_001202.mp4",
+      "bytes": 502627,
+      "sha256": "e283af04de713262a31cbefc4a0217032bc1aa19d7c8ca4cff6b1522f6e48e62"
+    },
+    {
+      "id": "episode_001203",
+      "path": "data/access_group_holdout_v1/videos/episode_001203.mp4",
+      "bytes": 514735,
+      "sha256": "53eb348f891e96838e4d58796898ea34e39bd0dda8c358759b21d1d19115a740"
+    },
+    {
+      "id": "episode_001206",
+      "path": "data/access_group_holdout_v1/videos/episode_001206.mp4",
+      "bytes": 630597,
+      "sha256": "9f687ab4e497d55cc4e62e3677c64e106d38dd2c5b622e09b8f927c17aa87eaa"
+    },
+    {
+      "id": "episode_001207",
+      "path": "data/access_group_holdout_v1/videos/episode_001207.mp4",
+      "bytes": 623015,
+      "sha256": "e8d0fe58afa4a7bfa4bd39114854c5d24f70eccd1589a012a5876232066995da"
+    },
+    {
+      "id": "episode_001208",
+      "path": "data/access_group_holdout_v1/videos/episode_001208.mp4",
+      "bytes": 640492,
+      "sha256": "af8d776be1b5264f1f3cb33e1525cbd7fadb5ec36d364a83867262104f7ede44"
+    },
+    {
+      "id": "episode_001209",
+      "path": "data/access_group_holdout_v1/videos/episode_001209.mp4",
+      "bytes": 507274,
+      "sha256": "df80699e5a61b7dca575e0f070e2e5c93eb96cea1606c88ea0150b57465cd525"
+    },
+    {
+      "id": "episode_001210",
+      "path": "data/access_group_holdout_v1/videos/episode_001210.mp4",
+      "bytes": 523999,
+      "sha256": "134dd74b322eacea68c22602b82de81661248de26adf0e7a308488c13fb609f2"
+    },
+    {
+      "id": "episode_001211",
+      "path": "data/access_group_holdout_v1/videos/episode_001211.mp4",
+      "bytes": 521697,
+      "sha256": "d974b96e36f80510809a21084c7bf901831bf6b2e37ae7ff697e25bd58278f2c"
+    },
+    {
+      "id": "episode_001215",
+      "path": "data/access_group_holdout_v1/videos/episode_001215.mp4",
+      "bytes": 597965,
+      "sha256": "6aa99796c7819826dd9c9793e020623952684353bb7872e521e7aead55cbbdb0"
+    },
+    {
+      "id": "episode_001218",
+      "path": "data/access_group_holdout_v1/videos/episode_001218.mp4",
+      "bytes": 555251,
+      "sha256": "2b012d61165ba183dab5ca292c62848956273206a1f815f0c7d81d677d295d80"
+    },
+    {
+      "id": "episode_001220",
+      "path": "data/access_group_holdout_v1/videos/episode_001220.mp4",
+      "bytes": 522654,
+      "sha256": "ca7119fc09f542e13a0ebbf82d7e7d44b9ba434ef309d93b23fad28f6849ebd8"
+    },
+    {
+      "id": "episode_001221",
+      "path": "data/access_group_holdout_v1/videos/episode_001221.mp4",
+      "bytes": 473934,
+      "sha256": "05c36ed869508bb9e6ad75b22d0835c921113c9bf0936694cc6169a646f56e53"
+    },
+    {
+      "id": "episode_001223",
+      "path": "data/access_group_holdout_v1/videos/episode_001223.mp4",
+      "bytes": 546988,
+      "sha256": "948d0881a377ddea7839cbb6fdb50287ab7071f49b91fa5fecca9a9bbe678a4a"
+    },
+    {
+      "id": "episode_001224",
+      "path": "data/access_group_holdout_v1/videos/episode_001224.mp4",
+      "bytes": 503411,
+      "sha256": "61078444f0d5d6816a937b574a3850ac3917c6bd7950a204341d8d876617e569"
+    },
+    {
+      "id": "episode_001225",
+      "path": "data/access_group_holdout_v1/videos/episode_001225.mp4",
+      "bytes": 523790,
+      "sha256": "6c992be0544e00835d5aad1ae973bdd950b516d4f5e9a343fbb1d894cba0ac34"
+    },
+    {
+      "id": "episode_001226",
+      "path": "data/access_group_holdout_v1/videos/episode_001226.mp4",
+      "bytes": 534522,
+      "sha256": "36f52de208a8474afcd490faba3cfb1f5f38e099ebf5f92a47943ebbf6585568"
+    },
+    {
+      "id": "episode_001227",
+      "path": "data/access_group_holdout_v1/videos/episode_001227.mp4",
+      "bytes": 595173,
+      "sha256": "1efbdf2b9c4b51ef97e6974f52cd5bbb42a449e927dcfc9a7323e8aaf453d6bc"
+    },
+    {
+      "id": "episode_001231",
+      "path": "data/access_group_holdout_v1/videos/episode_001231.mp4",
+      "bytes": 528483,
+      "sha256": "d8d3a97ec2a942c94ca4346c31ac149adbf27504ea9c153c6dc127d5eb031a33"
+    },
+    {
+      "id": "episode_001235",
+      "path": "data/access_group_holdout_v1/videos/episode_001235.mp4",
+      "bytes": 493711,
+      "sha256": "7e3a5ff1dd6be92b9a0484cc5a75c052eb5fdcba6302115b95870556ee69c15e"
+    },
+    {
+      "id": "episode_001236",
+      "path": "data/access_group_holdout_v1/videos/episode_001236.mp4",
+      "bytes": 571851,
+      "sha256": "804a6a309884b81566c9057b14573e9850733f65718471348024e9a852d33b27"
+    },
+    {
+      "id": "episode_001237",
+      "path": "data/access_group_holdout_v1/videos/episode_001237.mp4",
+      "bytes": 585602,
+      "sha256": "674e5fc3e950c70ad2d05aa3c6098ba9e5228b12224cd12d08b85bba58aa05f0"
+    },
+    {
+      "id": "episode_001239",
+      "path": "data/access_group_holdout_v1/videos/episode_001239.mp4",
+      "bytes": 570048,
+      "sha256": "5505b4363c5a40bed252c616d67bafcb3809a12f2bf7f67065cb0ad1d8c3fcf9"
+    },
+    {
+      "id": "episode_001241",
+      "path": "data/access_group_holdout_v1/videos/episode_001241.mp4",
+      "bytes": 555287,
+      "sha256": "4826b42e79430a15d21c9c2c1e0dfb80afcf58bd0bd035c4e41f0da0e17d6f16"
+    },
+    {
+      "id": "episode_001244",
+      "path": "data/access_group_holdout_v1/videos/episode_001244.mp4",
+      "bytes": 517268,
+      "sha256": "074756f770d5b7ad362fd979d44bafef4d53f1ea6e9490bd84a925792efa0971"
+    },
+    {
+      "id": "episode_001245",
+      "path": "data/access_group_holdout_v1/videos/episode_001245.mp4",
+      "bytes": 508846,
+      "sha256": "fffab9f54a3b960cbf54b6b83865e043d4ad02e9f6caf945ebbcd4f6ba46bb8b"
+    },
+    {
+      "id": "episode_001247",
+      "path": "data/access_group_holdout_v1/videos/episode_001247.mp4",
+      "bytes": 681160,
+      "sha256": "dbb7fc092039f91a1b65990872a598d6d8b00504cc1d1f56062eb56241c5707a"
+    },
+    {
+      "id": "episode_001249",
+      "path": "data/access_group_holdout_v1/videos/episode_001249.mp4",
+      "bytes": 491507,
+      "sha256": "105cea5b743c041dfad054c14591688c532100599a1bba0b4e9c7352596f9da1"
+    },
+    {
+      "id": "episode_001251",
+      "path": "data/access_group_holdout_v1/videos/episode_001251.mp4",
+      "bytes": 599769,
+      "sha256": "44993a39c8132ff9d8598c5c2a012704b5b6f0fc6936fd6d76b3f6aa186535a7"
+    },
+    {
+      "id": "episode_001252",
+      "path": "data/access_group_holdout_v1/videos/episode_001252.mp4",
+      "bytes": 536742,
+      "sha256": "ae515944d31c09c2b35b034bd8c46d406eef861cd7d64ac43d542f69a109b892"
+    },
+    {
+      "id": "episode_001255",
+      "path": "data/access_group_holdout_v1/videos/episode_001255.mp4",
+      "bytes": 491161,
+      "sha256": "0c49a9d44ee1bfad9cb253fc2b0cd4700132cc2438f630b06faad52976a68811"
+    },
+    {
+      "id": "episode_001260",
+      "path": "data/access_group_holdout_v1/videos/episode_001260.mp4",
+      "bytes": 553879,
+      "sha256": "7956d13bcd683f93987d71cbd55ed885a7c77e52d7874d31bc24f3b342d90b3e"
+    },
+    {
+      "id": "episode_001261",
+      "path": "data/access_group_holdout_v1/videos/episode_001261.mp4",
+      "bytes": 631874,
+      "sha256": "f3c89cc8d82e093eb32a9ccce5d8b4390ee8ff19e220bc5dfe404b372a3ea96c"
+    },
+    {
+      "id": "episode_001263",
+      "path": "data/access_group_holdout_v1/videos/episode_001263.mp4",
+      "bytes": 542517,
+      "sha256": "85300759044472b7dce60cc595ff751f421b9dafa69bb6270140c13b91c3c6a9"
+    },
+    {
+      "id": "episode_001265",
+      "path": "data/access_group_holdout_v1/videos/episode_001265.mp4",
+      "bytes": 605892,
+      "sha256": "c8c1f8a3868cd1eb0c47c0d947df74a36d64dd7b0404ef7936105eb6641def6f"
+    },
+    {
+      "id": "episode_001266",
+      "path": "data/access_group_holdout_v1/videos/episode_001266.mp4",
+      "bytes": 522878,
+      "sha256": "5a2c77603cc2d5db27f9733093188b712f5d517d60d7fc1c7c01b4cd0db0f2ea"
+    },
+    {
+      "id": "episode_001267",
+      "path": "data/access_group_holdout_v1/videos/episode_001267.mp4",
+      "bytes": 529111,
+      "sha256": "7d580eb2d54ff0ab02ee8c5fadcbc3e9debe1315b797eafeef9e776203f67499"
+    },
+    {
+      "id": "episode_001268",
+      "path": "data/access_group_holdout_v1/videos/episode_001268.mp4",
+      "bytes": 604684,
+      "sha256": "7d0a5d27b93e7d78c643d773624902cd1f8f1ff59e30198860ebb9e02f4870b7"
+    },
+    {
+      "id": "episode_001271",
+      "path": "data/access_group_holdout_v1/videos/episode_001271.mp4",
+      "bytes": 538442,
+      "sha256": "245d8dec8ad267c8268fc25e3596cd9935fd25df5563c92a884f788ef4d0207f"
+    },
+    {
+      "id": "episode_001274",
+      "path": "data/access_group_holdout_v1/videos/episode_001274.mp4",
+      "bytes": 506460,
+      "sha256": "b499a82636ab04f6da8fb90da1377078cf9c4c8042521d3ef151b5a235c07381"
+    },
+    {
+      "id": "episode_001282",
+      "path": "data/access_group_holdout_v1/videos/episode_001282.mp4",
+      "bytes": 536324,
+      "sha256": "7ff570ce627e945dab1131144d50b31056b9f6a9246cc4238c698c9b92ba8cb1"
+    },
+    {
+      "id": "episode_001283",
+      "path": "data/access_group_holdout_v1/videos/episode_001283.mp4",
+      "bytes": 534302,
+      "sha256": "799df87cb08e57009dff03161b1dfb933596c70931625185e9304cdb5767739f"
+    },
+    {
+      "id": "episode_001284",
+      "path": "data/access_group_holdout_v1/videos/episode_001284.mp4",
+      "bytes": 560467,
+      "sha256": "caf37c6dd94e950e5528f788e723fffa0fde7e813e5148c5c4397acf7e568356"
+    },
+    {
+      "id": "episode_001285",
+      "path": "data/access_group_holdout_v1/videos/episode_001285.mp4",
+      "bytes": 515825,
+      "sha256": "fcde2842f67c7005c2f038b85965158b0eee5401fd4ae1a0b4f2470dc8efb7e4"
+    },
+    {
+      "id": "episode_001288",
+      "path": "data/access_group_holdout_v1/videos/episode_001288.mp4",
+      "bytes": 507836,
+      "sha256": "15487c8bb58cc3bcbc6aa6ece2e224c01647003c5a95c65d76d3718b3485a5d5"
+    },
+    {
+      "id": "episode_001290",
+      "path": "data/access_group_holdout_v1/videos/episode_001290.mp4",
+      "bytes": 576986,
+      "sha256": "fc96ffb28c8880143935f0c4ea18a83264ca5a1375fe66fc472fa5985ccaeebe"
+    },
+    {
+      "id": "episode_001295",
+      "path": "data/access_group_holdout_v1/videos/episode_001295.mp4",
+      "bytes": 565571,
+      "sha256": "3239f39dc2e75622c351dcf9a33a2b9415b911bdee1c106f53e1bf34a351ceae"
+    },
+    {
+      "id": "episode_001298",
+      "path": "data/access_group_holdout_v1/videos/episode_001298.mp4",
+      "bytes": 549300,
+      "sha256": "bcb4ab8287b50655fa49496521b9db839baea1cc4049877951f7c909859d5850"
+    },
+    {
+      "id": "episode_001301",
+      "path": "data/access_group_holdout_v1/videos/episode_001301.mp4",
+      "bytes": 540506,
+      "sha256": "3860bfe202b17b49018fe6011ff98aee294743c47aa7000c0a7282b507219bec"
+    },
+    {
+      "id": "episode_001304",
+      "path": "data/access_group_holdout_v1/videos/episode_001304.mp4",
+      "bytes": 577986,
+      "sha256": "02ff787bb003735e83029937ea576fbb9a9847b599457829fffb243d3005d277"
+    },
+    {
+      "id": "episode_001309",
+      "path": "data/access_group_holdout_v1/videos/episode_001309.mp4",
+      "bytes": 563401,
+      "sha256": "9b1ff5c98a1a7f7cc87f688f90d3b432f7b627bf3133104839f24b5e12da3c57"
+    },
+    {
+      "id": "episode_001311",
+      "path": "data/access_group_holdout_v1/videos/episode_001311.mp4",
+      "bytes": 611102,
+      "sha256": "d5a8357ebed9294cfb32bc89c869173d8146a54e5da8cbf3c81d1a1b81202080"
+    },
+    {
+      "id": "episode_001315",
+      "path": "data/access_group_holdout_v1/videos/episode_001315.mp4",
+      "bytes": 577500,
+      "sha256": "ea388cfd23583ce3a04d0add9b36d4de2ecf6a70e30e91abeaab6cd8be17d97c"
+    },
+    {
+      "id": "episode_001316",
+      "path": "data/access_group_holdout_v1/videos/episode_001316.mp4",
+      "bytes": 604501,
+      "sha256": "c2afba98a847e5b0f44cffd720e5fc47b10000b6d91e615a55ccd96355bb8290"
+    },
+    {
+      "id": "episode_001318",
+      "path": "data/access_group_holdout_v1/videos/episode_001318.mp4",
+      "bytes": 501514,
+      "sha256": "6afa43c44509925a940482c3af2a68e64e208a6a5bd409aefab39087abff53bf"
+    },
+    {
+      "id": "episode_001319",
+      "path": "data/access_group_holdout_v1/videos/episode_001319.mp4",
+      "bytes": 557376,
+      "sha256": "55ec2e4716eea10a2d751c969c5ecf532a0d341dde37e591bb1583aa41bfcdfd"
+    },
+    {
+      "id": "episode_001320",
+      "path": "data/access_group_holdout_v1/videos/episode_001320.mp4",
+      "bytes": 498174,
+      "sha256": "496dfbb35a7866571d91261dba27f10b2d62c13d27187990f9b9a73cb7921815"
+    },
+    {
+      "id": "episode_001321",
+      "path": "data/access_group_holdout_v1/videos/episode_001321.mp4",
+      "bytes": 512593,
+      "sha256": "1c3ff9a14b4ffb65398447252308c4ee2ace4610dc5dca5392895f6a0a558a00"
+    },
+    {
+      "id": "episode_001325",
+      "path": "data/access_group_holdout_v1/videos/episode_001325.mp4",
+      "bytes": 560040,
+      "sha256": "6b2e9b75021c4556ddf54c4237181bebb5126f4e0c1022e1309e551bfc4ff1cd"
+    },
+    {
+      "id": "episode_001326",
+      "path": "data/access_group_holdout_v1/videos/episode_001326.mp4",
+      "bytes": 518152,
+      "sha256": "6299490201d5048791eaeab5d1a5b57b4979fbb81e704b48f118b2030a3f3cbc"
+    },
+    {
+      "id": "episode_001329",
+      "path": "data/access_group_holdout_v1/videos/episode_001329.mp4",
+      "bytes": 503327,
+      "sha256": "ffd262a0dc0585c40f7c93beb622d1904136ecb55a668f7e70aa4aece1265cae"
+    },
+    {
+      "id": "episode_001332",
+      "path": "data/access_group_holdout_v1/videos/episode_001332.mp4",
+      "bytes": 517538,
+      "sha256": "e22109210cf2c0c577cef371ef219d45f06f4510dacd68b9b508d2c6c9e1afd2"
+    },
+    {
+      "id": "episode_001335",
+      "path": "data/access_group_holdout_v1/videos/episode_001335.mp4",
+      "bytes": 678100,
+      "sha256": "89f2b88cf186394fbbc8d8d695ef9225a13a1e5a60570eee1c664e4dbe7e62ab"
+    },
+    {
+      "id": "episode_001336",
+      "path": "data/access_group_holdout_v1/videos/episode_001336.mp4",
+      "bytes": 594149,
+      "sha256": "5689ac858733d1afce34092b2695a6357f5857e944b590fdcae25db32020df67"
+    },
+    {
+      "id": "episode_001337",
+      "path": "data/access_group_holdout_v1/videos/episode_001337.mp4",
+      "bytes": 591350,
+      "sha256": "e8e0f8ca59e2f8c3f33d8567d6bb8ae207132ed1e4b7afc8797887155520a0aa"
+    },
+    {
+      "id": "episode_001339",
+      "path": "data/access_group_holdout_v1/videos/episode_001339.mp4",
+      "bytes": 499099,
+      "sha256": "d69ece8fb7faff81a994ebafe0c067d5586a2cd88f54bfebc9cf4ab4273f6500"
+    },
+    {
+      "id": "episode_001345",
+      "path": "data/access_group_holdout_v1/videos/episode_001345.mp4",
+      "bytes": 577991,
+      "sha256": "29be43365004473cda1a12d8870cb218297eff8e10bb2ce92c9f0c1d4197213f"
+    },
+    {
+      "id": "episode_001346",
+      "path": "data/access_group_holdout_v1/videos/episode_001346.mp4",
+      "bytes": 497617,
+      "sha256": "438ba0f9f5d1f71e180ac7fc4bb2dbebd15259174a3b52fa5b3be6bdbc4b3835"
+    },
+    {
+      "id": "episode_001348",
+      "path": "data/access_group_holdout_v1/videos/episode_001348.mp4",
+      "bytes": 552134,
+      "sha256": "6252c96818497fd1bd975d5db71a7cb94bf28ccab7c6b42df7c869c38100bb15"
+    },
+    {
+      "id": "episode_001349",
+      "path": "data/access_group_holdout_v1/videos/episode_001349.mp4",
+      "bytes": 526881,
+      "sha256": "f8bcda00655dd7f64e3af6997635db499de9b19572ea0967d28896ffb9419f02"
+    },
+    {
+      "id": "episode_001353",
+      "path": "data/access_group_holdout_v1/videos/episode_001353.mp4",
+      "bytes": 563013,
+      "sha256": "9a9468afb4cee021f04d083f126e2e7a7e27ede96aac3b50d077c6c472b87dc0"
+    },
+    {
+      "id": "episode_001357",
+      "path": "data/access_group_holdout_v1/videos/episode_001357.mp4",
+      "bytes": 609114,
+      "sha256": "14532afe5d16ed73f269688fff8c496f99b42e94c163d057927b07be6e947d3b"
+    },
+    {
+      "id": "episode_001359",
+      "path": "data/access_group_holdout_v1/videos/episode_001359.mp4",
+      "bytes": 335749,
+      "sha256": "7b86c97d0ce2c05915d3fe6d8cebe365eb067d98a57318cb5713a19e9cb05760"
+    },
+    {
+      "id": "episode_001360",
+      "path": "data/access_group_holdout_v1/videos/episode_001360.mp4",
+      "bytes": 466299,
+      "sha256": "8e6a3bb8e8cb80c31dde77642062dc48cd854b78c569e9b35097836c52cbeba5"
+    },
+    {
+      "id": "episode_001361",
+      "path": "data/access_group_holdout_v1/videos/episode_001361.mp4",
+      "bytes": 525303,
+      "sha256": "d296bc4a3aa9e9113cca9d69405fa5df906daf24a135b5f70fa0dc3a603b684d"
+    },
+    {
+      "id": "episode_001363",
+      "path": "data/access_group_holdout_v1/videos/episode_001363.mp4",
+      "bytes": 573834,
+      "sha256": "ecac24e6fbaa7a00d4405de7008e89731a1f42794fdaf076db852025f23a9f6f"
+    },
+    {
+      "id": "episode_001365",
+      "path": "data/access_group_holdout_v1/videos/episode_001365.mp4",
+      "bytes": 495222,
+      "sha256": "044290110c58a8026615df6f21792c012a8f7840f14623963cd5e5d848ef832c"
+    },
+    {
+      "id": "episode_001368",
+      "path": "data/access_group_holdout_v1/videos/episode_001368.mp4",
+      "bytes": 487581,
+      "sha256": "3ffd64a7eca694ac7c0991a86a9678bff2fbc283049f17ebbc00dc07a58467d8"
+    },
+    {
+      "id": "episode_001371",
+      "path": "data/access_group_holdout_v1/videos/episode_001371.mp4",
+      "bytes": 495500,
+      "sha256": "ff938b7c72ee6fc58e7bc7dfb684fd37be01b3796d79a83c0568f8b4cf2f5d54"
+    },
+    {
+      "id": "episode_001373",
+      "path": "data/access_group_holdout_v1/videos/episode_001373.mp4",
+      "bytes": 518329,
+      "sha256": "e4c5eda03b1f9709f7c8a9cf80910e007897bc374f38e25077682339b27478a3"
+    },
+    {
+      "id": "episode_001374",
+      "path": "data/access_group_holdout_v1/videos/episode_001374.mp4",
+      "bytes": 591399,
+      "sha256": "0e47f559521b9e550153b342b014ca6adb914f8f0b93a807a6283e0cf28b3b99"
+    },
+    {
+      "id": "episode_001376",
+      "path": "data/access_group_holdout_v1/videos/episode_001376.mp4",
+      "bytes": 563021,
+      "sha256": "3cd838c7dfa8f5c069e601e76abea2b88b53218ea8b3f61e9ca2cdaaf3062eb2"
+    },
+    {
+      "id": "episode_001377",
+      "path": "data/access_group_holdout_v1/videos/episode_001377.mp4",
+      "bytes": 620637,
+      "sha256": "8cc0e37ce6ed7f4b22461a53cdf40fb6d5bc17daa7ea17755b397b375b258386"
+    },
+    {
+      "id": "episode_001378",
+      "path": "data/access_group_holdout_v1/videos/episode_001378.mp4",
+      "bytes": 595905,
+      "sha256": "1f20f981fba700e1bcebd27ed605a2c1ba1a27ab6f28357d4342cc92484f051a"
+    },
+    {
+      "id": "episode_001386",
+      "path": "data/access_group_holdout_v1/videos/episode_001386.mp4",
+      "bytes": 543857,
+      "sha256": "6051f04da634433f5711327c16880f8e577e325b90798140384f7486a4bd03ea"
+    },
+    {
+      "id": "episode_001387",
+      "path": "data/access_group_holdout_v1/videos/episode_001387.mp4",
+      "bytes": 568835,
+      "sha256": "0b12de4a3d4a62eec2258ffcf59e5b153387a9294df76e40e8b1b1b656d61d90"
+    },
+    {
+      "id": "episode_001389",
+      "path": "data/access_group_holdout_v1/videos/episode_001389.mp4",
+      "bytes": 530456,
+      "sha256": "ed499ce9629f360cfb150e7ec12e242803ee0a803e9fcd5fab32313b09ac6bc8"
+    },
+    {
+      "id": "episode_001390",
+      "path": "data/access_group_holdout_v1/videos/episode_001390.mp4",
+      "bytes": 616460,
+      "sha256": "677caabd1c03137264f5452e292482b506144cdf729929719d97819866c6b1e7"
+    },
+    {
+      "id": "episode_001392",
+      "path": "data/access_group_holdout_v1/videos/episode_001392.mp4",
+      "bytes": 647361,
+      "sha256": "f067528c756b5d3d9f6e71c61271f91d231bf6b7caead55dfe2207f5e5036797"
+    },
+    {
+      "id": "episode_001393",
+      "path": "data/access_group_holdout_v1/videos/episode_001393.mp4",
+      "bytes": 522613,
+      "sha256": "9605ef3fca8fff7e5d0c0630e9e72eb96af2127581230b41b491bd1bfe5fb634"
+    },
+    {
+      "id": "episode_001394",
+      "path": "data/access_group_holdout_v1/videos/episode_001394.mp4",
+      "bytes": 545299,
+      "sha256": "733aee5c613538abf771d493d17efc9c8ee4e5b81b6c29aca2fcdcce93d7bdd0"
+    },
+    {
+      "id": "episode_001400",
+      "path": "data/access_group_holdout_v1/videos/episode_001400.mp4",
+      "bytes": 544677,
+      "sha256": "78feccb1a0b1cd49824a52f608068fb12b18b0ec13835405a9ed5a69e5cc39aa"
+    },
+    {
+      "id": "episode_001402",
+      "path": "data/access_group_holdout_v1/videos/episode_001402.mp4",
+      "bytes": 667523,
+      "sha256": "aaac262f2b0c89287c7ef40b45fc644e7ef6eac335575d55ea04b53ec6f76f77"
+    },
+    {
+      "id": "episode_001405",
+      "path": "data/access_group_holdout_v1/videos/episode_001405.mp4",
+      "bytes": 480849,
+      "sha256": "14e2cb3dc5888fe8019ae869a1a8135265a1619508048d0a2f118739e31be3bf"
+    },
+    {
+      "id": "episode_001410",
+      "path": "data/access_group_holdout_v1/videos/episode_001410.mp4",
+      "bytes": 633965,
+      "sha256": "81692ad7f26f781515943e134d3e8eb415534d2edc87d62bc2c62f4560b3931d"
+    },
+    {
+      "id": "episode_001415",
+      "path": "data/access_group_holdout_v1/videos/episode_001415.mp4",
+      "bytes": 499662,
+      "sha256": "1218f54f43eea049c7ed28f4f259b12e311e3b3094388f69e7ed1c30550a7148"
+    },
+    {
+      "id": "episode_001416",
+      "path": "data/access_group_holdout_v1/videos/episode_001416.mp4",
+      "bytes": 516161,
+      "sha256": "cb14f5d7cfbf09ba394d7304777116724548fd39fd0b7a1b47fce98b40111a7d"
+    },
+    {
+      "id": "episode_001418",
+      "path": "data/access_group_holdout_v1/videos/episode_001418.mp4",
+      "bytes": 514641,
+      "sha256": "656d511a9295f24cff768575aea21aa8a1e7210b69291d0708b078086f742070"
+    },
+    {
+      "id": "episode_001420",
+      "path": "data/access_group_holdout_v1/videos/episode_001420.mp4",
+      "bytes": 531534,
+      "sha256": "50329c1b65f91e4a5d68239bb48788e9efa4f1838f279954d63c08d3bc70516b"
+    },
+    {
+      "id": "episode_001421",
+      "path": "data/access_group_holdout_v1/videos/episode_001421.mp4",
+      "bytes": 627612,
+      "sha256": "4fad019a9436f5cc0033419702c40955ff4bacc29184d545626e7d6e17ee611d"
+    },
+    {
+      "id": "episode_001422",
+      "path": "data/access_group_holdout_v1/videos/episode_001422.mp4",
+      "bytes": 569488,
+      "sha256": "e5d8f8698c92dd7db5a3a213cf8faa11a994037198d43f6e12e735bf46cfb89d"
+    },
+    {
+      "id": "episode_001426",
+      "path": "data/access_group_holdout_v1/videos/episode_001426.mp4",
+      "bytes": 503920,
+      "sha256": "7901edaf6ca3ec5ab9d8da4389ab6f2406d4dae4e762746e7bdff9195b327b9a"
+    },
+    {
+      "id": "episode_001427",
+      "path": "data/access_group_holdout_v1/videos/episode_001427.mp4",
+      "bytes": 504531,
+      "sha256": "e87ee750b9fbcd0cbe17ab58adb39cf946dacb0777cfe75172d0c1b9fbc57376"
+    },
+    {
+      "id": "episode_001429",
+      "path": "data/access_group_holdout_v1/videos/episode_001429.mp4",
+      "bytes": 502173,
+      "sha256": "31f8a311aef6d57e4f5848d9e28713be8aaad164c59e9ea348f0fa1f1fdbcde8"
+    },
+    {
+      "id": "episode_001430",
+      "path": "data/access_group_holdout_v1/videos/episode_001430.mp4",
+      "bytes": 634156,
+      "sha256": "691b2dbc91cb784fc2d1e8200b899cffd68d87123e7440a037d0582048c9fe03"
+    },
+    {
+      "id": "episode_001432",
+      "path": "data/access_group_holdout_v1/videos/episode_001432.mp4",
+      "bytes": 510465,
+      "sha256": "cd69a3c028a40128a5cbaac0860413b1d7ef80623825ed4a7590e7b139d43963"
+    },
+    {
+      "id": "episode_001434",
+      "path": "data/access_group_holdout_v1/videos/episode_001434.mp4",
+      "bytes": 533532,
+      "sha256": "8c229f40b0f4693392f371a8d27ddf29691a50009f815bc87e86237a54d176fa"
+    },
+    {
+      "id": "episode_001435",
+      "path": "data/access_group_holdout_v1/videos/episode_001435.mp4",
+      "bytes": 520495,
+      "sha256": "c1b364397ed038ace660665cfe748426d47a4169d2f5bf4bf4820eee539104e6"
+    },
+    {
+      "id": "episode_001436",
+      "path": "data/access_group_holdout_v1/videos/episode_001436.mp4",
+      "bytes": 606864,
+      "sha256": "c8a50894a14e382626c4d2c9106056a1f596343831afcd12336ad50ca95bbb16"
+    },
+    {
+      "id": "episode_001437",
+      "path": "data/access_group_holdout_v1/videos/episode_001437.mp4",
+      "bytes": 509422,
+      "sha256": "2f219d4fc312c53bed022311f025fe653dbf5fb73371bae3b25e47e152843b2f"
+    },
+    {
+      "id": "episode_001438",
+      "path": "data/access_group_holdout_v1/videos/episode_001438.mp4",
+      "bytes": 515741,
+      "sha256": "6347b6f2133c52b7d016940044383ddd90863d2545b5cd7a4f0e76140ae2b0a5"
+    },
+    {
+      "id": "episode_001442",
+      "path": "data/access_group_holdout_v1/videos/episode_001442.mp4",
+      "bytes": 545960,
+      "sha256": "53378ec7a1d9661d7449f40ca8d090f149848a456c3a749c16bfe43200462741"
+    },
+    {
+      "id": "episode_001443",
+      "path": "data/access_group_holdout_v1/videos/episode_001443.mp4",
+      "bytes": 451158,
+      "sha256": "360fc53b014c214ca65bc09d155b991f65cbe1d7e332fab8ef30c47f957517f5"
+    },
+    {
+      "id": "episode_001445",
+      "path": "data/access_group_holdout_v1/videos/episode_001445.mp4",
+      "bytes": 577333,
+      "sha256": "a09bac0440ed113962a4b6ba733eabe72f5cdf1cf5cd9a5f6c802b27cdc220b8"
+    },
+    {
+      "id": "episode_001446",
+      "path": "data/access_group_holdout_v1/videos/episode_001446.mp4",
+      "bytes": 512773,
+      "sha256": "5ce1e46b2ec1b42c3f9cc4c8cf7d0d983a63b3469be747029103017b90f8be64"
+    },
+    {
+      "id": "episode_001448",
+      "path": "data/access_group_holdout_v1/videos/episode_001448.mp4",
+      "bytes": 512424,
+      "sha256": "3feabad30c7d9fab5c3782c6bb4a3d91042411a6f238ab8ba795874f379469c6"
+    },
+    {
+      "id": "episode_001449",
+      "path": "data/access_group_holdout_v1/videos/episode_001449.mp4",
+      "bytes": 505893,
+      "sha256": "520aa602dc3e0d231503bd3cb4c7b695aff41ef4cbef983756eafbb8579d07d0"
+    },
+    {
+      "id": "episode_001451",
+      "path": "data/access_group_holdout_v1/videos/episode_001451.mp4",
+      "bytes": 581965,
+      "sha256": "35ef15595b0fd9a266315457d05c8b40f6358220f3e47756a4d8af41ee1730d5"
+    },
+    {
+      "id": "episode_001453",
+      "path": "data/access_group_holdout_v1/videos/episode_001453.mp4",
+      "bytes": 570070,
+      "sha256": "f25f7608e97cc9bce55b1807cf264e12f3b5a2631ab7ec900e3faf840e5e2505"
+    },
+    {
+      "id": "episode_001454",
+      "path": "data/access_group_holdout_v1/videos/episode_001454.mp4",
+      "bytes": 574255,
+      "sha256": "6e57a129471cddf88cd79014ea2a38471eb66361c20a7fc755b143da180dfae5"
+    },
+    {
+      "id": "episode_001458",
+      "path": "data/access_group_holdout_v1/videos/episode_001458.mp4",
+      "bytes": 517579,
+      "sha256": "ab28d767cbe15b26dcda6073ab76b3aced524bb7cf3fa7fe7dc39a0b67756a31"
+    },
+    {
+      "id": "episode_001459",
+      "path": "data/access_group_holdout_v1/videos/episode_001459.mp4",
+      "bytes": 513148,
+      "sha256": "285f42e87454688907e7ddc01b3d182d2218f2288890d25051145f44b8f74faf"
+    },
+    {
+      "id": "episode_001461",
+      "path": "data/access_group_holdout_v1/videos/episode_001461.mp4",
+      "bytes": 530221,
+      "sha256": "b2cc6c6dc6ed157074ea6f5296ffa29516dcd10a149dec1c17252d57e2e7e517"
+    },
+    {
+      "id": "episode_001462",
+      "path": "data/access_group_holdout_v1/videos/episode_001462.mp4",
+      "bytes": 668638,
+      "sha256": "d07ded5a148b18f0308d44c8b769fa7a796c001f5d14251f0ddc54cfe963bfe6"
+    },
+    {
+      "id": "episode_001464",
+      "path": "data/access_group_holdout_v1/videos/episode_001464.mp4",
+      "bytes": 518321,
+      "sha256": "687e1b7f9437461fe2f7a7566b82576b1dd88a5c4abd805b5d7c2bb4566523ac"
+    },
+    {
+      "id": "episode_001467",
+      "path": "data/access_group_holdout_v1/videos/episode_001467.mp4",
+      "bytes": 535887,
+      "sha256": "06d0591039960b7aa0a9935a5539014ecfddb71e6615f9ba31cb649aed151848"
+    },
+    {
+      "id": "episode_001468",
+      "path": "data/access_group_holdout_v1/videos/episode_001468.mp4",
+      "bytes": 504855,
+      "sha256": "ae0fa106bcc9d54d4dc48155f4fade4eb7c00294702ad019e201856fcf1122e5"
+    },
+    {
+      "id": "episode_001470",
+      "path": "data/access_group_holdout_v1/videos/episode_001470.mp4",
+      "bytes": 512460,
+      "sha256": "5b14f0844c9aceba401d201adb61e55882db2d83c63178b907459c3a1d273f93"
+    },
+    {
+      "id": "episode_001472",
+      "path": "data/access_group_holdout_v1/videos/episode_001472.mp4",
+      "bytes": 475153,
+      "sha256": "fa4c59618373f127393eb69b7d2cd4e50a7cf1a517f4c8fdf3b767d7bfcfc231"
+    },
+    {
+      "id": "episode_001474",
+      "path": "data/access_group_holdout_v1/videos/episode_001474.mp4",
+      "bytes": 558179,
+      "sha256": "50f5bfc5ebdf561b0dda4dad8dc608be44939dee8f961a8bc4a13b2ce7d93a21"
+    },
+    {
+      "id": "episode_001475",
+      "path": "data/access_group_holdout_v1/videos/episode_001475.mp4",
+      "bytes": 534530,
+      "sha256": "b42a7d427334eb6742c910929dc88672bca506df172a7fcecfb9941475d43568"
+    },
+    {
+      "id": "episode_001477",
+      "path": "data/access_group_holdout_v1/videos/episode_001477.mp4",
+      "bytes": 606183,
+      "sha256": "bca994239cb5f092cf04b604aa904a825044b8da43aeca14bca16ee01f432169"
+    },
+    {
+      "id": "episode_001479",
+      "path": "data/access_group_holdout_v1/videos/episode_001479.mp4",
+      "bytes": 572001,
+      "sha256": "3d17eab5e2ccf1a75bd6db789fb7445f341317bfe721af78a43d8d19d87d2725"
+    },
+    {
+      "id": "episode_001482",
+      "path": "data/access_group_holdout_v1/videos/episode_001482.mp4",
+      "bytes": 537389,
+      "sha256": "7ee0d8508dcda7b7f95792ea6bc56ff9f6a9f56b90fe5fff7d984fcfd9513335"
+    },
+    {
+      "id": "episode_001483",
+      "path": "data/access_group_holdout_v1/videos/episode_001483.mp4",
+      "bytes": 552716,
+      "sha256": "96310237c53a218b31b67fa35fe838641dfe856feebf6ac40db1b8eff3e56538"
+    },
+    {
+      "id": "episode_001484",
+      "path": "data/access_group_holdout_v1/videos/episode_001484.mp4",
+      "bytes": 522663,
+      "sha256": "61bfdc55d9e0c34edd2d81bf3cfdc699e74a9c96ac92351e26d2ab4fa83442ca"
+    },
+    {
+      "id": "episode_001486",
+      "path": "data/access_group_holdout_v1/videos/episode_001486.mp4",
+      "bytes": 558684,
+      "sha256": "d6c147a0ed218cb2c1d0dc7e422979a434668c51f854ae38ead81c86b023c579"
+    },
+    {
+      "id": "episode_001488",
+      "path": "data/access_group_holdout_v1/videos/episode_001488.mp4",
+      "bytes": 616804,
+      "sha256": "6a5a3f7dfb5ac6f63ecdaf40d2c896470315c46200ac8b5554dfbd79ae148566"
+    },
+    {
+      "id": "episode_001496",
+      "path": "data/access_group_holdout_v1/videos/episode_001496.mp4",
+      "bytes": 658876,
+      "sha256": "fbb0e08b86d1b170f1e5dd16052fccd50023885a385bf1d1c5155a33da1eafc6"
+    }
+  ]
+}

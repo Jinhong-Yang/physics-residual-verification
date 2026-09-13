@@ -1,0 +1,13 @@
+cohort,variant,difference_vs_numeric_mm,low95_mm,high95_mm,analysis
+development,full,-0.01969720568468128,-0.037727420343032475,-0.0013071693084842516,"post hoc, unadjusted; development also reuses model-selection data"
+development,pooled_only,-0.0041412629827676005,-0.018611767595781523,0.012221101136758356,"post hoc, unadjusted; development also reuses model-selection data"
+development,motion_only,-0.02007796717954315,-0.03394900333279645,-0.007391282332382015,"post hoc, unadjusted; development also reuses model-selection data"
+development,direct_visual_target,-0.0064726436643346,-0.0369060095818118,0.025196033919236558,"post hoc, unadjusted; development also reuses model-selection data"
+development,no_clipping,-0.0072022374330615105,-0.03141018383563786,0.019176967559043148,"post hoc, unadjusted; development also reuses model-selection data"
+development,no_bounce_fallback,0.02934669322288007,0.00905023537206145,0.05024153276834774,"post hoc, unadjusted; development also reuses model-selection data"
+confirmation,full,-0.015647922497511166,-0.031141201984456666,0.0005255895930749207,"post hoc, unadjusted; development also reuses model-selection data"
+confirmation,pooled_only,-0.00022376239357964245,-0.012315063280198022,0.012133445667498455,"post hoc, unadjusted; development also reuses model-selection data"
+confirmation,motion_only,-0.01700767352324246,-0.029660250862997797,-0.00513684961129404,"post hoc, unadjusted; development also reuses model-selection data"
+confirmation,direct_visual_target,0.006598092436497035,-0.02648201310746042,0.04134682193178261,"post hoc, unadjusted; development also reuses model-selection data"
+confirmation,no_clipping,0.015294059882026827,-0.022375041159997094,0.0654827757515109,"post hoc, unadjusted; development also reuses model-selection data"
+confirmation,no_bounce_fallback,0.026001221486787403,0.008191141375964203,0.04399148394301702,"post hoc, unadjusted; development also reuses model-selection data"

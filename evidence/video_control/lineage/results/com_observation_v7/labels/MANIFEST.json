@@ -1,0 +1,29 @@
+{
+  "status": "sealed",
+  "plan_sha256": "2cdf3f7b63d92afb96bc6fd5bae981e477080245ff9b9f2a4c66a814b11bb094",
+  "dataset_version": "main3d_canonical_bounce_v7",
+  "overlay_sha256": "73defa484f26eb30c7e9caf4bc783c76fc01177eaa3b25fcfba6e906d472e07a",
+  "outputs": {
+    "train": {
+      "path": "results/com_observation_v7/labels/train_com_labels.npz",
+      "sha256": "5310716aa064adaf1c5c9e8de7f84f5fe2543205e98e3e93826414838f201a46",
+      "episodes": 720,
+      "frames": 5760
+    },
+    "validation": {
+      "path": "results/com_observation_v7/labels/development_com_labels.npz",
+      "sha256": "bc454db8be25661458e769720b0d1e7250517ce02bbdc3d725ddcbcbf7fece15",
+      "episodes": 180,
+      "frames": 1440
+    }
+  },
+  "quality_pass": true,
+  "out_of_image_frames": 0,
+  "below25_visible_pixel_frames": 0,
+  "excluded_frames": 0,
+  "excluded_episodes": 0,
+  "max_independent_projection_error_px": 2.842170943040401e-14,
+  "max_inverse_error_m": 1.264266469291897e-14,
+  "physical_parameters_read": false,
+  "model_predictions_read": false
+}
