@@ -1,0 +1,196 @@
+{
+  "status": "completed fixed IDPP real friction directional transfer evaluation",
+  "dataset": "IDPP/PhysVid real friction absolute test-3",
+  "videos": 33,
+  "object_surface_families": 11,
+  "target_field": "gt_restitution (upstream legacy name in friction lane)",
+  "primary_gate": {
+    "family_spearman_rho": -0.7000000000000001,
+    "one_sided_permutation_p": 0.990870091299087,
+    "rho_positive": false,
+    "permutation_p_below_0_05": false,
+    "passed": false
+  },
+  "methods": {
+    "v22_visual_score": {
+      "family_spearman_rho": -0.7000000000000001,
+      "family_bootstrap95_interval": [
+        -0.9722222222222221,
+        -0.10798122065727701
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 0.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.2
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 0.0
+          }
+        ],
+        "macro_accuracy": 0.17333333333333334,
+        "pairs": 21
+      }
+    },
+    "v22_pooled_only_score": {
+      "family_spearman_rho": 0.02727272727272728,
+      "family_bootstrap95_interval": [
+        -0.5833333333333334,
+        0.7183098591549296
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 0.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.5
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.6666666666666666
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 0.0
+          }
+        ],
+        "macro_accuracy": 0.3,
+        "pairs": 21
+      }
+    },
+    "v22_motion_only_score": {
+      "family_spearman_rho": -0.45454545454545453,
+      "family_bootstrap95_interval": [
+        -0.944700460829493,
+        0.3177570093457944
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 0.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.2
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.5
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.0
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 1.0
+          }
+        ],
+        "macro_accuracy": 0.33999999999999997,
+        "pairs": 21
+      }
+    },
+    "kinematic_deceleration_score": {
+      "family_spearman_rho": 0.1272727272727273,
+      "family_bootstrap95_interval": [
+        -0.6958804636223991,
+        0.794392523364486
+      ],
+      "controlled_pair_accuracy": {
+        "groups": [
+          {
+            "object": "disk",
+            "camera": "c1",
+            "pairs": 1,
+            "accuracy": 1.0
+          },
+          {
+            "object": "disk",
+            "camera": "c2",
+            "pairs": 10,
+            "accuracy": 0.7
+          },
+          {
+            "object": "lego",
+            "camera": "c1",
+            "pairs": 6,
+            "accuracy": 0.5
+          },
+          {
+            "object": "lego",
+            "camera": "c2",
+            "pairs": 3,
+            "accuracy": 0.0
+          },
+          {
+            "object": "pencil-box",
+            "camera": "c2",
+            "pairs": 1,
+            "accuracy": 1.0
+          }
+        ],
+        "macro_accuracy": 0.64,
+        "pairs": 21
+      }
+    }
+  },
+  "external_directional_support": false,
+  "training_tuning_calibration_or_sign_flip": false,
+  "eligibility_inspection_disclosure": "the public label schema and marginal distribution were inspected to establish task suitability; no candidate score existed and no model or threshold used target association",
+  "metric_plan_sha256": "d416f99c58ac3fd464b9cd545a803583180babcc4844efa6956cae7ec6ca3220",
+  "prediction_seal_sha256": "3ad067a404dcbc3bd42eac8b7df53cc0ad0d3a43e95c870b4c6028417da28c71",
+  "target_sha256": "3e253443a39ef79a23cdd07920363695be8b9cd180b92b56b6df1f3942910e67",
+  "target_reads_by_evaluator": 1,
+  "goal_complete": false
+}

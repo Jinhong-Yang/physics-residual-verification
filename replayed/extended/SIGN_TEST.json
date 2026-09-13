@@ -1,0 +1,15 @@
+{
+  "wins": 46,
+  "families": 72,
+  "two_sided_p": 0.02446090732832437,
+  "bootstrap": {
+    "difference_mm": -0.015647922497509622,
+    "low95_mm": -0.031141201984456777,
+    "high95_mm": 0.0005255895930760267,
+    "one_sided_upper_mm": -0.0021891308533190713,
+    "relative_percent": 1.065376072503389,
+    "wins": 46,
+    "n": 72
+  },
+  "interpretation": "sign test tests directional frequency; mean bootstrap tests mean magnitude; hypotheses differ"
+}

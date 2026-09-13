@@ -4,7 +4,7 @@
 \BeforeBeginEnvironment{table}{\par}
 \AfterEndEnvironment{table}{\par}
 \hypersetup{hidelinks}
-\title{Supplementary Material\\\large Protocol-Constrained Residual Adaptation with Frozen Vision--Language Features for Rigid-Body Inference}
+\title{Supplementary Material\\\large Protocol-Constrained Residual Adaptation for Rigid-Body Inference: A Bounded Evaluation of Frozen Visual Features}
 \author{Hyojin Park, Nam-Hyun Yoo, and Jinhong Yang}
 \date{}
 \begin{document}\maketitle
@@ -93,7 +93,7 @@ The main visual effect retains a negative mean after any one-family deletion, bu
 
 For completeness, the stored paired draws give post hoc two-sided percentile intervals for relative mean improvement of $[22.732,36.459]\%$ (main full versus fixed Huber), $[-0.036,2.063]\%$ (main visual increment), $[1.975,6.459]\%$ (public gated versus numerical), and $[-1.911,2.525]\%$ (gate alone). Fixed-Huber inference is distinguished from the originally specified draw-wise-strongest comparison. These intervals are unadjusted for multiple comparisons and do not supersede the original analysis rules.
 \begin{table}[h]\centering\small
-\caption{All six point-error protection cells. Both conventions use the same 72 geometry families.}
+\caption{Recorded protection rows: three distinct nontrivial comparisons. Both conventions use the same 72 geometry families.}
 \begin{tabular}{llrrl}\toprule Convention & Protocol & Candidate (mm) & Reference (mm) & Reference\\\midrule
 General & Multiple forces & 2.989925 & 3.633112 & Huber\\
 General & Unforced slide & 0.960083 & 2.002216 & Legacy\\
@@ -102,16 +102,16 @@ Setup & Multiple forces & 2.989925 & 3.633112 & Huber\\
 Setup & Unforced slide & 0.960083 & 2.002216 & Legacy\\
 Setup & Bounce & 0.303715 & 0.307627 & Legacy\\\bottomrule
 \end{tabular}\end{table}
-All six meet both the 10\% relative and 0.10 mm absolute harm guards. These values preserve the original cell-specific comparator rule; they are not newly estimated cell confidence intervals. Sliding inference is shared by the two conventions, which explains the identical multiple-force and unforced-slide rows.
+The six rows meet the recorded 10\% relative and 0.10 mm absolute harm guards, but represent only three distinct nontrivial comparisons: the two slide protocols and setup bounce. General bounce is identical by fallback. These comparisons share families and are not statistically independent. These values preserve the original cell-specific comparator rule; they are not newly estimated cell confidence intervals. Sliding inference is shared by the two conventions, which explains the identical multiple-force and unforced-slide rows.
 
 \section{Public timing, selection, and uncertainty audit}
-The fixed selection samples a permutation of episode indices 10--1499 with seed 20260924: the first 64 become development candidates and the next 128 confirmation candidates. The local plan and individual selected files are included; a fresh census of the pinned remote population is not included in this analysis.
+The fixed selection samples a permutation of episode indices 10--1499 with seed 20260924: the first 64 become development candidates and the next 128 confirmation candidates. The local plan and individual selected files are included; the later material audit includes all 1,500 metadata records from the pinned population.
 
 For every retained episode, the saved video container reports 50 fps. All 176 trajectory parquet files match the stored download hashes. Timestamp differences yield onset-to-target durations from 1.799999833 to 1.800000131 s and last-observation-to-target durations from 1.519999862 to 1.520000100 s. These float32-scale differences support the intended 1.80 s and 1.52 s definitions. A current public-card rate was not substituted for the saved data cadence.
 
 The onset detector uses the first 25 centroids as a baseline, then searches for five consecutive frames displaced by more than two pixels. All frames are tracked before onset selection; later red-component failure can exclude a sequence. Feature extraction remains target-label-free, but selection is not causal with respect to the last observed frame. The result is explicitly scoped to an offline visibility-selected task. A future online result would require a prospectively specified causal selection procedure and new evaluation data.
 
-The nominal 90\% region uses radii 0.165462 m for numerical and 0.162973 m for gated prediction. An isotropic Gaussian scale is obtained by dividing the radius by $\sqrt{\chi^2_{2,0.9}}$. This fitted parametric interpretation is used for NLL; it does not transform the empirical radius into a calibrated Gaussian posterior. Object/parameter/environment overlap across episode splits remains unverified.
+The nominal 90\% region uses radii 0.165462 m for numerical and 0.162973 m for gated prediction. An isotropic Gaussian scale is obtained by dividing the radius by $\sqrt{\chi^2_{2,0.9}}$. This fitted parametric interpretation is used for NLL; it does not transform the empirical radius into a calibrated Gaussian posterior. The later metadata audit finds 15 shared object-friction and 16 shared surface-friction conditions in the original episode split; see the material-holdout analysis below.
 
 \input{support_results}
 
@@ -119,8 +119,10 @@ The nominal 90\% region uses radii 0.165462 m for numerical and 0.162973 m for g
 
 \input{group_holdout_results}
 
+\input{extended_results}
+
 \section{Scope of available evidence}
-The archives identify computational artifacts rather than distinct independent replications. The original public development result remains below its 10\% criterion. The controls do not isolate language pretraining, validate a general coordinate mask, or establish universal safety or coverage guarantees. Independent calibration and controlled end-to-end latency comparisons are not available. The new material holdout retains the historical architecture-selection and shared-asset limitations described above.
+The archives identify computational artifacts rather than distinct independent replications. The original public development result remains below its 10\% criterion. The controls do not isolate language pretraining, validate a general coordinate mask, or establish universal safety or coverage guarantees. Independent calibration is not available. Measured latency component sums are distinguished from contiguous end-to-end latency. The new material holdout retains the historical architecture-selection and shared-asset limitations described above.
 
 \begingroup\small
 \section{Portable calculation reproduction}
@@ -134,8 +136,9 @@ python tools/run_support_study.py
 python tools/score_access_video_control.py
 python tools/replay_prior_lineage.py
 python tools/replay_group_holdout.py
+python tools/run_extended_study.py
 \end{verbatim}
-The support and video studies additionally require SciPy. Their feature caches and numerical kernels enable CPU refitting and scoring. Input hashes and the analysis plans are supplied under \path{evidence/support/} and \path{evidence/video_control/}. The prior-lineage command checks the supplied identifier/hash tables and selection receipts; it does not rehash the complete original image collection.
+The support and video studies additionally require SciPy. The extended runner refits robust baselines, cross-fitted targets, shrinkage/channel/direct controls, then replays public scales, real-score and latency diagnostics. Direct MLP fitting requires PyTorch; fresh engine execution requires PyBullet and is invoked separately with \texttt{python tools/engine\_rollout\_metric.py}. Individual script names and requirements are listed in \path{tools/README_extended.md}. Their feature caches and numerical kernels enable CPU refitting and scoring. Input hashes and the analysis plans are supplied under \path{evidence/support/} and \path{evidence/video_control/}. The prior-lineage command checks the supplied identifier/hash tables and selection receipts; it does not rehash the complete original image collection.
 
 The separate \path{IEEE_Access_RGB_Reproduction.zip} includes a README, recorded environment versions, a pinned base-model download helper, and the eight-case offline runner. Its directory structure is independent of this Overleaf project. After obtaining the base model, run:
 \begin{verbatim}

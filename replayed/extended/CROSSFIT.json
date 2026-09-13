@@ -1,0 +1,50 @@
+[
+  {
+    "cohort": "development",
+    "target": "in_sample",
+    "action_mm": 1.3522310301768836,
+    "difference_mm": -0.01969720568468128,
+    "low95_mm": -0.037727420343032475,
+    "high95_mm": -0.0013071693084842513,
+    "one_sided_upper_mm": -0.004447031453484356,
+    "relative_percent": 1.4357314887036865,
+    "wins": 77,
+    "n": 132
+  },
+  {
+    "cohort": "confirmation",
+    "target": "in_sample",
+    "action_mm": 1.4531219233223358,
+    "difference_mm": -0.01564792249750635,
+    "low95_mm": -0.031141201984454595,
+    "high95_mm": 0.0005255895930802742,
+    "one_sided_upper_mm": -0.0021891308533174367,
+    "relative_percent": 1.0653760725031676,
+    "wins": 46,
+    "n": 72
+  },
+  {
+    "cohort": "development",
+    "target": "crossfit",
+    "action_mm": 1.350328121385452,
+    "difference_mm": -0.021600114476112854,
+    "low95_mm": -0.04228097107489878,
+    "high95_mm": -0.00045541698287559313,
+    "one_sided_upper_mm": -0.004113537576494796,
+    "relative_percent": 1.5744347197977264,
+    "wins": 78,
+    "n": 132
+  },
+  {
+    "cohort": "confirmation",
+    "target": "crossfit",
+    "action_mm": 1.4516201722431832,
+    "difference_mm": -0.017149673576659058,
+    "low95_mm": -0.03446257941058263,
+    "high95_mm": 0.0009521081737409487,
+    "one_sided_upper_mm": -0.0022125015844288694,
+    "relative_percent": 1.1676215729419719,
+    "wins": 43,
+    "n": 72
+  }
+]

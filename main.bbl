@@ -21,47 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{puyin2026quantiphy}
-L.~Puyin, T.~Xiang, E.~Mao, S.~Wei, X.~Chen, A.~Masood, L.~Fei-Fei, and
-  E.~Adeli, ``{QUANTIPHY}: A quantitative benchmark evaluating physical
-  reasoning abilities of vision-language models,'' in \emph{Proc. IEEE/CVF
-  Conf. Comput. Vis. Pattern Recognit.}, 2026, pp. 33\,174--33\,184.
-
-\bibitem{zhan2026idpp}
-G.~Zhan, X.~Ma, W.~Xie, and A.~Zisserman, ``Inferring dynamic physical
-  properties from video foundation models,'' in \emph{Proc. IEEE/CVF Conf.
-  Comput. Vis. Pattern Recognit. Workshops}, 2026, pp. 5214--5224.
-
-\bibitem{wang2026phys2real}
-\BIBentryALTinterwordspacing
-M.~Wang, S.~Tian, A.~Swann, O.~Shorinwa, J.~Wu, and M.~Schwager, ``{Phys2Real}:
-  Fusing {VLM} priors with interactive online adaptation for uncertainty-aware
-  sim-to-real manipulation,'' in \emph{IEEE International Conference on
-  Robotics and Automation (ICRA)}, 2026, public manuscript: arXiv:2510.11689v2.
-  [Online]. Available: \url{https://arxiv.org/abs/2510.11689}
-\BIBentrySTDinterwordspacing
-
-\bibitem{he2026rigpi}
-\BIBentryALTinterwordspacing
-X.~He, R.~Zhang, W.~Jiang, and W.~Xu, ``{RigPI}: Dynamic parameter
-  identification of rigid body via {VLM}-seeded differentiable simulation,''
-  2026, preprint. [Online]. Available: \url{https://arxiv.org/abs/2606.25212}
-\BIBentrySTDinterwordspacing
-
-\bibitem{kao2026dynamics}
-\BIBentryALTinterwordspacing
-C.-H. Kao, C.~P. Huynh, C.-Y. Wang, N.~Vesdapunt, S.~Stojanov, B.~Hariharan,
-  O.~Obiednikov, and N.~Zhou, ``{$\Delta$ynamics}: Language-based
-  representation for inferring rigid-body dynamics from videos,'' in
-  \emph{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  2026, pp. 42\,364--42\,374. [Online]. Available:
-  \url{https://openaccess.thecvf.com/content/CVPR2026/html/Kao_Dynamics_Language-Based_Representation_for_Inferring_Rigid-Body_Dynamics_From_Videos_CVPR_2026_paper.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{bai2025qwen3vl}
-S.~Bai, Y.~Cai, R.~Chen \emph{et~al.}, ``{Qwen3-VL} technical report,''
-  \emph{arXiv preprint arXiv:2511.21631}, 2025.
-
 \bibitem{bear2021physion}
 D.~M. Bear, E.~Wang, D.~Mrowca, F.~J. Binder, H.-Y. Tung, R.~T. Pramod,
   C.~Holdaway, S.~Tao, K.~Smith, F.-Y. Sun, L.~Fei-Fei, N.~Kanwisher, J.~B.
@@ -74,6 +33,36 @@ H.-Y. Tung, M.~Ding, Z.~Chen, D.~Bear, C.~Gan, J.~B. Tenenbaum, D.~Yamins,
   J.~Fan, and K.~Smith, ``Physion++: Evaluating physical scene understanding
   that requires online inference of different physical properties,'' in
   \emph{Advances in Neural Information Processing Systems}, vol.~36, 2023.
+
+\bibitem{yin2021aphynity}
+\BIBentryALTinterwordspacing
+Y.~Yin, V.~{Le Guen}, J.~Dona, E.~{de B{\'e}zenac}, I.~Ayed, N.~Thome, and
+  P.~Gallinari, ``Augmenting physical models with deep networks for complex
+  dynamics forecasting,'' in \emph{International Conference on Learning
+  Representations (ICLR)}, 2021. [Online]. Available:
+  \url{https://arxiv.org/abs/2010.04456}
+\BIBentrySTDinterwordspacing
+
+\bibitem{revach2022kalmannet}
+G.~Revach, N.~Shlezinger, X.~Ni, A.~{L{\'o}pez Escoriza}, R.~J.~G. {van Sloun},
+  and Y.~C. Eldar, ``{KalmanNet}: Neural network aided kalman filtering for
+  partially known dynamics,'' \emph{IEEE Transactions on Signal Processing},
+  vol.~70, pp. 1532--1547, 2022.
+
+\bibitem{puyin2026quantiphy}
+L.~Puyin, T.~Xiang, E.~Mao, S.~Wei, X.~Chen, A.~Masood, L.~Fei-Fei, and
+  E.~Adeli, ``{QUANTIPHY}: A quantitative benchmark evaluating physical
+  reasoning abilities of vision-language models,'' in \emph{Proc. IEEE/CVF
+  Conf. Comput. Vis. Pattern Recognit.}, 2026, pp. 33\,174--33\,184.
+
+\bibitem{zhan2026idpp}
+G.~Zhan, X.~Ma, W.~Xie, and A.~Zisserman, ``Inferring dynamic physical
+  properties from video foundation models,'' in \emph{Proc. IEEE/CVF Conf.
+  Comput. Vis. Pattern Recognit. Workshops}, 2026, pp. 5214--5224.
+
+\bibitem{bai2025qwen3vl}
+S.~Bai, Y.~Cai, R.~Chen \emph{et~al.}, ``{Qwen3-VL} technical report,''
+  \emph{arXiv preprint arXiv:2511.21631}, 2025.
 
 \bibitem{li2021dvr}
 M.~Ding, Z.~Chen, T.~Du, P.~Luo, J.~B. Tenenbaum, and C.~Gan, ``Dynamic visual
@@ -111,6 +100,32 @@ Z.~Cao, F.~Hong, Z.~Chen, L.~Pan, and Z.~Liu, ``{PhysX-Anything}:
   \url{https://arxiv.org/abs/2511.13648}
 \BIBentrySTDinterwordspacing
 
+\bibitem{wang2026phys2real}
+\BIBentryALTinterwordspacing
+M.~Wang, S.~Tian, A.~Swann, O.~Shorinwa, J.~Wu, and M.~Schwager, ``{Phys2Real}:
+  Fusing {VLM} priors with interactive online adaptation for uncertainty-aware
+  sim-to-real manipulation,'' in \emph{IEEE International Conference on
+  Robotics and Automation (ICRA)}, 2026, public manuscript: arXiv:2510.11689v2.
+  [Online]. Available: \url{https://arxiv.org/abs/2510.11689}
+\BIBentrySTDinterwordspacing
+
+\bibitem{he2026rigpi}
+\BIBentryALTinterwordspacing
+X.~He, R.~Zhang, W.~Jiang, and W.~Xu, ``{RigPI}: Dynamic parameter
+  identification of rigid body via {VLM}-seeded differentiable simulation,''
+  2026, preprint. [Online]. Available: \url{https://arxiv.org/abs/2606.25212}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kao2026dynamics}
+\BIBentryALTinterwordspacing
+C.-H. Kao, C.~P. Huynh, C.-Y. Wang, N.~Vesdapunt, S.~Stojanov, B.~Hariharan,
+  O.~Obiednikov, and N.~Zhou, ``{$\Delta$ynamics}: Language-based
+  representation for inferring rigid-body dynamics from videos,'' in
+  \emph{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  2026, pp. 42\,364--42\,374. [Online]. Available:
+  \url{https://openaccess.thecvf.com/content/CVPR2026/html/Kao_Dynamics_Language-Based_Representation_for_Inferring_Rigid-Body_Dynamics_From_Videos_CVPR_2026_paper.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{wang2026codeworlds}
 \BIBentryALTinterwordspacing
 H.~Wang, Y.~Cai, W.~Chen, J.~Chi, H.~Sun, Q.~Dai, Y.-H. Hung, X.~Guo, J.~Ren,
@@ -119,21 +134,6 @@ H.~Wang, Y.~Cai, W.~Chen, J.~Chi, H.~Sun, Q.~Dai, Y.-H. Hung, X.~Guo, J.~Ren,
   reasoning,'' 2026, preprint, August 2026. [Online]. Available:
   \url{https://arxiv.org/abs/2608.27549}
 \BIBentrySTDinterwordspacing
-
-\bibitem{yin2021aphynity}
-\BIBentryALTinterwordspacing
-Y.~Yin, V.~{Le Guen}, J.~Dona, E.~{de B{\'e}zenac}, I.~Ayed, N.~Thome, and
-  P.~Gallinari, ``Augmenting physical models with deep networks for complex
-  dynamics forecasting,'' in \emph{International Conference on Learning
-  Representations (ICLR)}, 2021. [Online]. Available:
-  \url{https://arxiv.org/abs/2010.04456}
-\BIBentrySTDinterwordspacing
-
-\bibitem{revach2022kalmannet}
-G.~Revach, N.~Shlezinger, X.~Ni, A.~{L{\'o}pez Escoriza}, R.~J.~G. {van Sloun},
-  and Y.~C. Eldar, ``{KalmanNet}: Neural network aided kalman filtering for
-  partially known dynamics,'' \emph{IEEE Transactions on Signal Processing},
-  vol.~70, pp. 1532--1547, 2022.
 
 \bibitem{huber1964robust}
 P.~J. Huber, ``Robust estimation of a location parameter,'' \emph{Ann. Math.
@@ -202,12 +202,5 @@ M.~Mittal, P.~Roth, J.~Tigue, A.~Richard \emph{et~al.}, ``{Isaac Lab}: A
 {leesangoh}, ``{PhysProbe Dynamics Probing Dataset},'' Hugging Face Datasets,
   2026, commit b679fcf0a800d60f0d5064304e0e8777392f34dd. [Online]. Available:
   \url{https://huggingface.co/datasets/leesangoh/dynamics-probing}.
-
-\bibitem{openai2026codex}
-\BIBentryALTinterwordspacing
-{OpenAI}, ``{Codex},'' AI-assisted software tool, 2026, accessed September 13,
-  2026; model designation in the acknowledgment supplied by the authors.
-  [Online]. Available: \url{https://openai.com/codex/}
-\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

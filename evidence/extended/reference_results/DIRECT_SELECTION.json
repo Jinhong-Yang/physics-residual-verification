@@ -1,0 +1,352 @@
+[
+  {
+    "method": "direct_ridge",
+    "fold": 0,
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.04033319532319014,
+          0.1
+        ],
+        [
+          0.03866689808555661,
+          1
+        ],
+        [
+          0.03590977400807225,
+          10
+        ],
+        [
+          0.033227966191603606,
+          100
+        ],
+        [
+          0.05070407492928052,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_ridge",
+    "fold": 1,
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.03993683289231894,
+          0.1
+        ],
+        [
+          0.038821907777248164,
+          1
+        ],
+        [
+          0.03589112572867056,
+          10
+        ],
+        [
+          0.03328382979266641,
+          100
+        ],
+        [
+          0.05121988452242287,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_ridge",
+    "fold": 2,
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.03903427790025857,
+          0.1
+        ],
+        [
+          0.037751772038469314,
+          1
+        ],
+        [
+          0.03547509809813372,
+          10
+        ],
+        [
+          0.033417199368508316,
+          100
+        ],
+        [
+          0.0524693988892001,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_ridge",
+    "fold": 3,
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.039667179692848296,
+          0.1
+        ],
+        [
+          0.03800419356206377,
+          1
+        ],
+        [
+          0.035206782161975224,
+          10
+        ],
+        [
+          0.0326614906086036,
+          100
+        ],
+        [
+          0.05164088465694453,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_ridge",
+    "fold": 4,
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.04074917060216283,
+          0.1
+        ],
+        [
+          0.03917537340441029,
+          1
+        ],
+        [
+          0.0361291658545944,
+          10
+        ],
+        [
+          0.03325429016406779,
+          100
+        ],
+        [
+          0.052673407496352236,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_ridge",
+    "fold": 5,
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.041046176274522436,
+          0.1
+        ],
+        [
+          0.03942771993646936,
+          1
+        ],
+        [
+          0.03647958516641009,
+          10
+        ],
+        [
+          0.033444282164445845,
+          100
+        ],
+        [
+          0.05235755079501859,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_ridge",
+    "fold": "final",
+    "selection": {
+      "penalty": 100,
+      "grid": [
+        [
+          0.03847551654776884,
+          0.1
+        ],
+        [
+          0.03723078181466884,
+          1
+        ],
+        [
+          0.034901360377575505,
+          10
+        ],
+        [
+          0.03225699933443354,
+          100
+        ],
+        [
+          0.0486665564310219,
+          1000
+        ]
+      ]
+    }
+  },
+  {
+    "method": "direct_mlp",
+    "fold": 0,
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 56,
+        "inner_validation_mse_standardized": 0.7348920702934265
+      },
+      {
+        "seed": 43,
+        "epochs": 80,
+        "inner_validation_mse_standardized": 0.7875227928161621
+      },
+      {
+        "seed": 101,
+        "epochs": 81,
+        "inner_validation_mse_standardized": 0.7379233837127686
+      }
+    ]
+  },
+  {
+    "method": "direct_mlp",
+    "fold": 1,
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 67,
+        "inner_validation_mse_standardized": 0.658415675163269
+      },
+      {
+        "seed": 43,
+        "epochs": 93,
+        "inner_validation_mse_standardized": 0.697108805179596
+      },
+      {
+        "seed": 101,
+        "epochs": 78,
+        "inner_validation_mse_standardized": 0.690578281879425
+      }
+    ]
+  },
+  {
+    "method": "direct_mlp",
+    "fold": 2,
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 76,
+        "inner_validation_mse_standardized": 0.60887211561203
+      },
+      {
+        "seed": 43,
+        "epochs": 83,
+        "inner_validation_mse_standardized": 0.6102873086929321
+      },
+      {
+        "seed": 101,
+        "epochs": 87,
+        "inner_validation_mse_standardized": 0.6331265568733215
+      }
+    ]
+  },
+  {
+    "method": "direct_mlp",
+    "fold": 3,
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 72,
+        "inner_validation_mse_standardized": 0.6064758896827698
+      },
+      {
+        "seed": 43,
+        "epochs": 84,
+        "inner_validation_mse_standardized": 0.6160183548927307
+      },
+      {
+        "seed": 101,
+        "epochs": 80,
+        "inner_validation_mse_standardized": 0.614536702632904
+      }
+    ]
+  },
+  {
+    "method": "direct_mlp",
+    "fold": 4,
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 67,
+        "inner_validation_mse_standardized": 0.6321305632591248
+      },
+      {
+        "seed": 43,
+        "epochs": 90,
+        "inner_validation_mse_standardized": 0.6694570183753967
+      },
+      {
+        "seed": 101,
+        "epochs": 74,
+        "inner_validation_mse_standardized": 0.6355341076850891
+      }
+    ]
+  },
+  {
+    "method": "direct_mlp",
+    "fold": 5,
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 67,
+        "inner_validation_mse_standardized": 0.6399118304252625
+      },
+      {
+        "seed": 43,
+        "epochs": 98,
+        "inner_validation_mse_standardized": 0.6765800714492798
+      },
+      {
+        "seed": 101,
+        "epochs": 72,
+        "inner_validation_mse_standardized": 0.6546869277954102
+      }
+    ]
+  },
+  {
+    "method": "direct_mlp",
+    "fold": "final",
+    "selection": [
+      {
+        "seed": 17,
+        "epochs": 60,
+        "inner_validation_mse_standardized": 0.7046055197715759
+      },
+      {
+        "seed": 43,
+        "epochs": 84,
+        "inner_validation_mse_standardized": 0.7349733710289001
+      },
+      {
+        "seed": 101,
+        "epochs": 80,
+        "inner_validation_mse_standardized": 0.6880728602409363
+      }
+    ]
+  }
+]

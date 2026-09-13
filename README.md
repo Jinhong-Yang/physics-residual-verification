@@ -1,38 +1,94 @@
 # Verification materials for rigid-body residual adaptation
 
-Verification release **v0.2.0**.
+Verification release **v0.3.0**.
 
-Protocol-Constrained Residual Adaptation with Frozen Vision–Language Features for Rigid-Body Inference
+Protocol-Constrained Residual Adaptation for Rigid-Body Inference: A Bounded Evaluation of Frozen Visual Features
 
-Hyojin Park, Nam-Hyun Yoo, and Jinhong Yang. Initial-submission research manuscript; publication acceptance is not claimed.
+Hyojin Park, Nam-Hyun Yoo, and Jinhong Yang. Initial-submission Research Article;
+publication acceptance is not claimed. This release does not report external
+journal review or a response to reviewers.
 
-## Evidence and scope
+## Measured evidence
 
-The primary analytic-action experiment reports 29.95% lower error than the strongest fixed robust baseline on 72 later synthetic geometry families (1,080 episodes). Most improvement comes from numerical residual adaptation. All primary paths share a learned first-image appearance prior. The additional visual residual improves error by 1.07%; its two-sided interval includes zero. A separate public-task result is 4.27%, while its original development result of 3.90% failed the 10% threshold. These distinct results must not be combined or relabeled as a universal performance pass.
+The original frozen models and primary rules are preserved. On 72 new synthetic
+geometry families (1,080 episodes), full error is 1.453122 mm, compared with
+2.074269 mm for the one-step-weight Huber anchor: **29.95%** reduction.
+New post hoc local iterated Huber fitting gives 1.914820 mm; full improvement is
+**24.11%**, with a paired difference interval **[-0.66342, -0.26975] mm**.
+Iterated Cauchy gives 1.913327 mm and profiled Gaussian MAP 1.823148 mm.
+Both IRLS methods converge locally on every distinct fit. Two profiled-MAP
+fits are flagged nonconverged and retained; global optimality is not claimed.
 
-The supplementary studies refit seven components, evaluate covariance sensitivity and initial Jacobians, and compare a frozen V-JEPA 2 representation under fixed residual-stage rules. They are post hoc, use already evaluated data, and do not reselect the original model. Real-world property transfer, general semantic-physics superiority, and guaranteed uncertainty calibration remain unestablished.
+The original visual increment is **1.07%**, with a two-sided interval including
+zero. Cross-fitted numerical targets retain **1.17%**, also with an interval
+including zero. Development-selected channel controls favor position shifts
+(1.451117 mm) over pooled-only states (1.467461 mm); the combined view retains
+its original penalty and model. The design does not isolate language pretraining.
+The direct ridge and three-seed MLP controls yield 33.402860 and 26.489233 mm.
+Their hyperparameters and normalization are fitted on development families.
 
-A separate follow-up uses newly selected episodes and disjoint object/surface friction conditions during refitting. After excluding every formerly selected/feasibility episode, it retains 285 training and 329 evaluation cases. No friction condition on either axis or complete video hash is shared across these fitting/evaluation roles. The same architecture and penalties are used. Evaluation trajectories were downloaded only after predictions were sealed.
+A PyBullet **nonrotating-sphere proxy** gives 2.236155 mm for fixed Huber and
+1.605715 mm for full (**28.19%** reduction). Analytic/engine family rank
+correlations exceed 0.96. This is not an original-geometry-asset rollout or
+validation in real manipulation. Protocol and active-coordinate breakdowns,
+shrinkage and covariance sensitivities, bounce diagnostics, and 100 measured
+inference-component timing rows are supplied.
 
-Across 63 held-out material pairs, equally weighted mean errors are **63.419 mm numerical**, **61.943 mm raw residual**, and **60.641 mm gated residual**. The gated reduction is **4.38%**, with paired difference **-2.778 mm** and a two-way material-bootstrap 95% interval **[-6.044, -0.116] mm**. Object/surface marginal improvements occur in **7/8** and **5/8** groups, passing the fixed study rule. The interval is close to zero at its upper endpoint and has only eight levels per axis. This is a friction-condition holdout within the same red-cube/scene setting. Earlier architecture selection exposed the material bank; new object/scene assets and historically untouched material discovery are not claimed. The original 3.90% development failure remains unchanged.
+The prior independent friction-condition study remains unchanged: 285 fitting
+episodes and 329 evaluation episodes, with no shared object-friction or
+surface-friction conditions or complete video hash. Equal weighting over 63
+evaluation material pairs yields **4.38%** improvement, difference **-2.778 mm**,
+and two-way bootstrap interval **[-6.044, -0.116] mm**. Its upper endpoint is near
+zero. Every episode uses the same red cube/scene assets. Historical architecture
+selection used the material bank. This is a material-condition holdout during
+refitting, not transfer to new object/scene assets or material recognition from
+appearance. The original episode-split improvement remains **4.27%**; the
+development result **3.90%** still fails its original 10% criterion.
 
-## Files
+The real-video score has inverse family correlation -0.70. The supplied source
+audit identifies a mismatch between synthetic noise-normalized shifts and real
+pixel shifts. This diagnostic outputs a score, uses no appearance prior, and
+does not identify the causal reason for failure. Calibrated property transfer,
+independent uncertainty calibration, and matched-supervision encoder controls
+remain outside the evidence.
 
-- Repository root: Overleaf paper source/PDFs, `evidence/`, cached features, checkpoints, and `tools/`. Compile `main.tex` with pdfLaTeX/BibTeX; select `supplementary.tex` for the supplement.
-- `rgb_reproduction/`: 64 original RGB frames, small learned checkpoints and required modules for eight primary inference cases. A pinned Qwen base model is downloaded separately. See its README for the recorded CUDA environment and offline command.
-- Release assets: `IEEE_Access_Initial_Submission_Overleaf.zip`, `IEEE_Access_RGB_Reproduction.zip`, and `SHA256SUMS.txt`. The checksums apply to these downloadable archives.
+## Reproduction
 
-After extracting the Overleaf archive, run the following with Python, NumPy and SciPy:
+Upload the Overleaf ZIP and select `main.tex`, `supplementary.tex`, or
+`cover_letter.tex`, using pdfLaTeX. Execute numerical tools outside Overleaf.
 
 ```text
 python tools/replay_tables.py
-python tools/effect_sensitivity.py
 python tools/run_support_study.py
 python tools/score_access_video_control.py
-python tools/replay_prior_lineage.py
 python tools/replay_group_holdout.py
+python tools/run_extended_study.py
 ```
 
-The original saved statistics, locked numerical/full refits, frozen-video comparison, and material-held-out refit were reproduced from independently extracted archives. The RGB example also passed after extraction with reads against the original research checkout blocked. It regenerates the first-image prior through the final posterior. This uses the existing recorded environment, not a newly installed environment. Full upstream training and the complete RGB cohort are not reproduced. `tools/replay_group_holdout.py` checks new refitted predictions and crossed-material intervals from bundled numeric views; the new 614-episode RGB extraction is documented by source/video hashes and observation records, not rerun by that cached-feature tool.
+The extended runner refits the CPU comparisons from bundled inputs and checks
+reference predictions. Install NumPy, SciPy, and PyTorch. Fresh PyBullet execution
+is optional: `python tools/engine_rollout_metric.py`; the runner also recomputes
+metrics from stored engine trajectories without PyBullet. See
+`tools/README_extended.md` for all individual commands and numerical limits.
+Recorded timing quantiles replay without GPU work. Fresh hardware measurement
+requires the original 100 RGB episodes and upstream source environment; reported
+totals are sums across staged, model-resident passes, not cold-start benchmarks.
 
-The archives contain provenance records; hashes identify content and are not independent proof of preregistration time. Foundation weights are not redistributed. Their official repository and pinned commit are included in the RGB README and model manifest. Any historical local paths in source/provenance are not public download links.
+The separate `IEEE_Access_RGB_Reproduction.zip` supplies 64 original frames,
+small learned checkpoints, source closure, and an eight-case full-inference
+runner including the common first-image prior. Foundation weights are separate
+inputs pinned by revision and hashes. See the companion README before running.
+Full upstream training and a fresh environment installation are not reproduced.
+
+## Archives and provenance
+
+Release assets include the Overleaf ZIP, the RGB reproduction ZIP, and
+`SHA256SUMS.txt`. The repository root mirrors the Overleaf project; the RGB
+companion is under `rgb_reproduction/`. New plans, numerical inputs, diagnostic
+records and reference outputs are under `evidence/extended/`. Original version
+v0.2.0 remains available unchanged in its own release.
+
+Third-party dataset/model terms remain with their original providers; this
+release does not grant rights beyond those terms. No access tokens or foundation
+weights are included. The original source provenance may contain local paths;
+those paths are not public download links.

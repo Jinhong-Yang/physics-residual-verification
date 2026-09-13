@@ -65,6 +65,191 @@
     "sha256": "e65b4ba1023cb92bf5c49a52ca7f8348281dc366b4b219bf96ef2b87051bd01a"
   },
   {
+    "path": "evidence/extended/extract_idpp_real_visual_scores_v25.py",
+    "bytes": 8853,
+    "sha256": "891ff7c3773b8c319b85ff2eb122314be608697d2c7780aa4055f6deb7cb2a5d"
+  },
+  {
+    "path": "evidence/extended/LATENCY.json",
+    "bytes": 62772,
+    "sha256": "539af42b3ef44116578d5640397b111152e74f28ccf69ee9870235ac6cfc0794"
+  },
+  {
+    "path": "evidence/extended/legacy_qwen_warp_joint.npz",
+    "bytes": 102348,
+    "sha256": "890ae518b02d064227bc436ec4424a5639a362591e4ff6cc10f547ee1ebd5505"
+  },
+  {
+    "path": "evidence/extended/MANIFEST.json",
+    "bytes": 6486,
+    "sha256": "4e5daef06429c26299b2f4dc4d77792fc4a23a93699ac33c071c1d927144f74c"
+  },
+  {
+    "path": "evidence/extended/observation_inputs.npz",
+    "bytes": 643711,
+    "sha256": "341cc47e8c07afd4e042226a7a6137077105e24c20c00dbb37d3c0567bf9ed2e"
+  },
+  {
+    "path": "evidence/extended/PLAN.json",
+    "bytes": 2784,
+    "sha256": "acdcda1b13c63a313e7b891b48e2d93520c049a15060ede4df83fa87d6936dac"
+  },
+  {
+    "path": "evidence/extended/profile_access_latency_v030.py",
+    "bytes": 7794,
+    "sha256": "d6050ed4e9ae6939f7d61f0684375cca8d4400825bc524e605cadb8e4b79c7a5"
+  },
+  {
+    "path": "evidence/extended/public_original_vectors.npz",
+    "bytes": 7837,
+    "sha256": "4f58b7530df91ea28e90f1629748b2bd30e02de047eb2daea5a34e657ffb037c"
+  },
+  {
+    "path": "evidence/extended/real_diagnostic_inputs.npz",
+    "bytes": 9092,
+    "sha256": "47aaf2ed26257fa5b930d16f7623f3af68b40d36ae3dc0e03c681564f4d57050"
+  },
+  {
+    "path": "evidence/extended/REAL_EXTERNAL_RESULT.json",
+    "bytes": 5426,
+    "sha256": "3c2de73a21f4213cd04b2cd5232b82650a3c9b7538b70cb9997104f692b63f44"
+  },
+  {
+    "path": "evidence/extended/REAL_OBSERVATION_SEAL.json",
+    "bytes": 393,
+    "sha256": "a8e386bfdc34fd433b2821c97c376b5a7049577c991b807d7868e81266ba2353"
+  },
+  {
+    "path": "evidence/extended/reference_results/anchor_diagnostics.csv",
+    "bytes": 611744,
+    "sha256": "e9f549550d0ed6a89efcf78927812f9f426f94cdb3b73a57ea1eeef7d388d9fa"
+  },
+  {
+    "path": "evidence/extended/reference_results/anchor_predictions.npz",
+    "bytes": 94272,
+    "sha256": "38e8bcef3772b2b54e10c175d2c55c832ca89b9bc221f66b5f63e6a52f4a1331"
+  },
+  {
+    "path": "evidence/extended/reference_results/ANCHORS.json",
+    "bytes": 1844,
+    "sha256": "53515493a951b092be3ae290f654c772e50d7109bfb01610b342dc64ffb185da"
+  },
+  {
+    "path": "evidence/extended/reference_results/bounce_diagnostics.csv",
+    "bytes": 2406,
+    "sha256": "48c2a49339f4c7253d2010523e995d613bd053fee805ffbdc1667f8c281e35a0"
+  },
+  {
+    "path": "evidence/extended/reference_results/channel_grid.csv",
+    "bytes": 429,
+    "sha256": "b6d5dbafca752da8d43fc7affddd8354c008fbf204f5bfe1c6d9d2f9d895b352"
+  },
+  {
+    "path": "evidence/extended/reference_results/channel_predictions.npz",
+    "bytes": 125877,
+    "sha256": "59ede423b860caccbe937ca5629776501729fa494e1d7db39a7a70a464110b2f"
+  },
+  {
+    "path": "evidence/extended/reference_results/channels.csv",
+    "bytes": 788,
+    "sha256": "fa04964f497c81895382d8859e12b43a3f77436490a19d36ead3017ce703a1b7"
+  },
+  {
+    "path": "evidence/extended/reference_results/coordinates.csv",
+    "bytes": 13031,
+    "sha256": "059c128c4cf3099dae69fe8b5979c476658c058e503fcb507b39573e59d101c0"
+  },
+  {
+    "path": "evidence/extended/reference_results/crossfit.csv",
+    "bytes": 723,
+    "sha256": "d03b6e83deb30340c49eae7791c255d80f057600119d17f8d4c88671bc108fe3"
+  },
+  {
+    "path": "evidence/extended/reference_results/CROSSFIT.json",
+    "bytes": 1437,
+    "sha256": "9901087706c2ff968454865e3288f131bae27407688d5d04748a30ab419a8b2e"
+  },
+  {
+    "path": "evidence/extended/reference_results/crossfit_predictions.npz",
+    "bytes": 177105,
+    "sha256": "3053ae6d235ad8dc75626a9b87abcc2b169dc5f0d75bed1a3cc90d3a3ce163f5"
+  },
+  {
+    "path": "evidence/extended/reference_results/direct.csv",
+    "bytes": 666,
+    "sha256": "42a3868e7dfb8a9b923a4de0b4bb6581400863263e5c308592a719a58923b3f0"
+  },
+  {
+    "path": "evidence/extended/reference_results/direct_predictions.npz",
+    "bytes": 126084,
+    "sha256": "629615127623d4993d1f7159826bea091ed161f94e7e8c90d5ea006bd5136c44"
+  },
+  {
+    "path": "evidence/extended/reference_results/DIRECT_SELECTION.json",
+    "bytes": 6651,
+    "sha256": "e265d35365a4d74fef565f13a52497969053227cd4cbcb6b1e260d532a70468f"
+  },
+  {
+    "path": "evidence/extended/reference_results/ENGINE.json",
+    "bytes": 1127,
+    "sha256": "5c22f013823f5921c4f38db6a3f088743d9e8f99a9d6d55162fd22aaffbb0665"
+  },
+  {
+    "path": "evidence/extended/reference_results/engine_predictions.npz",
+    "bytes": 341012,
+    "sha256": "afbf22440a39aa82fdd382b48bcc397605dcb67b7e16e253145b4506dafbe451"
+  },
+  {
+    "path": "evidence/extended/reference_results/engine_protocols.csv",
+    "bytes": 1211,
+    "sha256": "532cd86be0d1bbfef097fb0826d6bcade416979dceb16c980331038f9ebc1759"
+  },
+  {
+    "path": "evidence/extended/reference_results/LATENCY.json",
+    "bytes": 62772,
+    "sha256": "539af42b3ef44116578d5640397b111152e74f28ccf69ee9870235ac6cfc0794"
+  },
+  {
+    "path": "evidence/extended/reference_results/LATENCY_REPLAY.json",
+    "bytes": 175,
+    "sha256": "486692031edfefb87ff6bca44da50b027fdd2e78f534387569fa9ca72bca3d37"
+  },
+  {
+    "path": "evidence/extended/reference_results/protocols.csv",
+    "bytes": 3993,
+    "sha256": "4a3e857cf925fa6c5dde05fb916d77a7f7c880630e666f3c42ad625aa44ca931"
+  },
+  {
+    "path": "evidence/extended/reference_results/PUBLIC_SCALES.json",
+    "bytes": 1799,
+    "sha256": "a69db265abf8476bae41eb251a62eb3b5ba0823042cb9b79c4c17b42e7d2d236"
+  },
+  {
+    "path": "evidence/extended/reference_results/REAL_DIAGNOSTICS.json",
+    "bytes": 2082,
+    "sha256": "59207ea3b724f614c62fe1066c1dd8d727cc12ca67e3fb4768df3100f1fd264f"
+  },
+  {
+    "path": "evidence/extended/reference_results/shrinkage.csv",
+    "bytes": 1197,
+    "sha256": "daeca72650438b7d35aaa6984831ed7567ee7027181c1822bf2545687f8b547e"
+  },
+  {
+    "path": "evidence/extended/reference_results/SIGN_TEST.json",
+    "bytes": 469,
+    "sha256": "a9fc5c09c1dc657ad9f6b932ae1a2bc5b22230611ec9177075874fd555f2b3ed"
+  },
+  {
+    "path": "evidence/extended/rgb_warp_joint.npz",
+    "bytes": 310336,
+    "sha256": "13938223eadd47cf3268c0262c815df242a957e2c469742927d6538f9cee4773"
+  },
+  {
+    "path": "evidence/extended/train_com_physics_internal_readout_v12.py",
+    "bytes": 23301,
+    "sha256": "b5d330dfca7de2fccc6b4995dec16d02c4a0631b524fbd3e24bbf719a981fa96"
+  },
+  {
     "path": "evidence/group_holdout/CHECKPOINT.npz",
     "bytes": 8954,
     "sha256": "fd610fbcf3102252bf2ef3cd1c2a34762eaf309f2b4e1c204f16cefc5cebe94e"

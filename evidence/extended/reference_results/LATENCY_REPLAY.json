@@ -1,0 +1,5 @@
+{
+  "recorded_100_episode_quantiles_match": true,
+  "fresh_measurement": false,
+  "scope": "component sums across staged, warmed runs; not contiguous cold-start latency"
+}

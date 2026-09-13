@@ -1,0 +1,14 @@
+{
+  "all_cpu_extensions_refitted": true,
+  "reference_prediction_max_abs_errors": {
+    "anchor_predictions.npz": 0,
+    "crossfit_predictions.npz": 0,
+    "channel_predictions.npz": 0,
+    "direct_predictions.npz": 0
+  },
+  "reference_tolerance": 1e-07,
+  "saved_engine_losses_recomputed": true,
+  "fresh_engine_rollout": false,
+  "fresh_latency_measurement": false,
+  "original_model_reselected": false
+}

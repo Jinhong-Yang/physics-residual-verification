@@ -1,0 +1,55 @@
+{
+  "score_statistics": {
+    "v22_visual_score": {
+      "mean": 0.056137932491844546,
+      "sd": 0.04047776622415069,
+      "q25": 0.025741015769066445,
+      "median": 0.04322943502751027,
+      "q75": 0.09270289095411041,
+      "family_spearman": -0.7000000000000001
+    },
+    "v22_pooled_only_score": {
+      "mean": 0.003912234783133347,
+      "sd": 0.02520883653405563,
+      "q25": -0.01039826119926501,
+      "median": 0.007131307385844096,
+      "q75": 0.01436168336614195,
+      "family_spearman": 0.02727272727272728
+    },
+    "v22_motion_only_score": {
+      "mean": 0.05202602508845504,
+      "sd": 0.04062628050774357,
+      "q25": 0.022328979248057365,
+      "median": 0.034821616845823695,
+      "q75": 0.0784504498019567,
+      "family_spearman": -0.45454545454545453
+    },
+    "kinematic_deceleration_score": {
+      "mean": 27.24537597576068,
+      "sd": 19.402106813607627,
+      "q25": 18.398449704242434,
+      "median": 27.50622577610883,
+      "q75": 36.300331978955185,
+      "family_spearman": 0.1272727272727273
+    },
+    "synthetic_unforced_visual_score": {
+      "mean": 0.006188011362309557,
+      "sd": 0.024817165023582638,
+      "q25": -0.008119042083991201,
+      "median": 0.0069920684671511794,
+      "q75": 0.021611500130689368
+    }
+  },
+  "roughness_vs_absolute_rank_error_rho": 0.558365560246039,
+  "contracts": {
+    "synthetic_motion_channels": "dynamic and static position shifts divided by tracking sigma",
+    "real_motion_channels": "axis-projected pixel shifts; no matching noise normalization",
+    "real_score_is_physical_estimate": false,
+    "appearance_prior_used_in_real_diagnostic": false,
+    "tracking": "MIL tracker initialized from overlay; not red-component tracking",
+    "reported_tracker_failures": 0,
+    "videos": 33,
+    "size_stability": "MIL box does not estimate changing scale; cannot validate size accuracy",
+    "causal_failure_attribution": "not identified; feature-unit/domain mismatch is a documented difference, not an isolated intervention"
+  }
+}

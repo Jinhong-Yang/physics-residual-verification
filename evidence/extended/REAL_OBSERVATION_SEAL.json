@@ -1,0 +1,10 @@
+{
+  "status": "sealed label-free IDPP RGB observations with deterministic tracking",
+  "plan_sha256": "1f13f7c934531a14e984253ff5000ad1a87c651d65fd25dd6302b1d39e5a21cf",
+  "episodes": 33,
+  "frames": 264,
+  "frame_files_sha256": "862aea507e9fbb9b986fb5d463685daf32abf8ce8b3117ab8c4d46f19528027f",
+  "labels_opened": false,
+  "tracking_failures": 0,
+  "excluded_after_observation": 0
+}

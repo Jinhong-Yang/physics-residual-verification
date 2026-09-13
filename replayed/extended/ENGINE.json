@@ -1,0 +1,39 @@
+{
+  "scope": "same actions and coordinates, controlled nonrotating sphere; no original-asset rollout, no real-world validation",
+  "pybullet_api": 202010061,
+  "dt": 0.0020833333333333333,
+  "solver_iterations": 100,
+  "results": [
+    {
+      "method": "huber_1.345_rgb",
+      "engine_mm": 2.2361554998430746,
+      "analytic_mm": 2.074269136039674,
+      "pearson": 0.9925127130202438,
+      "spearman": 0.9856582416875684
+    },
+    {
+      "method": "v22_numeric",
+      "engine_mm": 1.6204828323651486,
+      "analytic_mm": 1.468769845819841,
+      "pearson": 0.9803470776124943,
+      "spearman": 0.9612836838381892
+    },
+    {
+      "method": "v22_vlm",
+      "engine_mm": 1.6057146306110741,
+      "analytic_mm": 1.453121923322332,
+      "pearson": 0.9795370579344925,
+      "spearman": 0.9637275709048815
+    }
+  ],
+  "full_minus_huber": {
+    "difference_mm": -0.6304408692320002,
+    "low95_mm": -0.8381577092079164,
+    "high95_mm": -0.44088634344654803,
+    "one_sided_upper_mm": -0.47025873003729307,
+    "relative_percent": 28.193069277885307,
+    "wins": 56,
+    "n": 72
+  },
+  "seconds": 4.306516906
+}

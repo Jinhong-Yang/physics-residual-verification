@@ -1,0 +1,110 @@
+{
+  "version": "v0.3.0",
+  "analysis": "post hoc, outside original rules; no new independent confirmation",
+  "primary_models_and_rules_unchanged": true,
+  "selection_data": "132 development families only",
+  "E1": {
+    "methods": [
+      "iterated Huber",
+      "iterated Cauchy",
+      "profiled-dispersion Gaussian MAP"
+    ],
+    "original_prior": true,
+    "alpha": 64,
+    "max_irls": 50,
+    "tol_prior_units": 1e-08,
+    "solver": "SciPy least_squares, tight inner tolerances, anchor/prior starts; original nuisance bounds; local solutions, convergence explicitly reported",
+    "profile_scale": "concentrated Gaussian likelihood, positive SSE floor 1e-12; numerical convergence recorded"
+  },
+  "E3": {
+    "inner_family_folds": 5,
+    "outer_family_folds": 6,
+    "shrinkage": 0.25,
+    "penalties": [
+      1,
+      10
+    ]
+  },
+  "E4": {
+    "shrinkages": [
+      0,
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "E5": {
+    "ridge_grid": [
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "MLP": {
+      "hidden": 64,
+      "hidden_layers": 2,
+      "seeds": [
+        17,
+        43,
+        101
+      ],
+      "max_epochs": 300,
+      "patience": 25,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "early_stop": "held-out training families; then refit all training families at chosen epoch"
+    }
+  },
+  "E6": {
+    "views": [
+      "full",
+      "pooled",
+      "position"
+    ],
+    "penalties": [
+      1,
+      10,
+      100
+    ],
+    "selection": "development six-fold macro action; same rule for every view; evaluated-cohort descriptive"
+  },
+  "E7": {
+    "engine": "PyBullet DIRECT",
+    "step": 0.0020833333333333333,
+    "seconds": 1,
+    "times": "0.125 to 1.0 at 8 times",
+    "geometry": "nonrotating 2-cm sphere on plane, controlled proxy; not original geometry asset rollout",
+    "methods": [
+      "Huber",
+      "numerical",
+      "full"
+    ]
+  },
+  "E9": {
+    "batch_size": 1,
+    "episodes": 100,
+    "policy": "measure available exact paths; explicitly report any unmeasured stages rather than extrapolate"
+  },
+  "E12": {
+    "dimensions": 87,
+    "penalties": [
+      0.1,
+      1,
+      10
+    ]
+  },
+  "other": [
+    "protocol and coordinate breakdown",
+    "public scales and vector R2",
+    "bounce residual diagnosis",
+    "real-video diagnostics where available",
+    "exact two-sided sign test"
+  ],
+  "all_new_intervals": "20000 paired family draws from original archive, descriptive and unadjusted",
+  "optional_not_run": "new upstream encoders with equalized supervision",
+  "inputs": {
+    "observation_inputs.npz": "341cc47e8c07afd4e042226a7a6137077105e24c20c00dbb37d3c0567bf9ed2e"
+  }
+}
