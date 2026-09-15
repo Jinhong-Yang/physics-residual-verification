@@ -1,0 +1,133 @@
+{
+  "calibration_families": 40,
+  "quantile_rank": 37,
+  "q": 0.4421209099928947,
+  "q_familymax": 7.912489755420047,
+  "selected_beta": 0,
+  "selection_uses_evaluation": false,
+  "rows": [
+    {
+      "mode": "beta_selected",
+      "q": 1.0,
+      "protocol": "all",
+      "coverage90": 0.9680555555555554,
+      "whole_family_coverage": 0.6805555555555556,
+      "overall_width": 0.1591876197647813,
+      "overall_nll": -2.5324725897894313,
+      "overall_crps": 0.013102719659594187
+    },
+    {
+      "mode": "beta_selected",
+      "q": 1.0,
+      "protocol": "multiple_forces",
+      "coverage90": 0.9194444444444444,
+      "whole_family_coverage": 0.7361111111111112,
+      "overall_width": 0.1591876197647813,
+      "overall_nll": -2.5324725897894313,
+      "overall_crps": 0.013102719659594187
+    },
+    {
+      "mode": "beta_selected",
+      "q": 1.0,
+      "protocol": "unforced_slide",
+      "coverage90": 1.0,
+      "whole_family_coverage": 1.0,
+      "overall_width": 0.1591876197647813,
+      "overall_nll": -2.5324725897894313,
+      "overall_crps": 0.013102719659594187
+    },
+    {
+      "mode": "beta_selected",
+      "q": 1.0,
+      "protocol": "bounce",
+      "coverage90": 0.9847222222222223,
+      "whole_family_coverage": 0.9027777777777778,
+      "overall_width": 0.1591876197647813,
+      "overall_nll": -2.5324725897894313,
+      "overall_crps": 0.013102719659594187
+    },
+    {
+      "mode": "representative_family_conformal",
+      "q": 0.4421209099928947,
+      "protocol": "all",
+      "coverage90": 0.8194444444444444,
+      "whole_family_coverage": 0.1388888888888889,
+      "overall_width": 0.07038017531000802,
+      "overall_nll": -0.7406201245793528,
+      "overall_crps": 0.01056115006961248
+    },
+    {
+      "mode": "representative_family_conformal",
+      "q": 0.4421209099928947,
+      "protocol": "multiple_forces",
+      "coverage90": 0.6722222222222223,
+      "whole_family_coverage": 0.3472222222222222,
+      "overall_width": 0.07038017531000802,
+      "overall_nll": -0.7406201245793528,
+      "overall_crps": 0.01056115006961248
+    },
+    {
+      "mode": "representative_family_conformal",
+      "q": 0.4421209099928947,
+      "protocol": "unforced_slide",
+      "coverage90": 0.9194444444444444,
+      "whole_family_coverage": 0.7777777777777778,
+      "overall_width": 0.07038017531000802,
+      "overall_nll": -0.7406201245793528,
+      "overall_crps": 0.01056115006961248
+    },
+    {
+      "mode": "representative_family_conformal",
+      "q": 0.4421209099928947,
+      "protocol": "bounce",
+      "coverage90": 0.8666666666666667,
+      "whole_family_coverage": 0.4027777777777778,
+      "overall_width": 0.07038017531000802,
+      "overall_nll": -0.7406201245793528,
+      "overall_crps": 0.01056115006961248
+    },
+    {
+      "mode": "family_max_conformal",
+      "q": 7.912489755420047,
+      "protocol": "all",
+      "coverage90": 0.9986111111111111,
+      "whole_family_coverage": 0.9583333333333334,
+      "overall_width": 1.2595704105785337,
+      "overall_nll": -1.087562772492368,
+      "overall_crps": 0.0734977187244942
+    },
+    {
+      "mode": "family_max_conformal",
+      "q": 7.912489755420047,
+      "protocol": "multiple_forces",
+      "coverage90": 1.0,
+      "whole_family_coverage": 1.0,
+      "overall_width": 1.2595704105785337,
+      "overall_nll": -1.087562772492368,
+      "overall_crps": 0.0734977187244942
+    },
+    {
+      "mode": "family_max_conformal",
+      "q": 7.912489755420047,
+      "protocol": "unforced_slide",
+      "coverage90": 1.0,
+      "whole_family_coverage": 1.0,
+      "overall_width": 1.2595704105785337,
+      "overall_nll": -1.087562772492368,
+      "overall_crps": 0.0734977187244942
+    },
+    {
+      "mode": "family_max_conformal",
+      "q": 7.912489755420047,
+      "protocol": "bounce",
+      "coverage90": 0.9958333333333333,
+      "whole_family_coverage": 0.9583333333333334,
+      "overall_width": 1.2595704105785337,
+      "overall_nll": -1.087562772492368,
+      "overall_crps": 0.0734977187244942
+    }
+  ],
+  "marginal_target": "one uniformly sampled episode/setup per random family",
+  "guarantee_assumption": "exchangeable new families; family-max score targets simultaneous coverage instead",
+  "evaluation_previously_inspected": true
+}

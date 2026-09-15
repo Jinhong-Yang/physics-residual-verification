@@ -23,10 +23,11 @@
 
 \bibitem{bear2021physion}
 D.~M. Bear, E.~Wang, D.~Mrowca, F.~J. Binder, H.-Y. Tung, R.~T. Pramod,
-  C.~Holdaway, S.~Tao, K.~Smith, F.-Y. Sun, L.~Fei-Fei, N.~Kanwisher, J.~B.
+  C.~Holdaway, S.~Tao, K.~Smith, F.-Y. Sun, F.-F. Li, N.~Kanwisher, J.~B.
   Tenenbaum, D.~L.~K. Yamins, and J.~E. Fan, ``Physion: Evaluating physical
-  prediction from vision in humans and machines,'' in \emph{Advances in Neural
-  Information Processing Systems}, vol.~34, 2021.
+  prediction from vision in humans and machines,'' in \emph{Proceedings of the
+  Neural Information Processing Systems Track on Datasets and Benchmarks},
+  vol.~1, 2021.
 
 \bibitem{tung2023physionpp}
 H.-Y. Tung, M.~Ding, Z.~Chen, D.~Bear, C.~Gan, J.~B. Tenenbaum, D.~Yamins,
@@ -50,10 +51,10 @@ G.~Revach, N.~Shlezinger, X.~Ni, A.~{L{\'o}pez Escoriza}, R.~J.~G. {van Sloun},
   vol.~70, pp. 1532--1547, 2022.
 
 \bibitem{puyin2026quantiphy}
-L.~Puyin, T.~Xiang, E.~Mao, S.~Wei, X.~Chen, A.~Masood, L.~Fei-Fei, and
-  E.~Adeli, ``{QUANTIPHY}: A quantitative benchmark evaluating physical
-  reasoning abilities of vision-language models,'' in \emph{Proc. IEEE/CVF
-  Conf. Comput. Vis. Pattern Recognit.}, 2026, pp. 33\,174--33\,184.
+P.~Li, T.~Xiang, E.~Mao, S.~Wei, X.~Chen, A.~Masood, F.-F. Li, and E.~Adeli,
+  ``{QUANTIPHY}: A quantitative benchmark evaluating physical reasoning
+  abilities of vision-language models,'' in \emph{Proc. IEEE/CVF Conf. Comput.
+  Vis. Pattern Recognit.}, 2026, pp. 33\,174--33\,184.
 
 \bibitem{zhan2026idpp}
 G.~Zhan, X.~Ma, W.~Xie, and A.~Zisserman, ``Inferring dynamic physical
@@ -113,7 +114,8 @@ M.~Wang, S.~Tian, A.~Swann, O.~Shorinwa, J.~Wu, and M.~Schwager, ``{Phys2Real}:
 \BIBentryALTinterwordspacing
 X.~He, R.~Zhang, W.~Jiang, and W.~Xu, ``{RigPI}: Dynamic parameter
   identification of rigid body via {VLM}-seeded differentiable simulation,''
-  2026, preprint. [Online]. Available: \url{https://arxiv.org/abs/2606.25212}
+  2026, arXiv:2606.25212v2; author metadata reports acceptance to IROS 2027.
+  [Online]. Available: \url{https://arxiv.org/abs/2606.25212}
 \BIBentrySTDinterwordspacing
 
 \bibitem{kao2026dynamics}

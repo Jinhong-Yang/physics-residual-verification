@@ -6,16 +6,18 @@
 \vol{XX}\year{XXXX}
 \history{}
 \doi{}
-\title{Protocol-Constrained Residual Adaptation for Rigid-Body Inference: A Bounded Evaluation of Frozen Visual Features}
+\title{Protocol-Constrained Residual Estimation for Rigid-Body Inference: Strong Baselines and Visual Controls}
 \author{\uppercase{Hyojin Park}\authorrefmark{1}, \uppercase{Nam-Hyun Yoo}\authorrefmark{2}, and \uppercase{Jinhong Yang}\authorrefmark{3}}
 \address[1]{Gyeongnam Intelligence Innovation Center (GIIC), Kyungnam University, 7, Gyeongnamdaehak-ro, Masanhappo-gu, Changwon 51767, Republic of Korea}
 \address[2]{Computer Engineering, Kyungnam University, Changwon 51767, Republic of Korea}
 \address[3]{Department of Medical Information Technology, Inje University, Gimhae 50834, Republic of Korea}
 \tfootnote{}
-\markboth{Park \headeretal: Protocol-Constrained Residual Adaptation}{Park \headeretal: Protocol-Constrained Residual Adaptation}
+\markboth{Park \headeretal: Protocol-Constrained Residual Estimation}{Park \headeretal: Protocol-Constrained Residual Estimation}
 \corresp{Corresponding author: Jinhong Yang (e-mail: jinhong@inje.ac.kr).}
 \begin{abstract}
-Inferring rigid-body properties from short videos requires separating motion-supported information from learned corrections. We study a protocol-constrained residual adapter anchored to a fixed robust numerical estimate. A numerical ridge update is followed by a smaller visual residual from a frozen vision encoder and observation decoder. Corrections are bounded in anchor-standard-deviation units and restricted to permitted physical coordinates. On new synthetic geometry families, the complete adapter reduces analytic new-action error by 29.95\% relative to the one-step-weight Huber anchor. A post hoc comparison with iteratively converged Huber fitting retains a 24.11\% reduction. Most improvement comes from numerical adaptation in sliding protocols. The additional visual increment is 1.07\%, with a two-sided 95\% interval that includes zero; cross-fitted residual targets retain its direction. Development-selected channel controls attribute the measured signal primarily to decoder position corrections, without isolating a benefit of language pretraining. A controlled engine-rollout proxy preserves the improvement and closely tracks the analytic metric. Task-specific fitting on a public pushing dataset also retains improvement when both object and surface friction conditions are held out, within the same object and scene assets. Proper scores improve, while empirical coverage remains conservative. These findings support numerical-first residual correction and a bounded, task-dependent contribution from the tested visual view. They do not establish calibrated posterior guarantees or real-world property transfer.
+We present a protocol-constrained residual estimator for short-video rigid-body inference that assigns the main correction to numerical motion and setup features, bounds each update relative to the anchor scale, and evaluates additional visual information using deduplicated numerical inputs and classical tracking controls under the same eight-frame observation budget.
+On 72 previously held-out synthetic geometry families comprising 1,080 episodes, the locked full estimator reduces held-out-action trajectory error from 1.82315 to 1.45312 mm relative to profiled-dispersion maximum a posteriori estimation, a 20.30\% reduction with a post hoc paired 95\% interval of $[-0.562,-0.180]$ mm; the improvement is concentrated in sliding, and a separate public pushing evaluation retains 4.38\% material-pair improvement when both friction-condition axes are held out within shared object and scene assets.
+Matched 87-dimensional numerical controls yield 1.44213 mm without an additional view, 1.42632 mm with the frozen Qwen-derived view, and 1.41695 mm with Lucas--Kanade summaries, but neither the Qwen increment nor its difference from tracking is resolved by the two-sided intervals, while the original visual sign and mean tests disagree and real-video transfer remains unsupported after feature-unit normalization.
 \end{abstract}
 \begin{keywords}
 physical parameter estimation, residual learning, rigid-body dynamics, robust estimation, uncertainty evaluation, frozen visual features.
@@ -28,19 +30,11 @@ physical parameter estimation, residual learning, rigid-body dynamics, robust es
 
 Physical prediction and hybrid estimation have been studied through controlled video benchmarks and structured model corrections \cite{bear2021physion,tung2023physionpp,yin2021aphynity,revach2022kalmannet}. Recent quantitative benchmarks extend this agenda to numerical properties \cite{puyin2026quantiphy,zhan2026idpp}. The unresolved question addressed here is narrower: after a strong numerical path has consumed a short motion observation, does a compact frozen visual feature view provide additional predictive information?
 
-We use a fixed robust anchor, a numerical residual head, and a bounded visual residual head. The visual features are produced by the frozen vision component of Qwen3-VL-2B-Instruct and a previously trained observation decoder that is frozen for the reported residual experiments \cite{bai2025qwen3vl}. The method does not generate a language description or update the foundation-model weights. A protocol mask limits which transformed physical coordinates may change. One bounce convention disables the complete correction. A positive-semidefinite covariance increment accompanies the accepted mean displacement; it is an uncertainty heuristic whose quality must be measured.
+We combine a fixed robust anchor with protocol-specific numerical ridge corrections and a smaller optional visual residual. The original visual path uses Qwen3-VL-2B-Instruct's frozen vision component and a previously trained, subsequently frozen observation decoder \cite{bai2025qwen3vl}. It does not generate text. Protocol assumptions restrict which transformed physical coordinates can change, and the generalized-bounce branch retains the anchor. Uncertainty is evaluated separately from the mean correction: the original inflation heuristic is audited, and an additional calibration study uses new RGB geometry families.
 
-The contribution is a concrete residual-estimation design and its controlled evaluation. The design assigns most adaptation to numerical inputs, restricts the visual update in protocol-permitted coordinates, and retains an explicit numerical-only comparator. The evaluation separates three questions: whether the complete adapter improves fixed robust estimators on a new-geometry parameter-to-trajectory benchmark; whether the selected visual view adds information after matched numerical adaptation; and how the resulting approximate distributions behave under proper scores and empirical coverage. The paper does not propose a new ridge solver, a general identifiability theorem, or a new foundation model.
+The principal contribution is an evaluated residual-estimation design for this restricted inverse problem. The locked estimator improves on profiled-dispersion MAP by 20.30\%, with numerical sliding correction explaining most of the gain. The visual question is tested on a strengthened, deduplicated numerical view with classical tracking and pixel controls. This design does not introduce a new ridge solver or establish a general identifiability theorem; its value is the measured accuracy of a constrained correction and explicit accounting for what additional representations contribute.
 
-The main error reduction is 29.95\% against the one-step-weight Huber anchor and 24.11\% against a post hoc iteratively converged Huber fit, whereas the original visual increment is 1.07\%. A separate public simulator dataset yields a 4.27\% visual-plus-gate increment after task-specific readout fitting. These percentages describe different estimands and cannot be combined into a single transfer effect. The public experiment failed its original 10\% development threshold, and the real-video diagnostic did not establish transfer. We retain both boundaries while evaluating the positive method results.
-
-The four deliverables of this study are:
-\begin{itemize}
-\item A numerical-first residual allocation with protocol masks, anchor-scale clipping, and accepted-update covariance inflation.
-\item A matched numerical comparator that separates the selected visual increment from the complete-model gain.
-\item A new-geometry evaluation under locally specified effect-size, directional, and protection-cell rules.
-\item An inspectable evidence package that includes unsuccessful development criteria, transfer boundaries, and reproducible post hoc component analyses.
-\end{itemize}
+The study provides three connected results: a strong-anchor comparison with nonlinear optimization and a VLM-free population-prior baseline; matched numerical/visual controls with development-only penalty selection; and an uncertainty/transfer audit with independent calibration families and a corrected real-video feature-unit contract. The separate public pushing experiment tests motion-summary adaptation across friction conditions, rather than material recognition from appearance. Its original 3.90\% development result remains below the 10\% criterion, and the real-video score remains a transfer failure. All additional analyses of previously evaluated cohorts are exploratory.
 
 \section{Related Work}\label{sec:related}
 \subsection{Quantitative Evidence and Identifiability}
@@ -51,7 +45,7 @@ Recent preprints examine the difference between supplied evidence and learned pr
 \subsection{VLM-Assisted Physical Inference}
 NeRF2Physics connects language-embedded spatial features to physical properties, while PhysX-Anything generates simulation-ready assets from images \cite{zhai2024nerf2physics,cao2026physxanything}. These appearance-oriented settings differ from predicting the consequence of a short dynamic intervention.
 
-Phys2Real fuses VLM physical priors with online interaction estimates and evaluates real manipulation \cite{wang2026phys2real}. RigPI combines VLM initialization and search-space constraints with force--torque and motion measurements in differentiable simulation \cite{he2026rigpi}. $\Delta$ynamics uses a structured language representation for video-based rigid-body dynamics \cite{kao2026dynamics}. Table~\ref{tab:related} identifies methodological distinctions; it is not a performance ranking across incompatible tasks. The recent Code as Worlds preprint further explores executable representations \cite{wang2026codeworlds}. Our contribution concerns the limited residual role assigned to a particular frozen feature view after numerical adaptation.
+Phys2Real fuses VLM physical priors with online interaction estimates and evaluates real manipulation \cite{wang2026phys2real}. RigPI combines VLM initialization and search-space constraints with force--torque and motion measurements in differentiable simulation \cite{he2026rigpi}. $\Delta$ynamics uses a structured language representation for video-based rigid-body dynamics \cite{kao2026dynamics}. Table~\ref{tab:related} identifies methodological distinctions; it is not a performance ranking across incompatible tasks. The Code as Worlds preprint further explores executable representations \cite{wang2026codeworlds}. Our measured comparisons concern constrained residual estimation; none establishes superiority over these external systems on their original tasks.
 
 \begin{table*}[t]
 \caption{Position Relative to Closely Related Methods; Different Sensing and Tasks Preclude a Direct Accuracy Ranking}
@@ -59,7 +53,7 @@ Phys2Real fuses VLM physical priors with online interaction estimates and evalua
 \begin{tabular}{p{.12\textwidth}p{.24\textwidth}p{.27\textwidth}p{.27\textwidth}}
 \toprule Method & Information and representation & Role of physical computation & Evaluation boundary \\ \midrule
 Phys2Real \cite{wang2026phys2real} & Visual physical priors and robot interaction estimates & Online adaptation with uncertainty-aware fusion & Real manipulation; different sensing and policy objective \\
-RigPI \cite{he2026rigpi} & VLM semantic initialization, force--torque, and motion & Differentiable parameter refinement in a constrained search space & Real parameter-identification tasks; cited as a 2026 preprint \\
+RigPI \cite{he2026rigpi} & VLM semantic initialization, force--torque, and motion & Differentiable parameter refinement in a constrained search space & Real parameter-identification tasks; author metadata reports IROS 2027 acceptance \\
 $\Delta$ynamics \cite{kao2026dynamics} & Video and structured textual dynamics representation & Structured dynamics inference & Video-based rigid-body prediction; no matched experiment here \\
 This work & Eight frames, known setup inputs, numerical features, frozen observation-decoder features & Fixed robust anchor and bounded residual heads; no added solver loop & Synthetic analytic actions and an offline public displacement task; real transfer unresolved \\
 \bottomrule\end{tabular}
@@ -71,7 +65,7 @@ APHYNITY separates a physical model from a learned correction, and KalmanNet com
 BLIP-2 demonstrates lightweight adaptation of frozen components \cite{li2023blip2}. V-JEPA 2 and V-JEPA 2.1 provide motion-oriented representations \cite{assran2025vjepa2,murlabadia2026vjepa21}. An additional V-JEPA 2 control uses the same eight observations, numerical anchor, and residual-stage dimension and rules. Its upstream supervision and spatial processing differ from the Qwen-derived decoder view. It is therefore a frozen-representation comparison, not a fully matched intervention on language pretraining or semantic physical knowledge.
 
 \subsection{Selective Use and Uncertainty}
-Answer-Level Trust Selection studies selective use of quantitative physical answers \cite{yu2026ats}. Our public gate instead scales a vector correction. Neither an average gate value nor lower mean error proves calibrated confidence. Negative log-likelihood (NLL) and the continuous ranked probability score (CRPS) evaluate predictive distributions jointly with coverage and width \cite{gneiting2007proper}. Formal conformal guarantees require a compatible procedure and assumptions \cite{angelopoulos2023conformal}; the development-residual quantile used here is reported as empirical, without such a guarantee. The August--September 2026 papers above are explicitly treated as recent preprints, not settled evidence of superiority.
+Answer-Level Trust Selection studies selective use of quantitative physical answers \cite{yu2026ats}. Our public gate instead scales a vector correction. Neither an average gate value nor lower mean error proves calibrated confidence. Negative log-likelihood (NLL) and the continuous ranked probability score (CRPS) evaluate predictive distributions jointly with coverage and width \cite{gneiting2007proper}. Formal conformal guarantees require a compatible procedure and assumptions \cite{angelopoulos2023conformal}; the public development-residual radius is empirical, whereas the separate synthetic family-calibration experiment states its sampling target explicitly. The August--September 2026 papers above are explicitly treated as recent preprints, not settled evidence of superiority.
 
 \section{Problem and Evaluation Definition}\label{sec:problem}
 \begin{table}[htbp]\centering\small
@@ -79,11 +73,11 @@ Answer-Level Trust Selection studies selective use of quantitative physical answ
 \begin{tabular}{p{.28\columnwidth}p{.62\columnwidth}}\toprule
 Term & Operational meaning\\\midrule
 Protocol & Specified motion/contact regime and permitted coordinates.\\
-Convention & Assumed bounce setup information; slides are shared.\\
-Complete model & Numerical and visual residuals, including fixed fallback.\\
+Bounce-setup assumption & Assumed bounce setup information; slides are shared.\\
+Full model & Numerical and visual residuals, including fixed fallback.\\
 Numerical view & Motion, setup, prior and initialization features.\\
 Analytic action error & Parameter-to-trajectory projection under fixed new inputs.\\
-Protection cell & A convention/protocol point-error harm check.\\
+Harm-guard cell & A setup/protocol point-error harm check.\\
 \bottomrule\end{tabular}
 \end{table}
 
@@ -102,18 +96,18 @@ General bounce & Gravity 9.81 m/s$^2$; initial height, velocity, floor nuisance 
 Setup bounce & Known release height 0.65 m and zero initial velocity; free common offset & $\operatorname{logit}e$ \\
 \bottomrule\end{tabular}\end{table}
 
-The two conventions differ in their treatment of bounce setup information. Generalized translation permits initial height, velocity, and floor nuisance variables with fixed gravity. Setup translation uses the known release height and zero initial velocity and profiles a common vertical offset. Slide inference is shared. Averaging both conventions is a specified benchmark aggregation, not two independent experimental replications. Camera geometry, motion noise, force, and prior inputs belong to this controlled setup; arbitrary RGB-only deployment is not evaluated.
+The two bounce-setup assumptions differ in their treatment of bounce setup information. Generalized translation permits initial height, velocity, and floor nuisance variables with fixed gravity. Setup translation uses the known release height and zero initial velocity and profiles a common vertical offset. Slide inference is shared. Averaging both bounce-setup assumptions is a specified benchmark aggregation, not two independent experimental replications. Camera geometry, motion noise, force, and prior inputs belong to this controlled setup; arbitrary RGB-only deployment is not evaluated.
 
 Protocol permission and final fallback are distinct operations: the bounce protocol permits a restitution coordinate, whereas the generalized-bounce branch subsequently suppresses its entire learned correction. A supplementary audit summarizes the saved initialization Jacobians after nuisance projection; it does not equate protocol permissions with the null space of an unrestricted model.
 
-The main action metric uses an independent NumPy implementation of canonical analytic trajectories, not a new PyBullet or PhysX rollout. Estimated and true properties generate trajectories under the same new action, at eight times from 0.125 to 1.0 s. Multiple-force sliding uses forces $(0.45,1.1)$ N with a 0.35 s switch and initial velocity 0.25 m/s; unforced sliding starts at 1.0 m/s; bounce starts at 0.85 m. Mean absolute position error is averaged within each family/protocol, then equally across three protocols, two conventions, and 72 families. The images come from synthetic geometry scenes; analytic action utility must be distinguished from engine-rollout accuracy.
+The main action metric uses an independent NumPy implementation of canonical analytic trajectories, not a new PyBullet or PhysX rollout. Estimated and true properties generate trajectories under the same new action, at eight times from 0.125 to 1.0 s. Multiple-force sliding uses forces $(0.45,1.1)$ N with a 0.35 s switch and initial velocity 0.25 m/s; unforced sliding starts at 1.0 m/s; bounce starts at 0.85 m. Mean absolute position error is averaged within each family/protocol, then equally across three protocols, two bounce-setup assumptions, and 72 families. The images come from synthetic geometry scenes; analytic action utility must be distinguished from engine-rollout accuracy.
 
 The synthetic observation renderer uses PyBullet~\cite{coumans2022pybullet}. The public task predicts a planar displacement vector using an offline onset-aligned video selection. It is a different output from the transformed-property distribution. Its target, timestamp audit, and information-access limitations are defined in Section~\ref{sec:protocol}.
 
 \Needspace{6\baselineskip}
 \section{Method}\label{sec:method}
 \subsection{Fixed Robust Anchor and Feature Construction}
-A fixed Huber-weighted numerical fit produces mean $\bm a_{ir}$ and covariance $\bm C_{ir}$ for episode $i$ and convention $r$. Standardized innovations from an initial unit-weight update determine $w_t=\min(1,1.345/|\nu_t|)$. Observation standard deviations are replaced by $\sigma_t/\sqrt{w_t}$ before the nonlinear fit. These weights are computed once, rather than repeatedly recomputed as a converged Huber M-estimator. The Cauchy control uses $w_t=[1+(\nu_t/2.385)^2]^{-1}$. The underlying solver retains the specified priors, nuisance handling, and fixed dispersion scale. The covariance is a local curvature approximation; contact/start-selection uncertainty is not integrated out. Detailed code locations are supplied in the supplement.
+A fixed Huber-weighted numerical fit produces mean $\bm a_{ir}$ and covariance $\bm C_{ir}$ for episode $i$ and bounce-setup assumption $r$. Standardized innovations from an initial unit-weight update determine $w_t=\min(1,1.345/|\nu_t|)$. Observation standard deviations are replaced by $\sigma_t/\sqrt{w_t}$ before the nonlinear fit. These weights are computed once, rather than repeatedly recomputed as a converged Huber M-estimator. The Cauchy control uses $w_t=[1+(\nu_t/2.385)^2]^{-1}$. The underlying solver retains the specified priors, nuisance handling, and fixed dispersion scale. The covariance is a local curvature approximation; contact/start-selection uncertainty is not integrated out. Detailed code locations are supplied in the supplement.
 
 The numerical view $\bm x_i^N\in\mathbb R^{192}$ flattens 24 channels at eight frames: active-axis position, relative position, finite-difference velocity and velocity difference, log observation noise, time, time increment, time from force switch, switch indicator, two forces, switch time, three active-coordinate flags, three prior means, three log prior scales, and three normalized linearization coordinates. It excludes the selected Qwen-derived residual channels, but includes known setup and prior information. It is not an uncontrolled image-only baseline.
 
@@ -122,7 +116,7 @@ All compared primary paths share a frozen appearance prior. A first-image Qwen f
 The visual path uses the last pre-merge states of the Qwen vision encoder: a $32\times32$ grid with 1,024 features per frame. Frames are processed separately at a $512^2$ pixel budget with BF16 vision computation. A previously trained, frozen observation decoder fuses those states with RGB, tracking, an initial bounding box, and temporal transport. Its attention-weighted 32-channel states, captured before the static/dynamic position heads, supply eight pooled vectors. No text prompt or language-decoder state is used in this extraction. The 48-dimensional residual view concatenates their temporal mean with eight dynamic and eight static position corrections normalized by tracking noise. Thus the features are VLM-derived observation-decoder features, rather than 32 directly selected language-model channels.
 
 \subsection{Sequential Residual Training and Inference}
-Let $\bm s_{ir}=\sqrt{\operatorname{diag}(\bm C_{ir})}$. Separate ridge heads are fitted for each protocol and convention, using only that protocol's active output coordinates. For a training feature matrix $\bm X$, each channel is centered and divided by its training standard deviation, floored at $10^{-6}$. Let $\tilde{\bm X}$ denote the standardized matrix and $\bar{\bm y}$ the training target mean. Each head solves
+Let $\bm s_{ir}=\sqrt{\operatorname{diag}(\bm C_{ir})}$. Separate ridge heads are fitted for each protocol and bounce-setup assumption, using only that protocol's active output coordinates. For a training feature matrix $\bm X$, each channel is centered and divided by its training standard deviation, floored at $10^{-6}$. Let $\tilde{\bm X}$ denote the standardized matrix and $\bar{\bm y}$ the training target mean. Each head solves
 \begin{equation}
 \bm W_\lambda=\arg\min_{\bm W}\left\{\|\tilde{\bm X}\bm W-(\bm Y-\bm 1\bar{\bm y}^{\top})\|_F^2+\lambda\|\bm W\|_F^2\right\}.
 \label{eq:ridge}
@@ -142,18 +136,25 @@ For generalized bounce, development observations of harmful learned correction m
 
 The stored weights and intercepts number $2(2+1+1)[(192+1)+(48+1)]=1,936$. Of these, 242 belong to generalized-bounce heads whose outputs are discarded, leaving 1,694 potentially active coefficients across the other branches. These counts exclude the foundation model, previously trained observation decoder, normalization statistics, and the public extension. They describe residual-stage capacity. On 100 batch-one episodes, median residual-head time is 0.342 ms, whereas the sum of measured inference components is 362.5 ms on an RTX 5080; the supplement specifies the staged timing scope. A development sensitivity sweep retains the original shrinkage 0.25 without confirmation-set reselection. Collapsing repeated setup channels to an 87-dimensional numerical view is reported separately as a post hoc variant.
 
-\subsection{Approximate Uncertainty}
-For the accepted correction $\bm d=\hat{\bm\theta}-\bm a$,
+\subsection{Uncertainty and Independent Calibration}
+For the accepted mean correction $\bm d=\hat{\bm\theta}-\bm a$, we evaluate
 \begin{equation}
-\hat{\bm\Sigma}=\bm C+\operatorname{diag}[(0.1\bm d)^2].\label{eq:cov}
+\bm\Sigma_\beta=\bm C+\operatorname{diag}[(\beta\bm d)^2].\label{eq:cov}
 \end{equation}
-The addition is positive semidefinite. It depends on the complete accepted correction magnitude, not an independently estimated disagreement probability. The clipping bounds imply $|d_j|\leq2.25s_j$, so $\hat\Sigma_{jj}\leq1.050625C_{jj}$ and the marginal standard deviation increases by less than 2.5\%. This is a coordinatewise bound, not a guarantee on all correlated ellipsoid axes or on coverage.
+The original locked setting is $\beta=0.1$. A development-only CRPS comparison selects $\beta=0$ for the additional calibration analysis; all original distributional scores are retained as historical results. Positive semidefiniteness alone supplies no calibration or predictive-score justification. NLL and marginal Gaussian CRPS are calculated on each protocol's active principal covariance submatrix in transformed-property space.
 
-NLL and marginal Gaussian CRPS are computed in transformed-property space on the protocol's active principal covariance submatrix. A joint region contains the target when its squared Mahalanobis distance is below the 90th percentile of a chi-square distribution with the active dimension. Scores and joint-axis diameters use family/protocol macro aggregation. These quantities evaluate parameter uncertainty. With the complete mean fixed, inflation changes NLL by only $-0.0135$ nats per active dimension; CRPS is lowest without inflation, and point error is unchanged.
+An independent set of 40 newly rendered geometry families (600 RGB episodes) supplies calibration scores after the original full model's predictions are sealed. One episode and setup assumption per family is selected by a fixed random seed. Its score is the square root of active Mahalanobis error divided by the active-dimensional 90\% chi-square threshold. The 37th of 40 scores defines $\hat q$, and the calibrated covariance is $\hat q^2\bm C$. Under exchangeable families, this construction targets a randomly sampled episode/setup from a new family; it does not imply simultaneous coverage of every episode. A separately reported maximum-within-family score addresses the latter event. The original 72-family cohort supplies a descriptive evaluation, with no coverage-based reselection.
+
+The clipping constants have an explicit displacement interpretation. Writing $\bm D=\operatorname{diag}(\sqrt{C_{jj}})$ and $\bm d=\bm D\bm z$ on $k$ permitted coordinates, $|z_j|\leq2.25$ implies
+\begin{equation}
+D_{\rm KL}\!\left[\mathcal N(\bm a+\bm d,\bm C)\Vert\mathcal N(\bm a,\bm C)\right]
+\leq \tfrac12 k(2.25)^2\lambda_{\max}(\bm D\bm C^{-1}\bm D).
+\end{equation}
+This is an a posteriori bound for the original empirical constants, not a claim that they were selected by a KL optimization. Correlated coordinates prevent replacing the eigenvalue factor by one without further assumptions.
 
 \begin{figure*}[t]\centering
 \includegraphics[width=\textwidth]{figures/fig1_architecture.pdf}
-\caption{Main residual estimator and separate public-task extension. All primary paths share the first-image learned prior supplied to the fixed anchor. Training dependencies are distinguished from prediction outputs. Disabling only visual correction retains numerical adaptation; complete anchor fallback applies to generalized bounce. The public displacement head has neither the main property mask nor its covariance-inflation rule.}\label{fig:architecture}
+\caption{Main residual estimator and separate public-task extension. All primary paths share the first-image learned prior supplied to the fixed anchor. Training dependencies are distinguished from prediction outputs. Disabling only visual correction retains numerical adaptation; complete anchor fallback applies to generalized bounce. Calibration is a separate output assessment; the public displacement head has its own empirical radial region.}\label{fig:architecture}
 \end{figure*}
 
 \subsection{Public Displacement Head and Gate}
@@ -171,11 +172,11 @@ The selected out-of-fold radial errors supply the 90\% radius, using rank $\lcei
 
 \section{Experimental Protocol}\label{sec:protocol}
 \subsection{Development and New-Geometry Confirmation}
-The residual candidate was selected using 132 development geometry families and six-fold family cross-fitting. Its development action-error reduction was 31.61\% against the strongest fixed robust estimator; the visual increment was 1.44\%.\footnote{The development cohort includes the 720 episodes used to train the upstream observation decoder. These six folds isolate residual fitting only and are not equivalent to the new-geometry confirmation.} The local plan required at least 10\% complete-model improvement, positive paired visual direction, proper-score guards, joint 90\% coverage within an author-defined 85--98\% range, and bounded width and protocol harm. Candidate configuration and checkpoint were locally locked before generation of the new confirmation cohort. Hashes establish content identity; they are not public preregistration or independent proof of chronology.
+The residual candidate was selected using 132 development geometry families and six-fold family cross-fitting. Its development action-error reduction was 31.61\% against the strongest fixed robust estimator; the visual increment was 1.44\%.\footnote{The development cohort includes the 720 episodes used to train the upstream observation decoder. These six folds isolate residual fitting only and are not equivalent to the new-geometry confirmation.} The local plan required at least 10\% full-model improvement, positive paired visual direction, proper-score guards, joint 90\% coverage within an author-defined 85--98\% range, and bounded width and protocol harm. Candidate configuration and checkpoint were locally locked before generation of the new confirmation cohort. Hashes establish content identity; they are not public preregistration or independent proof of chronology.
 
 The new cohort contains 72 geometry families, 1,080 episodes, and 8,640 frames. All episodes are scored. Stored records report prediction sealing before target opening and no subsequent fitting or exclusions. We replay the saved statistical inputs here; we do not claim a new end-to-end training run or independent reconstruction of every access event.
 
-Controls are unit, Huber, and Cauchy weighting, a frozen legacy observation adapter, an RGB temporal control, and the matched numerical residual. The latter removes the visual head while retaining the anchor, numerical head, protocol mask, and accepted-update covariance rule. Family losses are resampled in 20,000 paired draws. In each draw, the robust reference is the minimum sampled mean among the three fixed robust methods. The primary rule combines a point improvement of at least 10\% with a negative one-sided 95\% upper bound; it does not establish a population improvement lower bound of 10\%. Six cell guards use the better cell error of the globally strongest robust method and the legacy adapter, with both 10\% relative and 0.10 mm absolute harm limits. These are engineering protection criteria, not six simultaneous confidence guarantees.
+Controls are unit, Huber, and Cauchy weighting, a frozen legacy observation adapter, an RGB temporal control, and the matched numerical residual. The latter removes the visual head while retaining the anchor, numerical head, protocol mask, and accepted-update covariance rule. Family losses are resampled in 20,000 paired draws. In each draw, the robust reference is the minimum sampled mean among the three fixed robust methods. The original-study rule combines a point improvement of at least 10\% with a negative one-sided 95\% upper bound; it does not establish a population improvement lower bound of 10\%. Six cell guards use the better cell error of the globally strongest robust method and the legacy adapter, with both 10\% relative and 0.10 mm absolute harm limits. These are historical engineering criteria, not simultaneous confidence guarantees. Follow-up analyses use two-sided family intervals and paired sign-flip mean tests. Three focal contrasts are reported with Holm adjustment, alongside a global family of 59 available action-error comparisons. Neither adjustment removes the exploratory status of reusing previously evaluated cohorts.
 
 \subsection{Offline Public Dataset Task}
 PhysProbe Push was obtained at the pinned dataset commit identified in the supplement, associated with Isaac Sim 4.5 and Isaac Lab 2.2.1 \cite{mittal2025isaaclab,physprobe2026dataset}. A fixed episode selection excluded feasibility episodes 0--9 and assigned 64 candidate episodes to development and 128 to confirmation. An RGB eligibility procedure retained 53 and 123. The split is by episode; shared physical-parameter, object, or environment groups have not been established as independent across these roles.
@@ -194,42 +195,32 @@ Reporting the failed development criterion makes the subsequent secondary direct
 \end{figure*}
 
 \section{Results}\label{sec:results}
-\subsection{Complete Model and Visual Increment}
-The complete adapter obtains 1.453 mm analytic action MAE, versus 2.074 mm for the strongest fixed robust point baseline (Table~\ref{tab:main}). The reduction computed from full-precision records is 29.95\%. The primary draw-wise-strongest comparison has a one-sided upper bound of $-0.459$ mm. These results satisfy the original main effect-size and directional rules.
+\subsection{Strong Anchors and Residual Estimation}
+The locked full estimator obtains 1.45312 mm held-out-action trajectory MAE, versus 1.82315 mm for profiled-dispersion MAP, the lowest-error classical anchor tested here (Table~\ref{tab:main}). This is a 20.30\% reduction; full-minus-MAP difference is $-0.37003$ mm with a post hoc paired 95\% interval $[-0.56199,-0.18024]$ mm and three-contrast Holm-adjusted $p=0.00150$. These are local numerical fits, not certified global optima. The profiled-MAP convergence rate is 99.86\%; unsuccessful fits are retained.
 
-An explicit replay finds that Huber has the lowest sampled robust mean in all 20,000 draws. This explains why the draw-wise-strongest and fixed-Huber intervals coincide for these saved samples; it is not an identity assumed by the comparison rule.
+\begin{table}[t]\caption{Held-Out-Action Trajectory Error on 72 Families}\label{tab:main}\centering\small\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrr}\toprule Method & MAE (mm) & Versus MAP\\\midrule
+Profiled-dispersion MAP & 1.82315 & reference\\
+Iterated Huber & 1.91482 & $+5.03\%$\\
+Iterated Cauchy & 1.91333 & $+4.95\%$\\
+Nuisance-marginal Laplace & 1.91803 & $+5.20\%$\\
+VLM-free population-prior MAP & 1.86647 & $+2.38\%$\\\midrule
+Locked numerical residual & 1.46877 & $-19.44\%$\\
+\textbf{Locked full estimator} & \textbf{1.45312} & $\mathbf{-20.30\%}$\\\bottomrule
+\end{tabular}\par\small The original one-step fixed-weight Huber anchor gives 2.07427 mm (29.95\% reduction by the full estimator). Unit weighting gives 2.119 mm; legacy and RGB-temporal controls give 2.151 and 2.384 mm. Direct regressors are reported in the supplement. Added anchor comparisons are post hoc.\end{table}
 
-\begin{table}[t]\caption{New-Geometry Analytic Action Error (72 Families)}\label{tab:main}\centering
-\begin{tabular}{lrr}\toprule Method & MAE (mm) & Relative to Huber\\\midrule
-Unit weighting & 2.119 & $+2.16\%$\\
-Huber weighting & 2.074 & reference\\
-Cauchy weighting & 2.081 & $+0.34\%$\\
-Legacy observation adapter & 2.151 & $+3.71\%$\\
-RGB temporal control & 2.384 & $+14.95\%$\\
-Numerical residual & 1.469 & $-29.19\%$\\
-\textbf{Numerical + visual residual} & \textbf{1.453} & $\mathbf{-29.95\%}$\\\midrule
-\multicolumn{3}{l}{\emph{Post hoc baselines; outside original rules}}\\
-Iterated Huber & 1.915 & $-7.69\%$\\
-Iterated Cauchy & 1.913 & $-7.76\%$\\
-Profiled-dispersion MAP & 1.823 & $-12.11\%$\\
-Direct ridge & 33.403 & $+1510.3\%$\\
-Direct MLP (3-seed mean) & 26.489 & $+1177.0\%$\\\bottomrule
-\end{tabular}\par\small Direct regressors predict transformed coordinates without an anchor update or output mask and do not supply a posterior.\end{table}
+The added Laplace baseline fits a joint Gaussian MAP and marginalizes nuisance in its local Gaussian approximation by a Schur complement. Its marginal mean equals the joint mode; it does not perform non-Gaussian posterior integration. All 1,440 distinct episode/setup fits converge without nuisance-bound contact or rank deficiency. The VLM-free baseline uses the same calibrated RGB tracks, a physical population prior estimated solely from development targets, and observation-derived nuisance starts, without an appearance prior or residual adapter. Its error is 1.86647 mm, with 99.93\% convergence. This makes the cost/accuracy comparison explicit while distinguishing a changed prior from removal of only the additional visual head.
 
-Numerical adaptation explains most of the gain. Adding the visual residual gives a further 1.07\%. Its one-sided 95\% upper bound is $-0.00219$ mm, while its two-sided interval is $[-0.03114,+0.00053]$ mm and includes zero. We report both, rather than describing an unqualified two-sided significant visual effect. This is an ablation of the selected combined feature view, not proof of semantic physical knowledge.
-
-A descriptive family-level sensitivity analysis provides complementary information about effect concentration. The complete model improves on fixed Huber in 56 of 72 families; the visual increment improves on the numerical residual in 46 of 72. The median paired visual difference is $-0.01117$ mm. Leaving out any single family retains a negative visual mean difference, ranging from $-0.01995$ to $-0.01346$ mm. The exact two-sided sign test gives $p=0.02446$, while the mean-difference bootstrap interval includes zero. These test different hypotheses: directional frequency can be consistent even when a small mean effect is sensitive to asymmetric magnitudes. Both are reported; the post hoc sign test does not replace the primary mean analysis.
-
-The six recorded rows contain three distinct, nontrivial protection comparisons: multiple-force sliding, unforced sliding, and setup bounce. Duplicate slide rows share inference, while generalized bounce is equal by construction at 0.515 mm. All three nontrivial checks pass. They share families and are not statistically independent replications.
+The original visual increment is 1.07\%, with mean-difference interval $[-0.03114,+0.00053]$ mm including zero. Its exact sign test yields $p=0.02446$, testing frequency of improvements rather than mean magnitude. These outcomes disagree as tests of a positive visual result; the sign test does not override the unresolved mean effect. The original local effect-size and harm-guard rules are preserved in the supplement.
 
 \begin{figure*}[t]\centering
 \includegraphics[width=\textwidth]{figures/fig2_main_results.pdf}
-\caption{Point errors and paired effect intervals. The public contrasts separating raw residual and gate are post hoc diagnostics; the complete public contrast replays the original paired draws. Each axis labels its own range; the paired differences use substantially different scales. Negative paired differences favor the candidate.}\label{fig:results}
+\caption{Normalized paired effects on one common horizontal scale. Each contrast is divided by its comparator mean error; negative values favor the candidate. Error bars are paired 95\% bootstrap intervals. The panels retain distinct estimands and do not pool synthetic trajectory errors with public vector-displacement errors.}\label{fig:results}
 \end{figure*}
 
 
-\paragraph{Baseline strength and allocation of gain}
-All newly added comparisons are post hoc and outside the original analysis rules. The original model is evaluated unchanged. Iterated Huber and Cauchy fits update residual-based weights until convergence, preserving the original physical prior and nuisance bounds; a concentrated Gaussian likelihood additionally profiles dispersion. Their errors are 1.915, 1.913, and 1.823 mm, respectively. Full-minus-iterated-Huber error is $-0.4617$ mm with an unadjusted paired 95\% interval of $[-0.6634,-0.2698]$ mm, retaining 24.11\% improvement. The corresponding profiled-MAP reduction is 20.30\%. These nonlinear fits are local solutions, not global-optimum guarantees. The supplement reports iteration counts, nonconverged cases, and all paired intervals. Direct ridge and a small direct MLP selected on development families have substantially larger point errors in this implementation.
+\paragraph{Where the improvement occurs}
+Numerical adaptation explains most of the improvement. Table~\ref{tab:breakdown} shows that generalized bounce is identical across residual arms because of the fixed fallback, while the substantive changes occur in sliding. The supplement retains nonlinear-solver diagnostics and direct-regression controls.
 \begin{table}[htbp]\centering\small
 \caption{Protocol Breakdown in Millimeters; Iterated Huber Is Post Hoc}\label{tab:breakdown}
 \begin{tabular}{lrrrr}\toprule
@@ -241,23 +232,29 @@ Setup bounce & 0.352 & 0.345 & 0.301 & 0.304\\
 \bottomrule\end{tabular}
 \end{table}
 
-Against the original cell-specific best-of-robust/legacy reference, sliding contributes 99.9\% of the macro error reduction; unforced sliding, whose only corrected coordinate is $\log\mu$, contributes 61.8\%. That reference differs from the single Huber row in Table~\ref{tab:main}. The six-cell mean and coordinate-specific errors are reproduced in the supplement. The concentration in sliding is compatible with correction of systematic anchor error; the present design does not fully separate this mechanism from acquisition of additional information.
+Against the original cell-specific best-of-robust/legacy reference, sliding contributes 99.9\% of the macro error reduction; unforced sliding, whose only corrected coordinate is $\log\mu$, contributes 61.8\%. That reference differs from the profiled-MAP reference in Table~\ref{tab:main}. The six-cell mean and coordinate-specific errors are reproduced in the supplement. The concentration in sliding is compatible with correction of systematic anchor error; the present design does not fully separate this mechanism from acquisition of additional information.
 
-\paragraph{Target construction and channel attribution}
-Five inner family folds generate out-of-fold numerical predictions for visual training targets, with penalties, clipping, and shrinkage unchanged. The post hoc cross-fitted variant yields 1.45162 mm on the previously evaluated families: a 1.17\% visual increment with paired interval $[-0.03446,+0.00095]$ mm. Direction is retained, but the interval again includes zero. No confirmation outcomes select this variant.
-\begin{table}[htbp]\centering\small
-\caption{Post Hoc Channel Controls with Development-Selected Penalties}\label{tab:channels}
+\paragraph{Deduplicated numerical view and visual controls}
+The original 192-dimensional numerical view repeats 15 setup channels at each of eight frames. Keeping those channels once yields 87 dimensions. Its numerical penalty is selected from $\{0.1,1,10\}$ on six development family folds; the selected value is 0.1. All added views use the same 87-dimensional numerical fit, 48 additional dimensions, eight frames, masks, clipping and shrinkage, with visual penalties selected only from $\{1,10,100\}$ on those development folds. PCA for pixels and V-JEPA is fitted inside each training fold. Development scores are selection scores, not independent generalization estimates.
+
+\begin{table}[t]\centering\small
+\setlength{\tabcolsep}{3.5pt}
+\caption{Deduplicated Numerical and Representation Controls (mm)}\label{tab:channels}
 \begin{tabular}{lrrr}\toprule
-View & Penalty & Develop. & Evaluated\\\midrule
-Combined & 10 & 1.3522 & 1.4531\\
-Pooled states & 1 & 1.3671 & 1.4675\\
-Position shifts & 1 & 1.3512 & 1.4511\\
-\bottomrule\end{tabular}
+Additional view & Numeric dim. & Develop. & Evaluated\\\midrule
+None (locked) & 192 & 1.37193 & 1.46877\\
+Qwen-derived (locked) & 192 & 1.35223 & 1.45312\\
+None & 87 & 1.36567 & 1.44213\\
+Qwen-derived & 87 & 1.34792 & 1.42632\\
+Lucas--Kanade summary & 87 & 1.35202 & 1.41695\\
+Raw-pixel PCA & 87 & 1.36595 & 1.43405\\
+V-JEPA 2 PCA & 87 & 1.37007 & 1.44407\\\bottomrule
+\end{tabular}
 \end{table}
 
-Each channel view uses the same development search over penalties $\{1,10,100\}$. Pooled states alone yield 1.46746 mm, close to the 1.46877 mm numerical comparator. Position shifts yield 1.45112 mm; their post hoc difference from numerical prediction is $-0.01765$ mm with unadjusted interval $[-0.03101,-0.00512]$ mm. The combined view retains penalty 10 and the original result. This evidence is compatible with tracking-related decoder information and does not isolate a language-pretraining contribution. The groups share the same upstream trained decoder.
+The 87-dimensional numerical-only cell gives 1.44213 mm, providing the strengthened numerical comparator. Its Qwen-derived increment is $-0.01582$ mm (1.10\%), with interval $[-0.03114,+0.00057]$ mm and focal Holm $p=0.10139$. Lucas--Kanade summaries give a lower point error; Qwen-minus-tracking difference is $+0.00936$ mm, with interval $[-0.01054,+0.03061]$ mm and focal Holm $p=0.37728$. These results do not establish Qwen superiority, tracking equivalence, or a universal bound on visual information. The original model is not replaced by the best evaluation arm.
 
-Disabling generalized-bounce fallback worsens the full-model error by $0.04165$ mm, with paired interval $[0.03078,0.05253]$ mm. Thus this learned correction is harmful in the tested branch; fallback is a measured limitation of the adapter rather than a universal safety guarantee.
+The classical summary tracks initial-cue ROI corners using pyramidal Lucas--Kanade and summarizes displacement, second differences, direction, scale and flow statistics. It retains all episodes, including 1,189 failed transitions among 7,560 evaluation transitions, using a fixed zero-motion fallback and failure feature. It is a concrete non-neural control, not an optimized tracking upper bound. Channel controls in the supplement place most Qwen-derived signal in position corrections. Its decoder has upstream task supervision absent from the PCA controls, so these comparisons do not isolate pretraining effects. The cross-fitted visual-target result (1.45162 mm; interval $[-0.03446,+0.00095]$ mm versus numerical-only) and harmful generalized-bounce correction remain reported.
 
 \paragraph{Engine-rollout proxy}
 A post hoc PyBullet proxy applies the same new actions to estimated and true properties of a nonrotating sphere. Huber, numerical, and full errors are 2.236, 1.620, and 1.606 mm. The full reduction relative to Huber is 28.19\%; family-level Spearman correlations with the analytic metric range from 0.961 to 0.986. This supports agreement of rankings under the controlled contact proxy, while the primary metric remains a parameter-to-trajectory projection. It does not validate rollouts of the original geometry assets or real manipulation.
@@ -273,6 +270,9 @@ Numerical + visual & $-2.546$ & 0.01311 & 0.9736\\\bottomrule
 \end{tabular}\end{table}
 
 
+
+\paragraph{Independent-family calibration} 
+The development CRPS criterion selects zero inflation. Forty new calibration families give $\hat q=0.4421$; the 37th-order-statistic region covers 81.94\% of the original evaluation episodes under equal family/protocol/setup weighting. This does not meet the specified descriptive 88--93\% coverage range; no threshold is retuned on evaluation coverage. Protocol-specific coverage and the simultaneous-family alternative are reported in the supplement. Calibration changes uncertainty regions, not point predictions.
 
 \subsection{Public Displacement and Gate Decomposition}
 The public numerical predictor obtains 74.182 mm vector MAE. The raw visual residual yields 71.210 mm, and gating yields 71.015 mm (Table~\ref{tab:public}). The complete visual-plus-gate increment is 4.27\%, with paired difference $-3.167$ mm and episode-bootstrap 95\% interval $[-4.957,-1.400]$ mm. This supports the recorded secondary direction within the selected offline cohort, subject to the episode-exchangeability limitation.
@@ -293,8 +293,10 @@ The gate-only change improves 52 episodes, worsens 64, and leaves seven unchange
 
 Empirical radial 90\% coverage is 96.75\% for the gated model and 95.93\% for numerical prediction. Isotropic Gaussian NLL changes from $-2.612$ to $-2.691$; the isotropic scale is derived from the fixed radial radius. The mean gate of 0.545 describes correction amplitude, not confidence calibration. External readouts were fitted on PhysProbe development targets, so this is task-specific adaptation to another simulator dataset rather than zero-shot transfer of a physical-property posterior.
 
-\subsection{Real-Video Boundary}
-A public real-friction diagnostic uses 33 videos from 11 object--surface families in a pre-existing test partition \cite{zhan2026idpp}. This diagnostic defines a boundary on transfer claims rather than evidence of practical deployment. The short-window feature score exhibits an inverse family association: Spearman $-0.70$, with the recorded family-bootstrap interval $[-0.972,-0.108]$. This is a directional failure of that score, not merely an absent positive result. A source audit finds a feature-unit mismatch: synthetic position shifts are noise-normalized, whereas the real diagnostic uses axis-projected pixel shifts. Its output is a residual score, not an inferred friction coefficient, and the appearance prior is not used. Pooled-only correlation is 0.027 and position-only correlation is $-0.455$. These observations identify a domain/measurement mismatch, but do not isolate a causal explanation of failure. A separately developed, 152-frame kinematic bridge produces Spearman $0.355$, Pearson $0.682$, and macro pair accuracy 0.693 across five object/camera comparison groups (21 pairs). Its permutation $p=0.1423$ does not establish transfer. A scalar kinematic proxy reaches Spearman $0.427$, exceeding the bridge's rank correlation. The bridge changes both information and observation duration; it cannot rescue a claim of direct frozen-feature transfer.
+\subsection{Real-Video Unit Correction}
+The public real-friction diagnostic contains 33 videos from 11 object--surface families \cite{zhan2026idpp}. The original combined score has family Spearman $-0.70$, compared with 0.027 for pooled-only and $-0.455$ for position-only scores. We reproduce those scores exactly, then divide both real pixel-correction channels by an RGB-only tracking-noise estimate, matching the dimensionless form of synthetic corrections. The estimate is a quadratic-detrended median absolute deviation with a one-pixel floor; values span 1.000--1.077 pixels. It is a noise proxy, not measured tracking error.
+
+After correction, family rank correlations remain $-0.70$, 0.027 and $-0.455$, respectively. The corrected combined interval is $[-0.972,-0.121]$. Thus the documented unit mismatch has been addressed, but this normalization does not restore transfer. Most scales lie at the floor, so the intervention is small; camera projection and decoder-domain differences remain. Neither score is a physical friction estimate. The 152-frame bridge and scalar proxy use deceleration divided by initial speed, which already cancels pixel units: rescaling numerator and denominator reproduces their correlations of 0.355 and 0.427. Their intervals include zero. Full before/after values and the unit contract are provided in the supplement.
 
 \subsection{Additional Material-Disjoint Public Evaluation}\label{sec:group}
 A metadata audit identifies 16 object-friction pairs and 16 surface-friction pairs in PhysProbe Push. The original eligible development and evaluation sets share 15 object-material and all 16 surface-material conditions. Thus the original episode split is not material-disjoint. All episodes use the same red cube; friction conditions are metadata scalars without corresponding material-identifying appearance cues in this setup. The result tests generalization of motion summaries across friction conditions, not recognition of material from appearance or transfer to distinct object/scene assets.
@@ -312,41 +314,41 @@ Gated visual residual & 60.641 & 62.753\\\bottomrule
 \par\small Both columns are in millimeters. Material-pair MAE is the primary metric and weights observed material combinations equally. Episode MAE is descriptive. Episode-normalized errors are 0.342, 0.340, and 0.330; vector $R^2$ values are 0.634, 0.649, and 0.657. Mean target displacement is 190.281 mm.
 \end{table}
 
-\subsection{Post Hoc Component and Covariance Analyses}\label{sec:component}
-The supplement provides the complete cached-feature ablations, covariance sweep, and additional development sensitivity results. Original models remain fixed. In particular, the 87-dimensional numerical-view variant removes repeated setup channels and selects its penalty on development families; its descriptive evaluated error is 1.42632 mm. This sensitivity shows that feature duplication changes effective regularization, without retroactively replacing the primary configuration.
-
-The additional frozen V-JEPA 2 control yields 1.470615 mm on the previously evaluated cohort, versus 1.468770 mm for numerical-only and 1.453122 mm for the original full model. The V-JEPA-minus-full paired interval is $[-0.00118,+0.03560]$ mm. Thus the full model has a lower point error, but this post hoc comparison does not establish a two-sided superiority claim. Training-fold-only PCA supplies 48 video features; no additional frames, target-dependent projection, or model reselection is used. The supplement reports development scores and distinct upstream processing costs. Development comparisons are structurally unmatched because only the Qwen observation decoder was trained on part of that cohort; the evaluated cohort also cannot isolate pretraining without matched upstream supervision.
-
-\section*{Data and Code Availability}
-Verification materials are provided in release v0.3.0 of \url{https://github.com/Jinhong-Yang/physics-residual-verification}. The Overleaf project includes source, figure data, selected observations and predictions, residual checkpoints, and executable calculation/refitting tools. New post hoc baseline, cross-fitting, channel, shrinkage, direct-regression, engine, scale, and diagnostic results are supplied with their plans and numerical inputs. The RGB companion reproduces eight complete inference paths, including the shared appearance prior, after separately obtaining hash-checked foundation weights. Recorded latency summaries can be replayed; fresh hardware measurement additionally needs the measurement source's original 100-episode RGB inputs and upstream environment. Full upstream training is not reproduced. The public dataset is available at the pinned repository in \cite{physprobe2026dataset}.
-
-\section{Discussion}\label{sec:discussion}
-The strongest supported contribution is protocol-constrained numerical residual correction. Its improvement persists against iteratively converged local robust estimators, but is smaller than the fixed-anchor headline. Channel controls localize the smaller visual signal primarily to position corrections. Table~\ref{tab:scope} collects the main inferential boundaries.
-\begin{table*}[htbp]\centering\small
+% Declare the wide discussion table early enough to place it on page 10.
+\begin{table*}[!t]\centering\small
 \caption{Evidence Established and Limits of the Present Design}\label{tab:scope}
 \begin{tabular}{p{.45\textwidth}p{.45\textwidth}}\toprule
 Supported within the tested setting & Not established\\\midrule
-Sliding residual adaptation improves fixed and iterated anchors. & Separation of anchor bias correction from additional information.\\
-Cross-fitted visual targets retain a small mean improvement. & A two-sided full-view effect or a language-pretraining benefit.\\
+Sliding residual adaptation improves profiled MAP and Laplace anchors. & Separation of anchor bias correction from additional information.\\
+Deduplicated numerical and classical tracking controls are evaluated. & Qwen superiority over tracking or isolated pretraining benefit.\\
 Refitting generalizes across both friction-condition axes. & Transfer to unseen object or scene assets.\\
-Proper scores improve with broad empirical regions. & Nominally calibrated posterior coverage.\\
-The tested real-video score fails directionally. & A causal explanation or general impossibility of real transfer.\\
+Independent geometry-family calibration is separately assessed. & Nominally calibrated posterior coverage.\\
+The real-video score fails after noise-unit normalization. & A causal explanation or general impossibility of real transfer.\\
 \bottomrule\end{tabular}
 \end{table*}
 
-Generalized bounce illustrates the boundary of learned correction. Across development folds, predicted-versus-true standardized residual correlations range from $-0.202$ to 0.231, compared with 0.429--0.658 for setup bounce. On evaluated episodes, correlations are 0.186 and 0.502; generalized-bounce target standard deviation is 2.264 versus 0.571. Anchor-scale medians are similar (0.00752 versus 0.00710), so large median covariance inflation alone does not explain failure. The wider residual-target dispersion and weaker predictability are consistent with the greater nuisance freedom; this observational diagnosis does not isolate its causal effect. Visual clipping activates on 6.39\% of generalized-bounce predictions and none of the setup-bounce predictions.
+\subsection{Cost and Interpretation}
+The locked additional visual path raises recorded median component totals from 129.1 to 362.5 ms (2.81 times), while its residual heads take 0.342 ms. The shared first-image appearance prior itself takes 68.4 ms. These staged, model-resident sums are not contiguous cold-start latency. The matched residual arms retain that prior; the separate population-prior MAP row in Table~\ref{tab:main} is VLM-free. Parameter and timing comparisons in the supplement distinguish residual coefficients, upstream decoder supervision, PCA storage and feature-extraction cost. No speed advantage is inferred by comparing concurrent CPU extraction with staged GPU totals.
 
-The adapter is small, but its complete computation is not characterized by coefficient count. Measured median component totals are 362.5 ms with the additional visual path and 129.1 ms for the shared-prior/RGB-anchor path; these are sums across staged, model-resident runs rather than contiguous cold-start latency. First-image prior computation and the additional vision encoder dominate the budget, while the residual heads require 0.342 ms. Removing all VLM computation would also remove the common prior and would define a different baseline.
+\section{Discussion}\label{sec:discussion}
+The supported contribution is a constrained residual estimator whose trajectory-projection improvement persists against the tested profiled-MAP and Laplace anchors. The evidence is strongest for sliding corrections, not a broad rigid-body reasoning framework. Duplicate setup features change effective ridge regularization; removing them strengthens the numerical comparator without eliminating the small, unresolved Qwen-derived mean increment. A classical tracking summary reaches a lower point error at the same residual dimension. Additional visual computation therefore requires task-specific justification rather than an assumption that a foundation representation is necessary.
 
-The positive datasets are synthetic. The friction holdout retains the original material-bank architecture-selection history and shared cube/scene assets. The analytic metric and controlled engine proxy do not test the original geometry assets in an independent downstream manipulation task. Unmatched upstream supervision, independent calibration, complete upstream training reproduction, and the real-video feature-unit mismatch remain substantive limits. No model or hyperparameter is reselected on the previously evaluated cohorts.
+The protocol mask expresses structural assumptions of the simplified inverse problem. Under unforced sliding, acceleration is independent of mass; known distinct forces can separate mass and friction; restitution is exposed only through the specified bounce model and nuisance assumptions. These permissions agree with elementary system-identification reasoning, but the cached initialization Jacobian is not a final-solution Fisher proof. One-column condition numbers are identically one and supply no conditioning evidence. We make no automatic-mask equivalence or new identifiability-theorem claim.
+
+The analytic metric is a parameter-to-trajectory projection, and the controlled PyBullet proxy shares idealized assumptions. Neither provides a model-misspecification stress test on original object assets. PhysProbe retains the same cube/scene and earlier material-bank architecture-selection history; its holdout tests friction-condition generalization of motion summaries. Matched upstream supervision, text-based external-method ports, and multi-asset/physics/sensor shift evaluations remain outside the demonstrated scope. Table~\ref{tab:scope} records these boundaries. The unit-corrected real failure and any unsuccessful calibration target are retained rather than converted into evidence of impossibility.
 
 \section{Conclusion}\label{sec:conclusion}
-Protocol-constrained residual adaptation reduces trajectory-projection error primarily through numerical correction of sliding estimates; improvement remains against iterated robust fitting. The tested visual view retains a small directional increment under cross-fitted targets, with position-correction channels accounting for most of its measured signal. Learned correction is harmful in generalized bounce and requires the fixed fallback. Neither language-pretraining benefit, nominal posterior calibration, nor successful real-video property transfer is established. The next evaluation should equalize upstream supervision across encoders and reserve an independent calibration split. Object/scene-asset holdouts should test the reach of the material-condition result. Prospective causal video selection and consistent physical feature units are needed before interpreting real-world deployment.
+Protocol-constrained residual estimation improves the locked full model's held-out-action trajectory error by 20.30\% relative to the strongest tested profiled-dispersion MAP anchor, primarily through numerical sliding correction. Deduplicated controls and a classical tracker identify how much improvement remains after strengthening the numerical view; the tested Qwen-derived representation does not show a resolved advantage over tracking. Independent-family calibration and corrected real-video diagnostics separate distributional quality and transfer from point-estimation accuracy. The resulting claim is a useful estimator within a controlled regime, with explicit evidence needed before extending it to object-asset shifts, mismatched physics or real-world physical-property inference.
+
+\section*{Data and Code Availability}
+Verification materials are provided in release v0.4.0 of \url{https://github.com/Jinhong-Yang/physics-residual-verification}. The Overleaf project includes source, figure data, selected observations and predictions, residual checkpoints, and executable calculation/refitting tools. Strong-anchor, representation, calibration and unit-corrected real-video analyses include plans, numerical inputs, predictions and replay tools. Additional comparisons use previously evaluated cohorts and are explicitly exploratory. The RGB companion reproduces eight complete inference paths, including the shared appearance prior, after separately obtaining hash-checked foundation weights. Recorded latency summaries can be replayed; fresh hardware measurement additionally needs the measurement source's original 100-episode RGB inputs and upstream environment. Full upstream training is not reproduced. The public dataset is available at the pinned repository in \cite{physprobe2026dataset}.
 
 \section*{Acknowledgment}
 This work was supported by the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) -- Innovative Human Resource Development for Local Intellectualization program grant funded by the Korea government (MSIT) (IITP-2026-RS-2024-00436773).
 
+\noindent\begin{minipage}{\columnwidth}
 OpenAI Codex (GPT-6) was used in literature discovery, verification-code development, and \LaTeX{} editing. Human authors are responsible for the scientific content and reference verification. Tool information: \url{https://openai.com/codex/}.
+\end{minipage}
 
 \bibliographystyle{IEEEtran}\bibliography{references}
 \par\noindent\begin{minipage}{\columnwidth}\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{authors/Hyojin-Park.png}}]{Hyojin Park}

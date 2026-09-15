@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script>document.documentElement.classList.add('js');</script>  <title>[2511.04831] Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/browse/0.3.4/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/browse/0.3.4/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/browse/0.3.4/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/static/browse/0.3.4/images/icons/site.webmanifest">
+  <link rel="mask-icon" href="/static/browse/0.3.4/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/arXiv.css?v=20260318" />
+  <link rel="stylesheet" type="text/css" media="print" href="/static/browse/0.3.4/css/arXiv-print.css?v=20200611" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/browse/0.3.4/css/browse_search.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/base/1.0.1/css/arxiv-header-footer.css?v=20260626" />
+  <script language="javascript" src="/static/browse/0.3.4/js/accordion.js" ></script>
+  <script language="javascript" src="/static/browse/0.3.4/js/optin-modal.js?v=20250819"></script>
+  
+  <link rel="canonical" href="https://arxiv.org/abs/2511.04831"/>
+  <meta name="description" content="Abstract page for arXiv paper 2511.04831: Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning"><meta property="og:type" content="website" />
+<meta property="og:site_name" content="arXiv.org" />
+<meta property="og:title" content="Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning" />
+<meta property="og:url" content="https://arxiv.org/abs/2511.04831v1" />
+<meta property="og:image" content="/static/browse/0.3.4/images/arxiv-logo-fb.png" />
+<meta property="og:image:secure_url" content="/static/browse/0.3.4/images/arxiv-logo-fb.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="700" />
+<meta property="og:image:alt" content="arXiv logo"/>
+<meta property="og:description" content="We present Isaac Lab, the natural successor to Isaac Gym, which extends the paradigm of GPU-native robotics simulation into the era of large-scale multi-modal learning. Isaac Lab combines high-fidelity GPU parallel physics, photorealistic rendering, and a modular, composable architecture for designing environments and training robot policies. Beyond physics and rendering, the framework integrates actuator models, multi-frequency sensor simulation, data collection pipelines, and domain randomization tools, unifying best practices for reinforcement and imitation learning at scale within a single extensible platform. We highlight its application to a diverse set of challenges, including whole-body control, cross-embodiment mobility, contact-rich and dexterous manipulation, and the integration of human demonstrations for skill acquisition. Finally, we discuss upcoming integration with the differentiable, GPU-accelerated Newton physics engine, which promises new opportunities for scalable, data-efficient, and gradient-based approaches to robot learning. We believe Isaac Lab&#39;s combination of advanced simulation capabilities, rich sensing, and data-center scale execution will help unlock the next generation of breakthroughs in robotics research."/>
+<meta name="twitter:site" content="@arxiv"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal..."/>
+<meta name="twitter:description" content="We present Isaac Lab, the natural successor to Isaac Gym, which extends the paradigm of GPU-native robotics simulation into the era of large-scale multi-modal learning. Isaac Lab combines..."/>
+<meta name="twitter:image" content="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"/>
+<meta name="twitter:image:alt" content="arXiv logo"/>
+  <link rel="stylesheet" media="screen" type="text/css" href="/static/browse/0.3.4/css/tooltip.css"/><link rel="stylesheet" media="screen" type="text/css" href="https://static.arxiv.org/js/bibex-dev/bibex.css?20200709"/>  <script src="/static/browse/0.3.4/js/mathjaxToggle.min.js" type="text/javascript"></script>  <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/npm/dompurify@2.3.5/dist/purify.min.js"></script>
+  <script src="/static/browse/0.3.4/js/toggle-labs.js?20241022" type="text/javascript"></script>
+  <script src="/static/browse/0.3.4/js/cite.js" type="text/javascript"></script><meta name="citation_title" content="Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning" /><meta name="citation_author" content="NVIDIA" /><meta name="citation_author" content=":" /><meta name="citation_author" content="Mittal, Mayank" /><meta name="citation_author" content="Roth, Pascal" /><meta name="citation_author" content="Tigue, James" /><meta name="citation_author" content="Richard, Antoine" /><meta name="citation_author" content="Zhang, Octi" /><meta name="citation_author" content="Du, Peter" /><meta name="citation_author" content="Serrano-Muñoz, Antonio" /><meta name="citation_author" content="Yao, Xinjie" /><meta name="citation_author" content="Zurbrügg, René" /><meta name="citation_author" content="Rudin, Nikita" /><meta name="citation_author" content="Wawrzyniak, Lukasz" /><meta name="citation_author" content="Rakhsha, Milad" /><meta name="citation_author" content="Denzler, Alain" /><meta name="citation_author" content="Heiden, Eric" /><meta name="citation_author" content="Borovicka, Ales" /><meta name="citation_author" content="Ahmed, Ossama" /><meta name="citation_author" content="Akinola, Iretiayo" /><meta name="citation_author" content="Anwar, Abrar" /><meta name="citation_author" content="Carlson, Mark T." /><meta name="citation_author" content="Feng, Ji Yuan" /><meta name="citation_author" content="Garg, Animesh" /><meta name="citation_author" content="Gasoto, Renato" /><meta name="citation_author" content="Gulich, Lionel" /><meta name="citation_author" content="Guo, Yijie" /><meta name="citation_author" content="Gussert, M." /><meta name="citation_author" content="Hansen, Alex" /><meta name="citation_author" content="Kulkarni, Mihir" /><meta name="citation_author" content="Li, Chenran" /><meta name="citation_author" content="Liu, Wei" /><meta name="citation_author" content="Makoviychuk, Viktor" /><meta name="citation_author" content="Malczyk, Grzegorz" /><meta name="citation_author" content="Mazhar, Hammad" /><meta name="citation_author" content="Moghani, Masoud" /><meta name="citation_author" content="Murali, Adithyavairavan" /><meta name="citation_author" content="Noseworthy, Michael" /><meta name="citation_author" content="Poddubny, Alexander" /><meta name="citation_author" content="Ratliff, Nathan" /><meta name="citation_author" content="Rehberg, Welf" /><meta name="citation_author" content="Schwarke, Clemens" /><meta name="citation_author" content="Singh, Ritvik" /><meta name="citation_author" content="Smith, James Latham" /><meta name="citation_author" content="Tang, Bingjie" /><meta name="citation_author" content="Thaker, Ruchik" /><meta name="citation_author" content="Trepte, Matthew" /><meta name="citation_author" content="Van Wyk, Karl" /><meta name="citation_author" content="Yu, Fangzhou" /><meta name="citation_author" content="Millane, Alex" /><meta name="citation_author" content="Ramasamy, Vikram" /><meta name="citation_author" content="Steiner, Remo" /><meta name="citation_author" content="Subramanian, Sangeeta" /><meta name="citation_author" content="Volk, Clemens" /><meta name="citation_author" content="Chen, CY" /><meta name="citation_author" content="Jawale, Neel" /><meta name="citation_author" content="Kuruttukulam, Ashwin Varghese" /><meta name="citation_author" content="Lin, Michael A." /><meta name="citation_author" content="Mandlekar, Ajay" /><meta name="citation_author" content="Patzwaldt, Karsten" /><meta name="citation_author" content="Welsh, John" /><meta name="citation_author" content="Zhao, Huihua" /><meta name="citation_author" content="Anes, Fatima" /><meta name="citation_author" content="Lafleche, Jean-Francois" /><meta name="citation_author" content="Moënne-Loccoz, Nicolas" /><meta name="citation_author" content="Park, Soowan" /><meta name="citation_author" content="Stepinski, Rob" /><meta name="citation_author" content="Van Gelder, Dirk" /><meta name="citation_author" content="Amevor, Chris" /><meta name="citation_author" content="Carius, Jan" /><meta name="citation_author" content="Chang, Jumyung" /><meta name="citation_author" content="Chen, Anka He" /><meta name="citation_author" content="Ciechomski, Pablo de Heras" /><meta name="citation_author" content="Daviet, Gilles" /><meta name="citation_author" content="Mohajerani, Mohammad" /><meta name="citation_author" content="von Muralt, Julia" /><meta name="citation_author" content="Reutskyy, Viktor" /><meta name="citation_author" content="Sauter, Michael" /><meta name="citation_author" content="Schirm, Simon" /><meta name="citation_author" content="Shi, Eric L." /><meta name="citation_author" content="Terdiman, Pierre" /><meta name="citation_author" content="Vilella, Kenny" /><meta name="citation_author" content="Widmer, Tobias" /><meta name="citation_author" content="Yeoman, Gordon" /><meta name="citation_author" content="Chen, Tiffany" /><meta name="citation_author" content="Grizan, Sergey" /><meta name="citation_author" content="Li, Cathy" /><meta name="citation_author" content="Li, Lotus" /><meta name="citation_author" content="Smith, Connor" /><meta name="citation_author" content="Wiltz, Rafael" /><meta name="citation_author" content="Alexis, Kostas" /><meta name="citation_author" content="Chang, Yan" /><meta name="citation_author" content="Chu, David" /><meta name="citation_author" content="Fan, Linxi &#34;Jim&#34;" /><meta name="citation_author" content="Farshidian, Farbod" /><meta name="citation_author" content="Handa, Ankur" /><meta name="citation_author" content="Huang, Spencer" /><meta name="citation_author" content="Hutter, Marco" /><meta name="citation_author" content="Narang, Yashraj" /><meta name="citation_author" content="Pouya, Soha" /><meta name="citation_author" content="Sheng, Shiwei" /><meta name="citation_author" content="Zhu, Yuke" /><meta name="citation_author" content="Macklin, Miles" /><meta name="citation_author" content="Moravanszky, Adam" /><meta name="citation_author" content="Reist, Philipp" /><meta name="citation_author" content="Guo, Yunrong" /><meta name="citation_author" content="Hoeller, David" /><meta name="citation_author" content="State, Gavriel" /><meta name="citation_date" content="2025/11/06" /><meta name="citation_online_date" content="2025/11/06" /><meta name="citation_pdf_url" content="https://arxiv.org/pdf/2511.04831" /><meta name="citation_arxiv_id" content="2511.04831" /><meta name="citation_abstract" content="We present Isaac Lab, the natural successor to Isaac Gym, which extends the paradigm of GPU-native robotics simulation into the era of large-scale multi-modal learning. Isaac Lab combines high-fidelity GPU parallel physics, photorealistic rendering, and a modular, composable architecture for designing environments and training robot policies. Beyond physics and rendering, the framework integrates actuator models, multi-frequency sensor simulation, data collection pipelines, and domain randomization tools, unifying best practices for reinforcement and imitation learning at scale within a single extensible platform. We highlight its application to a diverse set of challenges, including whole-body control, cross-embodiment mobility, contact-rich and dexterous manipulation, and the integration of human demonstrations for skill acquisition. Finally, we discuss upcoming integration with the differentiable, GPU-accelerated Newton physics engine, which promises new opportunities for scalable, data-efficient, and gradient-based approaches to robot learning. We believe Isaac Lab&#39;s combination of advanced simulation capabilities, rich sensing, and data-center scale execution will help unlock the next generation of breakthroughs in robotics research." />
+</head>
+
+<body ><div class="flex-wrap-footer">
+    <a href="#content" class="ds-skip-link">Skip to main content</a>
+  
+  
+  
+<header class="ds-site-header">
+  <a aria-hidden="true" tabindex="-1" href="https://arxiv.org/IgnoreMe" class="is-sr-only"></a>
+
+  <a href="https://arxiv.org/" class="ds-site-header-logo" aria-label="archive home">
+    <img src="/static/base/1.0.1/images/arxiv-logo-primary-light.svg" alt="archive">
+  </a>
+
+  <button type="button" id="ds-nav-toggle" class="ds-site-header-nav-toggle"
+    aria-label="Open menu" aria-controls="ds-site-header-nav" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+
+  <nav class="ds-site-header-nav" id="ds-site-header-nav" aria-label="Main navigation"><a id="arxiv-search-toggle" href="https://arxiv.org/search"
+      aria-controls="arxiv-search-overlay" aria-expanded="false">
+      <svg class="ds-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <circle cx="11" cy="11" r="8"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      Search
+    </a>
+    <a href="https://arxiv.org/user/create">Submit</a>
+    <a href="https://info.arxiv.org/about/donate.html">Donate</a>
+    <span class="ds-site-header-divider" aria-hidden="true"></span>
+      <a href="https://arxiv.org/login" class="ds-site-header-login">Log in</a>
+  </nav>
+</header>
+
+<div class="arxiv-search-overlay" id="arxiv-search-overlay" hidden>
+  <div class="arxiv-search-panel" role="search">
+    <form method="GET" action="https://arxiv.org/search">
+      <label for="arxiv-search-input" class="is-sr-only">Search arXiv</label>
+      <input type="text" name="query" id="arxiv-search-input" autocomplete="off"
+        placeholder="Search papers by title, author, abstract, or ID...">
+      <input type="hidden" name="searchtype" value="all">
+      <input type="hidden" name="source" value="header">
+    </form>
+    <div class="arxiv-search-hint">
+      Press Enter to search &middot; <a href="https://arxiv.org/search/advanced">Advanced search</a>
+    </div>
+  </div>
+</div>
+    <main>
+      <div id="content">
+<!--
+rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+        rdf:about="/abs/2511.04831"
+        dc:identifier="/abs/2511.04831"
+        dc:title="Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning"
+        trackback:ping="/trackback/2511.04831" />
+    </rdf:RDF>
+--><div id="abs-outer">
+
+  <div class="leftcolumn">
+    <div class="subheader">
+      <h1>Computer Science > Robotics</h1>
+    </div>
+
+    <div class="header-breadcrumbs-mobile">
+      <strong>arXiv:2511.04831</strong> (cs)
+    </div>
+<link rel="stylesheet" type="text/css" href="/static/base/1.0.1/css/abs.css">
+<div id="content-inner">
+  <div id="abs">
+    <div class="dateline">
+  [Submitted on 6 Nov 2025]</div>
+    <h1 class="title mathjax"><span class="descriptor">Title:</span>Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning</h1>
+    <div class="authors"><span class="descriptor">Authors:</span><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=NVIDIA" rel="nofollow">NVIDIA</a>: <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mittal,+M" rel="nofollow">Mayank Mittal</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Roth,+P" rel="nofollow">Pascal Roth</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tigue,+J" rel="nofollow">James Tigue</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Richard,+A" rel="nofollow">Antoine Richard</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+O" rel="nofollow">Octi Zhang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Du,+P" rel="nofollow">Peter Du</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Serrano-Mu%C3%B1oz,+A" rel="nofollow">Antonio Serrano-Muñoz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yao,+X" rel="nofollow">Xinjie Yao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zurbr%C3%BCgg,+R" rel="nofollow">René Zurbrügg</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rudin,+N" rel="nofollow">Nikita Rudin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wawrzyniak,+L" rel="nofollow">Lukasz Wawrzyniak</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rakhsha,+M" rel="nofollow">Milad Rakhsha</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Denzler,+A" rel="nofollow">Alain Denzler</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Heiden,+E" rel="nofollow">Eric Heiden</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Borovicka,+A" rel="nofollow">Ales Borovicka</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ahmed,+O" rel="nofollow">Ossama Ahmed</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Akinola,+I" rel="nofollow">Iretiayo Akinola</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Anwar,+A" rel="nofollow">Abrar Anwar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Carlson,+M+T" rel="nofollow">Mark T. Carlson</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Feng,+J+Y" rel="nofollow">Ji Yuan Feng</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Garg,+A" rel="nofollow">Animesh Garg</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gasoto,+R" rel="nofollow">Renato Gasoto</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gulich,+L" rel="nofollow">Lionel Gulich</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guo,+Y" rel="nofollow">Yijie Guo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gussert,+M" rel="nofollow">M. Gussert</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hansen,+A" rel="nofollow">Alex Hansen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kulkarni,+M" rel="nofollow">Mihir Kulkarni</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+C" rel="nofollow">Chenran Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+W" rel="nofollow">Wei Liu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Makoviychuk,+V" rel="nofollow">Viktor Makoviychuk</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Malczyk,+G" rel="nofollow">Grzegorz Malczyk</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mazhar,+H" rel="nofollow">Hammad Mazhar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Moghani,+M" rel="nofollow">Masoud Moghani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Murali,+A" rel="nofollow">Adithyavairavan Murali</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Noseworthy,+M" rel="nofollow">Michael Noseworthy</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Poddubny,+A" rel="nofollow">Alexander Poddubny</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ratliff,+N" rel="nofollow">Nathan Ratliff</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rehberg,+W" rel="nofollow">Welf Rehberg</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Schwarke,+C" rel="nofollow">Clemens Schwarke</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Singh,+R" rel="nofollow">Ritvik Singh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Smith,+J+L" rel="nofollow">James Latham Smith</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tang,+B" rel="nofollow">Bingjie Tang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Thaker,+R" rel="nofollow">Ruchik Thaker</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Trepte,+M" rel="nofollow">Matthew Trepte</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Van+Wyk,+K" rel="nofollow">Karl Van Wyk</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yu,+F" rel="nofollow">Fangzhou Yu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Millane,+A" rel="nofollow">Alex Millane</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ramasamy,+V" rel="nofollow">Vikram Ramasamy</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Steiner,+R" rel="nofollow">Remo Steiner</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Subramanian,+S" rel="nofollow">Sangeeta Subramanian</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Volk,+C" rel="nofollow">Clemens Volk</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+C" rel="nofollow">CY Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Jawale,+N" rel="nofollow">Neel Jawale</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kuruttukulam,+A+V" rel="nofollow">Ashwin Varghese Kuruttukulam</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+M+A" rel="nofollow">Michael A. Lin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mandlekar,+A" rel="nofollow">Ajay Mandlekar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Patzwaldt,+K" rel="nofollow">Karsten Patzwaldt</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Welsh,+J" rel="nofollow">John Welsh</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhao,+H" rel="nofollow">Huihua Zhao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Anes,+F" rel="nofollow">Fatima Anes</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lafleche,+J" rel="nofollow">Jean-Francois Lafleche</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mo%C3%ABnne-Loccoz,+N" rel="nofollow">Nicolas Moënne-Loccoz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Park,+S" rel="nofollow">Soowan Park</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Stepinski,+R" rel="nofollow">Rob Stepinski</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Van+Gelder,+D" rel="nofollow">Dirk Van Gelder</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Amevor,+C" rel="nofollow">Chris Amevor</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Carius,+J" rel="nofollow">Jan Carius</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chang,+J" rel="nofollow">Jumyung Chang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+A+H" rel="nofollow">Anka He Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=de+Heras+Ciechomski,+P" rel="nofollow">Pablo de Heras Ciechomski</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Daviet,+G" rel="nofollow">Gilles Daviet</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mohajerani,+M" rel="nofollow">Mohammad Mohajerani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=von+Muralt,+J" rel="nofollow">Julia von Muralt</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Reutskyy,+V" rel="nofollow">Viktor Reutskyy</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sauter,+M" rel="nofollow">Michael Sauter</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Schirm,+S" rel="nofollow">Simon Schirm</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shi,+E+L" rel="nofollow">Eric L. Shi</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Terdiman,+P" rel="nofollow">Pierre Terdiman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vilella,+K" rel="nofollow">Kenny Vilella</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Widmer,+T" rel="nofollow">Tobias Widmer</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yeoman,+G" rel="nofollow">Gordon Yeoman</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chen,+T" rel="nofollow">Tiffany Chen</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Grizan,+S" rel="nofollow">Sergey Grizan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+C" rel="nofollow">Cathy Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+L" rel="nofollow">Lotus Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Smith,+C" rel="nofollow">Connor Smith</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wiltz,+R" rel="nofollow">Rafael Wiltz</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Alexis,+K" rel="nofollow">Kostas Alexis</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chang,+Y" rel="nofollow">Yan Chang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Chu,+D" rel="nofollow">David Chu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Fan,+L+%22" rel="nofollow">Linxi &#34;Jim&#34; Fan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Farshidian,+F" rel="nofollow">Farbod Farshidian</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Handa,+A" rel="nofollow">Ankur Handa</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Huang,+S" rel="nofollow">Spencer Huang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hutter,+M" rel="nofollow">Marco Hutter</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Narang,+Y" rel="nofollow">Yashraj Narang</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Pouya,+S" rel="nofollow">Soha Pouya</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Sheng,+S" rel="nofollow">Shiwei Sheng</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhu,+Y" rel="nofollow">Yuke Zhu</a>
+<script type="text/javascript">
+<!--
+function toggleAuthorList(whichLayer,toggleThis)
+{
+  var elem, vis, tempToggle;
+  tempToggle=toggleThis;
+  if( document.getElementById ) // standard
+      elem = document.getElementById( whichLayer );
+  else if( document.all ) // old msie versions
+      elem = document.all[whichLayer];
+  else if( document.layers ) // nn4
+      elem = document.layers[whichLayer];
+  vis = elem.style;
+  // if the style.display value is blank we try to figure it out here
+  if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
+    vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'inline':'none';
+  vis.display = (vis.display==''||vis.display=='inline')?'none':'inline';
+
+  // toggle link inner text
+  status = vis.display;
+  if(status=='none'){
+      document.getElementById('toggle').innerHTML = tempToggle ;
+      document.getElementById('toggle').title = "Show Entire Author List";
+  }
+  else if(status=='inline'){
+      document.getElementById('toggle').innerHTML = "(collapse list)";
+      document.getElementById('toggle').title = "Collapse Author List";
+  }
+}
+//-->
+</script>
+
+  <div id="long-author-list" style="display: none;">
+        , <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Macklin,+M" rel="nofollow">Miles Macklin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Moravanszky,+A" rel="nofollow">Adam Moravanszky</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Reist,+P" rel="nofollow">Philipp Reist</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Guo,+Y" rel="nofollow">Yunrong Guo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hoeller,+D" rel="nofollow">David Hoeller</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=State,+G" rel="nofollow">Gavriel State</a>
+  </div>
+  <a href="javascript:toggleAuthorList('long-author-list','et al. (6 additional authors not shown)');"
+     title="Show Entire Author List" id="toggle">
+    et al. (6 additional authors not shown)</a>
+  <noscript>&nbsp;You must enable JavaScript to view entire author list.</noscript></div>            <div id="download-button-info" hidden>View a PDF of the paper titled Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning, by NVIDIA: Mayank Mittal and 104 other authors</div>
+    <a class="mobile-submission-download" href="/pdf/2511.04831">View PDF</a>
+    <a class="mobile-submission-download" href="https://arxiv.org/html/2511.04831v1">HTML (experimental)</a>
+
+
+
+    <blockquote class="abstract mathjax">
+            <span class="descriptor">Abstract:</span>We present Isaac Lab, the natural successor to Isaac Gym, which extends the paradigm of GPU-native robotics simulation into the era of large-scale multi-modal learning. Isaac Lab combines high-fidelity GPU parallel physics, photorealistic rendering, and a modular, composable architecture for designing environments and training robot policies. Beyond physics and rendering, the framework integrates actuator models, multi-frequency sensor simulation, data collection pipelines, and domain randomization tools, unifying best practices for reinforcement and imitation learning at scale within a single extensible platform. We highlight its application to a diverse set of challenges, including whole-body control, cross-embodiment mobility, contact-rich and dexterous manipulation, and the integration of human demonstrations for skill acquisition. Finally, we discuss upcoming integration with the differentiable, GPU-accelerated Newton physics engine, which promises new opportunities for scalable, data-efficient, and gradient-based approaches to robot learning. We believe Isaac Lab&#39;s combination of advanced simulation capabilities, rich sensing, and data-center scale execution will help unlock the next generation of breakthroughs in robotics research.
+    </blockquote>
+
+    <!--CONTEXT-->
+    <div class="metatable">
+      <table summary="Additional metadata">        <tr>
+          <td class="tablecell label">Comments:</td>
+          <td class="tablecell comments mathjax">Code and documentation are available here: <a href="https://github.com/isaac-sim/IsaacLab" rel="external noopener nofollow" class="link-external link-https">this https URL</a></td>
+        </tr>
+<tr>
+          <td class="tablecell label">Subjects:</td>
+          <td class="tablecell subjects">
+            <span class="primary-subject">Robotics (cs.RO)</span>; Artificial Intelligence (cs.AI)</td>
+        </tr><tr>
+          <td class="tablecell label">Cite as:</td>
+          <td class="tablecell arxivid"><span class="arxivid"><a href="https://arxiv.org/abs/2511.04831">arXiv:2511.04831</a> [cs.RO]</span></td>
+        </tr>
+        <tr>
+          <td class="tablecell label">&nbsp;</td>
+          <td class="tablecell arxividv">(or <span class="arxivid">
+              <a href="https://arxiv.org/abs/2511.04831v1">arXiv:2511.04831v1</a> [cs.RO]</span> for this version)
+          </td>
+        </tr>
+        <tr>
+          <td class="tablecell label">&nbsp;</td>
+          <td class="tablecell arxivdoi">              <a href="https://doi.org/10.48550/arXiv.2511.04831"  id="arxiv-doi-link">https://doi.org/10.48550/arXiv.2511.04831</a><div class="button-and-tooltip">
+              <button class="more-info" aria-describedby="more-info-desc-1">
+                <svg height="15" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z" class=""></path></svg>
+                <span class="visually-hidden">Focus to learn more</span>
+              </button>
+              <!-- tooltip description -->
+              <div role="tooltip" id="more-info-desc-1">
+                <span class="left-corner"></span>                  arXiv-issued DOI via DataCite</div>
+            </div>
+          </td>
+        </tr></table>
+    </div>
+  </div>
+</div>
+    <div class="submission-history">
+      <h2>Submission history</h2> From: Mayank Mittal [<a href="/show-email/4255cffd/2511.04831" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Thu, 6 Nov 2025 21:43:02 UTC (38,053 KB)<br/>
+</div>
+  </div>
+  <!--end leftcolumn-->
+<div class="extra-services">    <div class="full-text">
+      <a name="other"></a>
+      <span class="descriptor">Full-text links:</span>
+      <h2>Access Paper:</h2>
+      <ul>
+  <div id="download-button-info" hidden>
+View a PDF of the paper titled Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning, by NVIDIA: Mayank Mittal and 104 other authors</div><li><a href="/pdf/2511.04831" aria-describedby="download-button-info" accesskey="f" class="abs-button download-pdf">View PDF</a></li><li><a href="https://arxiv.org/html/2511.04831v1" class="abs-button" id="latexml-download-link">HTML (experimental)</a></li><li><a href="/src/2511.04831" class="abs-button download-eprint">TeX Source
+ </a></li></ul>
+      <div class="abs-license"><a href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article" class="has_license">
+          <img alt="license icon" role="presentation" src="https://arxiv.org/icons/licenses/by-4.0.png"/>
+          <span>view license</span>
+        </a></div>
+    </div>
+    <!--end full-text-->    <div class="browse">
+    <h3 class="browse-context-heading">Current browse context:</h3>
+  <div class="current">cs.RO</div>
+
+  <div class="prevnext">
+<span class="arrow">
+      <a class="abs-button prev-url" href="/prevnext?id=2511.04831&amp;function=prev&amp;context=cs.RO"
+         accesskey="p" title="previous in cs.RO (accesskey p)" rel="nofollow">&lt;&nbsp;prev</a>
+    </span>
+    <span class="is-hidden-mobile">&nbsp; | &nbsp;</span>    <span class="arrow">
+      <a class="abs-button next-url" href="/prevnext?id=2511.04831&amp;function=next&amp;context=cs.RO" accesskey="n"
+         title="next in cs.RO (accesskey n)"  rel="nofollow">next&nbsp;&gt;</a>
+    </span><br/>
+  </div><div class="list">
+    <a class="abs-button abs-button-grey abs-button-small context-new" href="/list/cs.RO/new"  rel="nofollow">new</a>
+    <span class="is-hidden-mobile"> | </span>
+    <a class="abs-button abs-button-grey abs-button-small context-recent" href="/list/cs.RO/recent" rel="nofollow">recent</a>
+    <span class="is-hidden-mobile"> | </span><a class="abs-button abs-button-grey abs-button-small context-id" href="/list/cs.RO/2025-11" rel="nofollow">2025-11</a>
+  </div><div class="abs-switch-cat">
+    Change to browse by:
+    <div class="switch context-change">
+        <a href="/abs/2511.04831?context=cs" rel="nofollow">cs</a><br class="is-hidden-mobile">
+        <a class="subclass" href="/abs/2511.04831?context=cs.AI" rel="nofollow">cs.AI</a><br class="is-hidden-mobile">
+    </div>
+  </div>
+
+    </div>
+      <div class="extra-ref-cite">
+        <h3>References &amp; Citations</h3>
+        <ul>
+          <li><a  class="abs-button abs-button-small cite-ads" href="https://ui.adsabs.harvard.edu/abs/arXiv:2511.04831">NASA ADS</a></li><li><a  class="abs-button abs-button-small cite-google-scholar" href="https://scholar.google.com/scholar_lookup?arxiv_id=2511.04831" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a  class="abs-button abs-button-small cite-semantic-scholar" href="https://api.semanticscholar.org/arXiv:2511.04831" target="_blank" rel="noopener">Semantic Scholar</a></li>
+        </ul>
+        <div style="clear:both;"></div>
+      </div>
+
+<div class='extra-ref-cite'>
+    <button type="button" id='bib-cite-trigger' class="bib-cite-button abs-button">export BibTeX citation</button>
+    <span id='bib-cite-loading' hidden='true'>Loading...</span>
+</div>
+
+<div id='bib-cite-modal' class='bib-modal' hidden='true'>
+    <div class='bib-modal-content'>
+        <div class='bib-modal-title'>
+            <h2>BibTeX formatted citation</h2>
+            <button type="button" class='bib-modal-close' aria-label="Close">&times;</button>
+        </div>
+        <div>
+            <textarea id='bib-cite-target' class="bib-citation-content" aria-label="loading the citation">loading...</textarea>
+        </div>
+        <div>
+            <span>Data provided by: </span>
+            <a id='bib-cite-source-api'></a>
+        </div>
+    </div>
+</div><div class="bookmarks">
+  <div><h3>Bookmark</h3></div><a class="abs-button abs-button-grey abs-button-small" href="http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2511.04831&amp;description=Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning"
+     title="Bookmark on BibSonomy">
+    <img src="/static/browse/0.3.4/images/icons/social/bibsonomy.png"
+         alt="BibSonomy"/>
+  </a>
+  <a class="abs-button abs-button-grey abs-button-small" href="https://reddit.com/submit?url=https://arxiv.org/abs/2511.04831&amp;title=Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning"
+     title="Bookmark on Reddit">
+    <img src="/static/browse/0.3.4/images/icons/social/reddit.png"
+         alt="Reddit"/>
+  </a>
+</div>  </div>
+  <!--end extra-services-->
+<!-- LABS AREA -->
+<div id="labstabs">
+  <div class="labstabs" role="tablist" aria-label="arXivLabs tools"><input type="radio" name="tabs" id="tabone"checked="checked"class="labs-tab-input">
+    <label for="tabone" role="tab" aria-selected="true" aria-controls="tabpanel-one" id="tab-label-one">Bibliographic Tools</label>
+    <div class="tab labs-display-bib" role="tabpanel" id="tabpanel-one" aria-labelledby="tab-label-one">
+      <h1>Bibliographic and Citation Tools</h1>
+      <div class="toggle">
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="bibex-toggle" type="checkbox" class="lab-toggle"
+                     data-script-url="/static/browse/0.3.4/bibex/bibex.js?20241202">
+              <span class="slider"></span>
+              <span class="is-sr-only">Bibliographic Explorer Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-bibex">Bibliographic Explorer</span> <em>(<a href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em>
+          </div>
+        </div>
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="connectedpapers-toggle"
+                type="checkbox"
+                class="lab-toggle"
+                data-script-url="/static/browse/0.3.4/js/connectedpapers.js"
+                aria-labelledby="label-for-connected-papers">
+              <span class="slider"></span>
+              <span class="is-sr-only">Connected Papers Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-connected-papers">Connected Papers</span> <em>(<a href="https://www.connectedpapers.com/about" target="_blank">What is Connected Papers?</a>)</em>
+          </div>
+        </div><div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="litmaps-toggle"
+                type="checkbox"
+                class="lab-toggle"
+                data-script-url="/static/browse/0.3.4/js/litmaps.js?20210617"
+                aria-labelledby="label-for-litmaps">
+              <span class="slider"></span>
+              <span class="is-sr-only">Litmaps Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-litmaps">Litmaps</span> <em>(<a href="https://www.litmaps.co/" target="_blank">What is Litmaps?</a>)</em>
+          </div>
+        </div>
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="scite-toggle"
+                type="checkbox"
+                class="lab-toggle"
+                data-script-url="/static/browse/0.3.4/js/scite.js?20210617"
+                aria-labelledby="label-for-scite">
+              <span class="slider"></span>
+              <span class="is-sr-only">scite.ai Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-scite">scite Smart Citations</span> <em>(<a href="https://www.scite.ai/" target="_blank">What are Smart Citations?</a>)</em>
+          </div>
+        </div>
+      </div>
+        <div class="labs-content-placeholder labs-display" style="display: none;"></div>
+        <div style="min-height: 15px" id="connectedpapers-output"></div>
+        <div style="min-height: 15px" id="litmaps-open-in"></div>
+        <div style="min-height: 15px" id="scite-open-in"></div>
+    </div>
+
+
+    <input type="radio" name="tabs" id="tabtwo" class="labs-tab-input">
+    <label for="tabtwo" role="tab" aria-selected="false" aria-controls="tabpanel-two" id="tab-label-two">Code, Data, Media</label>
+    <div class="tab" role="tabpanel" id="tabpanel-two" aria-labelledby="tab-label-two">
+      <h1>Code, Data and Media Associated with this Article</h1>
+      <div class="toggle">
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="alphaxiv-toggle"
+                data-script-url="/static/browse/0.3.4/js/alphaxiv.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-alphaxiv">
+              <span class="slider"></span>
+              <span class="is-sr-only">alphaXiv Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-alphaxiv">alphaXiv</span> <em>(<a href="https://alphaxiv.org/" target="_blank">What is alphaXiv?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input        
+                id="catalyzex-toggle"
+                data-script-url="/static/browse/0.3.4/js/catalyzex.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-cx">
+              <span class="slider"></span>
+              <span class="is-sr-only">Links to Code Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-cx">CatalyzeX Code Finder for Papers</span> <em>(<a href="https://www.catalyzex.com" target="_blank">What is CatalyzeX?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="dagshub-toggle"
+                data-script-url="/static/browse/0.3.4/js/dagshub.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-dagshub">
+              <span class="slider"></span>
+              <span class="is-sr-only">DagsHub Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-dagshub">DagsHub</span> <em>(<a href="https://dagshub.com/" target="_blank">What is DagsHub?</a>)</em>
+          </div>
+        </div>
+  
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="gotitpub-toggle"
+                data-script-url="/static/browse/0.3.4/js/gotitpub.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-gotitpub">
+              <span class="slider"></span>
+              <span class="is-sr-only">GotitPub Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-gotitpub">Gotit.pub</span> <em>(<a href="http://gotit.pub/faq" target="_blank">What is GotitPub?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="huggingface-toggle"
+                data-script-url="/static/browse/0.3.4/js/huggingface.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-huggingface">
+              <span class="slider"></span>
+              <span class="is-sr-only">Huggingface Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-huggingface">Hugging Face</span> <em>(<a href="https://huggingface.co/huggingface" target="_blank">What is Huggingface?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input
+                id="sciencecast-toggle"
+                data-script-url="/static/browse/0.3.4/js/sciencecast.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-sciencecast">
+              <span class="slider"></span>
+              <span class="is-sr-only">ScienceCast Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-sciencecast">ScienceCast</span> <em>(<a href="https://sciencecast.org/welcome" target="_blank">What is ScienceCast?</a>)</em>
+          </div>
+        </div>
+      </div>
+
+      <div id="alphaxiv-output" style="display:none"></div>
+      <div id="catalyzex-output" style="display:none"></div>
+      <div id="dagshub-output" style="display:none"></div>
+      <div id="gotitpub-output" style="display:none"></div>
+      <div id="sciencecast-output" style="display:none"></div>
+      <div id="huggingface-output" style="display:none"></div>
+    </div>
+
+
+      <input type="radio" name="tabs" id="labstabs-demos-input" class="labs-tab-input">
+      <label for="labstabs-demos-input" id="labstabs-demos-label" role="tab" aria-selected="false" aria-controls="tabpanel-demos">Demos</label>
+      <div class="tab" role="tabpanel" id="tabpanel-demos" aria-labelledby="labstabs-demos-label">
+        <h1>Demos</h1>
+        <div class="toggle">
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input
+                  id="replicate-toggle"
+                  data-script-url="/static/browse/0.3.4/js/replicate.js"
+                  type="checkbox" class="lab-toggle" aria-labelledby="label-for-replicate">
+                <span class="slider"></span>
+                <span class="is-sr-only">Replicate Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-replicate">Replicate</span> <em>(<a href="https://replicate.com/docs/arxiv/about" target="_blank">What is Replicate?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input
+                  id="spaces-toggle"
+                  data-script-url="/static/browse/0.3.4/js/spaces.js"
+                  type="checkbox" class="lab-toggle" aria-labelledby="label-for-spaces">
+                <span class="slider"></span>
+                <span class="is-sr-only">Spaces Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-spaces">Hugging Face Spaces</span> <em>(<a href="https://huggingface.co/docs/hub/spaces" target="_blank">What is Spaces?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input
+                  id="txyz-toggle"
+                  data-script-url="/static/browse/0.3.4/js/txyz.js"
+                  type="checkbox" class="lab-toggle" aria-labelledby="label-for-txyz">
+                <span class="slider"></span>
+                <span class="is-sr-only">Spaces Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-txyz">TXYZ.AI</span> <em>(<a href="https://txyz.ai" target="_blank">What is TXYZ.AI?</a>)</em>
+            </div>
+          </div>
+        </div>
+        <div id="replicate-output"></div>
+        <div id="spaces-output"></div>
+        <div id="txyz-output"></div>
+      </div>
+      <input type="radio" name="tabs" id="tabfour" class="labs-tab-input">
+      <label for="tabfour" role="tab" aria-selected="false" aria-controls="tabpanel-four" id="tab-label-four">Related Papers</label>
+      <div class="tab" role="tabpanel" id="tabpanel-four" aria-labelledby="tab-label-four">
+        <h1>Recommenders and Search Tools</h1>
+        <div class="toggle">
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="influenceflower-toggle"
+                data-script-url="/static/browse/0.3.4/js/influenceflower.js"
+                type="checkbox" class="lab-toggle" aria-labelledby="label-for-influenceflower">
+                <span class="slider"></span>
+                <span class="is-sr-only">Link to Influence Flower</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-influenceflower">Influence Flower</span> <em>(<a href="https://influencemap.cmlab.dev/" target="_blank">What are Influence Flowers?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="core-recommender-toggle" type="checkbox" class="lab-toggle" aria-labelledby="label-for-core">
+                <span class="slider"></span>
+                <span class="is-sr-only">Core recommender toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-core">CORE Recommender</span> <em>(<a href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em>
+            </div>
+          </div></div>
+        <div id="influenceflower-output"></div>
+        <div id="influenceflower-output-graph" style="display:none">
+          <ul class="flower-tabs">
+            <li class="active"><a class="btn tab-btn" onclick="openTab(event, 'tab-author')">Author</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, 'tab-venue')">Venue</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, 'tab-inst')">Institution</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, 'tab-topic')">Topic</a></li>
+          </ul>
+          <div class="flower-tab-content">
+            <div class="tab-flower active" id="tab-author"><svg id="flower-graph-author"></svg></div>
+            <div class="tab-flower" id="tab-venue"><svg id="flower-graph-venue"></svg></div>
+            <div class="tab-flower" id="tab-inst"><svg id="flower-graph-inst"></svg></div>
+            <div class="tab-flower" id="tab-topic"><svg id="flower-graph-topic"></svg></div>
+          </div>
+        </div>
+        <div id="coreRecommenderOutput"></div>
+        <div id="iarxivOutput"></div>
+      </div>
+
+      <input type="radio" name="tabs" id="tabfive" class="labs-tab-input">
+      <label for="tabfive" role="tab" aria-selected="false" aria-controls="tabpanel-five" id="tab-label-five">
+        About arXivLabs
+      </label>
+      <div class="tab" role="tabpanel" id="tabpanel-five" aria-labelledby="tab-label-five">
+        <div class="columns">
+          <div class="column">
+            <h1>arXivLabs: experimental projects with community collaborators</h1>
+            <p>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+            <p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+            <p>Have an idea for a project that will add value for arXiv's community? <a href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+          </div>
+          <div class="column is-narrow is-full-mobile">
+            <p class="icon-labs"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 635.572 811"><path d="M175.6 676v27h-27v-27zm-54 27v27h27v-27zm-27 27v27h27v-27zm396-54v27h-27v-27zm0 27v27h27v-27zm27 27v27h27v-27zm-27-414h27v27h-27zm27 0h27v-27h-27zm27-27h27v-27h-27zm-396 45h-27v-27h27zm-27-54h-27v27h27zm-27-27h-27v27h27z"/><path d="M94.6 730v27h-27v-27zm477 0v27h-27v-27zm-27-495h27v27h-27zm-450 18h-27v-27h27zm477 9h27v27h-27zm-54 495h27v27h-27zm-423 0h27v27h-27zm-54-504h27v27h-27z" fill="#666"/><path d="M67.6 730v27h-27v-27zm54 54v27h-27v-27zm0-108v27h27v-27zm-27 27v27h27v-27zm-81 0v27h27v-27zm585 27v27h-27v-27zm-108-54v27h27v-27zm27 27v27h27v-27zm81 0v27h27v-27zm-54-495h27v27h-27zm-54 108h27v-27h-27zm27-27h27v-27h-27zm0-81h27v-27h-27zm-423 18h-27v-27h27zm54 54h-27v27h27zm-27-27h-27v27h27zm0-81h-27v27h27zm423 612v27h-27v-27zm81-522v27h-27v-27zm-585-9v27h-27v-27z" fill="#999"/><path d="M94.6 784v27h-27v-27zm-27-27v27h27v-27zm-27-54v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm-108 81v27h27v-27zm558 54v27h-27v-27zm-27-27v27h27v-27zm27-54v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm108 81v27h27v-27zm0-495h27v27h-27zm-27 27h27v-27h-27zm-54-27h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm81-108h27v-27h-27zm-504 45h-27v-27h27zm27-27h-27v27h27zm54-27h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm-81-108h-27v27h27z" fill="#ccc"/><path d="M598.6 665.1H41.5C-76.5 667 176 280.2 176 280.2h53a46.5 46.5 0 0162.8-56.3 29.2 29.2 0 1128.5 35.9h-1a46.5 46.5 0 01-1.5 20.3l142.5-.1s255.3 387 138.3 385.1zM291 181a29.3 29.3 0 10-29.2-29.3A29.3 29.3 0 00291 181zm65.4-66.8a22.4 22.4 0 10-22.5-22.4 22.4 22.4 0 0022.5 22.4z" fill="#fc0"/><path d="M245.5 172V10h153v162s324 495 198 495h-558c-126 0 207-495 207-495zm126 54h56m-13 72h56m-9 72h56m-20 72h56m-22 72h56m-29 72h56m-457-45c20.8 41.7 87.3 81 160.7 81 72.1 0 142.1-38.2 163.4-81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="20"/><path d="M273.3 421.7c0 31-9.8 56.3-21.9 56.3s-21.8-25.2-21.8-56.3 9.8-56.3 21.8-56.3 21.9 25.2 21.9 56.3zm114.4-56.3c-12 0-21.8 25.2-21.8 56.3s9.7 56.3 21.8 56.3 21.9-25.2 21.9-56.3-9.8-56.3-21.9-56.3zM150.1 526.6c-18.2 6.7-27.5 22.9-23.2 30.2s14.8-5.5 33-12.2 37.4-4.9 33-12.2-24.5-12.6-42.8-5.8zm296 5.8c-4.2 7.3 14.9 5.5 33.1 12.2s28.7 19.5 33 12.2-5-23.5-23.2-30.2-38.5-1.5-42.8 5.8z"/></svg></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+<!-- END LABS AREA -->
+  <div class="endorsers">
+    <a href="/auth/show-endorsers/2511.04831" class="endorser-who" rel="nofollow">Which authors of this paper are endorsers?</a> |
+    <a id="mathjax_toggle" href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)
+    <span class="help" style="font-style: normal; float: right; margin-top: 0; margin-right: 1em;"></span>
+  </div>
+  <script type="text/javascript" language="javascript">mathjaxToggle();</script>
+</div>
+      </div>
+    </main>
+
+<footer class="ds-site-footer">
+  <div class="ds-site-footer-grid">
+    <div class="ds-site-footer-main">
+      <div class="ds-site-footer-ack">
+        We gratefully acknowledge support from
+        our <strong>major funders</strong>,
+        <a href="https://info.arxiv.org/about/ourmembers.html"><strong>member institutions</strong></a><span class="ack-member-inline" hidden>, <strong></strong></span>,
+        and all contributors.
+      </div>
+      <nav class="ds-site-footer-links" aria-label="Site navigation">
+        <a href="https://info.arxiv.org/about">About</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://info.arxiv.org/help">Help</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://info.arxiv.org/help/contact.html">Contact</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://info.arxiv.org/help/subscribe">Subscribe</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://info.arxiv.org/help/license/index.html">Copyright</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://info.arxiv.org/help/policies/privacy_policy.html">Privacy</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://info.arxiv.org/help/web_accessibility.html">Accessibility</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://status.arxiv.org" target="_blank" rel="noopener noreferrer">Operational Status<span class="is-sr-only"> (opens in new tab)</span></a>
+      </nav>
+    </div>
+
+    <div class="ds-site-footer-funders" aria-label="Major funders">
+      <div class="ds-site-footer-funders-label">Major funding support from</div>
+      <div class="ds-site-footer-funders-logos">
+        <a class="ds-funder-link" href="https://www.simonsfoundation.org/" target="_blank" rel="noopener noreferrer">
+          <img class="ds-funder-logo" src="/static/base/1.0.1/images/funders/simons-foundation.png" alt="Simons Foundation">
+        </a>
+        <a class="ds-funder-link" href="https://www.sfi.org.bm/" target="_blank" rel="noopener noreferrer">
+          <img class="ds-funder-logo" src="/static/base/1.0.1/images/funders/simons-foundation-international.png" alt="Simons Foundation International">
+        </a>
+        <a class="ds-funder-link" href="https://www.schmidtsciences.org/" target="_blank" rel="noopener noreferrer">
+          <img class="ds-funder-logo" src="/static/base/1.0.1/images/funders/schmidt-sciences.png" alt="Schmidt Sciences">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>  </div>
+
+  <script src="/static/base/1.0.1/js/arxiv-header.js?v=20260626"></script>
+
+</body>
+
+</html>

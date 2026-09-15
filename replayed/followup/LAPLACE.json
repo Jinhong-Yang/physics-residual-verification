@@ -1,0 +1,17 @@
+{
+  "method": "Gaussian joint MAP with Gauss-Newton Laplace nuisance marginal",
+  "action_mm": 1.9180311479689802,
+  "contrast_full_minus_laplace": {
+    "difference_mm": -0.46490922464664763,
+    "low95_mm": -0.6682969190873174,
+    "high95_mm": -0.27127425048811865,
+    "p_signflip": 4.999750012499375e-05,
+    "n_families": 72
+  },
+  "converged_fraction": 1.0,
+  "boundary_rows": 0,
+  "rank_deficient_nuisance_rows": 0,
+  "fitted_regime_rows": 1440,
+  "non_gaussian_integral": false,
+  "bound_truncation_corrected": false
+}

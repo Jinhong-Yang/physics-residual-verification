@@ -1,0 +1,12 @@
+{
+  "videos": 33,
+  "original_raw_score_max_error": 0.0,
+  "same_saved_tracker_centers": true,
+  "tracking_sigma": "quadratic detrended projected centers, MAD x1.4826, floor 1 pixel",
+  "target_loaded": false,
+  "unit_correction": "both correction channels divided by estimated pixel noise",
+  "existing_cohort_post_hoc": true,
+  "sigma_min": 1.0,
+  "sigma_max": 1.0770646226070382,
+  "feature_sha256": "0c7c5c12da4538dccdd092ec59ecc8645850dd103ccf42acf242606cd75a6b7b"
+}

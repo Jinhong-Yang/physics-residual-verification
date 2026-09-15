@@ -1,10 +1,10 @@
 \section{Additional post hoc comparisons}\label{sec:extended}
-All comparisons in this section were designed after the original outcomes were available. They are descriptive, outside the original analysis rules, and unadjusted for multiplicity. The original models, primary bootstrap rule, and evaluated cohorts are unchanged. Hyperparameter selection uses development families only. The corresponding plan, raw numerical inputs, predictions, per-episode iteration records, and executable scripts are included in release v0.3.0.
+All comparisons in this section were designed after the original outcomes were available. They are descriptive, outside the original analysis rules, with unadjusted intervals; the pooled 59-contrast Holm audit is provided in the follow-up section. The original models, primary bootstrap rule, and evaluated cohorts are unchanged. Hyperparameter selection uses development families only. The corresponding plan, raw numerical inputs, predictions, per-episode iteration records, and executable scripts are included in release v0.4.0.
 
 \subsection{Iterated nonlinear anchors}
 The additional fit minimizes $\frac12\|u\|^2+64\sum_t\rho(\nu_t)$, where $u$ is the active physical displacement from the original prior in prior-scale units and $\nu_t$ is the nonlinear observation residual divided by its original observation standard deviation. Each IRLS step recomputes Huber weights $\min(1,1.345/|\nu_t|)$ or Cauchy weights $[1+(\nu_t/2.385)^2]^{-1}$, and solves the weighted nonlinear least-squares problem with the original Gaussian physical prior. This differs from the primary anchor's frozen weights based on the initial unit-update innovation. Sliding retains free initial position/velocity with bounds $[-5,5]$ m and $[0,10]$ m/s; general bounce retains height/velocity/floor bounds $[-0.5,2]$, $[-2,2]$, and $[-0.4,0.5]$ in SI units. Setup bounce uses its original known height/velocity and free offset. Gravity is fixed.
 
-We initialize at the original anchor and prior, use the same observation-derived nuisance initialization, and select the lower objective without targets. Inner SciPy trust-region least squares uses function/step tolerances $10^{-12}$, gradient tolerance $10^{-10}$, and at most 150 function evaluations. The outer loop stops when physical prior-unit and nuisance-coordinate changes both have norm below $10^{-8}$, or at 50 iterations. The nonlinear bounce solution remains local. Both robust methods converge for all 1,440 distinct episode/convention fits (slide results are reused across conventions); mean outer counts are 3.117 for Huber and 4.508 for Cauchy. Median changes from the original anchor are $1.28\times10^{-6}$ and $1.72\times10^{-5}$ in prior units, although a small movement in strongly informed coordinates can affect the trajectory metric.
+We initialize at the original anchor and prior, use the same observation-derived nuisance initialization, and select the lower objective without targets. Inner SciPy trust-region least squares uses function/step tolerances $10^{-12}$, gradient tolerance $10^{-10}$, and at most 150 function evaluations. The outer loop stops when physical prior-unit and nuisance-coordinate changes both have norm below $10^{-8}$, or at 50 iterations. The nonlinear bounce solution remains local. Both robust methods converge for all 1,440 distinct episode/bounce-setup assumption fits (slide results are reused across bounce-setup assumptions); mean outer counts are 3.117 for Huber and 4.508 for Cauchy. Median changes from the original anchor are $1.28\times10^{-6}$ and $1.72\times10^{-5}$ in prior units, although a small movement in strongly informed coordinates can affect the trajectory metric.
 
 The profiled Gaussian comparison minimizes $\frac12\|u\|^2+\frac{n}{2}\log[\max(\sum_t\nu_t^2/n,10^{-12})]$ by L-BFGS-B using the same starts, bounds, and prior. The likelihood scale is profiled per episode and no scale prior is added. The floor is a numerical safeguard, not a fitted hyperparameter. No floor activation occurs; 1,438 of 1,440 fits report optimizer convergence. The two remaining fits are retained and flagged, so its result is a bounded numerical comparison, not an all-cases convergence claim. Its mean iteration count is 26.156. Original residual heads are never transferred to or retrained on these new anchors.
 \begin{table}[htbp]\centering\small
@@ -17,9 +17,9 @@ Profiled MAP & 1.823148 & 20.296 & -0.370027 & $[-0.562096,-0.183656]$\\
 \bottomrule\end{tabular}
 \end{table}
 \subsection{Protocol and coordinate breakdown}
-Each table entry first averages episodes within a family and protocol, then families equally. The arithmetic mean of all six action cells reproduces each method's saved macro error within $10^{-12}$ meters. Sliding rows are identical across conventions, not independent replications. The protocol decomposition against the original cell-specific best-of-robust/legacy reference differs from comparison against Huber alone: sliding accounts for 99.9\% of that reduction and unforced sliding for 61.8\%.
+Each table entry first averages episodes within a family and protocol, then families equally. The arithmetic mean of all six action cells reproduces each method's saved macro error within $10^{-12}$ meters. Sliding rows are identical across bounce-setup assumptions, not independent replications. The protocol decomposition against the original cell-specific best-of-robust/legacy reference differs from comparison against Huber alone: sliding accounts for 99.9\% of that reduction and unforced sliding for 61.8\%.
 \begin{table}[htbp]\centering\small
-\caption{Complete action decomposition (mm). G/S denote general/setup conventions; M/U/B denote multiple-force, unforced, and bounce protocols.}\label{tab:ext_protocol}
+\caption{Complete action decomposition (mm). G/S denote general/setup bounce-setup assumptions; M/U/B denote multiple-force, unforced, and bounce protocols.}\label{tab:ext_protocol}
 \begin{tabular}{lrrrrrr}\toprule
 Method & G-M & G-U & G-B & S-M & S-U & S-B\\\midrule
 Unit & 3.633112 & 2.156062 & 0.791835 & 3.633112 & 2.156062 & 0.344740\\
@@ -34,7 +34,7 @@ Iterated Cauchy & 3.068283 & 2.086901 & 0.824849 & 3.068283 & 2.086901 & 0.34474
 Profiled MAP & 2.893515 & 2.071250 & 0.664873 & 2.893515 & 2.071250 & 0.344488\\
 \bottomrule\end{tabular}
 \end{table}
-Coordinate errors below show family-macro mean / median of family mean absolute transformed-coordinate error. Inactive coordinates are N/A. Shared sliding rows are shown once; the downloadable CSV also contains their duplicate setup-convention rows. This table measures estimation error, not nuisance error or an identifiability guarantee.
+Coordinate errors below show family-macro mean / median of family mean absolute transformed-coordinate error. Inactive coordinates are N/A. Shared sliding rows are shown once; the downloadable CSV also contains their duplicate setup-bounce-setup assumption rows. This table measures estimation error, not nuisance error or an identifiability guarantee.
 \begingroup\scriptsize
 \begin{longtable}{llrrr}
 \caption{Active-coordinate error by method and protocol.}\\
@@ -184,7 +184,7 @@ Additional frame preprocessing & 15.747 & 15.373 & 16.096\\
 Eight-frame vision encoder & 179.167 & 177.558 & 181.665\\
 Observation decoder & 32.741 & 31.952 & 40.214\\
 Tracking / initialization & 37.570 & 36.221 & 51.689\\
-Robust fits, both conventions & 17.523 & 16.159 & 43.753\\
+Robust fits, both bounce-setup assumptions & 17.523 & 16.159 & 43.753\\
 Setup bounce, 75 calls (subset) & 16.869 & 16.643 & 17.350\\
 Residual heads & 0.342 & 0.319 & 0.353\\
 Shared-prior / anchor component sum & 129.067 & 117.546 & 163.849\\
@@ -196,13 +196,13 @@ The exact measurement source and all 100 timing rows are retained. Portable repl
 \subsection{Bounce and real-video diagnostics}
 The bounce diagnostics compare the unclamped branch's learned standardized correction with its true standardized target, without changing the deployed fallback. Fold-wise correlations, clipping rates, scales, and target dispersion are provided in \path{replayed/extended/bounce_diagnostics.csv}. The evaluated rows are shown below. Training numerical clipping rate is zero for the full development fit; visual prediction clipping occurs only in general bounce. Similar median anchor scales alongside very different residual-target dispersion favor a predictability explanation over an unsupported claim of uniformly inflated covariance. The role of free nuisance coordinates is not causally isolated.
 \begin{table}[htbp]\centering\small
-\caption{Evaluated bounce residual diagnostics; each convention has 360 episodes.}\label{tab:ext_bounce}
+\caption{Evaluated bounce residual diagnostics; each bounce-setup assumption has 360 episodes.}\label{tab:ext_bounce}
 \begin{tabular}{lrrrr}\toprule
-Convention & Correlation & Visual clip rate & Median scale & Target SD\\\midrule
+Bounce setup & Correlation & Visual clip rate & Median scale & Target SD\\\midrule
 Generalized & 0.185769 & 0.063889 & 0.007517 & 2.264421\\
 Setup & 0.501755 & 0.000000 & 0.007098 & 0.571314\\
 \bottomrule\end{tabular}
 \end{table}
-The real-video diagnostic is a scalar feature score, not a physical-property prediction, and does not invoke the appearance prior. Its mean (0.05614) and SD (0.04048) differ from the synthetic unforced visual score (0.00619 and 0.02482), but their motion-feature units are not matched: real inputs use projected pixels and synthetic inputs use shifts divided by tracking noise. This contract difference is directly visible in the supplied extraction sources. Therefore a calibrated property-distribution comparison and attribution of failure to the appearance prior are not applicable to this diagnostic.
+The original real-video diagnostic is a scalar feature score, not a physical-property prediction, and does not invoke the appearance prior. Its mean (0.05614) and SD (0.04048) differ from the synthetic unforced visual score (0.00619 and 0.02482), but their motion-feature units are not matched: real inputs use projected pixels and synthetic inputs use shifts divided by tracking noise. This contract difference is directly visible in the supplied extraction sources. Therefore a calibrated property-distribution comparison and attribution of failure to the appearance prior are not applicable to this diagnostic.
 
-The combined, pooled-only, and position-only real-score family correlations are $-0.700$, 0.027, and $-0.455$. The recorded 95\% family-bootstrap interval for the combined score is $[-0.972,-0.108]$. Tracking uses MIL with an overlay-derived initial cue, not red-component segmentation. The recorded tracker failure count is zero on 33 videos; its effectively fixed-size boxes cannot validate object-size accuracy. Saved centroid second-difference roughness has Spearman 0.558 with family absolute rank error, but this is an unlabeled smoothness proxy, not a ground-truth tracking-error measurement or a causal explanation. Independent tracking labels, consistent feature units, and a new evaluation cohort are required for that attribution.
+The combined, pooled-only, and position-only real-score family correlations are $-0.700$, 0.027, and $-0.455$. The recorded 95\% family-bootstrap interval for the combined score is $[-0.972,-0.108]$. Tracking uses MIL with an overlay-derived initial cue, not red-component segmentation. The recorded tracker failure count is zero on 33 videos; its effectively fixed-size boxes cannot validate object-size accuracy. Saved centroid second-difference roughness has Spearman 0.558 with family absolute rank error, but this is an unlabeled smoothness proxy, not a ground-truth tracking-error measurement or a causal explanation. The follow-up section corrects the noise-normalization contract and reruns these scores; the negative combined ranking persists. Independent tracking labels and a new evaluation cohort are still required for causal attribution.

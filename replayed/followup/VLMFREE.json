@@ -1,0 +1,19 @@
+{
+  "action_mm": 1.8664723651267932,
+  "elapsed_fit_seconds_4workers": 18.97567939999999,
+  "population_prior_mean": [
+    -0.7777186162270616,
+    -2.0334418825249516,
+    0.36029255125475285
+  ],
+  "population_prior_scale": [
+    0.6623817464940087,
+    0.5562363062249788,
+    0.8793783744065397
+  ],
+  "prior_fitted_on": "development truth only",
+  "VLM_used": false,
+  "input": "cached calibrated RGB tracking positions/sigmas; no original prior or anchor initialization",
+  "converged_fraction": 0.9993055555555556,
+  "residual_adapter": false
+}

@@ -1,0 +1,17 @@
+arm,cohort,mae_mm,numeric_penalty,visual_penalty
+numeric192,development,1.371928235861565,1,0
+numeric192,evaluation,1.468769845819847,1,0
+full192,development,1.3522310301768836,1,10
+full192,evaluation,1.4531219233223358,1,10
+numeric87,development,1.365666465207032,0.1,0
+numeric87,evaluation,1.4421322336743587,0.1,0
+full87_legacy,development,1.3479166816479813,0.1,10
+full87_legacy,evaluation,1.4263152138867332,0.1,10
+qwen87,development,1.3479166816479813,0.1,10.0
+qwen87,evaluation,1.4263152138867332,0.1,10.0
+flow87,development,1.3520158443322365,0.1,1.0
+flow87,evaluation,1.416953408196952,0.1,1.0
+pixels87,development,1.365953113022257,0.1,100.0
+pixels87,evaluation,1.43404821227041,0.1,100.0
+vjepa87,development,1.3700714129069016,0.1,100.0
+vjepa87,evaluation,1.4440744922508886,0.1,100.0

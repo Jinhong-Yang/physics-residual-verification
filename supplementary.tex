@@ -4,7 +4,7 @@
 \BeforeBeginEnvironment{table}{\par}
 \AfterEndEnvironment{table}{\par}
 \hypersetup{hidelinks}
-\title{Supplementary Material\\\large Protocol-Constrained Residual Adaptation for Rigid-Body Inference: A Bounded Evaluation of Frozen Visual Features}
+\title{Supplementary Material\\\large Protocol-Constrained Residual Estimation for Rigid-Body Inference: Strong Baselines and Visual Controls}
 \author{Hyojin Park, Nam-Hyun Yoo, and Jinhong Yang}
 \date{}
 \begin{document}\maketitle
@@ -14,7 +14,7 @@
 \begin{longtable}{p{.16\textwidth}p{.37\textwidth}p{.38\textwidth}}
 \caption{Evidence supporting the main article and its interpretation.}\\
 \toprule Claim & Evidence in the package & Permitted interpretation\\\midrule\endhead
-C1: 29.95\% complete-model improvement & Main result JSON and family action-loss archive; portable paired-statistic replay & Synthetic new-geometry analytic action utility; most gain is numerical.\\
+C1: 20.30\% full-model improvement versus profiled MAP & Profiled-MAP losses and follow-up focal statistics; paired family replay & Synthetic new-geometry analytic action utility; most gain is numerical.\\
 C2: 1.07\% main visual increment & Matched numerical and complete-model family losses & Small selected-feature increment; the two-sided interval includes zero.\\
 C2b: 4.27\% public increment & Public error archive and original bootstrap draws & Task-specific fitting followed by offline episode evaluation; not zero-shot or validated object-level transfer.\\
 C3: proper scores and coverage & Main and public result JSON; main cached property means/covariances; selected public radius & Main posterior scores reproduced and mean-fixed sensitivity added; no conformal guarantee.\\
@@ -51,7 +51,7 @@ The frozen observation decoder was learned before the residual stage; its parame
 
 The main robust control computes standardized innovations from a unit-weight linearization, fixes Huber or Cauchy weights, and increases observation noise by the inverse square root of those weights. It then runs the established nonlinear solver. This is fixed innovation weighting, not a demonstrated converged robust M-estimation loop. The generalized bounce model fixes gravity and allows initial position, velocity, and floor nuisance variables. The setup bounce model fixes release height 0.65 m and zero initial velocity and profiles a free translation. Its code uses three prior-whitened starts $(0,-1,+1)$, three steps per start and three winning-branch steps, finite differences at $10^{-3}$, and line-search fractions $(1,0.5,0.25)$, totaling 75 forward evaluations per row. Its local curvature covariance omits contact, start-choice, and noise-fit uncertainty. Complete dependency and initialization auditing of the generalized solver is not established by these materials; the excerpts are not a standalone full solver environment.
 
-The public vector numerical head has $(11+1)2=24$ coefficients, the visual head $(144+1)2=290$, and the gate $(12+1)=13$, for 327 additional fitted coefficients. In the main checkpoint, the factor 2 counts the generalized and setup conventions, while $2+1+1$ counts the active scalar outputs for multiple forces, unforced sliding, and bouncing. Each scalar output stores $192+1=193$ numerical and $48+1=49$ visual coefficients, including intercepts. Thus $2(2+1+1)(193+49)=1,936$; 242 in the generalized-bounce branch do not affect the final output, leaving 1,694. They can still be evaluated before the implementation discards their correction, so the active count is not a measured speed reduction.
+The public vector numerical head has $(11+1)2=24$ coefficients, the visual head $(144+1)2=290$, and the gate $(12+1)=13$, for 327 additional fitted coefficients. In the main checkpoint, the factor 2 counts the generalized and setup bounce-setup assumptions, while $2+1+1$ counts the active scalar outputs for multiple forces, unforced sliding, and bouncing. Each scalar output stores $192+1=193$ numerical and $48+1=49$ visual coefficients, including intercepts. Thus $2(2+1+1)(193+49)=1,936$; 242 in the generalized-bounce branch do not affect the final output, leaving 1,694. They can still be evaluated before the implementation discards their correction, so the active count is not a measured speed reduction.
 
 \subsection{Public features and fitted constants}
 The numerical summary concatenates the final relative centroid (two entries), its last inter-frame difference (two), linear and quadratic coefficients fitted separately to the horizontal and vertical relative coordinates (four), the initial centroid (two), and mean object size (one). Polynomial fits use the eight observation slots at a 0.1 s cadence. The 144-dimensional visual view contains four 32-channel summaries---temporal mean, standard deviation, last-four-minus-first-four mean, and slope against evenly spaced values from $-1$ to $1$---plus 16 decoder motion channels.
@@ -93,8 +93,8 @@ The main visual effect retains a negative mean after any one-family deletion, bu
 
 For completeness, the stored paired draws give post hoc two-sided percentile intervals for relative mean improvement of $[22.732,36.459]\%$ (main full versus fixed Huber), $[-0.036,2.063]\%$ (main visual increment), $[1.975,6.459]\%$ (public gated versus numerical), and $[-1.911,2.525]\%$ (gate alone). Fixed-Huber inference is distinguished from the originally specified draw-wise-strongest comparison. These intervals are unadjusted for multiple comparisons and do not supersede the original analysis rules.
 \begin{table}[h]\centering\small
-\caption{Recorded protection rows: three distinct nontrivial comparisons. Both conventions use the same 72 geometry families.}
-\begin{tabular}{llrrl}\toprule Convention & Protocol & Candidate (mm) & Reference (mm) & Reference\\\midrule
+\caption{Recorded protection rows: three distinct nontrivial comparisons. Both bounce-setup assumptions use the same 72 geometry families.}
+\begin{tabular}{llrrl}\toprule Bounce setup & Protocol & Candidate (mm) & Reference (mm) & Reference\\\midrule
 General & Multiple forces & 2.989925 & 3.633112 & Huber\\
 General & Unforced slide & 0.960083 & 2.002216 & Legacy\\
 General & Bounce & 0.515000 & 0.515000 & Huber\\
@@ -102,7 +102,7 @@ Setup & Multiple forces & 2.989925 & 3.633112 & Huber\\
 Setup & Unforced slide & 0.960083 & 2.002216 & Legacy\\
 Setup & Bounce & 0.303715 & 0.307627 & Legacy\\\bottomrule
 \end{tabular}\end{table}
-The six rows meet the recorded 10\% relative and 0.10 mm absolute harm guards, but represent only three distinct nontrivial comparisons: the two slide protocols and setup bounce. General bounce is identical by fallback. These comparisons share families and are not statistically independent. These values preserve the original cell-specific comparator rule; they are not newly estimated cell confidence intervals. Sliding inference is shared by the two conventions, which explains the identical multiple-force and unforced-slide rows.
+The six rows meet the recorded 10\% relative and 0.10 mm absolute harm guards, but represent only three distinct nontrivial comparisons: the two slide protocols and setup bounce. General bounce is identical by fallback. These comparisons share families and are not statistically independent. These values preserve the original cell-specific comparator rule; they are not newly estimated cell confidence intervals. Sliding inference is shared by the two bounce-setup assumptions, which explains the identical multiple-force and unforced-slide rows.
 
 \section{Public timing, selection, and uncertainty audit}
 The fixed selection samples a permutation of episode indices 10--1499 with seed 20260924: the first 64 become development candidates and the next 128 confirmation candidates. The local plan and individual selected files are included; the later material audit includes all 1,500 metadata records from the pinned population.
@@ -121,8 +121,10 @@ The nominal 90\% region uses radii 0.165462 m for numerical and 0.162973 m for g
 
 \input{extended_results}
 
+\input{followup_results}
+
 \section{Scope of available evidence}
-The archives identify computational artifacts rather than distinct independent replications. The original public development result remains below its 10\% criterion. The controls do not isolate language pretraining, validate a general coordinate mask, or establish universal safety or coverage guarantees. Independent calibration is not available. Measured latency component sums are distinguished from contiguous end-to-end latency. The new material holdout retains the historical architecture-selection and shared-asset limitations described above.
+The archives identify computational artifacts rather than distinct independent replications. The original public development result remains below its 10\% criterion. The controls do not isolate language pretraining, validate a general coordinate mask, or establish universal safety or coverage guarantees. The original cohorts have no independent calibration partition; the subsequent 40-family synthetic calibration is reported separately. Measured latency component sums are distinguished from contiguous end-to-end latency. The new material holdout retains the historical architecture-selection and shared-asset limitations described above.
 
 \begingroup\small
 \section{Portable calculation reproduction}
@@ -137,6 +139,7 @@ python tools/score_access_video_control.py
 python tools/replay_prior_lineage.py
 python tools/replay_group_holdout.py
 python tools/run_extended_study.py
+python tools/run_followup_study.py
 \end{verbatim}
 The support and video studies additionally require SciPy. The extended runner refits robust baselines, cross-fitted targets, shrinkage/channel/direct controls, then replays public scales, real-score and latency diagnostics. Direct MLP fitting requires PyTorch; fresh engine execution requires PyBullet and is invoked separately with \texttt{python tools/engine\_rollout\_metric.py}. Individual script names and requirements are listed in \path{tools/README_extended.md}. Their feature caches and numerical kernels enable CPU refitting and scoring. Input hashes and the analysis plans are supplied under \path{evidence/support/} and \path{evidence/video_control/}. The prior-lineage command checks the supplied identifier/hash tables and selection receipts; it does not rehash the complete original image collection.
 

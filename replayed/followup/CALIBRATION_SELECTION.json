@@ -1,0 +1,96 @@
+{
+  "criterion": "minimum development OOF CRPS, beta tie-break",
+  "selected_beta": 0,
+  "rows": [
+    {
+      "cohort": "development",
+      "beta": 0,
+      "action_mm": 1.3522310301768836,
+      "nll": -2.1730516422748334,
+      "crps": 0.013610346814691263,
+      "coverage90": 0.9719696969696969,
+      "projected_diameter": 0.16009050687873538
+    },
+    {
+      "cohort": "development",
+      "beta": 0.025,
+      "action_mm": 1.3522310301768836,
+      "nll": -2.1741630361855027,
+      "crps": 0.013610895965473165,
+      "coverage90": 0.9729797979797981,
+      "projected_diameter": 0.16011144384855236
+    },
+    {
+      "cohort": "development",
+      "beta": 0.05,
+      "action_mm": 1.3522310301768836,
+      "nll": -2.176528330284015,
+      "crps": 0.013612545769330393,
+      "coverage90": 0.9734848484848486,
+      "projected_diameter": 0.1601741975055683
+    },
+    {
+      "cohort": "development",
+      "beta": 0.1,
+      "action_mm": 1.3522310301768836,
+      "nll": -2.1795496711715403,
+      "crps": 0.013619179313368517,
+      "coverage90": 0.9755050505050507,
+      "projected_diameter": 0.1604243634223364
+    },
+    {
+      "cohort": "development",
+      "beta": 0.2,
+      "action_mm": 1.3522310301768836,
+      "nll": -2.1728509288059112,
+      "crps": 0.013646208660437417,
+      "coverage90": 0.977020202020202,
+      "projected_diameter": 0.1614120388374452
+    },
+    {
+      "cohort": "evaluation",
+      "beta": 0,
+      "action_mm": 1.4531219233223358,
+      "nll": -2.5324725897894313,
+      "crps": 0.013102719659594187,
+      "coverage90": 0.9680555555555557,
+      "projected_diameter": 0.1591876197647813
+    },
+    {
+      "cohort": "evaluation",
+      "beta": 0.025,
+      "action_mm": 1.4531219233223358,
+      "nll": -2.5343888993902306,
+      "crps": 0.01310337502609709,
+      "coverage90": 0.9708333333333332,
+      "projected_diameter": 0.15920993316584497
+    },
+    {
+      "cohort": "evaluation",
+      "beta": 0.05,
+      "action_mm": 1.4531219233223358,
+      "nll": -2.538692191438046,
+      "crps": 0.013105342677241068,
+      "coverage90": 0.9717592592592594,
+      "projected_diameter": 0.15927681738832405
+    },
+    {
+      "cohort": "evaluation",
+      "beta": 0.1,
+      "action_mm": 1.4531219233223358,
+      "nll": -2.5459381981639906,
+      "crps": 0.01311323587001741,
+      "coverage90": 0.9736111111111112,
+      "projected_diameter": 0.15954352343932776
+    },
+    {
+      "cohort": "evaluation",
+      "beta": 0.2,
+      "action_mm": 1.4531219233223358,
+      "nll": -2.543325218822934,
+      "crps": 0.01314513081906734,
+      "coverage90": 0.977314814814815,
+      "projected_diameter": 0.16059757757867046
+    }
+  ]
+}

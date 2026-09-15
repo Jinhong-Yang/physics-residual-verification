@@ -1,0 +1,13 @@
+{
+  "target_opened_utc": "2026-09-15T14:16:01.882105+00:00",
+  "prediction_sealed_utc": "2026-09-15T14:15:02.219931+00:00",
+  "seal_precedes_target_access": true,
+  "prediction_sha256": "da91d2052c9fc6405db62168bd676cf65d047dd336b02e1a37ec1b81903222d9",
+  "target_sha256": "0cf671d3303dae7d9764a1c0bb3cf9105edbcf045628e477f1a4989c5f7f49ae",
+  "new_families": 40,
+  "new_RGB_episodes": 600,
+  "new_frames": 4800,
+  "generation_runtime": "existing WSL Python 3.11/PyBullet 3.2.7",
+  "inference_runtime": "Windows Python 3.11, original frozen GPU models",
+  "plan": "timestamped local specification; not third-party preregistration"
+}

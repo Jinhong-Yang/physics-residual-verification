@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "arm": "combined",
+      "stage": "original",
+      "rho": -0.7000000000000001,
+      "low95": -0.9720930232558139,
+      "high95": -0.12149532710280374,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "combined",
+      "stage": "noise_normalized",
+      "rho": -0.7000000000000001,
+      "low95": -0.9720930232558139,
+      "high95": -0.12149532710280374,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "pooled",
+      "stage": "original",
+      "rho": 0.02727272727272728,
+      "low95": -0.5714285714285714,
+      "high95": 0.7345971563981043,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "pooled",
+      "stage": "noise_normalized",
+      "rho": 0.02727272727272728,
+      "low95": -0.5714285714285714,
+      "high95": 0.7345971563981043,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "position",
+      "stage": "original",
+      "rho": -0.45454545454545453,
+      "low95": -0.9444444444444444,
+      "high95": 0.3055555555555556,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "position",
+      "stage": "noise_normalized",
+      "rho": -0.45454545454545453,
+      "low95": -0.9444444444444444,
+      "high95": 0.3055555555555556,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "kinematic_short",
+      "stage": "original",
+      "rho": 0.1272727272727273,
+      "low95": -0.7129629629629629,
+      "high95": 0.7934513623798847,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "kinematic_short",
+      "stage": "noise_normalized",
+      "rho": 0.1272727272727273,
+      "low95": -0.7129629629629629,
+      "high95": 0.7934513623798847,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "bridge_152frame",
+      "stage": "original",
+      "rho": 0.3545454545454546,
+      "low95": -0.411214953271028,
+      "high95": 0.8685446009389671,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "bridge_152frame",
+      "stage": "normalized",
+      "rho": 0.3545454545454546,
+      "low95": -0.411214953271028,
+      "high95": 0.8685446009389671,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "scalar_152frame",
+      "stage": "original",
+      "rho": 0.4272727272727273,
+      "low95": -0.31,
+      "high95": 0.9061032863849765,
+      "degenerate_bootstrap_draws": 0
+    },
+    {
+      "arm": "scalar_152frame",
+      "stage": "normalized",
+      "rho": 0.4272727272727273,
+      "low95": -0.31,
+      "high95": 0.9061032863849765,
+      "degenerate_bootstrap_draws": 0
+    }
+  ],
+  "families": 11,
+  "videos": 33,
+  "interpretation": "post hoc unit-normalized residual score, not friction estimation; orientation/domain mismatch not eliminated",
+  "raw_reconstruction_error": 0.0
+}

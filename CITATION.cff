@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the manuscript and the specific verification package version used."
 type: software
-title: "Verification materials for Protocol-Constrained Residual Adaptation for Rigid-Body Inference: A Bounded Evaluation of Frozen Visual Features"
-version: 0.3.0
+title: "Verification materials for Protocol-Constrained Residual Estimation for Rigid-Body Inference: Strong Baselines and Visual Controls"
+version: 0.4.0
 url: "https://github.com/Jinhong-Yang/physics-residual-verification"
 repository-code: "https://github.com/Jinhong-Yang/physics-residual-verification"
 authors:
@@ -14,3 +14,5 @@ authors:
   - family-names: Yang
     given-names: Jinhong
     orcid: "https://orcid.org/0000-0002-7756-0263"
+
+date-released: 2026-09-15

@@ -19,7 +19,7 @@ No bounce fallback & 1.401275 & 1.494771 & $+0.04165$ & $[+0.03078,+0.05253]$ \\
 The full and numerical predictions reproduce the original saved outputs and scores within an absolute tolerance of $10^{-12}$; their development scores also match the original six-fold records. Pooled-only provides little point improvement over numerical-only, whereas position corrections retain the measured residual signal. Position-only and full have overlapping paired uncertainty. Direct-target and unclipped variants have higher point errors, but their evaluated-cohort differences from full include zero. Removing generalized-bounce fallback worsens mean action error on both cohorts. These controlled configurations provide evidence about this implementation, without establishing universal safety or a semantic-language contribution.
 
 \subsection{Mean-fixed covariance sensitivity}
-For each scale $\beta\in\{0,0.05,0.10,0.20\}$, the complete model mean is held fixed and $\Sigma_\beta=C+\operatorname{diag}[(\beta d)^2]$. The existing evaluated cohort is rescored without refitting. The original model remains at $\beta=0.10$; this is descriptive sensitivity rather than confirmation-cohort reselection.
+For each scale $\beta\in\{0,0.05,0.10,0.20\}$, the full model mean is held fixed and $\Sigma_\beta=C+\operatorname{diag}[(\beta d)^2]$. The existing evaluated cohort is rescored without refitting. The original model remains at $\beta=0.10$; this is descriptive sensitivity rather than confirmation-cohort reselection.
 
 \par\begin{table}[htbp]\centering\small
 \caption{Post hoc covariance-scale sensitivity with the complete mean fixed. Width is the mean coordinate-projected joint-region diameter relative to Huber; NLL and CRPS use transformed properties.}
